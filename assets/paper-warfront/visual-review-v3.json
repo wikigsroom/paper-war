@@ -1,0 +1,216 @@
+{
+  "version": "3.0.0-rc1",
+  "accepted_sources": [
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-bai.png",
+      "sha256": "b38861b896266a06347578c8d9104f3b9f355eebb71077ced927d91463fa5e77",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-ji.png",
+      "sha256": "ebffbf46646ba78c120bae94b50422444f49664f39a43865613d941df95ee0e7",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-jin.png",
+      "sha256": "9e0c2518fca7eada8b1643485a876fdb960650315d1d0be913a3d3f0ce7bd36e",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-mu.png",
+      "sha256": "c419e536b96665f875d514ee7bb2649f05d992d57254c3de34587784c9803471",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-qi.png",
+      "sha256": "b935c5b26cf04f8bed576fada84b7e1cf757451510fc3ca03dbbf679ab2d1d1c",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/army-yuan.png",
+      "sha256": "7764c96c22a5d2819008d8b2b3023809fd7fe1d592406a7104fcc4148b3ee3a4",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-bai.png",
+      "sha256": "37901e3bd5540687a1fc624c64cde850bd2430dcd72e1f59e29aad09e0e3428d",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-deng.png",
+      "sha256": "6b55e3186f12b071ab57d14b94316508d2695d295a28a6da210f5a25d5cf16c9",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-ji.png",
+      "sha256": "3690c5a03f380e06681a72e519d277c714292e4c2201eceadf083db2caf805fd",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-jin.png",
+      "sha256": "777802b2c6c9d18dc67ba2883158509e526f5c727cb62a68ce0d80eff1d12d6c",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-mo.png",
+      "sha256": "02817b34042c755c00132a1d5b88289567c02057382cd74d6c0b1b48886f85aa",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-mu.png",
+      "sha256": "7402f389a7dae8b24f55ade87eefae3f5c3f60197c84d11611a9a15469ca40c5",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-qi.png",
+      "sha256": "fe2bcd2b31304812ab50f66d5b2e14dda7e8ff762ec656945ddca21404f71ea1",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-shuang.png",
+      "sha256": "0232a80f1bae08941ea0b074a841443eaccf4f09d54a703676394d27f8027f6c",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-yin.png",
+      "sha256": "20b3672f3de6ca02fa3bf6c2a835ea85665e386cb122ff711f3b6915a945e649",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/background-yuan.png",
+      "sha256": "57e4e81a63e387f37ffcbe5e0d4ddeb47624a05dd485abd91d5d28ed241fefdc",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-bai.png",
+      "sha256": "52f023018fd5a501c1b801e149201f3876ccb8d2521ed0d5f5044cf54e60ef51",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-deng.png",
+      "sha256": "813d6e599db20f0bf5258784e9f6d82a6c691e4d42c6912ee805d5e0794ea176",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-ji.png",
+      "sha256": "f7ee9fed717f60ac06e3e7a9e599bf4e5f0374d815006bf8ca70cf0b8fc88f66",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-jin.png",
+      "sha256": "25b960dbdfb6a41b6b1f6fc85310df09b97a81d53ffcb93a47f733adba4d2fbf",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-mo.png",
+      "sha256": "b03b5537e1f5e756aaf4364379dfbe1fc732f9b9d68c07480564a4dbcf15a365",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-mu.png",
+      "sha256": "dd15a1860c4a3b95f730592db8a57915a85da82c752928d998eb1ad67573279a",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-qi.png",
+      "sha256": "a8a2358251f11039445d087f46b681594483636167bf726ceb304915532c584b",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-shuang.png",
+      "sha256": "b1ca0369a345507f4ee1224b24ad71b6b70eba3fcf9f0d3953ddf8f269c0ba38",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-yuan.png",
+      "sha256": "af8d4c48b63231c9b65d0c046c339ff69e770e44d0eea97bb62f25cf855bf2af",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/repairs/common-mine.png",
+      "sha256": "6fa01fdd708d74e477e1767911018e1d6d7f9bf820a134838b38bd18ccffd2ea",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/repairs/props-yin.png",
+      "sha256": "87c0323bc36bc57ccb8833ada8ee0ed0cc5d3c1253ba34f107e32cdf91716c7a",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    },
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-02.png",
+      "sha256": "f56a29fade859702c65b9f896f35a63dbb8130d766aaea28b9a36f1b07a84a5f",
+      "review": "visually reviewed source/contact boards; original clipped props-yin replaced by repair"
+    }
+  ],
+  "rejected_sources": [
+    {
+      "path": "output/imagegen/paper-warfront/theatre-v3/props-yin.png",
+      "reason": "one subject touched cell edge; replaced by repairs/props-yin.png"
+    }
+  ],
+  "reviewed_contact_boards": [
+    "review-army-0.jpg",
+    "review-army-1.jpg",
+    "review-army-2.jpg",
+    "review-props-0.jpg",
+    "review-props-1.jpg",
+    "review-props-2.jpg",
+    "review-background-0.jpg",
+    "review-background-1.jpg",
+    "review-background-2.jpg",
+    "role-variants-yin.jpg",
+    "role-variants-mo.jpg",
+    "role-variants-deng.jpg",
+    "role-variants-ji.jpg",
+    "role-variants-yuan.jpg",
+    "role-variants-qi.jpg",
+    "role-variants-mu.jpg",
+    "role-variants-shuang.jpg",
+    "role-variants-jin.jpg",
+    "role-variants-bai.jpg"
+  ],
+  "derived_records": 473,
+  "native_visual_scope": [
+    "ten faction core armies and regional backgrounds in controlled GPU fixtures",
+    "six baseline maps, home and decision viewport",
+    "seven articulated pose phases with representative extra roles",
+    "W01 and W04 full legal budget native replay, with silent captured excerpts",
+    "new Windows export menu, battle and compatibility menu"
+  ],
+  "limitations": [
+    "400 unit recruitment/damage tests are headless, not 400 independent native visual approvals",
+    "360 units reuse forty role master silhouettes with faction recoloring; some donor accents and colored skin remain",
+    "weapon limbs do not have separate per-unit shoulder/elbow rigs",
+    "human tactical/visual acceptance and Android hardware remain unverified"
+  ]
+}

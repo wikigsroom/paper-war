@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-08",
+  "scope": "Godot 1.0 source audit; mechanical map quality is separate from export/functional QA",
+  "source_sha256": {
+    "game/data/campaign.json": "bab6f6c5b46ea25af76d67c0b2785a3b4328c147a72dcc03101a57bd00058044",
+    "game/data/balance-prototype.json": "4d81fa9892cd356bbcfd3ba855b9efc446ec440596509147992343aeee764e6a",
+    "game/scripts/battle_sim.gd": "59deebec14c80ef882835c3fab69839cffc83c940533c61cfba33b5ffb88364d",
+    "game/scripts/battle_view.gd": "5c73a14523bc1ecd7412ee8456faf683e3ba33639f65f085fe308f515f401358",
+    "game/scripts/main.gd": "0b93d1aa24e9c83e7a3df2279957a3ad7d37b4df0ed2ea66101df045805626ac"
+  },
+  "anchors": [
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 25,
+      "finding": "bases and initial workers have fixed coordinates"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 156,
+      "finding": "two fixed building slots per side"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 159,
+      "finding": "building immediately contributes; no construction phase"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 269,
+      "finding": "area targeting uses only horizontal distance"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 298,
+      "finding": "target distance has no route identity"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 436,
+      "finding": "one fixed mine per side; independent worker timers"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 496,
+      "finding": "single scalar front"
+    },
+    {
+      "file": "game/scripts/battle_sim.gd",
+      "line": 505,
+      "finding": "no route selection or per-route threat"
+    },
+    {
+      "file": "game/scripts/battle_view.gd",
+      "line": 36,
+      "finding": "constant ground height"
+    },
+    {
+      "file": "game/scripts/battle_view.gd",
+      "line": 122,
+      "finding": "map selector chooses visual theme"
+    },
+    {
+      "file": "game/scripts/battle_view.gd",
+      "line": 380,
+      "finding": "flat minimap with x/56 projection"
+    },
+    {
+      "file": "game/scripts/main.gd",
+      "line": 674,
+      "finding": "horizontal-only minimap navigation"
+    }
+  ],
+  "campaign_levels": 15,
+  "campaign_map_labels": {
+    "stamp-plain": 5,
+    "ink-marsh": 5,
+    "lantern-ridge": 5
+  },
+  "campaign_win_rules": {
+    "destroy_base": 15
+  },
+  "distinct_geometry_rules_found": 1,
+  "interpretation_of_geometry_count": "From fixed simulation coordinates and absent per-map geometry; not a claim about original Swords & Soldiers map count",
+  "simulation_reads_config_map": false,
+  "simulation_reads_balance_map": false,
+  "configured_map_block": {
+    "id": "map.stamp-plain",
+    "length": 56,
+    "base_x": [
+      2,
+      54
+    ],
+    "mine_x": [
+      6,
+      50
+    ],
+    "build_slots_x": [
+      [
+        3.5,
+        8.5
+      ],
+      [
+        52.5,
+        47.5
+      ]
+    ],
+    "orthographic_height": 8.2,
+    "fog_of_war": false,
+    "view_pixels_per_world_unit": 78,
+    "view_puppet_scale": 1.35
+  },
+  "implemented_coordinates": {
+    "bases": [
+      2,
+      54
+    ],
+    "mines": [
+      6,
+      50
+    ],
+    "building_slots": [
+      [
+        3.5,
+        8.5
+      ],
+      [
+        52.5,
+        47.5
+      ]
+    ]
+  },
+  "ideal_worker_cycle": {
+    "one_way_distance": 4,
+    "speed": 1.25,
+    "mine_seconds": 1.2,
+    "deposit_seconds": 1,
+    "cargo": 8,
+    "roundtrip_seconds": 8.6,
+    "gold_per_second_per_worker": 0.930233,
+    "scope": "Formula for current rules in a safe, steady state; not original-game measurement"
+  },
+  "ideal_reinforcement_travel": [
+    {
+      "unit": "unit.yin.axe",
+      "spawn_x": 2.65,
+      "target_x": 28,
+      "distance": 25.35,
+      "speed": 1.1,
+      "ideal_travel_seconds": 23.045,
+      "exclusions": "Production delay, combat, target range, status and discrete-step rounding"
+    },
+    {
+      "unit": "unit.yin.cannon",
+      "spawn_x": 2.65,
+      "target_x": 28,
+      "distance": 25.35,
+      "speed": 0.54,
+      "ideal_travel_seconds": 46.944,
+      "exclusions": "Production delay, combat, target range, status and discrete-step rounding"
+    },
+    {
+      "unit": "unit.deng.shadow",
+      "spawn_x": 2.65,
+      "target_x": 28,
+      "distance": 25.35,
+      "speed": 1.35,
+      "ideal_travel_seconds": 18.778,
+      "exclusions": "Production delay, combat, target range, status and discrete-step rounding"
+    }
+  ],
+  "headless_probe": "current-map-probe.json",
+  "original_game_executed_this_research": false
+}

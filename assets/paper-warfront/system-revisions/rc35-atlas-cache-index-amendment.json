@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "base_revision": "assets/paper-warfront/system-revisions/rc35-atlas-cache.json",
+  "publication": "output/qa/godot/render-runtime-rc35/publication.json",
+  "changed_files": {
+    "README.md": {
+      "before": "49260a738f8631c862bdea01482f138b694471f35697633a75b0be0bfaa804a0",
+      "after": "9d2b8d687eb15b8cd4eb67fa3cc5a8be7198e371f895368b90f1d1ab0041d920"
+    },
+    "docs/paper-warfront/README.md": {
+      "before": "68a3e427b435ead87fe1d7a6f5f47e6a72e5730405a53dcc6e0c57865b605ec3",
+      "after": "5ed5bdb81fc85751f37f3cb6f66214932b3a9cf19bea7cdb6d82ae9ff95cb061"
+    }
+  },
+  "reason": "The RC35 document was already published; this amendment makes the two navigation indexes point to the current 145 release entry and current rc35 header.",
+  "scope": "Documentation index only. Game source, binaries, APK, ZIP, story data and runtime behavior unchanged."
+}

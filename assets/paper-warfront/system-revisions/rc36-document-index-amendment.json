@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "base_revision": "assets/paper-warfront/system-revisions/rc36-sim-buffers.json",
+  "publication": "release/3.0.0-rc36-preview/preview-verification.json",
+  "changed_files": {
+    "README.md": {
+      "before": "afe1b73bae640f9462b3ace60202198c6cd8b808e15c3001313febdc86246898",
+      "after": "e261c21cbd448732090b6119f9f38cbb0b58f6d590fad1c018b1327960775db6"
+    },
+    "docs/paper-warfront/README.md": {
+      "before": "2b4c99bd13b9bb6518c0e6ffa7cb4899196c547c90393e923e8dfafd93e1d115",
+      "after": "58163809fe1fdfa548986839611073cbed82c7a47f5ccf3ffc84ec55bf8cc8a1"
+    }
+  },
+  "added_files": {
+    "docs/paper-warfront/147-单机地图剧情合同与路线分支验收.md": "14066f3871279941cfe9f6f08b567c099d7e283ff471d3f9c19207b0837fe38f",
+    "tools/paper-warfront/verify_story_map_contract.py": "1f66d90e00ce32f5ad755dba4ec6bb9dfbe373b7814941fe38b0fea28d3c84a3",
+    "output/qa/paper-warfront/story-map-contract.json": "7e46f5b5d7d072dcb5f7ec2aa0e11ad14ec57d420e86e6d4caf3f35d55ae3a81",
+    "output/qa/paper-warfront/campaign-routes-rc36.json": "0b739081382db5020ab1e7b5ffebaf0f81f8eef2aa0b51a6c4557657139d0881"
+  },
+  "story_contract_sha256": "7e46f5b5d7d072dcb5f7ec2aa0e11ad14ec57d420e86e6d4caf3f35d55ae3a81",
+  "reason": "The RC36 revision is immutable. This amendment corrects stale top-level documentation pointers/headings to RC36 and adds the executable single-player map/story contract plus its data-only verification and native route test records.",
+  "scope": "Documentation and QA contract only. Game source, binaries, APK, ZIP, story data, map data and runtime behavior are unchanged.",
+  "updated_files": {
+    "docs/paper-warfront/20-战役与任务执行规范.md": "3146606bf3fc3e6eeb5c5f1908718b45417adc3311e8a5fc1f4f2e44f1a740d5",
+    "docs/paper-warfront/136-单机剧情地图与章内分支.md": "60e345d026352f69a7061edc1317c5bc4fbb6e7b87ecd2204ebb3dc21af29dfb"
+  },
+  "route_test_sha256": "0b739081382db5020ab1e7b5ffebaf0f81f8eef2aa0b51a6c4557657139d0881",
+  "story_contract_document_sha256": "14066f3871279941cfe9f6f08b567c099d7e283ff471d3f9c19207b0837fe38f"
+}

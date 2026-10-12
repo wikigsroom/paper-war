@@ -1,0 +1,437 @@
+{
+  "version": "1.0.0",
+  "stage": "offline-runtime-validation",
+  "note": "原创项目参数，已接入 Godot 离线运行与机制测试；非原作数值。",
+  "simulation": {
+    "ticks_per_second": 60,
+    "command_sequence_required": true,
+    "max_combat_units_per_side": 60,
+    "max_workers_per_side": 6,
+    "production_queue_capacity": 6,
+    "corpse_lifetime_seconds": 8,
+    "reflections_max": 1
+  },
+  "map": {
+    "id": "map.stamp-plain",
+    "length": 56,
+    "base_x": [
+      2,
+      54
+    ],
+    "mine_x": [
+      6,
+      50
+    ],
+    "build_slots_x": [
+      [
+        3.5,
+        8.5
+      ],
+      [
+        52.5,
+        47.5
+      ]
+    ],
+    "orthographic_height": 8.2,
+    "fog_of_war": false,
+    "view_pixels_per_world_unit": 78,
+    "view_puppet_scale": 1.35
+  },
+  "economy": {
+    "starting_gold": 160,
+    "starting_mana": 40,
+    "starting_workers": 2,
+    "mana_cap": 100,
+    "base_mana_per_second": 0.5,
+    "worker_cost": 35,
+    "worker_cargo": 8,
+    "worker_mine_seconds": 1.2,
+    "worker_delivery_seconds": 1.0,
+    "worker_move_speed": 1.25,
+    "sacrifice_mana_per_remaining_hp": 0.18,
+    "max_mana_facilities": 2
+  },
+  "base": {
+    "hp": 1100,
+    "production_interval_seconds": 2.4,
+    "refund_unspawned_orders": true
+  },
+  "units": {
+    "unit.yin.axe": {
+      "gold": 45,
+      "hp": 160,
+      "damage": 18,
+      "attack_interval": 0.9,
+      "windup": 0.16,
+      "range": 0.65,
+      "speed": 1.1,
+      "attack": "melee"
+    },
+    "unit.yin.spear": {
+      "gold": 60,
+      "hp": 80,
+      "damage": 14,
+      "attack_interval": 1.05,
+      "windup": 0.18,
+      "range": 4.2,
+      "speed": 1.05,
+      "attack": "projectile",
+      "reflectable": true
+    },
+    "unit.yin.hammer": {
+      "gold": 95,
+      "hp": 240,
+      "damage": 34,
+      "attack_interval": 1.7,
+      "windup": 0.38,
+      "range": 0.82,
+      "speed": 0.86,
+      "attack": "melee-area",
+      "radius": 0.5,
+      "stun_seconds": 0.45
+    },
+    "unit.yin.cannon": {
+      "gold": 150,
+      "hp": 170,
+      "damage": 38,
+      "attack_interval": 2.5,
+      "windup": 0.4,
+      "range": 5.1,
+      "speed": 0.54,
+      "attack": "projectile-area",
+      "reflectable": true,
+      "radius": 0.55,
+      "building_multiplier": 2.5
+    },
+    "unit.yin.worker": {
+      "gold": 35,
+      "hp": 55,
+      "damage": 0,
+      "attack_interval": 0,
+      "windup": 0,
+      "range": 0,
+      "speed": 1.25,
+      "attack": "none",
+      "economy": true
+    },
+    "unit.mo.blade": {
+      "gold": 40,
+      "hp": 120,
+      "damage": 20,
+      "attack_interval": 0.72,
+      "windup": 0.15,
+      "range": 0.65,
+      "speed": 1.24,
+      "attack": "melee",
+      "leap_cooldown": 5,
+      "leap_max_distance": 2.6
+    },
+    "unit.mo.needle": {
+      "gold": 55,
+      "hp": 65,
+      "damage": 9,
+      "attack_interval": 1.25,
+      "windup": 0.18,
+      "range": 4.1,
+      "speed": 1.08,
+      "attack": "projectile",
+      "reflectable": true,
+      "poison_damage_per_second": 4,
+      "poison_seconds": 3
+    },
+    "unit.mo.priest": {
+      "gold": 95,
+      "hp": 90,
+      "damage": 6,
+      "attack_interval": 1.6,
+      "windup": 0.2,
+      "range": 3.4,
+      "speed": 0.95,
+      "attack": "projectile",
+      "reflectable": true,
+      "corpse_range": 3.6,
+      "summon_interval": 3,
+      "max_owned_thralls": 4,
+      "summons": "unit.mo.thrall"
+    },
+    "unit.mo.giant": {
+      "gold": 190,
+      "hp": 650,
+      "damage": 62,
+      "attack_interval": 2.2,
+      "windup": 0.65,
+      "range": 1.0,
+      "speed": 0.54,
+      "attack": "melee-area",
+      "radius": 1.1,
+      "giant": true
+    },
+    "unit.mo.worker": {
+      "gold": 35,
+      "hp": 55,
+      "damage": 0,
+      "attack_interval": 0,
+      "windup": 0,
+      "range": 0,
+      "speed": 1.25,
+      "attack": "none",
+      "economy": true
+    },
+    "unit.mo.thrall": {
+      "gold": 0,
+      "hp": 45,
+      "damage": 9,
+      "attack_interval": 0.9,
+      "windup": 0.14,
+      "range": 0.5,
+      "speed": 1.12,
+      "attack": "melee",
+      "summoned": true,
+      "creates_corpse": false,
+      "manual_recruit": false
+    },
+    "unit.deng.mirror": {
+      "gold": 50,
+      "hp": 140,
+      "damage": 17,
+      "attack_interval": 0.92,
+      "windup": 0.16,
+      "range": 0.65,
+      "speed": 1.12,
+      "attack": "melee",
+      "reflection_cooldown": 3
+    },
+    "unit.deng.fire": {
+      "gold": 65,
+      "hp": 70,
+      "damage": 14,
+      "attack_interval": 2.4,
+      "windup": 0.2,
+      "range": 4.4,
+      "speed": 1.05,
+      "attack": "projectile-burst",
+      "burst_count": 2,
+      "reflectable": true
+    },
+    "unit.deng.shadow": {
+      "gold": 90,
+      "hp": 105,
+      "damage": 21,
+      "attack_interval": 0.8,
+      "windup": 0.14,
+      "range": 0.6,
+      "speed": 1.35,
+      "attack": "melee",
+      "crossing_cooldown": 6,
+      "crossing_max_distance": 3.6
+    },
+    "unit.deng.effigy": {
+      "gold": 110,
+      "hp": 280,
+      "damage": 24,
+      "attack_interval": 1.3,
+      "windup": 0.26,
+      "range": 0.95,
+      "speed": 0.72,
+      "attack": "melee",
+      "physical_damage_multiplier": 0.75
+    },
+    "unit.deng.worker": {
+      "gold": 35,
+      "hp": 55,
+      "damage": 0,
+      "attack_interval": 0,
+      "windup": 0,
+      "range": 0,
+      "speed": 1.25,
+      "attack": "none",
+      "economy": true
+    },
+    "unit.deng.guardian": {
+      "gold": 0,
+      "hp": 180,
+      "damage": 20,
+      "attack_interval": 1.15,
+      "windup": 0.2,
+      "range": 0.75,
+      "speed": 1.0,
+      "attack": "melee",
+      "summoned": true,
+      "lifetime_seconds": 8,
+      "creates_corpse": false,
+      "manual_recruit": false
+    }
+  },
+  "spells": {
+    "spell.yin.repair": {
+      "mana": 25,
+      "cooldown": 5,
+      "heal": 85
+    },
+    "spell.yin.lightning": {
+      "mana": 40,
+      "cooldown": 8,
+      "damage": 110
+    },
+    "spell.yin.cold": {
+      "mana": 35,
+      "cooldown": 9,
+      "radius": 2.0,
+      "duration": 3,
+      "move_multiplier": 0.45
+    },
+    "spell.yin.fury": {
+      "mana": 30,
+      "cooldown": 9,
+      "duration": 4,
+      "attack_damage_multiplier": 1.4
+    },
+    "spell.yin.stamp": {
+      "mana": 70,
+      "cooldown": 15,
+      "radius": 2.2,
+      "delay": 0.55,
+      "damage": 135
+    },
+    "spell.mo.sacrifice": {
+      "mana": 0,
+      "cooldown": 2,
+      "deny_tags": [
+        "economy",
+        "summoned",
+        "clone"
+      ],
+      "creates_corpse": false
+    },
+    "spell.mo.bind": {
+      "mana": 30,
+      "cooldown": 7,
+      "duration": 2.3,
+      "movement_disabled": true,
+      "attack_disabled": true
+    },
+    "spell.mo.poison": {
+      "mana": 40,
+      "cooldown": 10,
+      "radius": 2.1,
+      "duration": 4,
+      "damage_per_second": 12
+    },
+    "spell.mo.convert": {
+      "mana": 80,
+      "cooldown": 18,
+      "deny_tags": [
+        "economy",
+        "summoned",
+        "clone"
+      ],
+      "preserve_native_abilities": true
+    },
+    "spell.mo.burst": {
+      "mana": 65,
+      "cooldown": 14,
+      "radius": 2.4,
+      "damage": 110
+    },
+    "spell.deng.protect": {
+      "mana": 30,
+      "cooldown": 9,
+      "duration": 2.5,
+      "damage_multiplier": 0
+    },
+    "spell.deng.clone": {
+      "mana": 45,
+      "cooldown": 11,
+      "duration": 10,
+      "deny_tags": [
+        "economy",
+        "summoned",
+        "clone",
+        "giant"
+      ],
+      "creates_corpse": false,
+      "sacrifice_allowed": false
+    },
+    "spell.deng.fire": {
+      "mana": 60,
+      "cooldown": 13,
+      "radius": 2.0,
+      "pulses": 3,
+      "pulse_interval": 0.45,
+      "damage_per_pulse": 36
+    },
+    "spell.deng.root": {
+      "mana": 30,
+      "cooldown": 7,
+      "duration": 2.8,
+      "movement_disabled": true,
+      "attack_disabled": false
+    },
+    "spell.deng.guardian": {
+      "mana": 55,
+      "cooldown": 12,
+      "summons": "unit.deng.guardian",
+      "max_alive": 2,
+      "deny_enemy_base_radius": 2.5
+    }
+  },
+  "buildings": {
+    "building.yin.base": {
+      "gold": 0,
+      "hp": 1100,
+      "preplaced": true
+    },
+    "building.mo.base": {
+      "gold": 0,
+      "hp": 1100,
+      "preplaced": true
+    },
+    "building.deng.base": {
+      "gold": 0,
+      "hp": 1100,
+      "preplaced": true
+    },
+    "building.yin.tower": {
+      "gold": 80,
+      "hp": 360,
+      "damage": 12,
+      "attack_interval": 1.5,
+      "range": 4.3
+    },
+    "building.mo.tower": {
+      "gold": 80,
+      "hp": 360,
+      "damage": 12,
+      "attack_interval": 1.5,
+      "range": 4.3
+    },
+    "building.deng.tower": {
+      "gold": 80,
+      "hp": 360,
+      "damage": 12,
+      "attack_interval": 1.5,
+      "range": 4.3
+    },
+    "building.deng.mana": {
+      "gold": 55,
+      "hp": 230,
+      "mana_per_second": 1.1,
+      "area_buff": false
+    }
+  },
+  "upgrades": {
+    "upgrade.yin.mana-1": {
+      "mana_per_second_add": 0.9
+    },
+    "upgrade.yin.mana-2": {
+      "mana_per_second_add": 1.0
+    }
+  },
+  "status_stacking": {
+    "same_source": "refresh-duration",
+    "poison_damage": "strongest-source",
+    "protect": "refresh-duration",
+    "stun": "latest-end-time",
+    "fury": "no-multiplicative-stack"
+  }
+}

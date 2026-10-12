@@ -1,0 +1,47 @@
+{
+  "revision": "rc14-executioner-reach-r1",
+  "status": "formal-preview-exported-and-package-verified",
+  "reason": "Contract scythe reaches from behind one basic frontline guard. Paid symmetric 300-gold recipe at original127 price gained7-to10 hit events and reduced basic survivors4-to3. Price pilot did not establish general AI payoff.",
+  "units": {
+    "unit.qi.executioner": {
+      "before": {
+        "range": 0.85,
+        "gold": 127
+      },
+      "after": {
+        "range": 1.25,
+        "gold": 127
+      }
+    }
+  },
+  "design_definition_before": {
+    "unit.qi.executioner": {
+      "range_override": null,
+      "hint": "收割残血并赚赏金，满血重甲能够承受第一轮。"
+    }
+  },
+  "files": {
+    "assets/paper-warfront/balance-prototype.json": {
+      "after_sha256": "00f6419d8bc3a72a65d2375044d80b35f1822c7a6bcfd007b7622172cbe72fa9"
+    },
+    "game/data/balance-prototype.json": {
+      "after_sha256": "00f6419d8bc3a72a65d2375044d80b35f1822c7a6bcfd007b7622172cbe72fa9",
+      "before_sha256": "bb545280ff2f9a16b6d68ef7e675d77350da866ca986741f7d3c470647690e4f"
+    },
+    "assets/paper-warfront/frame-rebuild/unit-briefs.json": {
+      "after_sha256": "7c1ff699edfa4ab2a0d05331bf8c6d19fc5ac8b3ef9b8d4a624370c36c529d14"
+    },
+    "assets/paper-warfront/frame-rebuild/roster.csv": {
+      "before_sha256": "c66efe63fde66a24b1079e7bed741a52883e040390b639104f9a0327fed708b1",
+      "after_sha256": "79f037e5c7a527af047b6bff17f3682ef6a544be981e1bc5f1bc8b0153e2c85f"
+    }
+  },
+  "historical_evidence": "output/qa/godot/core-alignment-rc14/premium-reach/pre-formal-source/archive-manifest.json",
+  "scope": "Original HD numerical reach is not measured;1.25 is a local design value. Original127 price, production, friendly spacing and execute/bounty rules retained. Price92 and demand-policy trials remain disabled.",
+  "delivery": {
+    "version": "3.0.0-rc14-preview",
+    "build_manifest": "release/3.0.0-rc14-preview/build-manifest.json",
+    "proof": "release/3.0.0-rc14-preview/preview-verification.json",
+    "proof_sha256": "f431334619ec1cc6f1830a1f69ea74c518d5b3e0f8b14adde8a91f15ddf56130"
+  }
+}

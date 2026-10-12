@@ -1,0 +1,83 @@
+{
+  "revision": "rc19-live-sheets-r1",
+  "version": "3.0.0-rc19-preview",
+  "status": "native-source-and-compiled-ui-verified-preview-exported",
+  "art_library": "assets/paper-warfront/ui/paper-ui.json",
+  "art_library_version": "3.0.0-rc16-preview",
+  "image_generation_model": "gpt-image-2.5",
+  "image_generation_skill": "sub2-image-gen",
+  "approved_ui_assets_reused": 38,
+  "new_images_in_this_interaction_revision": 0,
+  "scope": "Live native research, blueprint and build readiness, owned orders summary and production rows, immutable cancellation intent, held-release production safety and viewport/exit cleanup. Original economy and command guards retained. Shared client projections use local authority sender, not TCP/human play.",
+  "source_before_archive": "output/qa/godot/ui-rc19/source-before",
+  "source_before": {
+    "game/scripts/battle_sim.gd": "7ce367926206f151dc8e0188ad490290df91c73b3a8310ba335a50708d506441",
+    "game/scripts/main.gd": "5d74150e310fdee0872780f17ef7f6faa490ab87597b8cc837cd7fbb159e8df4",
+    "game/scripts/mobile_ui.gd": "3d9c6010904e9a453b47db171c019edc67299d4954d01f0f469d51cdc00de903",
+    "game/scripts/local_duel.gd": "8ca4d97a996275c68b79416f1090728a805f0fbfed95aad4896442e48ddb2521",
+    "game/scripts/recruitment_readiness.gd": "a22ec1d491125edb5b3f56986f4471a34c4968f306bf6112003d8578af08f3ea",
+    "game/project.godot": "7622b6774b688e8d1358a21d9dcf1afb2b3d43ffb784145b832267fa67701888",
+    "game/export_presets.cfg": "eca6fec5a5aeb361caba79f52eda6cd6024d3476177a63717c536f4a9a1019aa"
+  },
+  "source_after": {
+    "game/scripts/battle_sim.gd": "aec91b04832869b1b8a3face451732024eb73007e3c1f7e1cf610f6782cd7a26",
+    "game/scripts/main.gd": "9ee37f5aa7cddacb743de3f896fb87771f1a66bc4072d721982335e7a85c48d4",
+    "game/scripts/mobile_ui.gd": "1ce1ce8239145cdb49e66a6751706005b5e0d9d789834fd6a910eeef6513401e",
+    "game/scripts/local_duel.gd": "7f10d19b6e9b3107369eb73e368c55462b624f14d347e5fe83099124867a6c53",
+    "game/scripts/recruitment_readiness.gd": "a22ec1d491125edb5b3f56986f4471a34c4968f306bf6112003d8578af08f3ea",
+    "game/project.godot": "4ceaccbb434f846e7b1158bb65e79db1bd56083f89ff875c70c97ec42e18ca95",
+    "game/export_presets.cfg": "198293682c1b4b9ebc35be87bb6b541bbe35893374ebb8924f848a9eadfd158f",
+    "game/scripts/battle_command_rules.gd": "d31b281624789c3259351ed62525144e1337b4d248f62219d941ab52f2901df9",
+    "game/scripts/ui_battle_sheets.gd": "7a88f0adf89ba6447a1e5a8780bc97c967515bd879ffc937685a39f959cd2d2a"
+  },
+  "observers": {
+    "tools/paper-warfront/probe_live_battle_sheets.gd": "9c33b646fe71cae4c63061403935d29e0e1e703f2c6801be9802a8f50805133a",
+    "tools/paper-warfront/check_live_battle_sheets.py": "96679354c5d5879be2ec6d2819a176c46b842bcac5b9b8218b2265159fb0eb2d",
+    "game/tests/mobile_ui_qa.gd": "01ac1024d789ef6575433947b5925b50498b1fd2241587876adf20902bd34096",
+    "game/tests/recruitment_ui_qa.gd": "d717aba633e75b90c4397c7edbdc49af80b808d655b9828552500ecb283da19d",
+    "tools/paper-warfront/audit_preview_build.py": "4d5f89684abf01777a3efa46f6d013dda91d75b72c647832cd874e58ad1af56c"
+  },
+  "evidence": {
+    "output/qa/godot/ui-rc19/live-baseline-release/report.json": "1d7f66aa50663853bc27fb2551eb4c8b6032ef28f26a51d96c8dad59d9834a33",
+    "output/qa/godot/ui-rc19/live-source-delivery/report.json": "1f862dcd76bcd7c133e6a8e308a775dd82adaf2548e4513f53f9bdf2a0413325",
+    "output/qa/godot/ui-rc19/release/live-battle-sheets/report.json": "16cfd5ced0121ec6e38e1c01debec52232abe5248733d0a312da99f53481de55",
+    "output/qa/godot/ui-rc19/release/modal-navigation/report.json": "8b1dd1b6042163e3d0e56efd40c8f26875bb4d57311d145743235004e2ef7e43",
+    "output/qa/godot/ui-rc19/release/paper-ui/report.json": "c174c5ed15c4c673e4cf8b65131bfaefa5300bc761fd733dff7873b3a775e152",
+    "output/qa/godot/ui-rc19/release/packaged-recruitment-ui/report.json": "a948d123d07f84147bdcc2524949e8d66767028306b803ba176810abb6cef707",
+    "output/qa/godot/ui-rc19/release/mobile/mobile-matrix.json": "90996524e57731f10739001f8ca3be8f5e56ff52f8d12d0d5a39f88d0a1a57ae",
+    "output/qa/godot/ui-rc19/release/mobile/export/report.json": "aacd1d708846857bc5ce038f470206758874082b6a54f7643aab8783b581a1b2",
+    "output/qa/godot/ui-rc19/release/apk-logic/report.json": "771ab70459e9e1730f4a93eaff7074492de6e65f1cece2d3f975fddfdbf1d158",
+    "output/qa/godot/ui-rc19/release/windows-logic/report.json": "8d1bf6a8ac03952f6b2d63f66b7493b2c7f5028f3cfe55773c98f5350a0cce43",
+    "output/qa/godot/ui-rc19/release/paper-ui-assets.json": "3772dca962dce20f2b619d44c23a054b03e6b81d6781cc64adf16590e5dafcfe",
+    "output/qa/godot/ui-rc19/release/device-availability.json": "e8e3646a580501747e0f2ad88dd555796f0d7bf5a82a2a75d1ef33b7addd6ce0",
+    "output/qa/godot/ui-rc19/formal-hammer/verification.json": "3c4dccb462d3ec066f54670573d415dd7e3d30ff85687d5b8eb1eaa5c1ea28a8",
+    "output/qa/godot/ui-rc19/formal-reach/verification.json": "dd3c01fba2e1af4a65fd76d36630e03ab50c350ae2c83a43a8bb5aafc300f93c",
+    "output/qa/godot/ui-rc19/regression-final/report.json": "641cf02ada5a33d26a07b5a888f345c9fc488e6248da876e9fd28f6425ef4b29",
+    "release/3.0.0-rc19-preview/build-manifest.json": "3bf44023588e0b5ff1f4a5aaea7234fa8c2ca8f4dfa425c54e703b49aab2bd3d",
+    "release/3.0.0-rc19-preview/preview-verification.json": "def592c1e5c60a38aeedb51964866fbaaa60cd3c15598851843cde5294efc6db",
+    "docs/paper-warfront/126-实时军令纸页与UI状态调优.md": "5c2c6bea8498b4b984390c9650af269858db99347936dff15fa029a02c3146f1",
+    "docs/paper-warfront/07-交互与UI规范.md": "231da86241e2fd3bcf5fc2226fe35df735997756425f723070a210b616114383"
+  },
+  "native_compiled_check_count": 270,
+  "baseline_checks": 270,
+  "baseline_failures": 81,
+  "artifacts": [
+    {
+      "path": "release/3.0.0-rc19-preview/windows/PaperWarfront.exe",
+      "bytes": 238219128,
+      "sha256": "10d6da43234921c515446b348e96486631658a1addee431fec89a149d0196722"
+    },
+    {
+      "path": "release/3.0.0-rc19-preview/android/PaperWarfront-3.0.0-rc19-preview.apk",
+      "bytes": 176407253,
+      "sha256": "320c08bf8dbe97a51ae0a657c9d898d63e7bb10ea8a17c004a9d46cd1554068a"
+    },
+    {
+      "path": "release/3.0.0-rc19-preview/PaperWarfront-Windows-3.0.0-rc19-preview.zip",
+      "bytes": 165332077,
+      "sha256": "478eea0d7120c116e923acb811c2670367767307ac497f4492a67024391b1b40"
+    }
+  ],
+  "android_hardware_verified": false,
+  "full_balance_verified": false
+}

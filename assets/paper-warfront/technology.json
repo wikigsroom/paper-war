@@ -1,0 +1,1126 @@
+{
+  "schema_version": 4,
+  "starting_unlocked": {
+    "yin": [
+      "unit.yin.axe",
+      "unit.yin.spear",
+      "unit.yin.worker",
+      "building.yin.tower",
+      "building.yin.mana",
+      "spell.yin.repair",
+      "spell.yin.lightning",
+      "spell.yin.cold"
+    ],
+    "mo": [
+      "unit.mo.blade",
+      "unit.mo.needle",
+      "unit.mo.worker",
+      "building.mo.tower",
+      "building.mo.mana",
+      "spell.mo.sacrifice",
+      "spell.mo.bind",
+      "spell.mo.poison"
+    ],
+    "deng": [
+      "unit.deng.mirror",
+      "unit.deng.fire",
+      "unit.deng.worker",
+      "building.deng.tower",
+      "building.deng.mana",
+      "spell.deng.protect",
+      "spell.deng.clone",
+      "spell.deng.fire"
+    ],
+    "ji": [
+      "unit.ji.vanguard",
+      "unit.ji.javelin",
+      "unit.ji.worker",
+      "building.ji.tower",
+      "building.ji.mana",
+      "spell.ji.repair",
+      "spell.ji.lightning",
+      "spell.ji.cold"
+    ],
+    "yuan": [
+      "unit.yuan.vanguard",
+      "unit.yuan.archer",
+      "unit.yuan.worker",
+      "building.yuan.tower",
+      "building.yuan.mana",
+      "spell.yuan.protect",
+      "spell.yuan.clone",
+      "spell.yuan.fire"
+    ],
+    "qi": [
+      "unit.qi.vanguard",
+      "unit.qi.javelin",
+      "unit.qi.worker",
+      "building.qi.tower",
+      "building.qi.mana",
+      "spell.qi.repair",
+      "spell.qi.lightning",
+      "spell.qi.cold"
+    ],
+    "mu": [
+      "unit.mu.guard",
+      "unit.mu.poisoner",
+      "unit.mu.worker",
+      "building.mu.tower",
+      "building.mu.mana",
+      "spell.mu.sacrifice",
+      "spell.mu.bind",
+      "spell.mu.poison"
+    ],
+    "shuang": [
+      "unit.shuang.shield",
+      "unit.shuang.javelin",
+      "unit.shuang.worker",
+      "building.shuang.tower",
+      "building.shuang.mana",
+      "spell.shuang.repair",
+      "spell.shuang.lightning",
+      "spell.shuang.cold"
+    ],
+    "jin": [
+      "unit.jin.berserker",
+      "unit.jin.archer",
+      "unit.jin.worker",
+      "building.jin.tower",
+      "building.jin.mana",
+      "spell.jin.sacrifice",
+      "spell.jin.bind",
+      "spell.jin.poison"
+    ],
+    "bai": [
+      "unit.bai.mirror",
+      "unit.bai.repeater",
+      "unit.bai.worker",
+      "building.bai.tower",
+      "building.bai.mana",
+      "spell.bai.protect",
+      "spell.bai.clone",
+      "spell.bai.fire"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "tech.yin.unit.axe",
+      "faction": "yin",
+      "grant": "unit.yin.axe",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.unit.spear",
+      "faction": "yin",
+      "grant": "unit.yin.spear",
+      "gold": 42,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.unit.hammer",
+      "faction": "yin",
+      "grant": "unit.yin.hammer",
+      "gold": 66,
+      "seconds": 5,
+      "requires": [
+        "tech.yin.unit.axe"
+      ]
+    },
+    {
+      "id": "tech.yin.unit.cannon",
+      "faction": "yin",
+      "grant": "unit.yin.cannon",
+      "gold": 105,
+      "seconds": 8,
+      "requires": [
+        "tech.yin.unit.hammer"
+      ]
+    },
+    {
+      "id": "tech.yin.unit.guard",
+      "faction": "yin",
+      "grant": "unit.yin.guard",
+      "gold": 49,
+      "seconds": 5,
+      "requires": [
+        "tech.yin.unit.axe"
+      ]
+    },
+    {
+      "id": "tech.yin.unit.banner",
+      "faction": "yin",
+      "grant": "unit.yin.banner",
+      "gold": 62,
+      "seconds": 5,
+      "requires": [
+        "tech.yin.unit.spear"
+      ]
+    },
+    {
+      "id": "tech.yin.spell.repair",
+      "faction": "yin",
+      "grant": "spell.yin.repair",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.spell.lightning",
+      "faction": "yin",
+      "grant": "spell.yin.lightning",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.spell.cold",
+      "faction": "yin",
+      "grant": "spell.yin.cold",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.spell.fury",
+      "faction": "yin",
+      "grant": "spell.yin.fury",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.yin.unit.hammer"
+      ]
+    },
+    {
+      "id": "tech.yin.spell.stamp",
+      "faction": "yin",
+      "grant": "spell.yin.stamp",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.yin.unit.banner"
+      ]
+    },
+    {
+      "id": "tech.yin.mana-1",
+      "faction": "yin",
+      "grant": "upgrade.yin.mana-1",
+      "gold": 75,
+      "seconds": 6,
+      "requires": []
+    },
+    {
+      "id": "tech.yin.mana-2",
+      "faction": "yin",
+      "grant": "upgrade.yin.mana-2",
+      "gold": 130,
+      "seconds": 9,
+      "requires": [
+        "tech.yin.mana-1"
+      ]
+    },
+    {
+      "id": "tech.mo.unit.blade",
+      "faction": "mo",
+      "grant": "unit.mo.blade",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.mo.unit.needle",
+      "faction": "mo",
+      "grant": "unit.mo.needle",
+      "gold": 38,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.mo.unit.priest",
+      "faction": "mo",
+      "grant": "unit.mo.priest",
+      "gold": 66,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.unit.needle"
+      ]
+    },
+    {
+      "id": "tech.mo.unit.giant",
+      "faction": "mo",
+      "grant": "unit.mo.giant",
+      "gold": 130,
+      "seconds": 10,
+      "requires": [
+        "tech.mo.unit.priest"
+      ]
+    },
+    {
+      "id": "tech.mo.unit.leech",
+      "faction": "mo",
+      "grant": "unit.mo.leech",
+      "gold": 84,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.unit.blade"
+      ]
+    },
+    {
+      "id": "tech.mo.unit.warden",
+      "faction": "mo",
+      "grant": "unit.mo.warden",
+      "gold": 72,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.unit.blade"
+      ]
+    },
+    {
+      "id": "tech.mo.spell.sacrifice",
+      "faction": "mo",
+      "grant": "spell.mo.sacrifice",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mo.spell.bind",
+      "faction": "mo",
+      "grant": "spell.mo.bind",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mo.spell.poison",
+      "faction": "mo",
+      "grant": "spell.mo.poison",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mo.spell.convert",
+      "faction": "mo",
+      "grant": "spell.mo.convert",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.mo.unit.priest"
+      ]
+    },
+    {
+      "id": "tech.mo.spell.burst",
+      "faction": "mo",
+      "grant": "spell.mo.burst",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.mo.unit.leech"
+      ]
+    },
+    {
+      "id": "tech.deng.unit.mirror",
+      "faction": "deng",
+      "grant": "unit.deng.mirror",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.deng.unit.fire",
+      "faction": "deng",
+      "grant": "unit.deng.fire",
+      "gold": 46,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.deng.unit.shadow",
+      "faction": "deng",
+      "grant": "unit.deng.shadow",
+      "gold": 63,
+      "seconds": 5,
+      "requires": [
+        "tech.deng.unit.mirror"
+      ]
+    },
+    {
+      "id": "tech.deng.unit.effigy",
+      "faction": "deng",
+      "grant": "unit.deng.effigy",
+      "gold": 77,
+      "seconds": 5,
+      "requires": [
+        "tech.deng.unit.mirror"
+      ]
+    },
+    {
+      "id": "tech.deng.unit.summoner",
+      "faction": "deng",
+      "grant": "unit.deng.summoner",
+      "gold": 120,
+      "seconds": 8,
+      "requires": [
+        "tech.deng.unit.shadow"
+      ]
+    },
+    {
+      "id": "tech.deng.unit.illusionist",
+      "faction": "deng",
+      "grant": "unit.deng.illusionist",
+      "gold": 113,
+      "seconds": 8,
+      "requires": [
+        "tech.deng.unit.shadow"
+      ]
+    },
+    {
+      "id": "tech.deng.spell.protect",
+      "faction": "deng",
+      "grant": "spell.deng.protect",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.deng.spell.clone",
+      "faction": "deng",
+      "grant": "spell.deng.clone",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.deng.spell.fire",
+      "faction": "deng",
+      "grant": "spell.deng.fire",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.deng.spell.root",
+      "faction": "deng",
+      "grant": "spell.deng.root",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.deng.unit.shadow"
+      ]
+    },
+    {
+      "id": "tech.deng.spell.guardian",
+      "faction": "deng",
+      "grant": "spell.deng.guardian",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.deng.unit.effigy"
+      ]
+    },
+    {
+      "id": "tech.ji.unit.vanguard",
+      "faction": "ji",
+      "grant": "unit.ji.vanguard",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.ji.unit.guard",
+      "faction": "ji",
+      "grant": "unit.ji.guard",
+      "gold": 49,
+      "seconds": 5,
+      "requires": [
+        "tech.ji.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.ji.unit.javelin",
+      "faction": "ji",
+      "grant": "unit.ji.javelin",
+      "gold": 43,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.ji.unit.artillery",
+      "faction": "ji",
+      "grant": "unit.ji.artillery",
+      "gold": 106,
+      "seconds": 8,
+      "requires": [
+        "tech.ji.unit.engineer"
+      ]
+    },
+    {
+      "id": "tech.ji.unit.engineer",
+      "faction": "ji",
+      "grant": "unit.ji.engineer",
+      "gold": 74,
+      "seconds": 5,
+      "requires": [
+        "tech.ji.unit.javelin"
+      ]
+    },
+    {
+      "id": "tech.ji.unit.demolisher",
+      "faction": "ji",
+      "grant": "unit.ji.demolisher",
+      "gold": 90,
+      "seconds": 5,
+      "requires": [
+        "tech.ji.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.ji.spell.repair",
+      "faction": "ji",
+      "grant": "spell.ji.repair",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.ji.spell.lightning",
+      "faction": "ji",
+      "grant": "spell.ji.lightning",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.ji.spell.cold",
+      "faction": "ji",
+      "grant": "spell.ji.cold",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.ji.spell.fury",
+      "faction": "ji",
+      "grant": "spell.ji.fury",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.ji.unit.engineer"
+      ]
+    },
+    {
+      "id": "tech.ji.spell.stamp",
+      "faction": "ji",
+      "grant": "spell.ji.stamp",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.ji.unit.demolisher"
+      ]
+    },
+    {
+      "id": "tech.yuan.unit.vanguard",
+      "faction": "yuan",
+      "grant": "unit.yuan.vanguard",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.yuan.unit.archer",
+      "faction": "yuan",
+      "grant": "unit.yuan.archer",
+      "gold": 42,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.yuan.unit.artillery",
+      "faction": "yuan",
+      "grant": "unit.yuan.artillery",
+      "gold": 106,
+      "seconds": 8,
+      "requires": [
+        "tech.yuan.unit.harrier"
+      ]
+    },
+    {
+      "id": "tech.yuan.unit.lancer",
+      "faction": "yuan",
+      "grant": "unit.yuan.lancer",
+      "gold": 53,
+      "seconds": 5,
+      "requires": [
+        "tech.yuan.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.yuan.unit.harrier",
+      "faction": "yuan",
+      "grant": "unit.yuan.harrier",
+      "gold": 55,
+      "seconds": 5,
+      "requires": [
+        "tech.yuan.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.yuan.unit.caravan",
+      "faction": "yuan",
+      "grant": "unit.yuan.caravan",
+      "gold": 80,
+      "seconds": 5,
+      "requires": [
+        "tech.yuan.unit.archer"
+      ]
+    },
+    {
+      "id": "tech.yuan.spell.protect",
+      "faction": "yuan",
+      "grant": "spell.yuan.protect",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yuan.spell.clone",
+      "faction": "yuan",
+      "grant": "spell.yuan.clone",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yuan.spell.fire",
+      "faction": "yuan",
+      "grant": "spell.yuan.fire",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.yuan.spell.root",
+      "faction": "yuan",
+      "grant": "spell.yuan.root",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.yuan.unit.harrier"
+      ]
+    },
+    {
+      "id": "tech.yuan.spell.guardian",
+      "faction": "yuan",
+      "grant": "spell.yuan.guardian",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.yuan.unit.lancer"
+      ]
+    },
+    {
+      "id": "tech.qi.unit.vanguard",
+      "faction": "qi",
+      "grant": "unit.qi.vanguard",
+      "gold": 35,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.qi.unit.javelin",
+      "faction": "qi",
+      "grant": "unit.qi.javelin",
+      "gold": 47,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.qi.unit.sniper",
+      "faction": "qi",
+      "grant": "unit.qi.sniper",
+      "gold": 103,
+      "seconds": 5,
+      "requires": [
+        "tech.qi.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.qi.unit.siege",
+      "faction": "qi",
+      "grant": "unit.qi.siege",
+      "gold": 124,
+      "seconds": 8,
+      "requires": [
+        "tech.qi.unit.executioner"
+      ]
+    },
+    {
+      "id": "tech.qi.unit.executioner",
+      "faction": "qi",
+      "grant": "unit.qi.executioner",
+      "gold": 89,
+      "seconds": 5,
+      "requires": [
+        "tech.qi.unit.vanguard"
+      ]
+    },
+    {
+      "id": "tech.qi.unit.caravan",
+      "faction": "qi",
+      "grant": "unit.qi.caravan",
+      "gold": 87,
+      "seconds": 5,
+      "requires": [
+        "tech.qi.unit.javelin"
+      ]
+    },
+    {
+      "id": "tech.qi.spell.repair",
+      "faction": "qi",
+      "grant": "spell.qi.repair",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.qi.spell.lightning",
+      "faction": "qi",
+      "grant": "spell.qi.lightning",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.qi.spell.cold",
+      "faction": "qi",
+      "grant": "spell.qi.cold",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.qi.spell.fury",
+      "faction": "qi",
+      "grant": "spell.qi.fury",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.qi.unit.executioner"
+      ]
+    },
+    {
+      "id": "tech.qi.spell.stamp",
+      "faction": "qi",
+      "grant": "spell.qi.stamp",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.qi.unit.caravan"
+      ]
+    },
+    {
+      "id": "tech.mu.unit.guard",
+      "faction": "mu",
+      "grant": "unit.mu.guard",
+      "gold": 49,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.mu.unit.medic",
+      "faction": "mu",
+      "grant": "unit.mu.medic",
+      "gold": 77,
+      "seconds": 5,
+      "requires": [
+        "tech.mu.unit.poisoner"
+      ]
+    },
+    {
+      "id": "tech.mu.unit.poisoner",
+      "faction": "mu",
+      "grant": "unit.mu.poisoner",
+      "gold": 43,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.mu.unit.warden",
+      "faction": "mu",
+      "grant": "unit.mu.warden",
+      "gold": 72,
+      "seconds": 5,
+      "requires": [
+        "tech.mu.unit.guard"
+      ]
+    },
+    {
+      "id": "tech.mu.unit.colossus",
+      "faction": "mu",
+      "grant": "unit.mu.colossus",
+      "gold": 130,
+      "seconds": 10,
+      "requires": [
+        "tech.mu.unit.medic"
+      ]
+    },
+    {
+      "id": "tech.mu.unit.phoenix",
+      "faction": "mu",
+      "grant": "unit.mu.phoenix",
+      "gold": 115,
+      "seconds": 5,
+      "requires": [
+        "tech.mu.unit.guard"
+      ]
+    },
+    {
+      "id": "tech.mu.spell.sacrifice",
+      "faction": "mu",
+      "grant": "spell.mu.sacrifice",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mu.spell.bind",
+      "faction": "mu",
+      "grant": "spell.mu.bind",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mu.spell.poison",
+      "faction": "mu",
+      "grant": "spell.mu.poison",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.mu.spell.convert",
+      "faction": "mu",
+      "grant": "spell.mu.convert",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.mu.unit.medic"
+      ]
+    },
+    {
+      "id": "tech.mu.spell.burst",
+      "faction": "mu",
+      "grant": "spell.mu.burst",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.mu.unit.warden"
+      ]
+    },
+    {
+      "id": "tech.shuang.unit.javelin",
+      "faction": "shuang",
+      "grant": "unit.shuang.javelin",
+      "gold": 43,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.shuang.unit.shield",
+      "faction": "shuang",
+      "grant": "unit.shuang.shield",
+      "gold": 70,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.shuang.unit.scribe",
+      "faction": "shuang",
+      "grant": "unit.shuang.scribe",
+      "gold": 85,
+      "seconds": 5,
+      "requires": [
+        "tech.shuang.unit.javelin"
+      ]
+    },
+    {
+      "id": "tech.shuang.unit.mortar",
+      "faction": "shuang",
+      "grant": "unit.shuang.mortar",
+      "gold": 122,
+      "seconds": 8,
+      "requires": [
+        "tech.shuang.unit.warden"
+      ]
+    },
+    {
+      "id": "tech.shuang.unit.warden",
+      "faction": "shuang",
+      "grant": "unit.shuang.warden",
+      "gold": 72,
+      "seconds": 5,
+      "requires": [
+        "tech.shuang.unit.shield"
+      ]
+    },
+    {
+      "id": "tech.shuang.unit.oracle",
+      "faction": "shuang",
+      "grant": "unit.shuang.oracle",
+      "gold": 102,
+      "seconds": 5,
+      "requires": [
+        "tech.shuang.unit.javelin"
+      ]
+    },
+    {
+      "id": "tech.shuang.spell.repair",
+      "faction": "shuang",
+      "grant": "spell.shuang.repair",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.shuang.spell.lightning",
+      "faction": "shuang",
+      "grant": "spell.shuang.lightning",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.shuang.spell.cold",
+      "faction": "shuang",
+      "grant": "spell.shuang.cold",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.shuang.spell.fury",
+      "faction": "shuang",
+      "grant": "spell.shuang.fury",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.shuang.unit.warden"
+      ]
+    },
+    {
+      "id": "tech.shuang.spell.stamp",
+      "faction": "shuang",
+      "grant": "spell.shuang.stamp",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.shuang.unit.scribe"
+      ]
+    },
+    {
+      "id": "tech.jin.unit.archer",
+      "faction": "jin",
+      "grant": "unit.jin.archer",
+      "gold": 42,
+      "seconds": 4,
+      "requires": []
+    },
+    {
+      "id": "tech.jin.unit.artillery",
+      "faction": "jin",
+      "grant": "unit.jin.artillery",
+      "gold": 106,
+      "seconds": 8,
+      "requires": [
+        "tech.jin.unit.leech"
+      ]
+    },
+    {
+      "id": "tech.jin.unit.burner",
+      "faction": "jin",
+      "grant": "unit.jin.burner",
+      "gold": 74,
+      "seconds": 5,
+      "requires": [
+        "tech.jin.unit.berserker"
+      ]
+    },
+    {
+      "id": "tech.jin.unit.leech",
+      "faction": "jin",
+      "grant": "unit.jin.leech",
+      "gold": 84,
+      "seconds": 5,
+      "requires": [
+        "tech.jin.unit.berserker"
+      ]
+    },
+    {
+      "id": "tech.jin.unit.demolisher",
+      "faction": "jin",
+      "grant": "unit.jin.demolisher",
+      "gold": 90,
+      "seconds": 5,
+      "requires": [
+        "tech.jin.unit.berserker"
+      ]
+    },
+    {
+      "id": "tech.jin.unit.berserker",
+      "faction": "jin",
+      "grant": "unit.jin.berserker",
+      "gold": 88,
+      "seconds": 6,
+      "requires": []
+    },
+    {
+      "id": "tech.jin.spell.sacrifice",
+      "faction": "jin",
+      "grant": "spell.jin.sacrifice",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.jin.spell.bind",
+      "faction": "jin",
+      "grant": "spell.jin.bind",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.jin.spell.poison",
+      "faction": "jin",
+      "grant": "spell.jin.poison",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.jin.spell.convert",
+      "faction": "jin",
+      "grant": "spell.jin.convert",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.jin.unit.leech"
+      ]
+    },
+    {
+      "id": "tech.jin.spell.burst",
+      "faction": "jin",
+      "grant": "spell.jin.burst",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.jin.unit.burner"
+      ]
+    },
+    {
+      "id": "tech.bai.unit.mirror",
+      "faction": "bai",
+      "grant": "unit.bai.mirror",
+      "gold": 74,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.bai.unit.scribe",
+      "faction": "bai",
+      "grant": "unit.bai.scribe",
+      "gold": 85,
+      "seconds": 5,
+      "requires": [
+        "tech.bai.unit.repeater"
+      ]
+    },
+    {
+      "id": "tech.bai.unit.repeater",
+      "faction": "bai",
+      "grant": "unit.bai.repeater",
+      "gold": 73,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.bai.unit.illusionist",
+      "faction": "bai",
+      "grant": "unit.bai.illusionist",
+      "gold": 113,
+      "seconds": 8,
+      "requires": [
+        "tech.bai.unit.oracle"
+      ]
+    },
+    {
+      "id": "tech.bai.unit.colossus",
+      "faction": "bai",
+      "grant": "unit.bai.colossus",
+      "gold": 130,
+      "seconds": 10,
+      "requires": [
+        "tech.bai.unit.oracle"
+      ]
+    },
+    {
+      "id": "tech.bai.unit.oracle",
+      "faction": "bai",
+      "grant": "unit.bai.oracle",
+      "gold": 102,
+      "seconds": 5,
+      "requires": [
+        "tech.bai.unit.repeater"
+      ]
+    },
+    {
+      "id": "tech.bai.spell.protect",
+      "faction": "bai",
+      "grant": "spell.bai.protect",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.bai.spell.clone",
+      "faction": "bai",
+      "grant": "spell.bai.clone",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.bai.spell.fire",
+      "faction": "bai",
+      "grant": "spell.bai.fire",
+      "gold": 55,
+      "seconds": 5,
+      "requires": []
+    },
+    {
+      "id": "tech.bai.spell.root",
+      "faction": "bai",
+      "grant": "spell.bai.root",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.bai.unit.oracle"
+      ]
+    },
+    {
+      "id": "tech.bai.spell.guardian",
+      "faction": "bai",
+      "grant": "spell.bai.guardian",
+      "gold": 85,
+      "seconds": 8,
+      "requires": [
+        "tech.bai.unit.scribe"
+      ]
+    }
+  ],
+  "revision": "rc7-investment-paths"
+}

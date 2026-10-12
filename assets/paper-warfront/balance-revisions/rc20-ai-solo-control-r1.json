@@ -1,0 +1,250 @@
+{
+  "revision": "rc20-ai-solo-control-r1",
+  "previous_formal_mechanism_revision": "rc17-hammer-reach-r1",
+  "status": "formal-preview-exported-and-package-verified",
+  "preview_version": "3.0.0-rc20-preview",
+  "reason": "Normal AI selected a solo dangerous windup, then rejected it through the single-target price/value gate. Respond when the available spell actually prevents that attack, preserving normal payment, cooldown, unlock and fog validation.",
+  "spell_effect_contract": {
+    "bind": "Stops current windup.",
+    "convert": "Changes ownership and clears target and windup.",
+    "lightning": "Treat as preventing the attack only if real post-defense damage defeats the attacker.",
+    "root": "Movement restriction only; no invented attack interruption."
+  },
+  "formal_rule_changes": {
+    "unit_prices": {},
+    "spell_costs": {},
+    "spell_effects": {},
+    "damage_rules": {},
+    "fog_rules": {}
+  },
+  "current_input_files": [
+    {
+      "path": "game/scripts/tactical_ai.gd",
+      "bytes": 65930,
+      "sha256": "bae72db2d6defdd49b17612c980dc9b26efa698226dd404766cdc8dc19dd4630"
+    },
+    {
+      "path": "game/scripts/ai_budget_planner.gd",
+      "bytes": 14302,
+      "sha256": "11c1afe2e2a17255da376ba28f37fee70781c997a5e6d8344e23b62a3de5c39a"
+    },
+    {
+      "path": "game/tests/test_ai_spell_budget.gd",
+      "bytes": 6899,
+      "sha256": "0b50b6b699f06ed9e987dc5f21b8cc3aed13a58ff845645824f3c0d17cea12a4"
+    },
+    {
+      "path": "game/tests/test_ai_income_staging.gd",
+      "bytes": 5631,
+      "sha256": "7442b36c20243ec741667a23f6b95a273cd349a03d6dd386b950d6c32579ec27"
+    },
+    {
+      "path": "game/project.godot",
+      "bytes": 1154,
+      "sha256": "0ef02a694994afa4a25e1ecfaf9bee41980c52eba1f2e83af69a53d2d136432c"
+    },
+    {
+      "path": "game/data/balance-prototype.json",
+      "bytes": 84495,
+      "sha256": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6"
+    },
+    {
+      "path": "assets/paper-warfront/ui/paper-ui.json",
+      "bytes": 23574,
+      "sha256": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2"
+    },
+    {
+      "path": "tools/paper-warfront/compare_solo_control.py",
+      "bytes": 4495,
+      "sha256": "1169f6b286748c3e7aa1635ccaaa82cee841d5ad19a65f19a836d9c44904ac9c"
+    },
+    {
+      "path": "tools/paper-warfront/check_ai_engagement.py",
+      "bytes": 11904,
+      "sha256": "ea83f3fe46820274b607eca192494bb63e6f41145f4e2119b3eb570cfdb32f39"
+    },
+    {
+      "path": "tools/paper-warfront/check_packaged_apk_logic.py",
+      "bytes": 4961,
+      "sha256": "63f6c446f6da7d857f40dd67034f7e483a49e0e70d448d2f9ea4c8c33be1a326"
+    },
+    {
+      "path": "tools/paper-warfront/check_packaged_windows_logic.py",
+      "bytes": 4261,
+      "sha256": "bb3a547260b1d402ba1795b842fa36b6d7999d1f9907f33b211eda10f9924e5f"
+    },
+    {
+      "path": "tools/paper-warfront/audit_preview_build.py",
+      "bytes": 16556,
+      "sha256": "646eca9e68700e6b850fbc72cc07a6c10d1621867f7ca7b557cd51c3493d851a"
+    }
+  ],
+  "previous_tactical_ai": {
+    "path": "output/qa/godot/core-alignment-rc20/solo-control-before/source/game/scripts/tactical_ai.gd",
+    "bytes": 65549,
+    "sha256": "190b4f6d464a55ea0eccd86e40c305edba69f8f8583d47ed7b80f057448f1aef"
+  },
+  "same_final_observer_before_after": [
+    {
+      "path": "output/qa/godot/core-alignment-rc20/solo-control-before/final-observer258.log",
+      "bytes": 2865,
+      "sha256": "d13a86313de9e62a2551c7a0fa1a7efa0e13722c214148c35f5dc36bb33ff547",
+      "checks": 258,
+      "failures": 30
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/solo-control-after/final-observer258.log",
+      "bytes": 117,
+      "sha256": "a4e6c1841efca3b71ca3272d96792ea3167c4bd324fc2dcff929467f0ad0497c",
+      "checks": 258,
+      "failures": 0
+    }
+  ],
+  "observer_scope": "Controlled coordinates, windup, HP and available ability; both sides, hidden target, one-mana deficit, cooldown, lethal/nonlethal and surviving-lightning boundaries. These are mechanism fixtures, not natural economic openings.",
+  "source_mechanisms": {
+    "groups": 64,
+    "checks": 14128,
+    "passed": true,
+    "evidence": {
+      "path": "output/qa/godot/core-alignment-rc20/solo-control-regression/report.json",
+      "bytes": 16485,
+      "sha256": "944ca5c0f6ba33faeb2a0d45dc0f371139d9c4987251b2db843c9803f6e7647b"
+    }
+  },
+  "normal_paid_observations": {
+    "matched_observations": 9,
+    "seed": 271,
+    "duration_seconds": 300,
+    "maps": [
+      "map.01.01",
+      "map.01.04",
+      "map.01.11"
+    ],
+    "initial_gold": 300,
+    "jin_frontliner_gold": 125,
+    "changed_runtime": [
+      "game/scripts/tactical_ai.gd"
+    ],
+    "provenance_passed": true,
+    "advanced_unit_research_in_candidate_sides": 0,
+    "balance_accepted": false,
+    "evidence": {
+      "path": "output/qa/godot/core-alignment-rc20/solo-control-jin-comparison.json",
+      "bytes": 15642,
+      "sha256": "e3d4c42b697a6133f712fd67fc163aecced39dcacad91933ed2aef27eb0436ab"
+    },
+    "scope": "Normal both-side policy and west-only/east-only R12 candidate; formal prices, real mining, production, spell costs and visibility. Not a new full cross-faction matrix."
+  },
+  "compiled_package_logic": {
+    "windows": {
+      "groups": 17,
+      "checks": 1198,
+      "passed": true,
+      "evidence": {
+        "path": "output/qa/godot/ui-rc20/release/windows-logic/report.json",
+        "bytes": 5584,
+        "sha256": "77aedbc46746d934365a480c0ae7a38941436fc09ec0b11f1346c3930c0c742a"
+      },
+      "execution_host": "Windows native Godot; extracted packaged GDC"
+    },
+    "apk": {
+      "groups": 17,
+      "checks": 1198,
+      "passed": true,
+      "evidence": {
+        "path": "output/qa/godot/ui-rc20/release/apk-logic/report.json",
+        "bytes": 14331,
+        "sha256": "5b9781bc42c62bee60376985f13c6146c79090713b0b6f46f366cc68997c2547"
+      },
+      "execution_host": "Windows native Godot; extracted packaged GDC"
+    }
+  },
+  "ui_contract": {
+    "asset_manifest": "assets/paper-warfront/ui/paper-ui.json",
+    "asset_version": "3.0.0-rc16-preview",
+    "asset_count": 38,
+    "image_skill": "sub2-image-gen",
+    "model": "gpt-image-2.5",
+    "new_generated_images_in_this_revision": 0,
+    "paper_style_checks": 98,
+    "live_battle_sheet_checks": 270,
+    "modal_navigation_checks": 157,
+    "compiled_recruitment_ui_checks": 411,
+    "native_mobile_layout_checks": 26291,
+    "actual_exported_exe_cases": 6,
+    "unobscured_battlefield_ratios": {
+      "compact-16x9": 0.722007042253521,
+      "phone-16x9": 0.754166666666667,
+      "phone-high-density": 0.754166666666667,
+      "phone-notch": 0.712393162393162,
+      "phone-reverse-notch": 0.706166666666667,
+      "tablet-4x3": 0.809466666666667,
+      "tablet-16x10": 0.786666666666667,
+      "portrait-recovery": 0.809375,
+      "compiled-desktop": 0.837777777777778,
+      "compiled-phone": 0.754166666666667,
+      "compiled-compact": 0.722007042253521,
+      "compiled-short": 0.726892605633803
+    },
+    "evidence": [
+      {
+        "path": "output/qa/godot/ui-rc20/release/paper-ui/report.json",
+        "bytes": 10690,
+        "sha256": "ea32433f601ecd6b248271ddf70f6b75e0184763145733d418277cd3e25b8efd"
+      },
+      {
+        "path": "output/qa/godot/ui-rc20/release/live-battle-sheets/report.json",
+        "bytes": 10057,
+        "sha256": "2dda9ab8fce46a4fa1b30118cd8316b0e0c93b4cf0f8eb79fd7d03199be34c2a"
+      },
+      {
+        "path": "output/qa/godot/ui-rc20/release/modal-navigation/report.json",
+        "bytes": 6746,
+        "sha256": "312918d30bfc6519fc78a1249c0dac3a7a876efc57902ecf0e21c181e720fa2e"
+      },
+      {
+        "path": "output/qa/godot/ui-rc20/release/packaged-recruitment-ui/report.json",
+        "bytes": 8451,
+        "sha256": "9bea4cdd611cb51ff0d78012b9e327dfc29749b894e0daef892dc34c245fb82f"
+      },
+      {
+        "path": "output/qa/godot/ui-rc20/release/mobile/export/report.json",
+        "bytes": 2521,
+        "sha256": "d0f64c7d76f6e3056a9be8779155c832d24dbe9a0b3ce955fa7894dc9c229df9"
+      }
+    ]
+  },
+  "experimental_budget_ai": {
+    "revision": "R12",
+    "default_enabled": false,
+    "revision_record": "assets/paper-warfront/balance-revisions/rc20-ai-income-staging-r12.json",
+    "balance_accepted": false,
+    "scope": "Preceding R12 200-match cross-faction matrix belongs to inputs before this formal spell fix; it is not current rc20 full balance proof."
+  },
+  "deliverables": [
+    {
+      "path": "release/3.0.0-rc20-preview/PaperWarfront-Windows-3.0.0-rc20-preview.zip",
+      "bytes": 165333178,
+      "sha256": "afa4dfdf0273a113c281ad0726ff79da2ee67144a171a058dacdaecafc87a6f3"
+    },
+    {
+      "path": "release/3.0.0-rc20-preview/windows/PaperWarfront.exe",
+      "bytes": 238219592,
+      "sha256": "af3aa520c5683c7b395b765a8f406994f023a180c3c17a25abbc47ac4777622f"
+    },
+    {
+      "path": "release/3.0.0-rc20-preview/android/PaperWarfront-3.0.0-rc20-preview.apk",
+      "bytes": 176407253,
+      "sha256": "5d874c5cb6f81eeef6eac521dd1331626f7bb138188d96490f7af0fd31b767d8"
+    }
+  ],
+  "preview_verification": {
+    "path": "release/3.0.0-rc20-preview/preview-verification.json",
+    "bytes": 2372,
+    "sha256": "611e638c1672e56cc7502e5022db0ea9ea1a1fb94f48a45c1c67c2af96f725b0"
+  },
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "all_campaign_human_playthrough_verified": false,
+  "scope": "Windows-native build and runtime checks, actual EXE launches and compiled UI, source/pack hashes. APK compiled GDC executed on Windows is not Android ARM64 engine or physical device proof. No Docker, WSL, VM, container, emulator or browser used."
+}

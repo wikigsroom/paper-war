@@ -1,0 +1,990 @@
+{
+  "schema": 1,
+  "version": "3.0.0-rc16-preview",
+  "model": "gpt-image-2.5",
+  "generation": [
+    {
+      "sheet": "buttons",
+      "path": "output/imagegen/paper-warfront/ui-rc16/buttons.png",
+      "sha256": "115bf331fe1abd642a0fa2a21b4bcceb0cd755904a544783e96684078f7e7ae4",
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt_sha256": "81894a2d668b5ddb159a6fedb24157a4b3b54f7a229ab304564fe99b58132274",
+      "model": "gpt-image-2.5",
+      "provider_skill": "sub2-image-gen",
+      "visually_reviewed": true
+    },
+    {
+      "sheet": "panels",
+      "path": "output/imagegen/paper-warfront/ui-rc16/panels.png",
+      "sha256": "7c5427b6af0b1471881ed0450c75307dbc222c3d44ffd4ecdd4be3a84fdc7aea",
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt_sha256": "521ea86de7a1fb5161e4e67661508455fb82c575d93bff9ea5f3f3d311e08903",
+      "model": "gpt-image-2.5",
+      "provider_skill": "sub2-image-gen",
+      "visually_reviewed": true
+    },
+    {
+      "sheet": "icons",
+      "path": "output/imagegen/paper-warfront/ui-rc16/icons.png",
+      "sha256": "7387443cc77cf451969af895dfc61131d4f370a9bfb2284cbe6abd37a06553d7",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt_sha256": "566905027f72065c9420a17e61b56900d2879b26104eda61a435d42e76a9fbe7",
+      "model": "gpt-image-2.5",
+      "provider_skill": "sub2-image-gen",
+      "visually_reviewed": true
+    }
+  ],
+  "processing": "prepare_paper_ui.py: alpha normalization, independent reviewed gutter crop, Lanczos resize, composites of generated art, contrast variant of generated flag, no text rasterization",
+  "assets": [
+    {
+      "id": "ui.fold.button.normal",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-normal.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-normal.png",
+      "sha256": "8ded94a2d050135cd76191a6e40c6c80ffc0e4ae29693f14074886cd275d28fc",
+      "source": "buttons.png",
+      "source_cell": [
+        0,
+        0,
+        768,
+        256
+      ],
+      "alpha_crop": [
+        55,
+        55,
+        739,
+        234
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.primary",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-primary.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-primary.png",
+      "sha256": "565675df0060e0da0b056a6174576fc852e2beb4c671b19d68eb6e14343278c6",
+      "source": "buttons.png",
+      "source_cell": [
+        768,
+        0,
+        1536,
+        256
+      ],
+      "alpha_crop": [
+        36,
+        56,
+        718,
+        234
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.hover",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-hover.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-hover.png",
+      "sha256": "0f276b250989fc9fc015ae758b38a8f6dbf51da17b29e4a4d0c9168760de6c7e",
+      "source": "buttons.png",
+      "source_cell": [
+        0,
+        256,
+        768,
+        490
+      ],
+      "alpha_crop": [
+        55,
+        31,
+        740,
+        210
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.pressed",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-pressed.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-pressed.png",
+      "sha256": "110f8dc31d61be6191c6edc1a87c5f8b549b7714a33bcf697a351b8dd2767d55",
+      "source": "buttons.png",
+      "source_cell": [
+        768,
+        256,
+        1536,
+        490
+      ],
+      "alpha_crop": [
+        35,
+        32,
+        718,
+        210
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.disabled",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-disabled.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-disabled.png",
+      "sha256": "3055c17cf08c51655cdfa0ee973d755a22f8f3a60dbca688f1a7a734defc3163",
+      "source": "buttons.png",
+      "source_cell": [
+        0,
+        490,
+        768,
+        725
+      ],
+      "alpha_crop": [
+        56,
+        29,
+        740,
+        210
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.selected",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-selected.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-selected.png",
+      "sha256": "e70a3a16794da291a527ba9bc2ae723cdad51ddb1d86888a054cf31f072cd324",
+      "source": "buttons.png",
+      "source_cell": [
+        768,
+        490,
+        1536,
+        725
+      ],
+      "alpha_crop": [
+        35,
+        30,
+        719,
+        210
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.primary-pressed",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-primary-pressed.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-primary-pressed.png",
+      "sha256": "64c4c3c31c940c5cac8314c48d0feff55d01b2fe6d2a59371231bc93110a588b",
+      "source": "buttons.png",
+      "source_cell": [
+        0,
+        725,
+        768,
+        1024
+      ],
+      "alpha_crop": [
+        56,
+        29,
+        740,
+        208
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.button.gold",
+      "version": 1,
+      "path": "res://assets/ui/paper/button-gold.png",
+      "library_path": "assets/paper-warfront/ui/paper/button-gold.png",
+      "sha256": "3047c44cc18c8484965f713a742e31918b252998a297dc4bd23b4683307e8315",
+      "source": "buttons.png",
+      "source_cell": [
+        768,
+        725,
+        1536,
+        1024
+      ],
+      "alpha_crop": [
+        36,
+        29,
+        718,
+        209
+      ],
+      "size": [
+        384,
+        104
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.panel.ledger",
+      "version": 1,
+      "path": "res://assets/ui/paper/panel-ledger.png",
+      "library_path": "assets/paper-warfront/ui/paper/panel-ledger.png",
+      "sha256": "07b81beb1f0502b35764eb72f0b6ff5c1823ec3b430320c5e31b90a1f14b5b51",
+      "source": "panels.png",
+      "source_cell": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "alpha_crop": [
+        33,
+        35,
+        747,
+        485
+      ],
+      "size": [
+        384,
+        240
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.panel.card",
+      "version": 1,
+      "path": "res://assets/ui/paper/panel-card.png",
+      "library_path": "assets/paper-warfront/ui/paper/panel-card.png",
+      "sha256": "395ba3db9663eb718e64278154ed33e53e13dc7c5835aa164189e1f5b8c07da7",
+      "source": "panels.png",
+      "source_cell": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "alpha_crop": [
+        29,
+        42,
+        734,
+        467
+      ],
+      "size": [
+        384,
+        240
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.panel.ink",
+      "version": 1,
+      "path": "res://assets/ui/paper/panel-ink.png",
+      "library_path": "assets/paper-warfront/ui/paper/panel-ink.png",
+      "sha256": "c0713991d9a0370d9e983b886751970094e67e0c1ac5fca97abdbef668f2c6d6",
+      "source": "panels.png",
+      "source_cell": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "alpha_crop": [
+        35,
+        17,
+        749,
+        466
+      ],
+      "size": [
+        384,
+        240
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.panel.jade",
+      "version": 1,
+      "path": "res://assets/ui/paper/panel-jade.png",
+      "library_path": "assets/paper-warfront/ui/paper/panel-jade.png",
+      "sha256": "8e99834e7a59e7ef51a26a310eb47c18dbc805da250fc562ff6c76a40f1d9208",
+      "source": "panels.png",
+      "source_cell": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "alpha_crop": [
+        19,
+        14,
+        740,
+        471
+      ],
+      "size": [
+        384,
+        240
+      ],
+      "nine_slice": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.gold",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-gold.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-gold.png",
+      "sha256": "74e170701f2ed11bdcc5862481c6407c0320fb72e2cae512a1bd94d70a414a50",
+      "source": "icons.png",
+      "source_cell": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "alpha_crop": [
+        58,
+        66,
+        282,
+        286
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.mana",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-mana.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-mana.png",
+      "sha256": "4a1f61dbeb3e426a9c5a40b89dd6755b4d23cf0f7a3ffbc81e0cd96daaefa020",
+      "source": "icons.png",
+      "source_cell": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "alpha_crop": [
+        72,
+        40,
+        247,
+        297
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.army",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-army.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-army.png",
+      "sha256": "49b71ca33530fceb3129352b37987aa936da6d0a534942f1f5b642db3e601e95",
+      "source": "icons.png",
+      "source_cell": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "alpha_crop": [
+        32,
+        39,
+        284,
+        295
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.seal",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-seal.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-seal.png",
+      "sha256": "5258557b8655cfd39410400169c2e12e7855784cccfa434b357ff423cb8d2ec9",
+      "source": "icons.png",
+      "source_cell": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "alpha_crop": [
+        50,
+        65,
+        256,
+        277
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.tower",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-tower.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-tower.png",
+      "sha256": "c968629e8a234a7630ebc91229617d74f7421d58840ff6399c731311df8a33af",
+      "source": "icons.png",
+      "source_cell": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "alpha_crop": [
+        69,
+        25,
+        268,
+        284
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.hourglass",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-hourglass.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-hourglass.png",
+      "sha256": "938338fff06b26e32b5d493589ce17ca0019e2606c1f2453239c2b1c309c6230",
+      "source": "icons.png",
+      "source_cell": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "alpha_crop": [
+        67,
+        30,
+        254,
+        281
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.check",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-check.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-check.png",
+      "sha256": "b49d41da155fa8ea5b0f8a3ba4fd2701f56a1c78d7f51d8e0410fc5237176c14",
+      "source": "icons.png",
+      "source_cell": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "alpha_crop": [
+        34,
+        49,
+        299,
+        274
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.close",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-close.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-close.png",
+      "sha256": "d7b28aa51b56bee8782e5932f3b634531a1756d50053d6623749a305bfd5cbb8",
+      "source": "icons.png",
+      "source_cell": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "alpha_crop": [
+        33,
+        35,
+        269,
+        272
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.lock",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-lock.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-lock.png",
+      "sha256": "ccf029ab84196bacb5835e5508e6d70c27af4fad79ece293975b7d932ae46680",
+      "source": "icons.png",
+      "source_cell": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "alpha_crop": [
+        65,
+        24,
+        274,
+        313
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.pause",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-pause.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-pause.png",
+      "sha256": "1b941c3506e983cd445797b45348710714d01fd60680ad19a90e72cfdaf2b121",
+      "source": "icons.png",
+      "source_cell": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "alpha_crop": [
+        68,
+        43,
+        253,
+        258
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.back",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-back.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-back.png",
+      "sha256": "d86cb2370a90b278c0321820d35086a88f0cd3890dd34c789714ffdde7a717bc",
+      "source": "icons.png",
+      "source_cell": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "alpha_crop": [
+        29,
+        50,
+        278,
+        257
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.flag",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-flag.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-flag.png",
+      "sha256": "d66a510218a17be57c639880eca2c12aa54e49169a0aba373ecaa51ee2e7f331",
+      "source": "icons.png",
+      "source_cell": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "alpha_crop": [
+        47,
+        2,
+        278,
+        276
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.victory",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-victory.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-victory.png",
+      "sha256": "a24b7eb626c3dc5382cc52671b4783a8df2a72743b0314517d72ea053aefc9da",
+      "source": "icons.png",
+      "source_cell": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "alpha_crop": [
+        37,
+        0,
+        302,
+        263
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.defeat",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-defeat.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-defeat.png",
+      "sha256": "d2d2a1c85cb7796a284856252ec8e2bf1a92b61ce8196d513633fcd302b94c55",
+      "source": "icons.png",
+      "source_cell": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "alpha_crop": [
+        48,
+        9,
+        271,
+        260
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.settings",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-settings.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-settings.png",
+      "sha256": "f4795edc998683c29f07b8a54eaa4b34e802ab390839e23fc228b49b8f06f51f",
+      "source": "icons.png",
+      "source_cell": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "alpha_crop": [
+        34,
+        9,
+        273,
+        252
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.scroll",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-scroll.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-scroll.png",
+      "sha256": "c4bc3a04a901d729c34d4fc28aa34522b89fb09e2c1870e153bea190f601de04",
+      "source": "icons.png",
+      "source_cell": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "alpha_crop": [
+        26,
+        6,
+        268,
+        254
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "nine_slice": null,
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.toggle-on",
+      "version": 1,
+      "path": "res://assets/ui/paper/toggle-on.png",
+      "library_path": "assets/paper-warfront/ui/paper/toggle-on.png",
+      "sha256": "b5d2fc64e9f7b5ad08f8d8100eb0f8d65b7146610adff0111f4f1951b0019b7c",
+      "derived_from": [
+        "ui.fold.button.normal",
+        "ui.fold.icon.check"
+      ],
+      "size": [
+        30,
+        30
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.toggle-off",
+      "version": 1,
+      "path": "res://assets/ui/paper/toggle-off.png",
+      "library_path": "assets/paper-warfront/ui/paper/toggle-off.png",
+      "sha256": "8c792280a08f55755c736572dde71da878b51b02cec35bf978e35890fa57a01c",
+      "derived_from": [
+        "ui.fold.button.normal"
+      ],
+      "size": [
+        30,
+        30
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.toggle-on-disabled",
+      "version": 1,
+      "path": "res://assets/ui/paper/toggle-on-disabled.png",
+      "library_path": "assets/paper-warfront/ui/paper/toggle-on-disabled.png",
+      "sha256": "4621c9b50bc4a8ae9e3279e85657b6686882a2a3dfb1e8e4f5af7086cf93d381",
+      "derived_from": [
+        "ui.fold.button.normal",
+        "ui.fold.icon.check"
+      ],
+      "size": [
+        30,
+        30
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.toggle-off-disabled",
+      "version": 1,
+      "path": "res://assets/ui/paper/toggle-off-disabled.png",
+      "library_path": "assets/paper-warfront/ui/paper/toggle-off-disabled.png",
+      "sha256": "76124d64f8bd1ed72096d6e565e3f5ee88aa4d1c22f674be4c14c3f3651bfc7f",
+      "derived_from": [
+        "ui.fold.button.normal"
+      ],
+      "size": [
+        30,
+        30
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.slider-thumb",
+      "version": 1,
+      "path": "res://assets/ui/paper/slider-thumb.png",
+      "library_path": "assets/paper-warfront/ui/paper/slider-thumb.png",
+      "sha256": "57d01f0e3357236c7bbd5020c8e666425caecc03d7b3cac7fd5062b4981625e4",
+      "derived_from": [
+        "ui.fold.button.normal"
+      ],
+      "size": [
+        24,
+        24
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.slider-thumb-hover",
+      "version": 1,
+      "path": "res://assets/ui/paper/slider-thumb-hover.png",
+      "library_path": "assets/paper-warfront/ui/paper/slider-thumb-hover.png",
+      "sha256": "8d5141bbc0278f871e3c2d055673eafe078677612a46537babbc78312d50e97b",
+      "derived_from": [
+        "ui.fold.button.hover"
+      ],
+      "size": [
+        24,
+        24
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.arrow-down",
+      "version": 1,
+      "path": "res://assets/ui/paper/arrow-down.png",
+      "library_path": "assets/paper-warfront/ui/paper/arrow-down.png",
+      "sha256": "15a68b1e13e758a7ae065c8e6c90ce84e61eb2fda3231459902ad591872d8062",
+      "derived_from": [
+        "ui.fold.icon.back"
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.arrow-up",
+      "version": 1,
+      "path": "res://assets/ui/paper/arrow-up.png",
+      "library_path": "assets/paper-warfront/ui/paper/arrow-up.png",
+      "sha256": "8d29f76d1bc572fb6a804700ceccf54f220b9c5d798c2b21cc08a391632117c5",
+      "derived_from": [
+        "ui.fold.icon.back"
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.control.arrow-right",
+      "version": 1,
+      "path": "res://assets/ui/paper/arrow-right.png",
+      "library_path": "assets/paper-warfront/ui/paper/arrow-right.png",
+      "sha256": "07ae78cdcb29b129714243893e8d900e27c288b0100e4bd8a85bf95dd86c92e4",
+      "derived_from": [
+        "ui.fold.icon.back"
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "checked": true
+    },
+    {
+      "id": "ui.fold.icon.flag-light",
+      "version": 1,
+      "path": "res://assets/ui/paper/icon-flag-light.png",
+      "library_path": "assets/paper-warfront/ui/paper/icon-flag-light.png",
+      "sha256": "8454944737d769ba9b985e5757729997e6e58df43130c856a6284cf0bb054b15",
+      "derived_from": [
+        "ui.fold.icon.flag"
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "checked": true
+    }
+  ],
+  "scope": "Reviewed UI bitmap assets. Not gameplay or performance proof."
+}

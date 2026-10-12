@@ -1,0 +1,250 @@
+{
+  "revision": "rc23-ai-economy-bootstrap-r1",
+  "rule_id": "ai.common.economy.bootstrap",
+  "version": "3.0.0-rc23-preview",
+  "status": "verified-preview",
+  "implementation": "native Godot tactical AI; actual worker, facility and authored research budgets",
+  "source": "game/scripts/tactical_ai.gd",
+  "source_sha256": "7dc282816d4b851ebe2f4966b135fec01775c90d11310068fb0dd7f02a007f00",
+  "changed_public_inputs_since_rc22": [
+    "game/export_presets.cfg",
+    "game/project.godot",
+    "game/scripts/tactical_ai.gd"
+  ],
+  "r8_active_branch_equals_formal_source": true,
+  "unchanged_extracted_apk_inputs_since_rc22": 1100,
+  "changed_extracted_apk_inputs_since_rc22": [
+    ".godot/uid_cache.bin",
+    "assets.sparsepck",
+    "project.binary",
+    "scripts/tactical_ai.gdc"
+  ],
+  "new_raster_generation": false,
+  "style_tokens_version": "1.2.0",
+  "reused_presentation_revisions": [
+    "rc21-fog-stage-r1",
+    "rc22-observer-camera-r1"
+  ],
+  "reused_ui_asset_version": "3.0.0-rc16-preview",
+  "reused_ui_assets": 38,
+  "reused_ui_generation_model": "gpt-image-2.5",
+  "source_mechanism_checks": {
+    "groups": 68,
+    "checks": 15436
+  },
+  "packaged_logic_checks_on_windows": {
+    "windows": {
+      "groups": 24,
+      "checks": 2546
+    },
+    "apk": {
+      "groups": 24,
+      "checks": 2546
+    }
+  },
+  "paired_single_side_observations": {
+    "compare-r8-west-matrix.json": {
+      "pairs": 100,
+      "candidate_side": 0,
+      "map": "map.01.04",
+      "seed": 137,
+      "stock": 160,
+      "duration": 240,
+      "identical_disabled_records": [
+        6,
+        9,
+        60,
+        66,
+        90,
+        99
+      ],
+      "totals": {
+        "control": {
+          "win": 41,
+          "loss": 39,
+          "unresolved": 20,
+          "workers_at_endpoint": 121,
+          "no_workers_at_endpoint": 47,
+          "gold_delivered": 28653,
+          "research_paid": 30,
+          "research_completed": 27,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 16
+        },
+        "candidate": {
+          "win": 57,
+          "loss": 23,
+          "unresolved": 20,
+          "workers_at_endpoint": 179,
+          "no_workers_at_endpoint": 35,
+          "gold_delivered": 38819,
+          "research_paid": 61,
+          "research_completed": 57,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 18
+        }
+      },
+      "win_to_loss_indices": [
+        25,
+        27
+      ],
+      "win_to_unresolved_indices": [
+        14,
+        26,
+        73
+      ]
+    },
+    "compare-r8-short-east.json": {
+      "pairs": 2,
+      "candidate_side": 1,
+      "map": "map.01.01",
+      "seed": 271,
+      "stock": 160,
+      "duration": 240,
+      "identical_disabled_records": [],
+      "totals": {
+        "control": {
+          "win": 0,
+          "loss": 0,
+          "unresolved": 2,
+          "workers_at_endpoint": 4,
+          "no_workers_at_endpoint": 0,
+          "gold_delivered": 1020,
+          "research_paid": 0,
+          "research_completed": 0,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 0
+        },
+        "candidate": {
+          "win": 0,
+          "loss": 0,
+          "unresolved": 2,
+          "workers_at_endpoint": 5,
+          "no_workers_at_endpoint": 0,
+          "gold_delivered": 1252,
+          "research_paid": 1,
+          "research_completed": 1,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 0
+        }
+      },
+      "win_to_loss_indices": [],
+      "win_to_unresolved_indices": []
+    },
+    "compare-r8-long-east.json": {
+      "pairs": 2,
+      "candidate_side": 1,
+      "map": "map.01.20",
+      "seed": 419,
+      "stock": 160,
+      "duration": 240,
+      "identical_disabled_records": [],
+      "totals": {
+        "control": {
+          "win": 0,
+          "loss": 0,
+          "unresolved": 2,
+          "workers_at_endpoint": 4,
+          "no_workers_at_endpoint": 0,
+          "gold_delivered": 744,
+          "research_paid": 0,
+          "research_completed": 0,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 0
+        },
+        "candidate": {
+          "win": 0,
+          "loss": 1,
+          "unresolved": 1,
+          "workers_at_endpoint": 2,
+          "no_workers_at_endpoint": 1,
+          "gold_delivered": 496,
+          "research_paid": 0,
+          "research_completed": 0,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "research_unredeemed_with_30s": 0
+        }
+      },
+      "win_to_loss_indices": [],
+      "win_to_unresolved_indices": []
+    }
+  },
+  "paired_scope": "104 pairs, 160 starting gold, 240-second ceiling; one changed AI side, zero AI warmup. Shipping uses the fix on both sides. These are not human-play or complete balance measurements.",
+  "advanced_first_deployment_candidate_shipped": false,
+  "advanced_first_deployment_gap_remaining": true,
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "original_game_numeric_equivalence_verified": false,
+  "files": {
+    "tools/paper-warfront/write_ai_bootstrap_revision.py": "6d73e74b94b186efedbdd2d9d7539e5a1ba53386c5bccf7c7c5291d3b35c91ff",
+    "tools/paper-warfront/observe_ai_redemption.py": "938431ef7dfebd1190bf7fc0b5a4853605832774fc74314c4874fb5a44596252",
+    "tools/paper-warfront/compare_ai_redemption.py": "9605f2800d85142d1d53e98bf109fc80ee3864495fa3703dd38ab41cafe7f378",
+    "game/tests/test_ai_economy_bootstrap.gd": "0afc0a2343de73bd3fc9576d88943670261ff315c2bd08b89237da460950dc95",
+    "game/tests/test_ai_bootstrap_investments.gd": "8798fceb781b6aed146000ae1e67b85851d2cae476bc6c01a230da9b99b3b598",
+    "game/tests/test_ai_route_defense.gd": "ef095dc94616be5aef17b93ce742a768bb0e02e33a3fd405f8181873ff3d02e2",
+    "docs/paper-warfront/132-正常开局资金优先级与科技兑现复核及rc23交付.md": "dcc16754768a872bdfb883c487d0e788e17f38869cf2701a8dcdebbb08506425",
+    "docs/paper-warfront/11-Godot架构与数据契约.md": "c47fd26795dbfea95180b3b78141f1dec0bb8ebe8bf36b10bd70788ee969b1f9",
+    "docs/paper-warfront/16-玩家手册.md": "4932bc312ff170357cefa101e8c6c499b6dc1ffc0922378cf7dc2429e9c24d8c",
+    "assets/paper-warfront/presentation-revisions/rc21-fog-stage-r1.json": "8dbb7c3b17ea93e24da694392be3a7dd2e4be96bb9550841302c3bf090bdcca2",
+    "assets/paper-warfront/presentation-revisions/rc22-observer-camera-r1.json": "687c345efd3226b26a55fc0540bf25336fd8495914514fd3ec3ffb36b200bc94",
+    "assets/paper-warfront/style-tokens.json": "bdfc5d7a21acf808b7c9d78e81b63b4adf226ec5aebf6acc72c45b5f2a1ed761",
+    "assets/paper-warfront/ui/paper-ui.json": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2",
+    "release/3.0.0-rc23-preview/README.md": "ab51a68496afa99183980623b42dec8673228715f0625d9b41cb1be36b02314b",
+    "release/3.0.0-rc23-preview/build-manifest.json": "e71c09fa4be2b36cd95a3596e5b99ef26c68bbfb2168dc56a7a8cd6d6322dbb6",
+    "release/3.0.0-rc23-preview/preview-verification.json": "fcbe1d4dac698b7f8c20ee85e72529ce25a7558f10ddc2be089c0c39cf8a3687",
+    "output/qa/godot/ai-redemption-rc23/formal-source/equivalence.json": "f5fcefd4d700e9ba81d7add01858ec17b3ef095944df2f3cad7ab2c62ac4f4e6",
+    "output/qa/godot/ai-redemption-rc23/formal-source/tactical-ai.diff": "1b71491cce96f3c9d4f885d960777a07e8b59310e210be5e7d4f1e96b3991ea5",
+    "output/qa/godot/ai-redemption-rc23/observer-v2.py": "938431ef7dfebd1190bf7fc0b5a4853605832774fc74314c4874fb5a44596252",
+    "output/qa/godot/ai-redemption-rc23/formal-reach/regression/report.json": "41f1e267eae597310c46dda488e57df7341c48f81194abd94a1c2bebee6bd168",
+    "output/qa/godot/ai-redemption-rc23/formal-reach/verification.json": "d42be4991068ad596f2bf3cbd68121badfc6b1fa1120caa1ec94b49ca16946e6",
+    "output/qa/godot/ai-redemption-rc23/formal-hammer/verification.json": "748795ce66c373bf030284cef1065eb758b2ee4a3da7f8776c48e9e644a28036",
+    "output/qa/godot/ai-redemption-rc23/control-matrix-r1/report.json": "3d52338dac1bb667fb9821627d2a3681b1e7e72e116bd32bb885347ee1b5d637",
+    "output/qa/godot/ai-redemption-rc23/economy-r8-west-matrix/report.json": "cf9d092a2a099077a2ade9fa605fb4ee816088859043f0be917c845fe77cf043",
+    "output/qa/godot/ai-redemption-rc23/economy-r8-disabled-control/report.json": "18206b1dd053a323c2642042395776d65d215a3553a1fbd89c3544f513f6a104",
+    "output/qa/godot/ai-redemption-rc23/short-r8-east-271/report.json": "07a6946812659104667bd35304cd507555fb7859eb5d8d99da3ed2e415714687",
+    "output/qa/godot/ai-redemption-rc23/long-r8-east-419/report.json": "d488a32bafb32b322fda3b281cc1a8ee209d1eec7852f1abe7f8843de671f011",
+    "output/qa/godot/ai-redemption-rc23/compare-r8-west-matrix.json": "3adf54d2a61d09b6cb7773530735f95345f7379d3e5c6cf6513c4602b4cac527",
+    "output/qa/godot/ai-redemption-rc23/compare-r8-short-east.json": "f57bedf566b067943477728a75ad4bb0a802bcd9ab28598ed4cfc6f745ef2d13",
+    "output/qa/godot/ai-redemption-rc23/compare-r8-long-east.json": "a9c9f8655be3bd95d39f2c76ef2a988be8f827d94e214783ace066dde8f66a2b",
+    "output/qa/godot/ai-redemption-rc23/compare-grant-r6-matrix.json": "80ab9e873242dcee29edabf45e0fca6f91a242e0921848d15c233237e081deb4",
+    "output/qa/godot/ai-redemption-rc23/formal-reach/regression-r5-failed/report.json": "24955666f1c8fb49c8a31e831364ef1c37fc96e04517e26cf3d964c9ab487941",
+    "output/qa/godot/ai-redemption-rc23/r5-export-not-deliverable/status.json": "ed1a1c055092d1c8fed7309cd3c35a31b140be250dd47b5a8294bc0cd6bda198",
+    "output/qa/godot/ai-redemption-rc23/release-final/windows-logic/report.json": "a7f29bbb05a210c4439d924e71e00ab43427f3b429b1b350b2891237e4863850",
+    "output/qa/godot/ai-redemption-rc23/release-final/apk-logic/report.json": "5c10d1c41b51ec67b97d35119386790238ad29e8c12f1319a4e625d61e777731",
+    "output/qa/godot/ai-redemption-rc23/release-final/camera-render/report.json": "b1f2e21c82d877cd034ad22806ac696654081c7d2ebdcb65d002f10c47c6246d",
+    "output/qa/godot/ai-redemption-rc23/release-final/fog-render/report.json": "7af2f7c9c65f3d088523880b624fbfd1c20774f5787b32827f6c439fa24d79f9",
+    "output/qa/godot/ai-redemption-rc23/release-final/stage-proportions/report.json": "042c40dc113aabca2a0ce48649e49591ed6757a250eaffeced139a78d51cf71a",
+    "output/qa/godot/ai-redemption-rc23/release-final/duel-stage/report.json": "ed687d582b69b6ef64f12fae7df37138057dea9476d4f36a9f3055eeff38dc14",
+    "output/qa/godot/ai-redemption-rc23/release-final/mobile/mobile-matrix.json": "ff1ae979d52301b06cb7c6b1a1b7165c320760a8428bb53707c7b87e64d2de4e",
+    "output/qa/godot/ai-redemption-rc23/release-final/paper-ui-assets.json": "fca73f1191050c0b3d69ec8625c0cf87004e87a33c07812dddd1e0c0da0e90af"
+  },
+  "builds_and_archives": [
+    {
+      "path": "release/3.0.0-rc23-preview/windows/PaperWarfront.exe",
+      "bytes": 238229880,
+      "sha256": "9184c819a4b01859e7a22cba0fd46b516cda8e32e6b241a8c652d6f5f5d598b4"
+    },
+    {
+      "path": "release/3.0.0-rc23-preview/android/PaperWarfront-3.0.0-rc23-preview.apk",
+      "bytes": 176419698,
+      "sha256": "497897fc27bbced7d23e1fd5eb8da5d2fefdff6466001bdb75ef961c84e6019b"
+    },
+    {
+      "path": "release/3.0.0-rc23-preview/PaperWarfront-Windows-3.0.0-rc23-preview.zip",
+      "bytes": 165351311,
+      "sha256": "81cae7ed3ae5852d5265e61421d81bccaa51ec05771b110f75b360033fa3c1e3"
+    }
+  ]
+}

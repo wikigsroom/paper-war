@@ -1,0 +1,326 @@
+{
+  "version": "1.0.0",
+  "stage": "godot-offline-implemented",
+  "research_currency": "gold",
+  "time_continues_while_tree_open": true,
+  "starting_unlocked": {
+    "yin": [
+      "unit.yin.axe",
+      "unit.yin.worker",
+      "spell.yin.repair"
+    ],
+    "mo": [
+      "unit.mo.blade",
+      "unit.mo.worker",
+      "spell.mo.sacrifice"
+    ],
+    "deng": [
+      "unit.deng.mirror",
+      "unit.deng.worker",
+      "spell.deng.protect",
+      "building.deng.mana"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "tech.yin.spear",
+      "faction": "yin",
+      "grant": "unit.yin.spear",
+      "gold": 45,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "tech.yin.hammer",
+      "faction": "yin",
+      "grant": "unit.yin.hammer",
+      "gold": 100,
+      "seconds": 4,
+      "requires": [
+        "tech.yin.spear"
+      ],
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "tech.yin.cannon",
+      "faction": "yin",
+      "grant": "unit.yin.cannon",
+      "gold": 120,
+      "seconds": 5,
+      "requires": [
+        "tech.yin.hammer"
+      ],
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "tech.yin.lightning",
+      "faction": "yin",
+      "grant": "spell.yin.lightning",
+      "gold": 65,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "tech.yin.cold",
+      "faction": "yin",
+      "grant": "spell.yin.cold",
+      "gold": 70,
+      "seconds": 3,
+      "requires": [
+        "tech.yin.lightning"
+      ],
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "tech.yin.fury",
+      "faction": "yin",
+      "grant": "spell.yin.fury",
+      "gold": 80,
+      "seconds": 3,
+      "requires": [
+        "tech.yin.spear"
+      ],
+      "column": 1,
+      "row": 2
+    },
+    {
+      "id": "tech.yin.stamp",
+      "faction": "yin",
+      "grant": "spell.yin.stamp",
+      "gold": 145,
+      "seconds": 5,
+      "requires": [
+        "tech.yin.hammer",
+        "tech.yin.lightning"
+      ],
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "tech.yin.mana-1",
+      "faction": "yin",
+      "grant": "upgrade.yin.mana-1",
+      "gold": 65,
+      "seconds": 2,
+      "requires": [],
+      "column": 0,
+      "row": 3
+    },
+    {
+      "id": "tech.yin.mana-2",
+      "faction": "yin",
+      "grant": "upgrade.yin.mana-2",
+      "gold": 130,
+      "seconds": 4,
+      "requires": [
+        "tech.yin.mana-1"
+      ],
+      "column": 1,
+      "row": 3
+    },
+    {
+      "id": "tech.yin.tower",
+      "faction": "yin",
+      "grant": "building.yin.tower",
+      "gold": 70,
+      "seconds": 3,
+      "requires": [
+        "tech.yin.spear"
+      ],
+      "column": 1,
+      "row": 4
+    },
+    {
+      "id": "tech.mo.needle",
+      "faction": "mo",
+      "grant": "unit.mo.needle",
+      "gold": 45,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "tech.mo.priest",
+      "faction": "mo",
+      "grant": "unit.mo.priest",
+      "gold": 85,
+      "seconds": 4,
+      "requires": [
+        "tech.mo.needle"
+      ],
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "tech.mo.giant",
+      "faction": "mo",
+      "grant": "unit.mo.giant",
+      "gold": 150,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.priest"
+      ],
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "tech.mo.bind",
+      "faction": "mo",
+      "grant": "spell.mo.bind",
+      "gold": 60,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "tech.mo.poison",
+      "faction": "mo",
+      "grant": "spell.mo.poison",
+      "gold": 80,
+      "seconds": 3,
+      "requires": [
+        "tech.mo.needle"
+      ],
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "tech.mo.convert",
+      "faction": "mo",
+      "grant": "spell.mo.convert",
+      "gold": 160,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.bind",
+        "tech.mo.priest"
+      ],
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "tech.mo.burst",
+      "faction": "mo",
+      "grant": "spell.mo.burst",
+      "gold": 140,
+      "seconds": 5,
+      "requires": [
+        "tech.mo.poison"
+      ],
+      "column": 2,
+      "row": 2
+    },
+    {
+      "id": "tech.mo.tower",
+      "faction": "mo",
+      "grant": "building.mo.tower",
+      "gold": 70,
+      "seconds": 3,
+      "requires": [
+        "tech.mo.needle"
+      ],
+      "column": 1,
+      "row": 3
+    },
+    {
+      "id": "tech.deng.fire",
+      "faction": "deng",
+      "grant": "unit.deng.fire",
+      "gold": 45,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "tech.deng.shadow",
+      "faction": "deng",
+      "grant": "unit.deng.shadow",
+      "gold": 90,
+      "seconds": 4,
+      "requires": [
+        "tech.deng.fire"
+      ],
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "tech.deng.effigy",
+      "faction": "deng",
+      "grant": "unit.deng.effigy",
+      "gold": 120,
+      "seconds": 4,
+      "requires": [
+        "tech.deng.shadow"
+      ],
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "tech.deng.clone",
+      "faction": "deng",
+      "grant": "spell.deng.clone",
+      "gold": 95,
+      "seconds": 3,
+      "requires": [
+        "tech.deng.fire"
+      ],
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "tech.deng.fire-rain",
+      "faction": "deng",
+      "grant": "spell.deng.fire",
+      "gold": 105,
+      "seconds": 4,
+      "requires": [
+        "tech.deng.fire"
+      ],
+      "column": 1,
+      "row": 2
+    },
+    {
+      "id": "tech.deng.root",
+      "faction": "deng",
+      "grant": "spell.deng.root",
+      "gold": 70,
+      "seconds": 3,
+      "requires": [],
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "tech.deng.guardian",
+      "faction": "deng",
+      "grant": "spell.deng.guardian",
+      "gold": 130,
+      "seconds": 5,
+      "requires": [
+        "tech.deng.effigy"
+      ],
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "tech.deng.tower",
+      "faction": "deng",
+      "grant": "building.deng.tower",
+      "gold": 80,
+      "seconds": 3,
+      "requires": [
+        "tech.deng.fire"
+      ],
+      "column": 1,
+      "row": 3
+    }
+  ]
+}

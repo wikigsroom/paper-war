@@ -1,0 +1,74 @@
+{
+	"elapsed_seconds": 32.69,
+	"range": [
+		79,
+		80
+	],
+	"results": [
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 14,
+				"gold_delivered": 1674,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 20,
+				"lost": 42,
+				"mana_spent": 420,
+				"recruited": 40,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yuan.protect": 8,
+					"spell.yuan.root": 6
+				},
+				"summons": 0
+			},
+			"gold": [
+				101.0,
+				23.0
+			],
+			"id": "campaign.ji.20",
+			"index": 79,
+			"map": "map.04.20",
+			"player": {
+				"build_counts": {
+					"building.ji.mana": 3
+				},
+				"buildings": 3,
+				"casts": 27,
+				"gold_delivered": 1960,
+				"healed": 1520,
+				"interrupts": 1,
+				"killed": 42,
+				"lost": 20,
+				"mana_spent": 730,
+				"recruited": 29,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.ji.cold": 1,
+					"spell.ji.fury": 6,
+					"spell.ji.lightning": 1,
+					"spell.ji.repair": 19
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 528.87,
+			"win_type": "destroy_base",
+			"winner": 0
+		}
+	],
+	"scope": "authored campaign, both sides use same resource and command rules; player is tactical AI, not a human",
+	"step": 0.0166666666666667,
+	"unresolved": [],
+	"victories": 1
+}

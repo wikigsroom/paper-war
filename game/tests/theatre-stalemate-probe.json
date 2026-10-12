@@ -1,0 +1,585 @@
+[
+	{
+		"actors": [
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 83.0,
+				"id": "unit.ji.javelin",
+				"s": 4.18950864705355,
+				"side": 1,
+				"statuses": {},
+				"target": -1,
+				"x": 6.18950843811035,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 83.0,
+				"id": "unit.ji.javelin",
+				"s": 4.49112864705355,
+				"side": 1,
+				"statuses": {},
+				"target": 10,
+				"x": 6.49112844467163,
+				"y": 0.0
+			},
+			{
+				"anim": "attack",
+				"edge": "ground.0",
+				"hp": 160.0,
+				"id": "unit.ji.vanguard",
+				"s": 0.644058647053458,
+				"side": 1,
+				"statuses": {},
+				"target": -1,
+				"x": 2.64405870437622,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 160.0,
+				"id": "unit.ji.vanguard",
+				"s": 1.18405864705346,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 3.18405866622925,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 83.0,
+				"id": "unit.ji.javelin",
+				"s": 4.49129031372138,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 6.49129009246826,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 160.0,
+				"id": "unit.ji.vanguard",
+				"s": 1.72405864705346,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 3.72405862808228,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 160.0,
+				"id": "unit.ji.vanguard",
+				"s": 2.26405864705346,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 4.2640585899353,
+				"y": 0.0
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.0",
+				"hp": 160.0,
+				"id": "unit.ji.vanguard",
+				"s": 2.80405864705346,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 4.80405855178833,
+				"y": 0.0
+			},
+			{
+				"anim": "walk",
+				"edge": "ground.2",
+				"hp": 148.0,
+				"id": "unit.ji.engineer",
+				"s": 10.694729389445,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 29.8569679260254,
+				"y": -2.58794808387756
+			},
+			{
+				"anim": "walk",
+				"edge": "ground.3",
+				"hp": 148.0,
+				"id": "unit.ji.engineer",
+				"s": 7.18792045847559,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 47.9427833557129,
+				"y": -0.625733911991119
+			}
+		],
+		"bases": [
+			{
+				"base": true,
+				"building": true,
+				"construction": 0.0,
+				"cooldown": 0.0,
+				"disabled": 0.0,
+				"edge": "ground.0",
+				"hp": 0.0,
+				"hurt": 0.13,
+				"id": "building.deng.base",
+				"max_hp": 1100.0,
+				"s": 0.0,
+				"side": 0,
+				"state": "active",
+				"uid": -1,
+				"x": 2.0,
+				"y": 0.0
+			},
+			{
+				"base": true,
+				"building": true,
+				"construction": 0.0,
+				"cooldown": 0.0,
+				"disabled": 0.0,
+				"edge": "ground.4",
+				"hp": 1100.0,
+				"hurt": 0.0,
+				"id": "building.ji.base",
+				"max_hp": 1100.0,
+				"s": 4.5,
+				"side": 1,
+				"state": "active",
+				"uid": -2,
+				"x": 58.0,
+				"y": 0.0
+			}
+		],
+		"map": "map.03.11",
+		"players": [
+			{
+				"ai_order": "",
+				"ai_research": "",
+				"ai_research_at": 263.066666666754,
+				"ai_route_at": 464.31666666658,
+				"cooldowns": {
+					"spell.deng.clone": 0.0,
+					"spell.deng.protect": 0.0,
+					"spell.deng.root": 0.0
+				},
+				"faction": "deng",
+				"gold": 25.0,
+				"mana": 11.055000000001,
+				"preferred_mine": "mine.0.0",
+				"production": 0.0166666666665911,
+				"queue": [],
+				"research": {},
+				"roster": [
+					"unit.deng.mirror",
+					"unit.deng.fire",
+					"unit.deng.shadow",
+					"unit.deng.guard"
+				],
+				"sequence": 61,
+				"studied": [
+					"tech.deng.unit.mirror",
+					"tech.deng.unit.fire",
+					"tech.deng.spell.protect",
+					"tech.deng.spell.clone",
+					"tech.deng.spell.fire",
+					"tech.deng.unit.shadow",
+					"tech.deng.unit.guard",
+					"tech.deng.spell.root"
+				],
+				"unlocked": [
+					"unit.deng.mirror",
+					"unit.deng.fire",
+					"unit.deng.worker",
+					"building.deng.tower",
+					"building.deng.mana",
+					"spell.deng.protect",
+					"spell.deng.clone",
+					"spell.deng.fire",
+					"unit.deng.shadow",
+					"unit.deng.guard",
+					"spell.deng.root"
+				]
+			},
+			{
+				"ai_order": "",
+				"ai_research": "",
+				"ai_research_at": 216.266666666717,
+				"ai_route_at": 467.566666666577,
+				"cooldowns": {
+					"spell.ji.cold": 0.0,
+					"spell.ji.repair": 0.0
+				},
+				"faction": "ji",
+				"gold": 67.0,
+				"mana": 15.8983333333217,
+				"preferred_mine": "mine.1.0",
+				"production": 0.0166666666665756,
+				"queue": [],
+				"research": {},
+				"roster": [
+					"unit.ji.vanguard",
+					"unit.ji.javelin",
+					"unit.ji.engineer",
+					"unit.ji.artillery"
+				],
+				"sequence": 64,
+				"studied": [
+					"tech.ji.unit.vanguard",
+					"tech.ji.unit.javelin",
+					"tech.ji.spell.repair",
+					"tech.ji.spell.lightning",
+					"tech.ji.spell.cold",
+					"tech.ji.unit.artillery",
+					"tech.ji.unit.engineer",
+					"tech.ji.spell.fury",
+					"tech.ji.spell.stamp"
+				],
+				"unlocked": [
+					"unit.ji.vanguard",
+					"unit.ji.javelin",
+					"unit.ji.worker",
+					"building.ji.tower",
+					"building.ji.mana",
+					"spell.ji.repair",
+					"spell.ji.lightning",
+					"spell.ji.cold",
+					"unit.ji.artillery",
+					"unit.ji.engineer",
+					"spell.ji.fury",
+					"spell.ji.stamp"
+				]
+			}
+		],
+		"stats": [
+			{
+				"build_counts": {
+					"building.deng.mana": 1,
+					"building.deng.tower": 1
+				},
+				"buildings": 2,
+				"casts": 21,
+				"gold_delivered": 1872,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 28,
+				"lost": 37,
+				"mana_spent": 690,
+				"recruited": 34,
+				"reflections": 28,
+				"spell_counts": {
+					"spell.deng.clone": 4,
+					"spell.deng.protect": 12,
+					"spell.deng.root": 5
+				},
+				"summons": 4
+			},
+			{
+				"build_counts": {
+					"building.ji.mana": 1,
+					"building.ji.tower": 1
+				},
+				"buildings": 2,
+				"casts": 16,
+				"gold_delivered": 2420,
+				"healed": 1139,
+				"interrupts": 0,
+				"killed": 37,
+				"lost": 28,
+				"mana_spent": 410,
+				"recruited": 41,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.ji.cold": 1,
+					"spell.ji.repair": 15
+				},
+				"summons": 0
+			}
+		],
+		"time": 464.366666666573,
+		"winner": 1
+	},
+	{
+		"actors": [
+			{
+				"anim": "idle",
+				"edge": "ground.2",
+				"hp": 10.0,
+				"id": "unit.yuan.vanguard",
+				"s": 5.67618159942631,
+				"side": 1,
+				"statuses": {},
+				"target": 256,
+				"x": 24.803918838501,
+				"y": -2.09714651107788
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.2",
+				"hp": 14.0,
+				"id": "unit.deng.mirror",
+				"s": 5.03119769546507,
+				"side": 0,
+				"statuses": {},
+				"target": 249,
+				"x": 24.1671447753906,
+				"y": -2.19973754882813
+			},
+			{
+				"anim": "idle",
+				"edge": "ground.2",
+				"hp": 146.0,
+				"id": "unit.yuan.vanguard",
+				"s": 6.21618159942631,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 25.337043762207,
+				"y": -2.01125407218933
+			},
+			{
+				"anim": "walk",
+				"edge": "ground.2",
+				"hp": 146.0,
+				"id": "unit.yuan.vanguard",
+				"s": 17.6087982660929,
+				"side": 1,
+				"statuses": {
+					"haste": {
+						"clock": 0.0,
+						"left": 1.16666666666668,
+						"potency": 0.35,
+						"source": 1
+					}
+				},
+				"target": 0,
+				"x": 36.6061172485352,
+				"y": -2.1775164604187
+			},
+			{
+				"anim": "walk",
+				"edge": "ground.1",
+				"hp": 140.0,
+				"id": "unit.deng.mirror",
+				"s": 10.8160267620341,
+				"side": 0,
+				"statuses": {},
+				"target": 0,
+				"x": 17.0263290405273,
+				"y": -2.48653411865234
+			},
+			{
+				"anim": "walk",
+				"edge": "ground.4",
+				"hp": 146.0,
+				"id": "unit.yuan.vanguard",
+				"s": 0.27133180745443,
+				"side": 1,
+				"statuses": {},
+				"target": 0,
+				"x": 53.7713317871094,
+				"y": 0.000000000000000417312433744545
+			}
+		],
+		"bases": [
+			{
+				"base": true,
+				"building": true,
+				"construction": 0.0,
+				"cooldown": 0.0,
+				"disabled": 0.0,
+				"edge": "ground.0",
+				"hp": 1100.0,
+				"hurt": 0.0,
+				"id": "building.deng.base",
+				"max_hp": 1100.0,
+				"s": 0.0,
+				"side": 0,
+				"state": "active",
+				"uid": -1,
+				"x": 2.0,
+				"y": 0.0
+			},
+			{
+				"base": true,
+				"building": true,
+				"construction": 0.0,
+				"cooldown": 0.0,
+				"disabled": 0.0,
+				"edge": "ground.4",
+				"hp": 1100.0,
+				"hurt": 0.0,
+				"id": "building.yuan.base",
+				"max_hp": 1100.0,
+				"s": 4.5,
+				"side": 1,
+				"state": "active",
+				"uid": -2,
+				"x": 58.0,
+				"y": 0.0
+			}
+		],
+		"map": "map.03.17",
+		"players": [
+			{
+				"ai_order": "",
+				"ai_research": "",
+				"ai_research_at": 288.616666666749,
+				"ai_route_at": 540.416666666511,
+				"cooldowns": {
+					"spell.deng.clone": 0.0,
+					"spell.deng.protect": 0.0,
+					"spell.deng.root": 0.883333333333354
+				},
+				"faction": "deng",
+				"gold": 14.0,
+				"mana": 10.2800000000075,
+				"preferred_mine": "mine.0.0",
+				"production": 1.73333333333323,
+				"queue": [
+					"unit.deng.mirror"
+				],
+				"research": {},
+				"roster": [
+					"unit.deng.mirror",
+					"unit.deng.fire",
+					"unit.deng.shadow",
+					"unit.deng.guard"
+				],
+				"sequence": 81,
+				"studied": [
+					"tech.deng.unit.mirror",
+					"tech.deng.unit.fire",
+					"tech.deng.spell.protect",
+					"tech.deng.spell.clone",
+					"tech.deng.spell.fire",
+					"tech.deng.unit.shadow",
+					"tech.deng.unit.guard",
+					"tech.deng.spell.root",
+					"tech.deng.spell.guardian"
+				],
+				"unlocked": [
+					"unit.deng.mirror",
+					"unit.deng.fire",
+					"unit.deng.worker",
+					"building.deng.tower",
+					"building.deng.mana",
+					"spell.deng.protect",
+					"spell.deng.clone",
+					"spell.deng.fire",
+					"unit.deng.shadow",
+					"unit.deng.guard",
+					"spell.deng.root",
+					"spell.deng.guardian"
+				]
+			},
+			{
+				"ai_order": "",
+				"ai_research": "",
+				"ai_research_at": 312.816666666727,
+				"ai_route_at": 543.716666666508,
+				"cooldowns": {
+					"spell.yuan.clone": 0.0,
+					"spell.yuan.protect": 0.0,
+					"spell.yuan.root": 0.0
+				},
+				"faction": "yuan",
+				"gold": 25.0,
+				"mana": 25.3399999999834,
+				"preferred_mine": "mine.1.0",
+				"production": 0.0166666666665578,
+				"queue": [],
+				"research": {},
+				"roster": [
+					"unit.yuan.vanguard",
+					"unit.yuan.archer",
+					"unit.yuan.harrier",
+					"unit.yuan.artillery"
+				],
+				"sequence": 76,
+				"studied": [
+					"tech.yuan.unit.vanguard",
+					"tech.yuan.unit.archer",
+					"tech.yuan.spell.protect",
+					"tech.yuan.spell.clone",
+					"tech.yuan.spell.fire",
+					"tech.yuan.unit.artillery",
+					"tech.yuan.unit.harrier",
+					"tech.yuan.spell.root",
+					"tech.yuan.spell.guardian"
+				],
+				"unlocked": [
+					"unit.yuan.vanguard",
+					"unit.yuan.archer",
+					"unit.yuan.worker",
+					"building.yuan.tower",
+					"building.yuan.mana",
+					"spell.yuan.protect",
+					"spell.yuan.clone",
+					"spell.yuan.fire",
+					"unit.yuan.artillery",
+					"unit.yuan.harrier",
+					"spell.yuan.root",
+					"spell.yuan.guardian"
+				]
+			}
+		],
+		"stats": [
+			{
+				"build_counts": {
+					"building.deng.mana": 1,
+					"building.deng.tower": 1
+				},
+				"buildings": 2,
+				"casts": 27,
+				"gold_delivered": 2496,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 42,
+				"lost": 42,
+				"mana_spent": 855,
+				"recruited": 47,
+				"reflections": 2,
+				"spell_counts": {
+					"spell.deng.clone": 3,
+					"spell.deng.protect": 11,
+					"spell.deng.root": 13
+				},
+				"summons": 3
+			},
+			{
+				"build_counts": {
+					"building.yuan.mana": 1,
+					"building.yuan.tower": 1
+				},
+				"buildings": 2,
+				"casts": 20,
+				"gold_delivered": 2492,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 42,
+				"lost": 42,
+				"mana_spent": 615,
+				"recruited": 49,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yuan.clone": 1,
+					"spell.yuan.protect": 11,
+					"spell.yuan.root": 8
+				},
+				"summons": 1
+			}
+		],
+		"time": 539.999999999838,
+		"winner": -2
+	}
+]

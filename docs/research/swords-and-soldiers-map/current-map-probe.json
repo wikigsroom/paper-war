@@ -1,0 +1,609 @@
+{
+	"all_simulation_traces_identical": true,
+	"conditions": {
+		"ai_style": "counter",
+		"both_sides_ai": true,
+		"difficulty": 1,
+		"enemy": "mo",
+		"faction": "yin",
+		"fixed_dt": 0.0166666666666667,
+		"full_tech": true,
+		"requested_ticks": 7200,
+		"seed": 137,
+		"starting_gold_each": 420
+	},
+	"date": "2026-10-08",
+	"engine": "4.7.2-stable (official)",
+	"maps": [
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"executed_ticks": 7200,
+			"first_damage_seconds": 5.46666666666665,
+			"initial": {
+				"bases": [
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.yin.base",
+						"max_hp": 1100.0,
+						"side": 0,
+						"uid": -1,
+						"x": 2.0
+					},
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.mo.base",
+						"max_hp": 1100.0,
+						"side": 1,
+						"uid": -2,
+						"x": 54.0
+					}
+				],
+				"build_slots": [
+					[
+						3.5,
+						8.5
+					],
+					[
+						52.5,
+						47.5
+					]
+				],
+				"workers": [
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 1,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.4
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 2,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.85
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 3,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.6
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 4,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.15
+					}
+				]
+			},
+			"map": "stamp-plain",
+			"simulation_seconds": 119.999999999994,
+			"stats": [
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 466,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 6,
+					"mana_spent": 325,
+					"recruited": 9,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.cold": 2,
+						"spell.yin.lightning": 2,
+						"spell.yin.repair": 7
+					},
+					"summons": 0
+				},
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 6,
+					"lost": 2,
+					"mana_spent": 100,
+					"recruited": 12,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 2,
+						"spell.mo.poison": 1,
+						"spell.mo.sacrifice": 8
+					},
+					"summons": 0
+				}
+			],
+			"trace_sha256": "165b9a9956b05c5a57c25b58d89b65a57f102f2caf7a129a39d5ec9768eb206b",
+			"winner": -2
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"executed_ticks": 7200,
+			"first_damage_seconds": 5.46666666666665,
+			"initial": {
+				"bases": [
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.yin.base",
+						"max_hp": 1100.0,
+						"side": 0,
+						"uid": -1,
+						"x": 2.0
+					},
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.mo.base",
+						"max_hp": 1100.0,
+						"side": 1,
+						"uid": -2,
+						"x": 54.0
+					}
+				],
+				"build_slots": [
+					[
+						3.5,
+						8.5
+					],
+					[
+						52.5,
+						47.5
+					]
+				],
+				"workers": [
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 1,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.4
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 2,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.85
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 3,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.6
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 4,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.15
+					}
+				]
+			},
+			"map": "ink-marsh",
+			"simulation_seconds": 119.999999999994,
+			"stats": [
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 466,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 6,
+					"mana_spent": 325,
+					"recruited": 9,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.cold": 2,
+						"spell.yin.lightning": 2,
+						"spell.yin.repair": 7
+					},
+					"summons": 0
+				},
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 6,
+					"lost": 2,
+					"mana_spent": 100,
+					"recruited": 12,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 2,
+						"spell.mo.poison": 1,
+						"spell.mo.sacrifice": 8
+					},
+					"summons": 0
+				}
+			],
+			"trace_sha256": "165b9a9956b05c5a57c25b58d89b65a57f102f2caf7a129a39d5ec9768eb206b",
+			"winner": -2
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"executed_ticks": 7200,
+			"first_damage_seconds": 5.46666666666665,
+			"initial": {
+				"bases": [
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.yin.base",
+						"max_hp": 1100.0,
+						"side": 0,
+						"uid": -1,
+						"x": 2.0
+					},
+					{
+						"base": true,
+						"building": true,
+						"cooldown": 0.0,
+						"hp": 1100.0,
+						"hurt": 0.0,
+						"id": "building.mo.base",
+						"max_hp": 1100.0,
+						"side": 1,
+						"uid": -2,
+						"x": 54.0
+					}
+				],
+				"build_slots": [
+					[
+						3.5,
+						8.5
+					],
+					[
+						52.5,
+						47.5
+					]
+				],
+				"workers": [
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 1,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.4
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": 1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.yin.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 0,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 2,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 2.85
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 3,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.6
+					},
+					{
+						"age": 0.0,
+						"anim": "idle",
+						"anim_t": 0.0,
+						"cargo": 0,
+						"clone": false,
+						"cooldown": 0.2,
+						"facing": -1,
+						"hp": 55.0,
+						"hurt": 0.0,
+						"id": "unit.mo.worker",
+						"job": "mine",
+						"job_time": 0.0,
+						"max_hp": 55.0,
+						"owner": 0,
+						"side": 1,
+						"special_cd": 1.2,
+						"statuses": {},
+						"summon_cd": 1.0,
+						"target": 0,
+						"ttl": -1.0,
+						"uid": 4,
+						"walk": 0.0,
+						"windup": 0.0,
+						"x": 53.15
+					}
+				]
+			},
+			"map": "lantern-ridge",
+			"simulation_seconds": 119.999999999994,
+			"stats": [
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 466,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 6,
+					"mana_spent": 325,
+					"recruited": 9,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.cold": 2,
+						"spell.yin.lightning": 2,
+						"spell.yin.repair": 7
+					},
+					"summons": 0
+				},
+				{
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 11,
+					"gold_delivered": 328,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 6,
+					"lost": 2,
+					"mana_spent": 100,
+					"recruited": 12,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 2,
+						"spell.mo.poison": 1,
+						"spell.mo.sacrifice": 8
+					},
+					"summons": 0
+				}
+			],
+			"trace_sha256": "165b9a9956b05c5a57c25b58d89b65a57f102f2caf7a129a39d5ec9768eb206b",
+			"winner": -2
+		}
+	],
+	"purpose": "Research measurement of current map-dependent simulation",
+	"scope": "Includes state and events at every tick. Excludes config.map and rendering. Does not establish benchmark fidelity, human play quality, or all possible matches."
+}

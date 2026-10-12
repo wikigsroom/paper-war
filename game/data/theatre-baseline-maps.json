@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "implemented-native-rules-and-representative-visuals-reviewed",
+  "maps": [
+    "map.01.01",
+    "map.01.07",
+    "map.01.11",
+    "map.01.04",
+    "map.01.12",
+    "map.01.06"
+  ],
+  "source_spec": "docs/research/swords-and-soldiers-map/recheck-20261008/whitebox-specs.json",
+  "economic_adjustment": "W02 near mining time 4s, outer 1.6s, same 8 gold cargo; assignment estimates real service throughput and travel, capacity is simultaneous mining.",
+  "acceptance_scope": "6 whiteboxes integrated; paid commands, route/range/objective boundaries and native GPU pointer fixtures checked. Human balance and HD parity remain unverified."
+}

@@ -1,0 +1,37 @@
+{
+	"campaign": 200,
+	"checks": 3730,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"factions": 10,
+	"failures": [],
+	"geometry_records": 193,
+	"inputs": {
+		"res://data/balance-prototype.json": "d9a40238835333ecebe45be5ad82176fceef55431d922c9991768df12eb3e820",
+		"res://data/campaign.json": "57a7b770ed5eb99820b7bfc086056c5194d7ef41dc4f9a9b2bb497f399f1b430",
+		"res://data/maps.json": "0ed93e9a72e6c9e31c31e5f82cc9b95823e82e85948a282dad74284a3da1f2c9",
+		"res://scripts/battle_sim.gd": "9dfc69afce7f643fad2eea9f93f32346a822bb9aefc9d4dd0935c33717fd88f7",
+		"res://scripts/map_runtime.gd": "f151553cd960a6114d6be9d49646a55083cf9a59b2d50587ca2725c3ffb117a2",
+		"res://tests/test_world_foundation.gd": "84da86cea0f7d8e716f110998ec1d3813d64dc3da66ae41e6fdc7e6e8ffac6c8"
+	},
+	"maps": 200,
+	"not_covered": [
+		"complete human UI",
+		"all unit ability outcomes",
+		"all campaign victories",
+		"new art review",
+		"Windows export",
+		"Android export/device"
+	],
+	"passed": true,
+	"stage": "world-foundation-only"
+}

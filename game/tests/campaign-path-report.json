@@ -1,0 +1,551 @@
+{
+	"failures": [],
+	"method": "Only legal side-0 request commands; unmodified campaign starting resources and enemy AI.",
+	"results": [
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 90.7,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 2,
+						"gold_delivered": 440,
+						"healed": 165,
+						"interrupts": 0,
+						"killed": 5,
+						"lost": 1,
+						"mana_spent": 50,
+						"recruited": 12,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.yin.repair": 2
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.yin.1",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 90.3,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 4,
+						"gold_delivered": 432,
+						"healed": 340,
+						"interrupts": 0,
+						"killed": 9,
+						"lost": 0,
+						"mana_spent": 100,
+						"recruited": 12,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.yin.repair": 4
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.yin.2",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 101.5,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 3,
+						"gold_delivered": 496,
+						"healed": 250,
+						"interrupts": 0,
+						"killed": 4,
+						"lost": 2,
+						"mana_spent": 75,
+						"recruited": 12,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.yin.repair": 3
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.yin.3",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 167.9,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 7,
+						"gold_delivered": 872,
+						"healed": 570,
+						"interrupts": 0,
+						"killed": 13,
+						"lost": 7,
+						"mana_spent": 175,
+						"recruited": 16,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.yin.repair": 7
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.yin.4",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 117.3,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 3,
+						"gold_delivered": 584,
+						"healed": 255,
+						"interrupts": 0,
+						"killed": 9,
+						"lost": 2,
+						"mana_spent": 75,
+						"recruited": 11,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.yin.repair": 3
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.yin.5",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 175.3,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 0,
+						"gold_delivered": 912,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 12,
+						"lost": 9,
+						"mana_spent": 0,
+						"recruited": 19,
+						"reflections": 0,
+						"spell_counts": {},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.mo.1",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 84.8,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 0,
+						"gold_delivered": 416,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 9,
+						"lost": 2,
+						"mana_spent": 0,
+						"recruited": 11,
+						"reflections": 0,
+						"spell_counts": {},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.mo.2",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 157.1,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 1,
+						"gold_delivered": 816,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 13,
+						"lost": 10,
+						"mana_spent": 40,
+						"recruited": 19,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.mo.poison": 1
+						},
+						"summons": 4
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.mo.3",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 173.7,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 2,
+						"gold_delivered": 912,
+						"healed": 0,
+						"interrupts": 1,
+						"killed": 11,
+						"lost": 10,
+						"mana_spent": 70,
+						"recruited": 18,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.mo.bind": 1,
+							"spell.mo.poison": 1
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.mo.4",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 100.3,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 1,
+						"gold_delivered": 488,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 8,
+						"lost": 2,
+						"mana_spent": 40,
+						"recruited": 11,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.mo.poison": 1
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.mo.5",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 357.5,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 7,
+						"gold_delivered": 1944,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 23,
+						"lost": 24,
+						"mana_spent": 210,
+						"recruited": 32,
+						"reflections": 0,
+						"spell_counts": {
+							"spell.deng.protect": 7
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.deng.1",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						1100.0
+					],
+					"seconds": 600.0,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 15,
+						"gold_delivered": 3312,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 40,
+						"lost": 53,
+						"mana_spent": 450,
+						"recruited": 60,
+						"reflections": 28,
+						"spell_counts": {
+							"spell.deng.protect": 15
+						},
+						"summons": 0
+					},
+					"variant": 0,
+					"winner": -2
+				},
+				{
+					"base_hp": [
+						0.0,
+						1100.0
+					],
+					"seconds": 207.5,
+					"stats": {
+						"build_counts": {},
+						"buildings": 0,
+						"casts": 3,
+						"gold_delivered": 536,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 7,
+						"lost": 16,
+						"mana_spent": 90,
+						"recruited": 14,
+						"reflections": 6,
+						"spell_counts": {
+							"spell.deng.protect": 3
+						},
+						"summons": 0
+					},
+					"variant": 1,
+					"winner": 1
+				},
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 515.9,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 30,
+						"gold_delivered": 2808,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 33,
+						"lost": 26,
+						"mana_spent": 975,
+						"recruited": 38,
+						"reflections": 20,
+						"spell_counts": {
+							"spell.deng.clone": 5,
+							"spell.deng.protect": 25
+						},
+						"summons": 5
+					},
+					"variant": 2,
+					"winner": 0
+				}
+			],
+			"id": "campaign.deng.2",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 588.5,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 17,
+						"gold_delivered": 3248,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 40,
+						"lost": 43,
+						"mana_spent": 525,
+						"recruited": 52,
+						"reflections": 2,
+						"spell_counts": {
+							"spell.deng.clone": 1,
+							"spell.deng.protect": 16
+						},
+						"summons": 1
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.deng.3",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 237.9,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 9,
+						"gold_delivered": 1256,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 15,
+						"lost": 13,
+						"mana_spent": 285,
+						"recruited": 21,
+						"reflections": 5,
+						"spell_counts": {
+							"spell.deng.clone": 1,
+							"spell.deng.protect": 8
+						},
+						"summons": 1
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.deng.4",
+			"legal_player_win": true
+		},
+		{
+			"attempts": [
+				{
+					"base_hp": [
+						1100.0,
+						0.0
+					],
+					"seconds": 170.3,
+					"stats": {
+						"build_counts": {
+							"building.deng.mana": 2
+						},
+						"buildings": 2,
+						"casts": 7,
+						"gold_delivered": 872,
+						"healed": 0,
+						"interrupts": 0,
+						"killed": 7,
+						"lost": 5,
+						"mana_spent": 240,
+						"recruited": 14,
+						"reflections": 4,
+						"spell_counts": {
+							"spell.deng.clone": 2,
+							"spell.deng.protect": 5
+						},
+						"summons": 2
+					},
+					"variant": 0,
+					"winner": 0
+				}
+			],
+			"id": "campaign.deng.5",
+			"legal_player_win": true
+		}
+	]
+}

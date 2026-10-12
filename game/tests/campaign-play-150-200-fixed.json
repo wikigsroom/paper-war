@@ -1,0 +1,2904 @@
+{
+	"elapsed_seconds": 250.813,
+	"range": [
+		150,
+		200
+	],
+	"results": [
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 10,
+				"gold_delivered": 241,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 6,
+				"mana_spent": 160,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 4,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 5
+				},
+				"summons": 0
+			},
+			"gold": [
+				41.0,
+				38.0
+			],
+			"id": "campaign.shuang.11",
+			"index": 150,
+			"map": "map.08.11",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 329,
+				"healed": 236,
+				"interrupts": 1,
+				"killed": 6,
+				"lost": 2,
+				"mana_spent": 110,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 117.25,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				560.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 112,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 4,
+				"mana_spent": 130,
+				"recruited": 5,
+				"reflections": 2,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				65.0,
+				42.0
+			],
+			"id": "campaign.shuang.12",
+			"index": 151,
+			"map": "map.08.12",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 168,
+				"healed": 170,
+				"interrupts": 2,
+				"killed": 4,
+				"lost": 2,
+				"mana_spent": 90,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.lightning": 1,
+					"spell.shuang.repair": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵已在矿线前被截住",
+			"time": 79.68,
+			"win_type": "intercept",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 5,
+				"gold_delivered": 208,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 10,
+				"lost": 0,
+				"mana_spent": 100,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 2,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				28.0,
+				95.0
+			],
+			"id": "campaign.shuang.13",
+			"index": 152,
+			"map": "map.08.13",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 160,
+				"healed": 134,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 10,
+				"mana_spent": 85,
+				"recruited": 8,
+				"reflections": 3,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 101.48,
+			"win_type": "deliver_gold",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 426,
+				"healed": 0,
+				"interrupts": 1,
+				"killed": 13,
+				"lost": 5,
+				"mana_spent": 190,
+				"recruited": 12,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 5,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				9.0,
+				18.0
+			],
+			"id": "campaign.shuang.14",
+			"index": 153,
+			"map": "map.08.14",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 435,
+				"healed": 255,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 13,
+				"mana_spent": 115,
+				"recruited": 15,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.lightning": 1,
+					"spell.shuang.repair": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵已在矿线前被截住",
+			"time": 147.88,
+			"win_type": "intercept",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 152,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 3,
+				"mana_spent": 130,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 5
+				},
+				"summons": 0
+			},
+			"gold": [
+				48.0,
+				44.0
+			],
+			"id": "campaign.shuang.15",
+			"index": 154,
+			"map": "map.08.15",
+			"player": {
+				"build_counts": {
+					"building.shuang.tower": 1
+				},
+				"buildings": 1,
+				"casts": 3,
+				"gold_delivered": 240,
+				"healed": 163,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 2,
+				"mana_spent": 85,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 117.72,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 12,
+				"gold_delivered": 176,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 1,
+				"mana_spent": 150,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 5,
+					"spell.jin.sacrifice": 7
+				},
+				"summons": 0
+			},
+			"gold": [
+				61.0,
+				34.0
+			],
+			"id": "campaign.shuang.16",
+			"index": 155,
+			"map": "map.08.16",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 216,
+				"healed": 180,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 5,
+				"mana_spent": 85,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者抵达交接点",
+			"time": 99.3,
+			"win_type": "escort",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 6,
+				"gold_delivered": 595,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 11,
+				"lost": 19,
+				"mana_spent": 180,
+				"recruited": 17,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2,
+					"spell.bai.root": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				80.0,
+				43.0
+			],
+			"id": "campaign.shuang.17",
+			"index": 156,
+			"map": "map.08.17",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 6,
+				"gold_delivered": 689,
+				"healed": 365,
+				"interrupts": 0,
+				"killed": 19,
+				"lost": 11,
+				"mana_spent": 160,
+				"recruited": 18,
+				"reflections": 4,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 5
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 282.67,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 14,
+				"gold_delivered": 363,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 3,
+				"mana_spent": 190,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 5,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 8
+				},
+				"summons": 0
+			},
+			"gold": [
+				35.0,
+				33.0
+			],
+			"id": "campaign.shuang.18",
+			"index": 157,
+			"map": "map.08.18",
+			"player": {
+				"build_counts": {
+					"building.shuang.tower": 0
+				},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 394,
+				"healed": 211,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 5,
+				"mana_spent": 110,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.repair": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 134.02,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1082.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 232,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 9,
+				"lost": 7,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				29.0,
+				39.0
+			],
+			"id": "campaign.shuang.19",
+			"index": 158,
+			"map": "map.08.19",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 208,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 9,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.cold": 1,
+					"spell.shuang.fury": 1,
+					"spell.shuang.repair": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 134.98,
+			"win_type": "survive",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 37,
+				"gold_delivered": 916,
+				"healed": 0,
+				"interrupts": 1,
+				"killed": 11,
+				"lost": 5,
+				"mana_spent": 460,
+				"recruited": 25,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 14,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 22
+				},
+				"summons": 0
+			},
+			"gold": [
+				93.0,
+				10.0
+			],
+			"id": "campaign.shuang.20",
+			"index": 159,
+			"map": "map.08.20",
+			"player": {
+				"build_counts": {
+					"building.shuang.tower": 2
+				},
+				"buildings": 2,
+				"casts": 7,
+				"gold_delivered": 1034,
+				"healed": 271,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 11,
+				"mana_spent": 200,
+				"recruited": 19,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.shuang.fury": 2,
+					"spell.shuang.lightning": 1,
+					"spell.shuang.repair": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 349.6,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 136,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 9,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"gold": [
+				6.0,
+				11.0
+			],
+			"id": "campaign.jin.01",
+			"index": 160,
+			"map": "map.09.01",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 5,
+				"gold_delivered": 216,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 9,
+				"lost": 1,
+				"mana_spent": 110,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 1,
+					"spell.jin.poison": 2,
+					"spell.jin.sacrifice": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 104.55,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 104,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 1,
+				"mana_spent": 60,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				22.0,
+				44.0
+			],
+			"id": "campaign.jin.02",
+			"index": 161,
+			"map": "map.09.02",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 137,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 0,
+				"mana_spent": 70,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 1,
+					"spell.jin.poison": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "真实归仓目标完成",
+			"time": 50.83,
+			"win_type": "deliver_gold",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 200,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"gold": [
+				16.0,
+				30.0
+			],
+			"id": "campaign.jin.03",
+			"index": 162,
+			"map": "map.09.03",
+			"player": {
+				"build_counts": {
+					"building.jin.tower": 0
+				},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 216,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 0,
+				"mana_spent": 130,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 104.02,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 232,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 11,
+				"mana_spent": 90,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				66.0,
+				17.0
+			],
+			"id": "campaign.jin.04",
+			"index": 163,
+			"map": "map.09.04",
+			"player": {
+				"build_counts": {
+					"building.jin.tower": 1
+				},
+				"buildings": 1,
+				"casts": 8,
+				"gold_delivered": 336,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 11,
+				"lost": 0,
+				"mana_spent": 140,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 2,
+					"spell.jin.poison": 2,
+					"spell.jin.sacrifice": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 155.77,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 144,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 0,
+				"mana_spent": 60,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				70.0,
+				49.0
+			],
+			"id": "campaign.jin.05",
+			"index": 164,
+			"map": "map.09.05",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 170,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 0,
+				"mana_spent": 70,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 1,
+					"spell.jin.poison": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "真实归仓目标完成",
+			"time": 57.07,
+			"win_type": "deliver_gold",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				992.0,
+				220.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 112,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 8,
+				"mana_spent": 60,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				18.0,
+				7.0
+			],
+			"id": "campaign.jin.06",
+			"index": 165,
+			"map": "map.09.06",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 7,
+				"gold_delivered": 128,
+				"healed": 108,
+				"interrupts": 1,
+				"killed": 8,
+				"lost": 3,
+				"mana_spent": 130,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者抵达交接点",
+			"time": 90.82,
+			"win_type": "escort",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 7,
+				"gold_delivered": 912,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 18,
+				"mana_spent": 210,
+				"recruited": 23,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 3,
+					"spell.bai.root": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				37.0,
+				87.0
+			],
+			"id": "campaign.jin.07",
+			"index": 166,
+			"map": "map.09.07",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 38,
+				"gold_delivered": 824,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 18,
+				"lost": 3,
+				"mana_spent": 490,
+				"recruited": 23,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 15,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 22
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 419.98,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 304,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				53.0,
+				26.0
+			],
+			"id": "campaign.jin.08",
+			"index": 167,
+			"map": "map.09.08",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 330,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 0,
+				"mana_spent": 130,
+				"recruited": 11,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 114.02,
+			"win_type": "survive",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 5,
+				"gold_delivered": 496,
+				"healed": 293,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 7,
+				"mana_spent": 135,
+				"recruited": 12,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				27.0,
+				90.0
+			],
+			"id": "campaign.jin.09",
+			"index": 168,
+			"map": "map.09.09",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 20,
+				"gold_delivered": 416,
+				"healed": 0,
+				"interrupts": 2,
+				"killed": 7,
+				"lost": 3,
+				"mana_spent": 280,
+				"recruited": 12,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 8,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 11
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 239.62,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 96,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 7,
+				"mana_spent": 90,
+				"recruited": 5,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				4.0,
+				10.0
+			],
+			"id": "campaign.jin.10",
+			"index": 169,
+			"map": "map.09.10",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 176,
+				"healed": 72,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 0,
+				"mana_spent": 70,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 1,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者抵达交接点",
+			"time": 123.63,
+			"win_type": "escort",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 280,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 12,
+				"mana_spent": 120,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				111.0,
+				9.0
+			],
+			"id": "campaign.jin.11",
+			"index": 170,
+			"map": "map.09.11",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 11,
+				"gold_delivered": 481,
+				"healed": 0,
+				"interrupts": 1,
+				"killed": 12,
+				"lost": 0,
+				"mana_spent": 170,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 2,
+					"spell.jin.sacrifice": 6
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 168.85,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				573.950000000001
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 152,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 10,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				8.0,
+				7.0
+			],
+			"id": "campaign.jin.12",
+			"index": 171,
+			"map": "map.09.12",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 216,
+				"healed": 0,
+				"interrupts": 1,
+				"killed": 10,
+				"lost": 0,
+				"mana_spent": 120,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 4,
+					"spell.jin.sacrifice": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵已在矿线前被截住",
+			"time": 110.82,
+			"win_type": "intercept",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				110.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 136,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 7,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2,
+					"spell.bai.root": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				38.0,
+				5.0
+			],
+			"id": "campaign.jin.13",
+			"index": 172,
+			"map": "map.09.13",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 144,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 6,
+				"mana_spent": 100,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 2,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 104.62,
+			"win_type": "deliver_gold",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 354,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 11,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				35.0,
+				48.0
+			],
+			"id": "campaign.jin.14",
+			"index": 173,
+			"map": "map.09.14",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 13,
+				"gold_delivered": 363,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 1,
+				"mana_spent": 180,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 6,
+					"spell.jin.sacrifice": 7
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵已在矿线前被截住",
+			"time": 122.8,
+			"win_type": "intercept",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 144,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 9,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"gold": [
+				52.0,
+				13.0
+			],
+			"id": "campaign.jin.15",
+			"index": 174,
+			"map": "map.09.15",
+			"player": {
+				"build_counts": {
+					"building.jin.tower": 0
+				},
+				"buildings": 0,
+				"casts": 6,
+				"gold_delivered": 232,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 9,
+				"lost": 0,
+				"mana_spent": 100,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 2,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 112.77,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				174.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 112,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 9,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				120.0,
+				14.0
+			],
+			"id": "campaign.jin.16",
+			"index": 175,
+			"map": "map.09.16",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 6,
+				"gold_delivered": 240,
+				"healed": 336,
+				"interrupts": 1,
+				"killed": 9,
+				"lost": 1,
+				"mana_spent": 130,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者抵达交接点",
+			"time": 111.47,
+			"win_type": "escort",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 5,
+				"gold_delivered": 637,
+				"healed": 308,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 7,
+				"mana_spent": 135,
+				"recruited": 15,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				42.0,
+				71.0
+			],
+			"id": "campaign.jin.17",
+			"index": 176,
+			"map": "map.09.17",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 19,
+				"gold_delivered": 441,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 5,
+				"mana_spent": 250,
+				"recruited": 14,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 7,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 11
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 212.55,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 389,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 11,
+				"mana_spent": 90,
+				"recruited": 14,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				35.0,
+				26.0
+			],
+			"id": "campaign.jin.18",
+			"index": 177,
+			"map": "map.09.18",
+			"player": {
+				"build_counts": {
+					"building.jin.tower": 0
+				},
+				"buildings": 0,
+				"casts": 10,
+				"gold_delivered": 352,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 11,
+				"lost": 1,
+				"mana_spent": 160,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 4,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 5
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 134.02,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				236.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 168,
+				"healed": 146,
+				"interrupts": 0,
+				"killed": 4,
+				"lost": 6,
+				"mana_spent": 85,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				8.0,
+				32.0
+			],
+			"id": "campaign.jin.19",
+			"index": 178,
+			"map": "map.09.19",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 192,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 4,
+				"mana_spent": 130,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 3,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 5
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 117.18,
+			"win_type": "survive",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 1172,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 34,
+				"mana_spent": 270,
+				"recruited": 32,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 5,
+					"spell.bai.root": 4
+				},
+				"summons": 0
+			},
+			"gold": [
+				96.0,
+				12.0
+			],
+			"id": "campaign.jin.20",
+			"index": 179,
+			"map": "map.09.20",
+			"player": {
+				"build_counts": {
+					"building.jin.tower": 2
+				},
+				"buildings": 2,
+				"casts": 31,
+				"gold_delivered": 1408,
+				"healed": 0,
+				"interrupts": 2,
+				"killed": 34,
+				"lost": 0,
+				"mana_spent": 400,
+				"recruited": 26,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.jin.bind": 12,
+					"spell.jin.poison": 1,
+					"spell.jin.sacrifice": 18
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 493.88,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 232,
+				"healed": 170,
+				"interrupts": 0,
+				"killed": 11,
+				"lost": 2,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				34.0,
+				17.0
+			],
+			"id": "campaign.bai.01",
+			"index": 180,
+			"map": "map.10.01",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 184,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 11,
+				"mana_spent": 90,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 118.63,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 104,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 0,
+				"mana_spent": 65,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				22.0,
+				44.0
+			],
+			"id": "campaign.bai.02",
+			"index": 181,
+			"map": "map.10.02",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 137,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 1,
+				"mana_spent": 60,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "真实归仓目标完成",
+			"time": 52.03,
+			"win_type": "deliver_gold",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 160,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 2,
+				"mana_spent": 65,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				23.0,
+				20.0
+			],
+			"id": "campaign.bai.03",
+			"index": 182,
+			"map": "map.10.03",
+			"player": {
+				"build_counts": {
+					"building.bai.tower": 0
+				},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 168,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 6,
+				"mana_spent": 60,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "需要保护的前哨被摧毁",
+			"time": 86.32,
+			"win_type": "protect",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				0.0,
+				1083.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 176,
+				"healed": 146,
+				"interrupts": 0,
+				"killed": 8,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				13.0,
+				6.0
+			],
+			"id": "campaign.bai.04",
+			"index": 183,
+			"map": "map.10.04",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 168,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 8,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 112.15,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 144,
+				"healed": 65,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 0,
+				"mana_spent": 60,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				70.0,
+				49.0
+			],
+			"id": "campaign.bai.05",
+			"index": 184,
+			"map": "map.10.05",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 170,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 1,
+				"mana_spent": 60,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "真实归仓目标完成",
+			"time": 58.57,
+			"win_type": "deliver_gold",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 96,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 0,
+				"mana_spent": 65,
+				"recruited": 5,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				41.0,
+				81.0
+			],
+			"id": "campaign.bai.06",
+			"index": 185,
+			"map": "map.10.06",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 96,
+				"healed": 77,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 3,
+				"mana_spent": 60,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者阵亡",
+			"time": 54.02,
+			"win_type": "escort",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 11,
+				"gold_delivered": 1096,
+				"healed": 717,
+				"interrupts": 0,
+				"killed": 29,
+				"lost": 22,
+				"mana_spent": 290,
+				"recruited": 27,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.repair": 9
+				},
+				"summons": 0
+			},
+			"gold": [
+				23.0,
+				91.0
+			],
+			"id": "campaign.bai.07",
+			"index": 186,
+			"map": "map.10.07",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 992,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 22,
+				"lost": 29,
+				"mana_spent": 270,
+				"recruited": 27,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 5,
+					"spell.bai.root": 4
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 513.65,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 322,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 9,
+				"lost": 5,
+				"mana_spent": 90,
+				"recruited": 11,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				39.0,
+				27.0
+			],
+			"id": "campaign.bai.08",
+			"index": 187,
+			"map": "map.10.08",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 281,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 9,
+				"mana_spent": 90,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 114.02,
+			"win_type": "survive",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 168,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 5,
+				"mana_spent": 70,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.mo.bind": 1,
+					"spell.mo.poison": 1,
+					"spell.mo.sacrifice": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				44.0,
+				30.0
+			],
+			"id": "campaign.bai.09",
+			"index": 188,
+			"map": "map.10.09",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 136,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 5,
+				"lost": 5,
+				"mana_spent": 60,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 92.78,
+			"win_type": "destroy_base",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1028.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 168,
+				"healed": 161,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 8,
+				"mana_spent": 90,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				78.0,
+				10.0
+			],
+			"id": "campaign.bai.10",
+			"index": 189,
+			"map": "map.10.10",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 208,
+				"healed": 116,
+				"interrupts": 0,
+				"killed": 8,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2,
+					"spell.bai.root": 1
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "携证者抵达交接点",
+			"time": 145.05,
+			"win_type": "escort",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 184,
+				"healed": 85,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 10,
+				"mana_spent": 95,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 2,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				1.0,
+				31.0
+			],
+			"id": "campaign.bai.11",
+			"index": 190,
+			"map": "map.10.11",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 289,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 10,
+				"lost": 2,
+				"mana_spent": 60,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				1,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 120.78,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 208,
+				"healed": 148,
+				"interrupts": 0,
+				"killed": 10,
+				"lost": 7,
+				"mana_spent": 85,
+				"recruited": 7,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				2.0,
+				35.0
+			],
+			"id": "campaign.bai.12",
+			"index": 191,
+			"map": "map.10.12",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 240,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 10,
+				"mana_spent": 90,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵突破矿线",
+			"time": 132.03,
+			"win_type": "intercept",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 256,
+				"healed": 126,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 6,
+				"mana_spent": 85,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				42.0,
+				33.0
+			],
+			"id": "campaign.bai.13",
+			"index": 192,
+			"map": "map.10.13",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 264,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 7,
+				"mana_spent": 90,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "真实归仓目标完成",
+			"time": 124.37,
+			"win_type": "deliver_gold",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				866.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {
+					"building.yin.tower": 1
+				},
+				"buildings": 1,
+				"casts": 4,
+				"gold_delivered": 500,
+				"healed": 211,
+				"interrupts": 0,
+				"killed": 15,
+				"lost": 4,
+				"mana_spent": 110,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 3
+				},
+				"summons": 0
+			},
+			"gold": [
+				25.0,
+				73.0
+			],
+			"id": "campaign.bai.14",
+			"index": 193,
+			"map": "map.10.14",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 4,
+				"gold_delivered": 361,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 4,
+				"lost": 15,
+				"mana_spent": 120,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 1,
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "覆写巨兵突破矿线",
+			"time": 171.13,
+			"win_type": "intercept",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 256,
+				"healed": 150,
+				"interrupts": 0,
+				"killed": 6,
+				"lost": 4,
+				"mana_spent": 85,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.repair": 2
+				},
+				"summons": 0
+			},
+			"gold": [
+				35.0,
+				33.0
+			],
+			"id": "campaign.bai.15",
+			"index": 194,
+			"map": "map.10.15",
+			"player": {
+				"build_counts": {
+					"building.bai.tower": 0
+				},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 256,
+				"healed": 0,
+				"interrupts": 2,
+				"killed": 4,
+				"lost": 6,
+				"mana_spent": 90,
+				"recruited": 9,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 128.02,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 184,
+				"healed": 70,
+				"interrupts": 0,
+				"killed": 9,
+				"lost": 3,
+				"mana_spent": 65,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				32.0,
+				34.0
+			],
+			"id": "campaign.bai.16",
+			"index": 195,
+			"map": "map.10.16",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 144,
+				"healed": 236,
+				"interrupts": 0,
+				"killed": 3,
+				"lost": 9,
+				"mana_spent": 60,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 92.75,
+			"win_type": "escort",
+			"winner": 1
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 22,
+				"gold_delivered": 594,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 14,
+				"lost": 7,
+				"mana_spent": 220,
+				"recruited": 20,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.mo.bind": 6,
+					"spell.mo.poison": 1,
+					"spell.mo.sacrifice": 15
+				},
+				"summons": 0
+			},
+			"gold": [
+				79.0,
+				2.0
+			],
+			"id": "campaign.bai.17",
+			"index": 196,
+			"map": "map.10.17",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 5,
+				"gold_delivered": 832,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 14,
+				"mana_spent": 150,
+				"recruited": 21,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 3,
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 302.93,
+			"win_type": "destroy_base",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 357,
+				"healed": 65,
+				"interrupts": 0,
+				"killed": 4,
+				"lost": 7,
+				"mana_spent": 90,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.repair": 1
+				},
+				"summons": 0
+			},
+			"gold": [
+				53.0,
+				19.0
+			],
+			"id": "campaign.bai.18",
+			"index": 197,
+			"map": "map.10.18",
+			"player": {
+				"build_counts": {
+					"building.bai.tower": 0
+				},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 352,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 7,
+				"lost": 4,
+				"mana_spent": 90,
+				"recruited": 12,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.root": 3
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "指定对象守住目标时间",
+			"time": 134.02,
+			"win_type": "protect",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				1100.0,
+				0.0
+			],
+			"enemy": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 192,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 2,
+				"lost": 4,
+				"mana_spent": 100,
+				"recruited": 8,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.mo.bind": 2,
+					"spell.mo.poison": 1,
+					"spell.mo.sacrifice": 6
+				},
+				"summons": 0
+			},
+			"gold": [
+				37.0,
+				32.0
+			],
+			"id": "campaign.bai.19",
+			"index": 198,
+			"map": "map.10.19",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 2,
+				"gold_delivered": 264,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 4,
+				"lost": 2,
+				"mana_spent": 60,
+				"recruited": 8,
+				"reflections": 1,
+				"spell_counts": {
+					"spell.bai.root": 2
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "敌方纸城被攻破",
+			"time": 125.0,
+			"win_type": "survive",
+			"winner": 0
+		},
+		{
+			"base_hp": [
+				0.0,
+				1100.0
+			],
+			"enemy": {
+				"build_counts": {
+					"building.yin.tower": 2
+				},
+				"buildings": 2,
+				"casts": 13,
+				"gold_delivered": 1174,
+				"healed": 830,
+				"interrupts": 0,
+				"killed": 25,
+				"lost": 14,
+				"mana_spent": 340,
+				"recruited": 22,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.repair": 11
+				},
+				"summons": 0
+			},
+			"gold": [
+				36.0,
+				92.0
+			],
+			"id": "campaign.bai.20",
+			"index": 199,
+			"map": "map.10.20",
+			"player": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 7,
+				"gold_delivered": 880,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 14,
+				"lost": 25,
+				"mana_spent": 210,
+				"recruited": 23,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.bai.protect": 2,
+					"spell.bai.root": 5
+				},
+				"summons": 0
+			},
+			"queue_sizes": [
+				0,
+				0
+			],
+			"reason": "我方纸城失守",
+			"time": 383.87,
+			"win_type": "destroy_base",
+			"winner": 1
+		}
+	],
+	"scope": "authored campaign, both sides use same resource and command rules; player is tactical AI, not a human",
+	"step": 0.0166666666666667,
+	"unresolved": [],
+	"victories": 33
+}

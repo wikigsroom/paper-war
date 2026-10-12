@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "wshobson/agents",
+    "stars": 40290,
+    "updated": "2026-10-05T01:07:11Z",
+    "branch": "main",
+    "license": "MIT",
+    "skills": [
+      "plugins/game-development/skills/godot-gdscript-patterns/SKILL.md",
+      "plugins/game-development/skills/unity-ecs-patterns/SKILL.md"
+    ]
+  },
+  {
+    "repo": "sickn33/agentic-awesome-skills",
+    "stars": 47347,
+    "updated": "2026-10-07T17:51:50Z",
+    "branch": "main",
+    "license": "MIT",
+    "skills": [
+      "plugins/agentic-awesome-skills-claude/skills/game-development/2d-games/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/3d-games/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/engine-selection/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/game-art/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/game-audio/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/game-design/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/mobile-games/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/multiplayer/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/pc-games/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/vr-ar/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/game-development/web-games/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/godot-4-migration/SKILL.md",
+      "plugins/agentic-awesome-skills-claude/skills/godot-gdscript-patterns/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/2d-games/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/3d-games/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/engine-selection/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/game-art/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/game-audio/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/game-design/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/mobile-games/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/multiplayer/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/pc-games/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/vr-ar/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/game-development/web-games/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/godot-4-migration/SKILL.md",
+      "plugins/agentic-awesome-skills/skills/godot-gdscript-patterns/SKILL.md",
+      "plugins/agentic-bundle-indie-game-dev/skills/game-design/SKILL.md",
+      "plugins/agentic-bundle-indie-game-dev/skills/godot-gdscript-patterns/SKILL.md",
+      "skills/game-development/2d-games/SKILL.md",
+      "skills/game-development/3d-games/SKILL.md",
+      "skills/game-development/SKILL.md",
+      "skills/game-development/engine-selection/SKILL.md",
+      "skills/game-development/game-art/SKILL.md",
+      "skills/game-development/game-audio/SKILL.md",
+      "skills/game-development/game-design/SKILL.md",
+      "skills/game-development/mobile-games/SKILL.md",
+      "skills/game-development/multiplayer/SKILL.md",
+      "skills/game-development/pc-games/SKILL.md",
+      "skills/game-development/vr-ar/SKILL.md",
+      "skills/game-development/web-games/SKILL.md",
+      "skills/godot-4-migration/SKILL.md",
+      "skills/godot-gdscript-patterns/SKILL.md"
+    ]
+  },
+  {
+    "repo": "anthropics/skills",
+    "stars": 180096,
+    "updated": "2026-10-05T13:46:45Z",
+    "branch": "main",
+    "license": null,
+    "skills": []
+  },
+  {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "stars": 133910,
+    "updated": "2026-10-08T05:06:09Z",
+    "branch": "main",
+    "license": "MIT",
+    "skills": []
+  }
+]

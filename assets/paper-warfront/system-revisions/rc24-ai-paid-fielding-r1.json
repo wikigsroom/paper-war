@@ -1,0 +1,1561 @@
+{
+  "revision": "rc24-ai-paid-fielding-r1",
+  "rule_id": "ai.common.unit.first-paid-order",
+  "version": "3.0.0-rc24-preview",
+  "status": "verified-preview",
+  "source": "game/scripts/tactical_ai.gd",
+  "source_sha256": "e1d008cf869e4b315f4f9124102b72dcd24ea8016bdd6eae16a9ddc099cc7904",
+  "frozen_default_ai_equals_formal_source": true,
+  "changed_public_inputs_since_rc23": [
+    "game/export_presets.cfg",
+    "game/project.godot",
+    "game/scripts/tactical_ai.gd"
+  ],
+  "changed_extracted_apk_inputs_since_rc23": [
+    ".godot/uid_cache.bin",
+    "assets.sparsepck",
+    "project.binary",
+    "scripts/tactical_ai.gdc"
+  ],
+  "unchanged_extracted_apk_inputs_since_rc23": 1100,
+  "normal_paid_fielding_enabled_on_both_sides": true,
+  "budget_planner_r12_enabled_by_default": false,
+  "new_raster_generation": false,
+  "style_tokens_version": "1.2.0",
+  "reused_ui_asset_version": "3.0.0-rc16-preview",
+  "reused_ui_assets": 38,
+  "reused_ui_generation_model": "gpt-image-2.5",
+  "reused_presentation_revisions": [
+    "rc21-fog-stage-r1",
+    "rc22-observer-camera-r1"
+  ],
+  "source_mechanism_checks": {
+    "groups": 70,
+    "checks": 15586
+  },
+  "packaged_logic_checks_on_windows": {
+    "windows": {
+      "groups": 26,
+      "checks": 2696
+    },
+    "apk": {
+      "groups": 26,
+      "checks": 2696
+    }
+  },
+  "paired_both_side_observations": {
+    "compare-default-mid137.json": {
+      "pairs": 100,
+      "side_participations": 200,
+      "map": "map.01.04",
+      "seed": 137,
+      "stock": 160,
+      "duration": 240,
+      "totals": {
+        "control": {
+          "win": 74,
+          "loss": 74,
+          "unresolved": 52,
+          "gold_delivered": 78678,
+          "no_workers_at_endpoint": 89,
+          "research_paid": 94,
+          "research_completed": 89,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 42
+        },
+        "candidate": {
+          "win": 72,
+          "loss": 72,
+          "unresolved": 56,
+          "gold_delivered": 79485,
+          "no_workers_at_endpoint": 95,
+          "research_paid": 133,
+          "research_completed": 131,
+          "research_with_paid_order": 84,
+          "research_with_production_spawn": 82,
+          "research_with_direct_contribution": 40,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 24
+        }
+      },
+      "outcomes": {
+        "control": {
+          "unresolved": 26,
+          "west_win": 37,
+          "east_win": 37
+        },
+        "candidate": {
+          "unresolved": 28,
+          "west_win": 36,
+          "east_win": 36
+        }
+      },
+      "factions": {
+        "yin": {
+          "control": {
+            "win": 16,
+            "loss": 0,
+            "unresolved": 4,
+            "gold_delivered": 8424,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 20,
+            "research_completed": 18,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 7
+          },
+          "candidate": {
+            "win": 16,
+            "loss": 0,
+            "unresolved": 4,
+            "gold_delivered": 8672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 26,
+            "research_completed": 25,
+            "research_with_paid_order": 22,
+            "research_with_production_spawn": 22,
+            "research_with_direct_contribution": 8,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "mo": {
+          "control": {
+            "win": 14,
+            "loss": 5,
+            "unresolved": 1,
+            "gold_delivered": 9024,
+            "no_workers_at_endpoint": 6,
+            "research_paid": 10,
+            "research_completed": 9,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 1
+          },
+          "candidate": {
+            "win": 14,
+            "loss": 5,
+            "unresolved": 1,
+            "gold_delivered": 8720,
+            "no_workers_at_endpoint": 6,
+            "research_paid": 14,
+            "research_completed": 14,
+            "research_with_paid_order": 13,
+            "research_with_production_spawn": 12,
+            "research_with_direct_contribution": 4,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "deng": {
+          "control": {
+            "win": 6,
+            "loss": 8,
+            "unresolved": 6,
+            "gold_delivered": 9024,
+            "no_workers_at_endpoint": 10,
+            "research_paid": 13,
+            "research_completed": 13,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 7
+          },
+          "candidate": {
+            "win": 7,
+            "loss": 7,
+            "unresolved": 6,
+            "gold_delivered": 9288,
+            "no_workers_at_endpoint": 9,
+            "research_paid": 13,
+            "research_completed": 13,
+            "research_with_paid_order": 9,
+            "research_with_production_spawn": 9,
+            "research_with_direct_contribution": 2,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "ji": {
+          "control": {
+            "win": 2,
+            "loss": 11,
+            "unresolved": 7,
+            "gold_delivered": 6110,
+            "no_workers_at_endpoint": 13,
+            "research_paid": 11,
+            "research_completed": 11,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 9
+          },
+          "candidate": {
+            "win": 2,
+            "loss": 7,
+            "unresolved": 11,
+            "gold_delivered": 7080,
+            "no_workers_at_endpoint": 11,
+            "research_paid": 11,
+            "research_completed": 10,
+            "research_with_paid_order": 4,
+            "research_with_production_spawn": 4,
+            "research_with_direct_contribution": 2,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 5
+          }
+        },
+        "yuan": {
+          "control": {
+            "win": 10,
+            "loss": 4,
+            "unresolved": 6,
+            "gold_delivered": 9240,
+            "no_workers_at_endpoint": 6,
+            "research_paid": 11,
+            "research_completed": 11,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 1
+          },
+          "candidate": {
+            "win": 8,
+            "loss": 6,
+            "unresolved": 6,
+            "gold_delivered": 9149,
+            "no_workers_at_endpoint": 8,
+            "research_paid": 19,
+            "research_completed": 19,
+            "research_with_paid_order": 12,
+            "research_with_production_spawn": 11,
+            "research_with_direct_contribution": 7,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 2
+          }
+        },
+        "qi": {
+          "control": {
+            "win": 8,
+            "loss": 5,
+            "unresolved": 7,
+            "gold_delivered": 9464,
+            "no_workers_at_endpoint": 5,
+            "research_paid": 7,
+            "research_completed": 5,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 2
+          },
+          "candidate": {
+            "win": 10,
+            "loss": 6,
+            "unresolved": 4,
+            "gold_delivered": 8544,
+            "no_workers_at_endpoint": 7,
+            "research_paid": 14,
+            "research_completed": 14,
+            "research_with_paid_order": 6,
+            "research_with_production_spawn": 6,
+            "research_with_direct_contribution": 1,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 5
+          }
+        },
+        "mu": {
+          "control": {
+            "win": 6,
+            "loss": 8,
+            "unresolved": 6,
+            "gold_delivered": 8864,
+            "no_workers_at_endpoint": 10,
+            "research_paid": 10,
+            "research_completed": 10,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 7
+          },
+          "candidate": {
+            "win": 3,
+            "loss": 9,
+            "unresolved": 8,
+            "gold_delivered": 9368,
+            "no_workers_at_endpoint": 14,
+            "research_paid": 17,
+            "research_completed": 17,
+            "research_with_paid_order": 11,
+            "research_with_production_spawn": 11,
+            "research_with_direct_contribution": 11,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 6
+          }
+        },
+        "shuang": {
+          "control": {
+            "win": 7,
+            "loss": 8,
+            "unresolved": 5,
+            "gold_delivered": 6408,
+            "no_workers_at_endpoint": 11,
+            "research_paid": 12,
+            "research_completed": 12,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 8
+          },
+          "candidate": {
+            "win": 7,
+            "loss": 8,
+            "unresolved": 5,
+            "gold_delivered": 6192,
+            "no_workers_at_endpoint": 13,
+            "research_paid": 13,
+            "research_completed": 13,
+            "research_with_paid_order": 7,
+            "research_with_production_spawn": 7,
+            "research_with_direct_contribution": 5,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 6
+          }
+        },
+        "jin": {
+          "control": {
+            "win": 0,
+            "loss": 18,
+            "unresolved": 2,
+            "gold_delivered": 2736,
+            "no_workers_at_endpoint": 18,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 18,
+            "unresolved": 2,
+            "gold_delivered": 2736,
+            "no_workers_at_endpoint": 18,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "bai": {
+          "control": {
+            "win": 5,
+            "loss": 7,
+            "unresolved": 8,
+            "gold_delivered": 9384,
+            "no_workers_at_endpoint": 10,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 5,
+            "loss": 6,
+            "unresolved": 9,
+            "gold_delivered": 9736,
+            "no_workers_at_endpoint": 9,
+            "research_paid": 6,
+            "research_completed": 6,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        }
+      }
+    },
+    "compare-default300-mid137.json": {
+      "pairs": 100,
+      "side_participations": 200,
+      "map": "map.01.04",
+      "seed": 137,
+      "stock": 300,
+      "duration": 240,
+      "totals": {
+        "control": {
+          "win": 60,
+          "loss": 60,
+          "unresolved": 80,
+          "gold_delivered": 102448,
+          "no_workers_at_endpoint": 78,
+          "research_paid": 249,
+          "research_completed": 238,
+          "research_with_paid_order": 9,
+          "research_with_production_spawn": 9,
+          "research_with_direct_contribution": 8,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 191
+        },
+        "candidate": {
+          "win": 70,
+          "loss": 70,
+          "unresolved": 60,
+          "gold_delivered": 90041,
+          "no_workers_at_endpoint": 89,
+          "research_paid": 234,
+          "research_completed": 231,
+          "research_with_paid_order": 136,
+          "research_with_production_spawn": 135,
+          "research_with_direct_contribution": 93,
+          "effective_first_unit_healing": 305.40000000000754,
+          "completed_without_order_with_30_seconds": 69
+        }
+      },
+      "outcomes": {
+        "control": {
+          "unresolved": 40,
+          "west_win": 29,
+          "east_win": 31
+        },
+        "candidate": {
+          "unresolved": 30,
+          "west_win": 34,
+          "east_win": 36
+        }
+      },
+      "factions": {
+        "yin": {
+          "control": {
+            "win": 7,
+            "loss": 0,
+            "unresolved": 13,
+            "gold_delivered": 12176,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 36,
+            "research_completed": 34,
+            "research_with_paid_order": 4,
+            "research_with_production_spawn": 4,
+            "research_with_direct_contribution": 3,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 21
+          },
+          "candidate": {
+            "win": 11,
+            "loss": 2,
+            "unresolved": 7,
+            "gold_delivered": 10512,
+            "no_workers_at_endpoint": 4,
+            "research_paid": 41,
+            "research_completed": 41,
+            "research_with_paid_order": 27,
+            "research_with_production_spawn": 27,
+            "research_with_direct_contribution": 19,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 6
+          }
+        },
+        "mo": {
+          "control": {
+            "win": 2,
+            "loss": 14,
+            "unresolved": 4,
+            "gold_delivered": 7096,
+            "no_workers_at_endpoint": 15,
+            "research_paid": 17,
+            "research_completed": 17,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 16
+          },
+          "candidate": {
+            "win": 3,
+            "loss": 11,
+            "unresolved": 6,
+            "gold_delivered": 7568,
+            "no_workers_at_endpoint": 12,
+            "research_paid": 6,
+            "research_completed": 5,
+            "research_with_paid_order": 1,
+            "research_with_production_spawn": 1,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 4
+          }
+        },
+        "deng": {
+          "control": {
+            "win": 11,
+            "loss": 4,
+            "unresolved": 5,
+            "gold_delivered": 9392,
+            "no_workers_at_endpoint": 8,
+            "research_paid": 28,
+            "research_completed": 28,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 23
+          },
+          "candidate": {
+            "win": 12,
+            "loss": 3,
+            "unresolved": 5,
+            "gold_delivered": 8888,
+            "no_workers_at_endpoint": 6,
+            "research_paid": 22,
+            "research_completed": 22,
+            "research_with_paid_order": 13,
+            "research_with_production_spawn": 13,
+            "research_with_direct_contribution": 3,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 5
+          }
+        },
+        "ji": {
+          "control": {
+            "win": 9,
+            "loss": 0,
+            "unresolved": 11,
+            "gold_delivered": 13430,
+            "no_workers_at_endpoint": 4,
+            "research_paid": 57,
+            "research_completed": 55,
+            "research_with_paid_order": 5,
+            "research_with_production_spawn": 5,
+            "research_with_direct_contribution": 5,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 45
+          },
+          "candidate": {
+            "win": 10,
+            "loss": 0,
+            "unresolved": 10,
+            "gold_delivered": 12800,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 50,
+            "research_completed": 48,
+            "research_with_paid_order": 37,
+            "research_with_production_spawn": 37,
+            "research_with_direct_contribution": 24,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 5
+          }
+        },
+        "yuan": {
+          "control": {
+            "win": 5,
+            "loss": 7,
+            "unresolved": 8,
+            "gold_delivered": 9674,
+            "no_workers_at_endpoint": 10,
+            "research_paid": 23,
+            "research_completed": 22,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 20
+          },
+          "candidate": {
+            "win": 5,
+            "loss": 7,
+            "unresolved": 8,
+            "gold_delivered": 8505,
+            "no_workers_at_endpoint": 13,
+            "research_paid": 25,
+            "research_completed": 25,
+            "research_with_paid_order": 12,
+            "research_with_production_spawn": 12,
+            "research_with_direct_contribution": 12,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 10
+          }
+        },
+        "qi": {
+          "control": {
+            "win": 4,
+            "loss": 6,
+            "unresolved": 10,
+            "gold_delivered": 10440,
+            "no_workers_at_endpoint": 8,
+            "research_paid": 12,
+            "research_completed": 11,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 8
+          },
+          "candidate": {
+            "win": 5,
+            "loss": 10,
+            "unresolved": 5,
+            "gold_delivered": 8360,
+            "no_workers_at_endpoint": 11,
+            "research_paid": 16,
+            "research_completed": 16,
+            "research_with_paid_order": 9,
+            "research_with_production_spawn": 8,
+            "research_with_direct_contribution": 5,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 6
+          }
+        },
+        "mu": {
+          "control": {
+            "win": 3,
+            "loss": 8,
+            "unresolved": 9,
+            "gold_delivered": 10336,
+            "no_workers_at_endpoint": 11,
+            "research_paid": 24,
+            "research_completed": 23,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 21
+          },
+          "candidate": {
+            "win": 6,
+            "loss": 7,
+            "unresolved": 7,
+            "gold_delivered": 10744,
+            "no_workers_at_endpoint": 8,
+            "research_paid": 21,
+            "research_completed": 21,
+            "research_with_paid_order": 15,
+            "research_with_production_spawn": 15,
+            "research_with_direct_contribution": 13,
+            "effective_first_unit_healing": 305.40000000000754,
+            "completed_without_order_with_30_seconds": 5
+          }
+        },
+        "shuang": {
+          "control": {
+            "win": 10,
+            "loss": 2,
+            "unresolved": 8,
+            "gold_delivered": 11168,
+            "no_workers_at_endpoint": 2,
+            "research_paid": 33,
+            "research_completed": 30,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 26
+          },
+          "candidate": {
+            "win": 13,
+            "loss": 3,
+            "unresolved": 4,
+            "gold_delivered": 8408,
+            "no_workers_at_endpoint": 7,
+            "research_paid": 23,
+            "research_completed": 23,
+            "research_with_paid_order": 16,
+            "research_with_production_spawn": 16,
+            "research_with_direct_contribution": 11,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 4
+          }
+        },
+        "jin": {
+          "control": {
+            "win": 3,
+            "loss": 11,
+            "unresolved": 6,
+            "gold_delivered": 9208,
+            "no_workers_at_endpoint": 11,
+            "research_paid": 6,
+            "research_completed": 6,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 4
+          },
+          "candidate": {
+            "win": 2,
+            "loss": 15,
+            "unresolved": 3,
+            "gold_delivered": 6936,
+            "no_workers_at_endpoint": 16,
+            "research_paid": 10,
+            "research_completed": 10,
+            "research_with_paid_order": 3,
+            "research_with_production_spawn": 3,
+            "research_with_direct_contribution": 3,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 7
+          }
+        },
+        "bai": {
+          "control": {
+            "win": 6,
+            "loss": 8,
+            "unresolved": 6,
+            "gold_delivered": 9528,
+            "no_workers_at_endpoint": 9,
+            "research_paid": 13,
+            "research_completed": 12,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 7
+          },
+          "candidate": {
+            "win": 3,
+            "loss": 12,
+            "unresolved": 5,
+            "gold_delivered": 7320,
+            "no_workers_at_endpoint": 12,
+            "research_paid": 20,
+            "research_completed": 20,
+            "research_with_paid_order": 3,
+            "research_with_production_spawn": 3,
+            "research_with_direct_contribution": 3,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 17
+          }
+        }
+      }
+    },
+    "compare-default-short271.json": {
+      "pairs": 10,
+      "side_participations": 20,
+      "map": "map.01.01",
+      "seed": 271,
+      "stock": 160,
+      "duration": 240,
+      "totals": {
+        "control": {
+          "win": 1,
+          "loss": 1,
+          "unresolved": 18,
+          "gold_delivered": 12205,
+          "no_workers_at_endpoint": 2,
+          "research_paid": 4,
+          "research_completed": 4,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 4
+        },
+        "candidate": {
+          "win": 1,
+          "loss": 1,
+          "unresolved": 18,
+          "gold_delivered": 12205,
+          "no_workers_at_endpoint": 2,
+          "research_paid": 7,
+          "research_completed": 7,
+          "research_with_paid_order": 6,
+          "research_with_production_spawn": 6,
+          "research_with_direct_contribution": 6,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 0
+        }
+      },
+      "outcomes": {
+        "control": {
+          "unresolved": 9,
+          "east_win": 1
+        },
+        "candidate": {
+          "unresolved": 9,
+          "east_win": 1
+        }
+      },
+      "factions": {
+        "yin": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1408,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 2,
+            "research_completed": 2,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 2
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1408,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 5,
+            "research_completed": 5,
+            "research_with_paid_order": 4,
+            "research_with_production_spawn": 4,
+            "research_with_direct_contribution": 4,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "mo": {
+          "control": {
+            "win": 1,
+            "loss": 1,
+            "unresolved": 0,
+            "gold_delivered": 680,
+            "no_workers_at_endpoint": 2,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 1,
+            "loss": 1,
+            "unresolved": 0,
+            "gold_delivered": 680,
+            "no_workers_at_endpoint": 2,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "deng": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1432,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1432,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "ji": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1080,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1080,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "yuan": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1421,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1421,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "qi": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1432,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1432,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "mu": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1424,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 2,
+            "research_completed": 2,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 2
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1424,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 2,
+            "research_completed": 2,
+            "research_with_paid_order": 2,
+            "research_with_production_spawn": 2,
+            "research_with_direct_contribution": 2,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "shuang": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 960,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 960,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "jin": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 960,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 960,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "bai": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1408,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 1408,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        }
+      }
+    },
+    "compare-default-long419.json": {
+      "pairs": 10,
+      "side_participations": 20,
+      "map": "map.01.20",
+      "seed": 419,
+      "stock": 160,
+      "duration": 240,
+      "totals": {
+        "control": {
+          "win": 0,
+          "loss": 0,
+          "unresolved": 20,
+          "gold_delivered": 6640,
+          "no_workers_at_endpoint": 2,
+          "research_paid": 0,
+          "research_completed": 0,
+          "research_with_paid_order": 0,
+          "research_with_production_spawn": 0,
+          "research_with_direct_contribution": 0,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 0
+        },
+        "candidate": {
+          "win": 0,
+          "loss": 0,
+          "unresolved": 20,
+          "gold_delivered": 6640,
+          "no_workers_at_endpoint": 2,
+          "research_paid": 2,
+          "research_completed": 2,
+          "research_with_paid_order": 2,
+          "research_with_production_spawn": 2,
+          "research_with_direct_contribution": 2,
+          "effective_first_unit_healing": 0,
+          "completed_without_order_with_30_seconds": 0
+        }
+      },
+      "outcomes": {
+        "control": {
+          "unresolved": 10
+        },
+        "candidate": {
+          "unresolved": 10
+        }
+      },
+      "factions": {
+        "yin": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 2,
+            "research_completed": 2,
+            "research_with_paid_order": 2,
+            "research_with_production_spawn": 2,
+            "research_with_direct_contribution": 2,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "mo": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 368,
+            "no_workers_at_endpoint": 2,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 368,
+            "no_workers_at_endpoint": 2,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "deng": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "ji": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 800,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 800,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "yuan": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "qi": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 672,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "mu": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 704,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 704,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "shuang": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "jin": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        },
+        "bai": {
+          "control": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          },
+          "candidate": {
+            "win": 0,
+            "loss": 0,
+            "unresolved": 2,
+            "gold_delivered": 688,
+            "no_workers_at_endpoint": 0,
+            "research_paid": 0,
+            "research_completed": 0,
+            "research_with_paid_order": 0,
+            "research_with_production_spawn": 0,
+            "research_with_direct_contribution": 0,
+            "effective_first_unit_healing": 0,
+            "completed_without_order_with_30_seconds": 0
+          }
+        }
+      }
+    }
+  },
+  "paired_conditions": 220,
+  "paired_complete_runs": 440,
+  "paired_scope": "Native Windows CPU; both complete AI sides with zero warmup, formal fees, 240s ceiling. Faction totals count actual side participations; cohorts do not prove menu warmup, human gameplay or full balance.",
+  "normal_entry_gpu": {
+    "native_gpu_configs": 2,
+    "checks": 50,
+    "screenshots": 10,
+    "normal_starting_gold": 300,
+    "enemy_warmup_seconds": 4,
+    "west_autoplayer": true
+  },
+  "retained_normal_entry_counterexample": {
+    "faction": "yin",
+    "enemy": "mu",
+    "map": "map.01.04",
+    "seed": 137,
+    "duration": 240,
+    "research_and_first_paid_production": true,
+    "first_unit_direct_damage": false,
+    "legacy_height_field_is_ui_units_not_physical_pixels": true
+  },
+  "advanced_first_deployment_gap_remaining": true,
+  "economy_and_faction_regressions_remaining": true,
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "original_game_numeric_equivalence_verified": false,
+  "files": {
+    "README.md": "81361898bea9a2728df6c40fe952c3be28ba35746f9eaf2366e00722b747f4f4",
+    "assets/paper-warfront/presentation-revisions/rc21-fog-stage-r1.json": "8dbb7c3b17ea93e24da694392be3a7dd2e4be96bb9550841302c3bf090bdcca2",
+    "assets/paper-warfront/presentation-revisions/rc22-observer-camera-r1.json": "687c345efd3226b26a55fc0540bf25336fd8495914514fd3ec3ffb36b200bc94",
+    "assets/paper-warfront/style-tokens.json": "bdfc5d7a21acf808b7c9d78e81b63b4adf226ec5aebf6acc72c45b5f2a1ed761",
+    "assets/paper-warfront/system-revisions/rc23-ai-economy-bootstrap-r1.json": "bc58c51f68940999334ac217787d3ddcceada9cd6a7ab7342b3e428a601a3f71",
+    "assets/paper-warfront/ui/paper-ui.json": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2",
+    "docs/paper-warfront/11-Godot架构与数据契约.md": "6ef6c8caa25ceedc49536d651d0a70514f753a5a08ffe56b15640e0e3843a7f6",
+    "docs/paper-warfront/133-研究后付费部署闭环与rc24交付.md": "27c09d9861287b6f3f8dad2b9288cd5154eb9fa53468fb6a1b6fe2973c10ee85",
+    "docs/paper-warfront/16-玩家手册.md": "cd368540b9f7903ec402aba6d2187c2c9b0d94637f015c2896df987a38b7a825",
+    "docs/paper-warfront/README.md": "a97ae03c29eda5b7bc5c5b03f51090f679e1de56a5110f3dbe0ff5920723935d",
+    "game/tests/test_paid_fielding_pipeline.gd": "f71d9533bd2be0a79f19888c7c5f425b8b4aab34d9b730bb643d1e29e7fac809",
+    "game/tests/test_unit_fielding_roles.gd": "b06c385afffb14023838419701f7d14aea30fdb6b03a42fb5f317711d456c2de",
+    "output/qa/godot/paid-fielding-rc24/compare-default-long419.json": "131b7f9be87bd359b0ed97e5516afa1575c48140ff30c4c9e9afd2c98676da0c",
+    "output/qa/godot/paid-fielding-rc24/compare-default-mid137.json": "1197e9d4ceae8ef8d215871d2eadaa8c3c3483f05f0cc81e6ce1e64e305faa9d",
+    "output/qa/godot/paid-fielding-rc24/compare-default-short271.json": "5ceb9f1cfe5af0be8199b4344f85571666b2b48024d017ebc927c3b5ffa17a80",
+    "output/qa/godot/paid-fielding-rc24/compare-default300-mid137.json": "cf6d101c61351821923e915c3767f446559eb9e9225ddd7ab1262f4b6f7a0239",
+    "output/qa/godot/paid-fielding-rc24/compare-roles-r3-mid137-disabled-normalized.json": "dd363c760047815f4bdfba341af97d5d8b5e4fe62f4c7909df5bc75aca0811d7",
+    "output/qa/godot/paid-fielding-rc24/control-long419/report.json": "8b45a5ba04b5a3c0724e417529578bdf3b0fdf0260d38dff46a30a43dd35ce92",
+    "output/qa/godot/paid-fielding-rc24/control-menu300-mid137/report.json": "7fc0f4c57e2e227d0958156d6d88b56b3ca9cb1c1fa1ddf11a014e9cfd81ca11",
+    "output/qa/godot/paid-fielding-rc24/control-mid137/report.json": "8c9b29038b02ae2d7839e3e887ebe7e752c8c0d18e71502ff6f31d4ef1e9b4a9",
+    "output/qa/godot/paid-fielding-rc24/control-short271/report.json": "f3d817c01c477b5cbe900096ab11fe9182073a0d604f0473d59e88b1e6439d19",
+    "output/qa/godot/paid-fielding-rc24/default-long419/report.json": "2126db8070e8e227060c240ef5b45494a315ef0db05e5f2bb36a7772cbb231e4",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/report.json": "7f1af0884ae236719f5ae9b3a7b121fc228db34d12b5a691b1b4f884a67ca39e",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/report.json": "8502d0262300fefc7c533f3b7df15b6d819f8f421068163be4b1abeeac913763",
+    "output/qa/godot/paid-fielding-rc24/default-short271/report.json": "2179917789f20656ccdde1f68d1d7e3613766f62955ca7437a6a26aa63f71b34",
+    "output/qa/godot/paid-fielding-rc24/formal-default-runtime/candidate.json": "4711f61fd0d704c12b07104bc1a582218b58441fa55eb34be4c4d15c768a0cf8",
+    "output/qa/godot/paid-fielding-rc24/formal-hammer/verification.json": "be99bc434442641ca31f38f68000dc5817f1ea6f512dfb846011e432c2a2b44a",
+    "output/qa/godot/paid-fielding-rc24/formal-reach/regression/report.json": "247372ecbcc629e4e2468b2f6650f8a20cbd117fa0d0682a15673eec49c89a3c",
+    "output/qa/godot/paid-fielding-rc24/formal-reach/verification.json": "885c7a6411235a274a991f05a95b299ab1d04c311907a310c2282b37659782d0",
+    "output/qa/godot/paid-fielding-rc24/normal-entry-yin-mu-harness-r1.gd": "296b5397edc07c8883690263274b151d10107eecff9c7d43cba2a77d7017211e",
+    "output/qa/godot/paid-fielding-rc24/release/apk-logic/report.json": "f9e92516c2bca8519adcfb34f3fb15dd894bec84e23f1775d8f95bd17a223aa2",
+    "output/qa/godot/paid-fielding-rc24/release/camera-render/report.json": "78d033c43235c79983004e1dcd60bd92a35a6a354bc06cf39eb18a24ffc611a6",
+    "output/qa/godot/paid-fielding-rc24/release/fog-render/report.json": "bc20f61370a7f177b5913e28658177f02f376499b6bde0386d260aca65b0042b",
+    "output/qa/godot/paid-fielding-rc24/release/mobile/mobile-matrix.json": "6fb96ab12f7380f3182335943cbe6b3e91cb118887d23f391133b946cfcd2431",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/01-normal-opening.png": "058d744f8883b62f5b93b5d4fc062dcdd122d72d3b1fce1f1d0fec2e4d02998c",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/02-paid-research.png": "c0e664d0ae8fb236b5b3a4d516146f9a5f91130979e89b8a5b44c7242f708418",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/03-research-complete.png": "7143cfcf2d2fa57dba2877fa90029215a77086626f69bb429b7e1b61614d37d1",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/04-first-paid-production.png": "79b3ce662d88502fb9d9094b7d9730bb3a756c56b5782b3757aebdaaecd56c97",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/05-first-unit-impact.png": "c4fa6c91fdab8fc0a08e249dabe68e049caa7d87124390c42772b08b543ecabe",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/report.json": "d0036b9485b1a9c1e4e6cb0bc429b0d216b8a8a373bade1886c3d97acd7de197",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/desktop/runtime.log": "219eea99184a8a069b42a501b798483486294cb20ec7d818b1c9b8022c3ba9c0",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/01-normal-opening.png": "3a70a236a74bcdb32ee3a91ad03d1127206fff94b62ffd0b5ffa97d9ea78eceb",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/02-paid-research.png": "408b98427563ab5763a8a3ae7b5fd701546f00a5c538e6c58a97e7e355b0b1fc",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/03-research-complete.png": "dc98e577a9f821bd5749f66984d4e1e00864faed5c3ea37b52c0a4dbbcb5fc39",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/04-first-paid-production.png": "68864c99b428a4f585a8a7ed9436a74d19f62522d68bc0a0c7dabfc1f49f670b",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/05-first-unit-impact.png": "9a6c146d941819b172cfafa07eff7cdd382e7a5ac42dc043e501966dcc503293",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/report.json": "23f71e9ab24d630391f56581eed4d98d7a571e9f2ddf5a6d2e0a3f9147f1b3c0",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/phone/runtime.log": "219eea99184a8a069b42a501b798483486294cb20ec7d818b1c9b8022c3ba9c0",
+    "output/qa/godot/paid-fielding-rc24/release/normal-fielding/report.json": "a50b1cd7d5ba234907f857cb6bb31c36f63caf3423e12da9fd21ccfc07dfaee9",
+    "output/qa/godot/paid-fielding-rc24/release/paid-fielding-render/desktop/report.json": "495dd6b5cbbe734b9a5da383e7038b38a61ae1e5a622bf895ebc6b2203515765",
+    "output/qa/godot/paid-fielding-rc24/release/paper-ui-assets.json": "34965580fe0c2ec7e6ac84a2689abcf4904a566a5067ae2fa85d914fbe8e49d5",
+    "output/qa/godot/paid-fielding-rc24/release/runner-report.json": "d9a66d445bc8e375ac3cc443d2aed24a4d82f54190943325ee660fae1a0aa8f2",
+    "output/qa/godot/paid-fielding-rc24/release/stage-proportions/report.json": "8d34e94e9e352baa0e83b8437931d15d4df5b9cf5ee1f160c073e1bd08f03830",
+    "output/qa/godot/paid-fielding-rc24/release/windows-logic/report.json": "70b0b80045999ab768b9c597737f895fd3d0e89e45e2f81909e05c7ab524d3fa",
+    "output/qa/godot/paid-fielding-rc24/working-regression-r3/report.json": "47d879aba9e3d3f4df5bf3d49e9e63b6ef8941ed7f8e2fca40b7d59336f82ed9",
+    "release/3.0.0-rc24-preview/README.md": "4e39f54b79ff84f026a62b749c9e0f1bf59f84217541e4741e2de6d06a478f1f",
+    "release/3.0.0-rc24-preview/build-manifest.json": "3e267c2445cce4fab99e81aded554953f841e9c5bff1c4bfc2fae397f6e517a3",
+    "release/3.0.0-rc24-preview/preview-verification.json": "b868d5f8590d4fe0155a572990dff246925c7c95b15b177f1affd8a8584ca559",
+    "tools/paper-warfront/audit_preview_build.py": "f317a8ede8744b5325f0197e886ef64b039d337ee3d6f14e9a65b71b21b7d5c3",
+    "tools/paper-warfront/check_paid_fielding_render.py": "66e16634e999bb2ca3bb58d43fd0384358090525384e8d6310e6ea2caecc3354",
+    "tools/paper-warfront/compare_default_fielding.py": "fc49b117d12e0da4043b826a14c1dda0adf49fd5463a6480c53bd4fe5aae0dd0",
+    "tools/paper-warfront/compare_paid_fielding.py": "c10cbb2b3c14cb8da2921c05b204348aad3d438ec0e87ec2e987bb30e670e72e",
+    "tools/paper-warfront/observe_paid_fielding.py": "56ac1457c3f27ae4d6cb38b9a923180d9b3404f8dd92d43b794f655ef9472007",
+    "tools/paper-warfront/probe_paid_fielding_render.gd": "f65c5bc7be41a41edc8bdfab90d4aab5a9fe6e0e1e24a0da34a6a1a1bacec6be",
+    "tools/paper-warfront/run_preview_checks.py": "cf65363941a41bfd85b87d25ad51525305e608fc2a33907d01cbe505c4cb2ba4",
+    "tools/paper-warfront/write_paid_fielding_revision.py": "49f5530cecebd91608b05d361fb0a9381d6930bca93048719a7084f05c0ff520"
+  },
+  "builds_and_archives": [
+    {
+      "path": "release/3.0.0-rc24-preview/windows/PaperWarfront.exe",
+      "bytes": 238232008,
+      "sha256": "1fef6b3c4c90db50730089e6f49abfb27f88f1ef0c7b100c5fe057e0dac2f6e9"
+    },
+    {
+      "path": "release/3.0.0-rc24-preview/android/PaperWarfront-3.0.0-rc24-preview.apk",
+      "bytes": 176419698,
+      "sha256": "290a204015d5d55a984b3c5fa12bba16d7397fd3d13d02f56c8f87a14a5c2279"
+    },
+    {
+      "path": "release/3.0.0-rc24-preview/PaperWarfront-Windows-3.0.0-rc24-preview.zip",
+      "bytes": 165355046,
+      "sha256": "6df6b88bc3013b3c55723c50b91fff4557cb85b6c319e346f5fdef9ca086396e"
+    }
+  ]
+}

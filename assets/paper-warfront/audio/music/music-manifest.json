@@ -1,0 +1,92 @@
+[
+  {
+    "id": "audio.music.yin",
+    "path": "assets/paper-warfront/audio/music/music-yin.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.32380146780667485,
+    "sha256": "7b046a798fc8ab5f03b9ce72ae0916455d66c027d7a8b9dd2225d821eee50d1e",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.mo",
+    "path": "assets/paper-warfront/audio/music/music-mo.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.2840338225759383,
+    "sha256": "e1ee3f0a1bb186087e05784aebb51cdc2592d7efe15c86c0cec574995cb28d42",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.deng",
+    "path": "assets/paper-warfront/audio/music/music-deng.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.29244560514494977,
+    "sha256": "0a610762b3e8334d9821dd4605ee1bcbc9c34d511d3c963688b2ef690c40e53e",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.ji",
+    "path": "assets/paper-warfront/audio/music/music-ji.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.31550718467980504,
+    "sha256": "c3f22a7bb17f9f369bb4a9f20eedff5c5ada62933b95a7918d655e49e13cc27e",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.yuan",
+    "path": "assets/paper-warfront/audio/music/music-yuan.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.28432791581600725,
+    "sha256": "4368be6cbf779f9dc15f218c6046ee776def778c0dbdcbf547a5c6575241f00e",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.qi",
+    "path": "assets/paper-warfront/audio/music/music-qi.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.2786101117946887,
+    "sha256": "e9d5a171ed9090db5802f91704a94a02a40f7683eebc8168f78db5a9742452c5",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.mu",
+    "path": "assets/paper-warfront/audio/music/music-mu.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.31037119278834036,
+    "sha256": "c642828e754ff64ffb83d6f8e6490a6a0d763422621a053966f93c408064ab6e",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.shuang",
+    "path": "assets/paper-warfront/audio/music/music-shuang.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.2915394086354335,
+    "sha256": "40d205f2d53fcad983539466d6c2d4f885f3009754768d51032bb32edb60e41d",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.jin",
+    "path": "assets/paper-warfront/audio/music/music-jin.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.289397089439394,
+    "sha256": "781f8cc3833b8ebce440e77c36fdca2fb1e3577df299050087e9c603220c256d",
+    "generator": "tools/paper-warfront/master_music.py"
+  },
+  {
+    "id": "audio.music.bai",
+    "path": "assets/paper-warfront/audio/music/music-bai.wav",
+    "duration": 40.0,
+    "sample_rate": 22050,
+    "peak": 0.2941913347178993,
+    "sha256": "1315ea429e7523a4420b4f38165f8440b396c03b2468b7e058b77daf1b6a6d8c",
+    "generator": "tools/paper-warfront/master_music.py"
+  }
+]

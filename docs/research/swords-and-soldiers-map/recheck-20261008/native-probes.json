@@ -1,0 +1,2355 @@
+{
+	"conditions": {
+		"ai_enabled": false,
+		"contact": "one axe each at time 0, no workers or production delay",
+		"dt": 0.0166666666666667,
+		"economy_seconds": 120,
+		"faction_each": "yin",
+		"route_unit": "unit.yin.axe, solitary, no enemies before merge",
+		"seed": 137,
+		"worker_spawn": "base.x + 0.1 world units; no recruit cost or production delay"
+	},
+	"date": "2026-10-08",
+	"economics": [
+		{
+			"by_mine": {
+				"mine.0.0": 160
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 160,
+			"gold_per_30_second_interval": [
+				40,
+				40,
+				40,
+				40
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 1,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.200000002980232
+				}
+			],
+			"first_delivery_seconds": 14.0833333333336,
+			"gold_delivered": 11,
+			"gold_per_30_second_interval": [
+				11,
+				0,
+				0,
+				0
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 160
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 160,
+			"gold_per_30_second_interval": [
+				40,
+				40,
+				40,
+				40
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 1,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 168
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.4",
+					"job": "deliver",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 1.46765909125646,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.99247666666667,
+					"uid": 5,
+					"x": 30.5323696136475,
+					"y": 0.149589106440544
+				}
+			],
+			"first_delivery_seconds": 5.48333333333332,
+			"gold_delivered": 168,
+			"gold_per_30_second_interval": [
+				40,
+				40,
+				48,
+				40
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 0,
+			"priority": "near",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.1": 88
+			},
+			"final_worker_states": [
+				{
+					"cargo": 11,
+					"edge": "ground.4",
+					"job": "deliver",
+					"mine": "mine.1.1",
+					"route_plan": {
+						"distance": 2.45590026987713,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.00423548804599,
+					"uid": 5,
+					"x": 29.5441799163818,
+					"y": 0.159689843654633
+				}
+			],
+			"first_delivery_seconds": 13.5666666666669,
+			"gold_delivered": 88,
+			"gold_per_30_second_interval": [
+				22,
+				22,
+				22,
+				22
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 168
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.4",
+					"job": "deliver",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 1.46765909125646,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.99247666666667,
+					"uid": 5,
+					"x": 30.5323696136475,
+					"y": 0.149589106440544
+				}
+			],
+			"first_delivery_seconds": 5.48333333333332,
+			"gold_delivered": 168,
+			"gold_per_30_second_interval": [
+				40,
+				40,
+				48,
+				40
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 0,
+			"priority": "auto",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 480
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 480,
+			"gold_per_30_second_interval": [
+				120,
+				120,
+				120,
+				120
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 480
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 480,
+			"gold_per_30_second_interval": [
+				120,
+				120,
+				120,
+				120
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 480,
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.200000002980232
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 491,
+			"gold_per_30_second_interval": [
+				131,
+				120,
+				120,
+				120
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 480,
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.200000002980232
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 491,
+			"gold_per_30_second_interval": [
+				131,
+				120,
+				120,
+				120
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 640,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.200000002980232
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.200000002980232
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.64015,
+					"uid": 10,
+					"x": 4.63998889923096,
+					"y": 0.226939842104912
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 662,
+			"gold_per_30_second_interval": [
+				174,
+				168,
+				160,
+				160
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 6
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 640,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 5,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 6,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.45681666666667,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.45681666666667,
+					"uid": 7,
+					"x": 4.45667409896851,
+					"y": 0.224312335252762
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.200000002980232
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 8.29548329921722,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.200000002980232
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 2.64015,
+					"uid": 10,
+					"x": 4.63998889923096,
+					"y": 0.226939842104912
+				}
+			],
+			"first_delivery_seconds": 5.76666666666665,
+			"gold_delivered": 662,
+			"gold_per_30_second_interval": [
+				174,
+				168,
+				160,
+				160
+			],
+			"map": "map.01.01",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 6
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 136
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 136,
+			"gold_per_30_second_interval": [
+				32,
+				32,
+				32,
+				40
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 17.2333333333336,
+			"gold_delivered": 11,
+			"gold_per_30_second_interval": [
+				11,
+				0,
+				0,
+				0
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 136
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 136,
+			"gold_per_30_second_interval": [
+				32,
+				32,
+				32,
+				40
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 144
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.4",
+					"job": "mine",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 2.70523846049628,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 5.33111846049628,
+					"uid": 5,
+					"x": 38.6958961486816,
+					"y": 0.0333422906696796
+				}
+			],
+			"first_delivery_seconds": 6.58333333333332,
+			"gold_delivered": 144,
+			"gold_per_30_second_interval": [
+				32,
+				40,
+				32,
+				40
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "near",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.1": 77
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.4",
+					"job": "mine",
+					"mine": "mine.1.1",
+					"route_plan": {
+						"distance": 5.8290970177015,
+						"exit": "away",
+						"next_edge": "ground.3"
+					},
+					"s": 1.6186184604963,
+					"uid": 5,
+					"x": 34.989616394043,
+					"y": -0.175241485238075
+				}
+			],
+			"first_delivery_seconds": 16.6333333333337,
+			"gold_delivered": 77,
+			"gold_per_30_second_interval": [
+				11,
+				22,
+				22,
+				22
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 144
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.4",
+					"job": "mine",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 2.70523846049628,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 5.33111846049628,
+					"uid": 5,
+					"x": 38.6958961486816,
+					"y": 0.0333422906696796
+				}
+			],
+			"first_delivery_seconds": 6.58333333333332,
+			"gold_delivered": 144,
+			"gold_per_30_second_interval": [
+				32,
+				40,
+				32,
+				40
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "auto",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 408
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 408,
+			"gold_per_30_second_interval": [
+				96,
+				96,
+				96,
+				120
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 408
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 408,
+			"gold_per_30_second_interval": [
+				96,
+				96,
+				96,
+				120
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 408,
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 419,
+			"gold_per_30_second_interval": [
+				107,
+				96,
+				96,
+				120
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 0,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 544
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.99992333333333,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.435416666666666,
+					"uid": 8,
+					"x": 2.43537425994873,
+					"y": 0.0939159244298935
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 544,
+			"gold_per_30_second_interval": [
+				128,
+				128,
+				128,
+				160
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 1,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 544,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.99992333333333,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.435416666666666,
+					"uid": 10,
+					"x": 2.43537425994873,
+					"y": 0.0939159244298935
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 566,
+			"gold_per_30_second_interval": [
+				150,
+				128,
+				128,
+				160
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 1,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 6
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 544,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 5,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 6,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 1.57909,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 1.85625,
+					"uid": 7,
+					"x": 3.85525012016296,
+					"y": 0.0451318584382534
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 2.99992333333333,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.435416666666666,
+					"uid": 8,
+					"x": 2.43537425994873,
+					"y": 0.0939159244298935
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 10.4547799677467,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 10,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 6.91666666666665,
+			"gold_delivered": 566,
+			"gold_per_30_second_interval": [
+				150,
+				128,
+				128,
+				160
+			],
+			"map": "map.01.09",
+			"max_idle_mining_sampled": 1,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 6
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 112
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 112,
+			"gold_per_30_second_interval": [
+				24,
+				32,
+				32,
+				24
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 1,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 20.0500000000001,
+			"gold_delivered": 11,
+			"gold_per_30_second_interval": [
+				11,
+				0,
+				0,
+				0
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 112
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 112,
+			"gold_per_30_second_interval": [
+				24,
+				32,
+				32,
+				24
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 1,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 120
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.4",
+					"job": "deliver",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 1.84086312317532,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 5.21450333333331,
+					"uid": 5,
+					"x": 43.760440826416,
+					"y": -0.0214552469551563
+				}
+			],
+			"first_delivery_seconds": 7.56666666666665,
+			"gold_delivered": 120,
+			"gold_per_30_second_interval": [
+				24,
+				32,
+				32,
+				32
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 1,
+			"priority": "near",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.1": 66
+			},
+			"final_worker_states": [
+				{
+					"cargo": 0,
+					"edge": "ground.4",
+					"job": "mine",
+					"mine": "mine.1.1",
+					"route_plan": {
+						"distance": 7.26978027420685,
+						"exit": "away",
+						"next_edge": "ground.3"
+					},
+					"s": 2.40328312317536,
+					"uid": 5,
+					"x": 40.9567260742188,
+					"y": -0.226306334137917
+				}
+			],
+			"first_delivery_seconds": 19.3666666666668,
+			"gold_delivered": 66,
+			"gold_per_30_second_interval": [
+				11,
+				22,
+				11,
+				22
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 0,
+			"priority": "outer",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.1.0": 120
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.4",
+					"job": "deliver",
+					"mine": "mine.1.0",
+					"route_plan": {
+						"distance": 1.84086312317532,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 5.21450333333331,
+					"uid": 5,
+					"x": 43.760440826416,
+					"y": -0.0214552469551563
+				}
+			],
+			"first_delivery_seconds": 7.56666666666665,
+			"gold_delivered": 120,
+			"gold_per_30_second_interval": [
+				24,
+				32,
+				32,
+				32
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 1,
+			"priority": "auto",
+			"side": 1,
+			"worker_count": 1
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 336
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 336,
+			"gold_per_30_second_interval": [
+				72,
+				96,
+				96,
+				72
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 336
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 336,
+			"gold_per_30_second_interval": [
+				72,
+				96,
+				96,
+				72
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 3
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 336,
+				"mine.0.1": 11
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 347,
+			"gold_per_30_second_interval": [
+				83,
+				96,
+				96,
+				72
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 448
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.337223333333332,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.337223333333332,
+					"uid": 8,
+					"x": 2.33717918395996,
+					"y": 0.0945477411150932
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 448,
+			"gold_per_30_second_interval": [
+				96,
+				128,
+				128,
+				96
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 4
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 448,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 8,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.337223333333332,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.337223333333332,
+					"uid": 10,
+					"x": 2.33717918395996,
+					"y": 0.0945477411150932
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 470,
+			"gold_per_30_second_interval": [
+				118,
+				128,
+				128,
+				96
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "auto",
+			"side": 0,
+			"worker_count": 6
+		},
+		{
+			"by_mine": {
+				"mine.0.0": 448,
+				"mine.0.1": 22
+			},
+			"final_worker_states": [
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 5,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 6,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.0,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.0,
+					"uid": 7,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 8,
+					"edge": "ground.0",
+					"job": "deliver",
+					"mine": "mine.0.0",
+					"route_plan": {
+						"distance": 0.337223333333332,
+						"exit": "",
+						"next_edge": ""
+					},
+					"s": 0.337223333333332,
+					"uid": 8,
+					"x": 2.33717918395996,
+					"y": 0.0945477411150932
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 9,
+					"x": 2.0,
+					"y": 0.100000001490116
+				},
+				{
+					"cargo": 0,
+					"edge": "ground.0",
+					"job": "mine",
+					"mine": "mine.0.1",
+					"route_plan": {
+						"distance": 12.3984423223877,
+						"exit": "west",
+						"next_edge": "ground.0"
+					},
+					"s": 0.0,
+					"uid": 10,
+					"x": 2.0,
+					"y": 0.100000001490116
+				}
+			],
+			"first_delivery_seconds": 7.94999999999998,
+			"gold_delivered": 470,
+			"gold_per_30_second_interval": [
+				118,
+				128,
+				128,
+				96
+			],
+			"map": "map.01.20",
+			"max_idle_mining_sampled": 3,
+			"priority": "near",
+			"side": 0,
+			"worker_count": 6
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"first_contact": [
+		{
+			"first_hit_seconds": 11.0666666666668,
+			"map": "map.01.01",
+			"positions": [
+				{
+					"edge": "ground.2",
+					"side": 0,
+					"x": 16.6634979248047,
+					"y": -0.226876080036163
+				},
+				{
+					"edge": "ground.2",
+					"side": 1,
+					"x": 17.3037414550781,
+					"y": -0.203015759587288
+				}
+			]
+		},
+		{
+			"first_hit_seconds": 14.666666666667,
+			"map": "map.01.10",
+			"positions": [
+				{
+					"edge": "ground.2",
+					"side": 0,
+					"x": 21.4394111633301,
+					"y": -0.418821185827255
+				},
+				{
+					"edge": "ground.2",
+					"side": 1,
+					"x": 22.084135055542,
+					"y": -0.351047843694687
+				}
+			]
+		},
+		{
+			"first_hit_seconds": 16.1333333333337,
+			"map": "map.01.20",
+			"positions": [
+				{
+					"edge": "ground.2",
+					"side": 0,
+					"x": 23.4753265380859,
+					"y": -0.756169676780701
+				},
+				{
+					"edge": "ground.2",
+					"side": 1,
+					"x": 24.1230812072754,
+					"y": -0.758276760578156
+				}
+			]
+		}
+	],
+	"routes": [
+		{
+			"chosen_edge": "ground.2",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.04",
+			"merge_seconds": 18.7166666666669
+		},
+		{
+			"chosen_edge": "bridge",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.04",
+			"merge_seconds": 20.2000000000001
+		},
+		{
+			"chosen_edge": "ground.2",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.09",
+			"merge_seconds": 18.7166666666669
+		},
+		{
+			"chosen_edge": "bridge",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.09",
+			"merge_seconds": 20.1500000000001
+		},
+		{
+			"chosen_edge": "ground.2",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 8.56666666666667,
+			"map": "map.01.13",
+			"merge_seconds": 17.5333333333336
+		},
+		{
+			"chosen_edge": "bridge",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 8.56666666666667,
+			"map": "map.01.13",
+			"merge_seconds": 19.1333333333335
+		},
+		{
+			"chosen_edge": "ground.2",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 7.31666666666665,
+			"map": "map.01.16",
+			"merge_seconds": 15.1833333333337
+		},
+		{
+			"chosen_edge": "bridge",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 7.31666666666665,
+			"map": "map.01.16",
+			"merge_seconds": 16.6333333333337
+		},
+		{
+			"chosen_edge": "ground.2",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.19",
+			"merge_seconds": 18.7166666666669
+		},
+		{
+			"chosen_edge": "bridge",
+			"crossed_nodes": [
+				"home",
+				"fork",
+				"merge"
+			],
+			"fork_seconds": 9.20000000000004,
+			"map": "map.01.19",
+			"merge_seconds": 20.1666666666668
+		}
+	],
+	"scope": "Current working tree only; original game not run; deterministic native fixtures, not human playtest"
+}

@@ -1,0 +1,55 @@
+{
+  "revision": "rc7-opening-budget-r1",
+  "status": "development-tuning-not-final-balance",
+  "reason": "Restore viable initial screening and investment windows; preserve faction mechanics, art identity and attack timing.",
+  "units": {
+    "unit.mu.guard": {
+      "before": {
+        "hp": 245,
+        "damage": 14
+      },
+      "after": {
+        "hp": 300,
+        "damage": 18
+      }
+    },
+    "unit.mu.poisoner": {
+      "before": {
+        "damage": 9
+      },
+      "after": {
+        "damage": 12
+      }
+    },
+    "unit.bai.mirror": {
+      "before": {
+        "gold": 105,
+        "hp": 163,
+        "damage": 18
+      },
+      "after": {
+        "gold": 75,
+        "hp": 210,
+        "damage": 24
+      }
+    },
+    "unit.bai.repeater": {
+      "before": {
+        "gold": 104
+      },
+      "after": {
+        "gold": 75
+      }
+    }
+  },
+  "files": {
+    "assets/paper-warfront/balance-prototype.json": {
+      "before_sha256": "d9a40238835333ecebe45be5ad82176fceef55431d922c9991768df12eb3e820",
+      "after_sha256": "bb545280ff2f9a16b6d68ef7e675d77350da866ca986741f7d3c470647690e4f"
+    },
+    "game/data/balance-prototype.json": {
+      "before_sha256": "d9a40238835333ecebe45be5ad82176fceef55431d922c9991768df12eb3e820",
+      "after_sha256": "bb545280ff2f9a16b6d68ef7e675d77350da866ca986741f7d3c470647690e4f"
+    }
+  }
+}

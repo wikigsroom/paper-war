@@ -1,0 +1,1263 @@
+{
+  "revision": "rc25-ai-stalled-front-r1",
+  "rule_id": "ai.common.front.control-counter",
+  "status": "verified-preview",
+  "version": "3.0.0-rc25-preview",
+  "source": "game/scripts/tactical_ai.gd",
+  "source_sha256": "f6aff741aed1bab3627e8233409853ab2b2d0332538c11ae4af2fb3eb70cfc8a",
+  "exact_frozen_r5_equals_formal_source": true,
+  "changed_public_inputs_since_rc24": [
+    "game/export_presets.cfg",
+    "game/project.godot",
+    "game/scripts/tactical_ai.gd"
+  ],
+  "normal_policy_enabled_on_both_sides": true,
+  "budget_planner_r12_enabled_by_default": false,
+  "new_raster_generation": false,
+  "reused_ui_assets": 38,
+  "reused_ui_version": "3.0.0-rc16-preview",
+  "reused_ui_model": "gpt-image-2.5",
+  "reused_presentation_revisions": [
+    "rc21-fog-stage-r1",
+    "rc22-observer-camera-r1"
+  ],
+  "mechanism_checks": {
+    "groups": 71,
+    "checks": 15634
+  },
+  "compiled_checks_per_package_on_windows": {
+    "groups": 27,
+    "checks": 2744
+  },
+  "comparisons": {
+    "retained-unadopted-r3": {
+      "paired_conditions": 100,
+      "conditions": {
+        "map": "map.01.04",
+        "seed": 137,
+        "starting_stock": 300,
+        "duration": 240
+      },
+      "control": {
+        "matches": 100,
+        "west_wins": 34,
+        "east_wins": 36,
+        "unresolved": 30,
+        "ending_workerless_sides": 89,
+        "gold_delivered": 90041,
+        "research_completed": 231,
+        "paid_orders": 136,
+        "production_spawns": 135,
+        "direct_contributions": 93,
+        "completed_no_order_30s": 69
+      },
+      "candidate": {
+        "matches": 100,
+        "west_wins": 38,
+        "east_wins": 29,
+        "unresolved": 33,
+        "ending_workerless_sides": 96,
+        "gold_delivered": 87930,
+        "research_completed": 190,
+        "paid_orders": 106,
+        "production_spawns": 105,
+        "direct_contributions": 66,
+        "completed_no_order_30s": 57
+      },
+      "houses": {
+        "yin": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 7,
+            "workerless": 4,
+            "gold_delivered": 10512,
+            "completed_studies": 41,
+            "direct_contributions": 19,
+            "wins": 11,
+            "losses": 2
+          },
+          "candidate": {
+            "unresolved": 7,
+            "workerless": 6,
+            "gold_delivered": 9456,
+            "completed_studies": 34,
+            "direct_contributions": 14,
+            "wins": 9,
+            "losses": 4
+          }
+        },
+        "mo": {
+          "side_participations": 20,
+          "control": {
+            "losses": 11,
+            "workerless": 12,
+            "gold_delivered": 7568,
+            "completed_studies": 5,
+            "direct_contributions": 0,
+            "unresolved": 6,
+            "wins": 3
+          },
+          "candidate": {
+            "losses": 11,
+            "workerless": 14,
+            "gold_delivered": 7464,
+            "completed_studies": 6,
+            "direct_contributions": 0,
+            "unresolved": 6,
+            "wins": 3
+          }
+        },
+        "deng": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 5,
+            "workerless": 6,
+            "gold_delivered": 8888,
+            "completed_studies": 22,
+            "direct_contributions": 3,
+            "wins": 12,
+            "losses": 3
+          },
+          "candidate": {
+            "unresolved": 5,
+            "workerless": 5,
+            "gold_delivered": 9184,
+            "completed_studies": 19,
+            "direct_contributions": 2,
+            "wins": 13,
+            "losses": 2
+          }
+        },
+        "ji": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 10,
+            "workerless": 0,
+            "gold_delivered": 12800,
+            "completed_studies": 48,
+            "direct_contributions": 24,
+            "wins": 10
+          },
+          "candidate": {
+            "unresolved": 11,
+            "workerless": 3,
+            "gold_delivered": 13010,
+            "completed_studies": 42,
+            "direct_contributions": 23,
+            "wins": 6,
+            "losses": 3
+          }
+        },
+        "yuan": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 13,
+            "gold_delivered": 8505,
+            "completed_studies": 25,
+            "direct_contributions": 12,
+            "wins": 5,
+            "unresolved": 8
+          },
+          "candidate": {
+            "losses": 6,
+            "workerless": 13,
+            "gold_delivered": 8400,
+            "completed_studies": 25,
+            "direct_contributions": 10,
+            "wins": 6,
+            "unresolved": 8
+          }
+        },
+        "qi": {
+          "side_participations": 20,
+          "control": {
+            "losses": 10,
+            "workerless": 11,
+            "gold_delivered": 8360,
+            "completed_studies": 16,
+            "direct_contributions": 5,
+            "unresolved": 5,
+            "wins": 5
+          },
+          "candidate": {
+            "losses": 10,
+            "workerless": 14,
+            "gold_delivered": 7448,
+            "completed_studies": 7,
+            "direct_contributions": 3,
+            "unresolved": 6,
+            "wins": 4
+          }
+        },
+        "mu": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 8,
+            "gold_delivered": 10744,
+            "completed_studies": 21,
+            "direct_contributions": 13,
+            "unresolved": 7,
+            "wins": 6
+          },
+          "candidate": {
+            "losses": 8,
+            "workerless": 11,
+            "gold_delivered": 9808,
+            "completed_studies": 14,
+            "direct_contributions": 7,
+            "unresolved": 8,
+            "wins": 4
+          }
+        },
+        "shuang": {
+          "side_participations": 20,
+          "control": {
+            "wins": 13,
+            "workerless": 7,
+            "gold_delivered": 8408,
+            "completed_studies": 23,
+            "direct_contributions": 11,
+            "losses": 3,
+            "unresolved": 4
+          },
+          "candidate": {
+            "wins": 14,
+            "workerless": 7,
+            "gold_delivered": 7608,
+            "completed_studies": 20,
+            "direct_contributions": 5,
+            "losses": 4,
+            "unresolved": 2
+          }
+        },
+        "jin": {
+          "side_participations": 20,
+          "control": {
+            "losses": 15,
+            "workerless": 16,
+            "gold_delivered": 6936,
+            "completed_studies": 10,
+            "direct_contributions": 3,
+            "wins": 2,
+            "unresolved": 3
+          },
+          "candidate": {
+            "losses": 13,
+            "workerless": 16,
+            "gold_delivered": 7472,
+            "completed_studies": 10,
+            "direct_contributions": 0,
+            "unresolved": 7
+          }
+        },
+        "bai": {
+          "side_participations": 20,
+          "control": {
+            "losses": 12,
+            "workerless": 12,
+            "gold_delivered": 7320,
+            "completed_studies": 20,
+            "direct_contributions": 3,
+            "unresolved": 5,
+            "wins": 3
+          },
+          "candidate": {
+            "wins": 8,
+            "workerless": 7,
+            "gold_delivered": 8080,
+            "completed_studies": 13,
+            "direct_contributions": 2,
+            "losses": 6,
+            "unresolved": 6
+          }
+        }
+      },
+      "outcome_changes": [
+        {
+          "index": 9,
+          "west": "yin",
+          "east": "bai",
+          "control_winner": 0,
+          "candidate_winner": 1,
+          "control_time": 223.733333333404,
+          "candidate_time": 191.883333333378
+        },
+        {
+          "index": 17,
+          "west": "mo",
+          "east": "shuang",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 143.93333333334,
+          "candidate_time": 128.866666666661
+        },
+        {
+          "index": 18,
+          "west": "mo",
+          "east": "jin",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 151.883333333346,
+          "candidate_time": 116.066666666661
+        },
+        {
+          "index": 19,
+          "west": "mo",
+          "east": "bai",
+          "control_winner": 0,
+          "candidate_winner": 1,
+          "control_time": 130.383333333329,
+          "candidate_time": 113.566666666662
+        },
+        {
+          "index": 20,
+          "west": "deng",
+          "east": "yin",
+          "control_winner": -2,
+          "candidate_winner": 1,
+          "control_time": 240.000000000083,
+          "candidate_time": 188.266666666709
+        },
+        {
+          "index": 23,
+          "west": "deng",
+          "east": "ji",
+          "control_winner": 1,
+          "candidate_winner": -2,
+          "control_time": 165.650000000024,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 25,
+          "west": "deng",
+          "east": "qi",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 183.200000000038,
+          "candidate_time": 151.333333333346
+        },
+        {
+          "index": 35,
+          "west": "ji",
+          "east": "qi",
+          "control_winner": 0,
+          "candidate_winner": -2,
+          "control_time": 102.166666666662,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 37,
+          "west": "ji",
+          "east": "shuang",
+          "control_winner": -2,
+          "candidate_winner": 1,
+          "control_time": 240.000000000083,
+          "candidate_time": 169.33333333336
+        },
+        {
+          "index": 38,
+          "west": "ji",
+          "east": "jin",
+          "control_winner": 0,
+          "candidate_winner": -2,
+          "control_time": 227.833333333407,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 48,
+          "west": "yuan",
+          "east": "jin",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 178.716666666701,
+          "candidate_time": 145.933333333342
+        },
+        {
+          "index": 53,
+          "west": "qi",
+          "east": "ji",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 121.199999999994,
+          "candidate_time": 186.450000000041
+        },
+        {
+          "index": 69,
+          "west": "mu",
+          "east": "bai",
+          "control_winner": 0,
+          "candidate_winner": -2,
+          "control_time": 211.683333333394,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 73,
+          "west": "shuang",
+          "east": "ji",
+          "control_winner": -2,
+          "candidate_winner": 0,
+          "control_time": 240.000000000083,
+          "candidate_time": 168.750000000026
+        },
+        {
+          "index": 80,
+          "west": "jin",
+          "east": "yin",
+          "control_winner": 1,
+          "candidate_winner": -2,
+          "control_time": 199.783333333384,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 85,
+          "west": "jin",
+          "east": "qi",
+          "control_winner": 1,
+          "candidate_winner": -2,
+          "control_time": 187.933333333375,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 90,
+          "west": "bai",
+          "east": "yin",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 149.283333333344,
+          "candidate_time": 141.850000000005
+        },
+        {
+          "index": 91,
+          "west": "bai",
+          "east": "mo",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 131.08333333333,
+          "candidate_time": 109.683333333328
+        },
+        {
+          "index": 95,
+          "west": "bai",
+          "east": "qi",
+          "control_winner": -2,
+          "candidate_winner": 0,
+          "control_time": 240.000000000083,
+          "candidate_time": 118.216666666661
+        },
+        {
+          "index": 96,
+          "west": "bai",
+          "east": "mu",
+          "control_winner": 1,
+          "candidate_winner": 0,
+          "control_time": 223.90000000007,
+          "candidate_time": 107.999999999995
+        },
+        {
+          "index": 98,
+          "west": "bai",
+          "east": "jin",
+          "control_winner": 0,
+          "candidate_winner": -2,
+          "control_time": 145.066666666674,
+          "candidate_time": 240.000000000083
+        }
+      ]
+    },
+    "r5-stock160": {
+      "paired_conditions": 100,
+      "conditions": {
+        "map": "map.01.04",
+        "seed": 137,
+        "starting_stock": 160,
+        "duration": 240
+      },
+      "control": {
+        "matches": 100,
+        "west_wins": 36,
+        "east_wins": 36,
+        "unresolved": 28,
+        "ending_workerless_sides": 95,
+        "gold_delivered": 79485,
+        "research_completed": 131,
+        "paid_orders": 84,
+        "production_spawns": 82,
+        "direct_contributions": 40,
+        "completed_no_order_30s": 24
+      },
+      "candidate": {
+        "matches": 100,
+        "west_wins": 37,
+        "east_wins": 36,
+        "unresolved": 27,
+        "ending_workerless_sides": 97,
+        "gold_delivered": 78963,
+        "research_completed": 129,
+        "paid_orders": 83,
+        "production_spawns": 81,
+        "direct_contributions": 41,
+        "completed_no_order_30s": 23
+      },
+      "houses": {
+        "yin": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 4,
+            "workerless": 0,
+            "gold_delivered": 8672,
+            "completed_studies": 25,
+            "direct_contributions": 8,
+            "wins": 16
+          },
+          "candidate": {
+            "unresolved": 5,
+            "workerless": 0,
+            "gold_delivered": 8648,
+            "completed_studies": 24,
+            "direct_contributions": 8,
+            "wins": 15
+          }
+        },
+        "mo": {
+          "side_participations": 20,
+          "control": {
+            "losses": 5,
+            "workerless": 6,
+            "gold_delivered": 8720,
+            "completed_studies": 14,
+            "direct_contributions": 4,
+            "wins": 14,
+            "unresolved": 1
+          },
+          "candidate": {
+            "losses": 5,
+            "workerless": 6,
+            "gold_delivered": 8672,
+            "completed_studies": 14,
+            "direct_contributions": 5,
+            "wins": 14,
+            "unresolved": 1
+          }
+        },
+        "deng": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 9,
+            "gold_delivered": 9288,
+            "completed_studies": 13,
+            "direct_contributions": 2,
+            "unresolved": 6,
+            "wins": 7
+          },
+          "candidate": {
+            "losses": 7,
+            "workerless": 9,
+            "gold_delivered": 9288,
+            "completed_studies": 13,
+            "direct_contributions": 2,
+            "unresolved": 6,
+            "wins": 7
+          }
+        },
+        "ji": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 11,
+            "gold_delivered": 7080,
+            "completed_studies": 10,
+            "direct_contributions": 2,
+            "unresolved": 11,
+            "wins": 2
+          },
+          "candidate": {
+            "losses": 7,
+            "workerless": 11,
+            "gold_delivered": 7080,
+            "completed_studies": 10,
+            "direct_contributions": 2,
+            "unresolved": 11,
+            "wins": 2
+          }
+        },
+        "yuan": {
+          "side_participations": 20,
+          "control": {
+            "losses": 6,
+            "workerless": 8,
+            "gold_delivered": 9149,
+            "completed_studies": 19,
+            "direct_contributions": 7,
+            "wins": 8,
+            "unresolved": 6
+          },
+          "candidate": {
+            "losses": 6,
+            "workerless": 8,
+            "gold_delivered": 9163,
+            "completed_studies": 18,
+            "direct_contributions": 6,
+            "wins": 8,
+            "unresolved": 6
+          }
+        },
+        "qi": {
+          "side_participations": 20,
+          "control": {
+            "losses": 6,
+            "workerless": 7,
+            "gold_delivered": 8544,
+            "completed_studies": 14,
+            "direct_contributions": 1,
+            "wins": 10,
+            "unresolved": 4
+          },
+          "candidate": {
+            "losses": 6,
+            "workerless": 7,
+            "gold_delivered": 8536,
+            "completed_studies": 14,
+            "direct_contributions": 2,
+            "wins": 11,
+            "unresolved": 3
+          }
+        },
+        "mu": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 8,
+            "workerless": 14,
+            "gold_delivered": 9368,
+            "completed_studies": 17,
+            "direct_contributions": 11,
+            "losses": 9,
+            "wins": 3
+          },
+          "candidate": {
+            "unresolved": 6,
+            "workerless": 16,
+            "gold_delivered": 8928,
+            "completed_studies": 17,
+            "direct_contributions": 11,
+            "losses": 11,
+            "wins": 3
+          }
+        },
+        "shuang": {
+          "side_participations": 20,
+          "control": {
+            "losses": 8,
+            "workerless": 13,
+            "gold_delivered": 6192,
+            "completed_studies": 13,
+            "direct_contributions": 5,
+            "unresolved": 5,
+            "wins": 7
+          },
+          "candidate": {
+            "losses": 7,
+            "workerless": 13,
+            "gold_delivered": 6232,
+            "completed_studies": 13,
+            "direct_contributions": 5,
+            "unresolved": 6,
+            "wins": 7
+          }
+        },
+        "jin": {
+          "side_participations": 20,
+          "control": {
+            "losses": 18,
+            "workerless": 18,
+            "gold_delivered": 2736,
+            "completed_studies": 0,
+            "direct_contributions": 0,
+            "unresolved": 2
+          },
+          "candidate": {
+            "losses": 18,
+            "workerless": 18,
+            "gold_delivered": 2736,
+            "completed_studies": 0,
+            "direct_contributions": 0,
+            "unresolved": 2
+          }
+        },
+        "bai": {
+          "side_participations": 20,
+          "control": {
+            "losses": 6,
+            "workerless": 9,
+            "gold_delivered": 9736,
+            "completed_studies": 6,
+            "direct_contributions": 0,
+            "unresolved": 9,
+            "wins": 5
+          },
+          "candidate": {
+            "losses": 6,
+            "workerless": 9,
+            "gold_delivered": 9680,
+            "completed_studies": 6,
+            "direct_contributions": 0,
+            "unresolved": 8,
+            "wins": 6
+          }
+        }
+      },
+      "outcome_changes": [
+        {
+          "index": 65,
+          "west": "mu",
+          "east": "qi",
+          "control_winner": -2,
+          "candidate_winner": 1,
+          "control_time": 240.000000000083,
+          "candidate_time": 230.950000000076
+        },
+        {
+          "index": 70,
+          "west": "shuang",
+          "east": "yin",
+          "control_winner": 1,
+          "candidate_winner": -2,
+          "control_time": 237.166666666748,
+          "candidate_time": 240.000000000083
+        },
+        {
+          "index": 96,
+          "west": "bai",
+          "east": "mu",
+          "control_winner": -2,
+          "candidate_winner": 0,
+          "control_time": 240.000000000083,
+          "candidate_time": 219.8333333334
+        }
+      ]
+    },
+    "r5-stock300": {
+      "paired_conditions": 100,
+      "conditions": {
+        "map": "map.01.04",
+        "seed": 137,
+        "starting_stock": 300,
+        "duration": 240
+      },
+      "control": {
+        "matches": 100,
+        "west_wins": 34,
+        "east_wins": 36,
+        "unresolved": 30,
+        "ending_workerless_sides": 89,
+        "gold_delivered": 90041,
+        "research_completed": 231,
+        "paid_orders": 136,
+        "production_spawns": 135,
+        "direct_contributions": 93,
+        "completed_no_order_30s": 69
+      },
+      "candidate": {
+        "matches": 100,
+        "west_wins": 33,
+        "east_wins": 36,
+        "unresolved": 31,
+        "ending_workerless_sides": 88,
+        "gold_delivered": 90361,
+        "research_completed": 231,
+        "paid_orders": 133,
+        "production_spawns": 132,
+        "direct_contributions": 90,
+        "completed_no_order_30s": 72
+      },
+      "houses": {
+        "yin": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 7,
+            "workerless": 4,
+            "gold_delivered": 10512,
+            "completed_studies": 41,
+            "direct_contributions": 19,
+            "wins": 11,
+            "losses": 2
+          },
+          "candidate": {
+            "unresolved": 7,
+            "workerless": 4,
+            "gold_delivered": 10512,
+            "completed_studies": 41,
+            "direct_contributions": 19,
+            "wins": 11,
+            "losses": 2
+          }
+        },
+        "mo": {
+          "side_participations": 20,
+          "control": {
+            "losses": 11,
+            "workerless": 12,
+            "gold_delivered": 7568,
+            "completed_studies": 5,
+            "direct_contributions": 0,
+            "unresolved": 6,
+            "wins": 3
+          },
+          "candidate": {
+            "losses": 11,
+            "workerless": 12,
+            "gold_delivered": 7568,
+            "completed_studies": 5,
+            "direct_contributions": 0,
+            "unresolved": 6,
+            "wins": 3
+          }
+        },
+        "deng": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 5,
+            "workerless": 6,
+            "gold_delivered": 8888,
+            "completed_studies": 22,
+            "direct_contributions": 3,
+            "wins": 12,
+            "losses": 3
+          },
+          "candidate": {
+            "unresolved": 5,
+            "workerless": 6,
+            "gold_delivered": 8920,
+            "completed_studies": 22,
+            "direct_contributions": 2,
+            "wins": 12,
+            "losses": 3
+          }
+        },
+        "ji": {
+          "side_participations": 20,
+          "control": {
+            "unresolved": 10,
+            "workerless": 0,
+            "gold_delivered": 12800,
+            "completed_studies": 48,
+            "direct_contributions": 24,
+            "wins": 10
+          },
+          "candidate": {
+            "unresolved": 10,
+            "workerless": 0,
+            "gold_delivered": 12800,
+            "completed_studies": 48,
+            "direct_contributions": 24,
+            "wins": 10
+          }
+        },
+        "yuan": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 13,
+            "gold_delivered": 8505,
+            "completed_studies": 25,
+            "direct_contributions": 12,
+            "wins": 5,
+            "unresolved": 8
+          },
+          "candidate": {
+            "losses": 7,
+            "workerless": 12,
+            "gold_delivered": 8561,
+            "completed_studies": 25,
+            "direct_contributions": 11,
+            "wins": 5,
+            "unresolved": 8
+          }
+        },
+        "qi": {
+          "side_participations": 20,
+          "control": {
+            "losses": 10,
+            "workerless": 11,
+            "gold_delivered": 8360,
+            "completed_studies": 16,
+            "direct_contributions": 5,
+            "unresolved": 5,
+            "wins": 5
+          },
+          "candidate": {
+            "losses": 10,
+            "workerless": 11,
+            "gold_delivered": 8360,
+            "completed_studies": 16,
+            "direct_contributions": 5,
+            "unresolved": 5,
+            "wins": 5
+          }
+        },
+        "mu": {
+          "side_participations": 20,
+          "control": {
+            "losses": 7,
+            "workerless": 8,
+            "gold_delivered": 10744,
+            "completed_studies": 21,
+            "direct_contributions": 13,
+            "unresolved": 7,
+            "wins": 6
+          },
+          "candidate": {
+            "losses": 7,
+            "workerless": 8,
+            "gold_delivered": 10816,
+            "completed_studies": 21,
+            "direct_contributions": 12,
+            "unresolved": 8,
+            "wins": 5
+          }
+        },
+        "shuang": {
+          "side_participations": 20,
+          "control": {
+            "wins": 13,
+            "workerless": 7,
+            "gold_delivered": 8408,
+            "completed_studies": 23,
+            "direct_contributions": 11,
+            "losses": 3,
+            "unresolved": 4
+          },
+          "candidate": {
+            "wins": 13,
+            "workerless": 7,
+            "gold_delivered": 8408,
+            "completed_studies": 23,
+            "direct_contributions": 11,
+            "losses": 3,
+            "unresolved": 4
+          }
+        },
+        "jin": {
+          "side_participations": 20,
+          "control": {
+            "losses": 15,
+            "workerless": 16,
+            "gold_delivered": 6936,
+            "completed_studies": 10,
+            "direct_contributions": 3,
+            "wins": 2,
+            "unresolved": 3
+          },
+          "candidate": {
+            "losses": 15,
+            "workerless": 16,
+            "gold_delivered": 6936,
+            "completed_studies": 10,
+            "direct_contributions": 3,
+            "wins": 2,
+            "unresolved": 3
+          }
+        },
+        "bai": {
+          "side_participations": 20,
+          "control": {
+            "losses": 12,
+            "workerless": 12,
+            "gold_delivered": 7320,
+            "completed_studies": 20,
+            "direct_contributions": 3,
+            "unresolved": 5,
+            "wins": 3
+          },
+          "candidate": {
+            "losses": 11,
+            "workerless": 12,
+            "gold_delivered": 7480,
+            "completed_studies": 20,
+            "direct_contributions": 3,
+            "unresolved": 6,
+            "wins": 3
+          }
+        }
+      },
+      "outcome_changes": [
+        {
+          "index": 69,
+          "west": "mu",
+          "east": "bai",
+          "control_winner": 0,
+          "candidate_winner": -2,
+          "control_time": 211.683333333394,
+          "candidate_time": 240.000000000083
+        }
+      ]
+    }
+  },
+  "adopted_policy_paired_conditions": 200,
+  "adopted_policy_complete_runs": 400,
+  "paired_scope": "Native CPU normal-AI zero-warmup stock160/300 comparisons. Two side participations per match; outcome, economy and research regressions retained. Comparison passed means provenance, not balance acceptance.",
+  "normal_stalled_entry_gpu": {
+    "native_gpu_configs": 2,
+    "checks": 64,
+    "screenshots": 16,
+    "normal_starting_gold": 300,
+    "enemy_warmup_seconds": 4,
+    "matchup": "yin/mu",
+    "west_autoplayer": true
+  },
+  "default_windows_renderer": {
+    "checks": 32,
+    "screenshots": 8,
+    "backend": "Vulkan Forward Mobile",
+    "scope": "Native Windows default renderer with the actual EXE embedded pack; synchronized paid battle snapshots, not FPS or Android hardware."
+  },
+  "normal_menu_seed_scope": "Three same-map CPU seed conditions,300 gold and4s warmup, first guard0 to41 positive hits and victory near206s. Actual exported GPU observer stops at first guard impact near147.55s; it does not prove the full victory.",
+  "advanced_first_deployment_gap_remaining": true,
+  "economy_and_faction_regressions_remaining": true,
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "original_game_numeric_equivalence_verified": false,
+  "files": {
+    "README.md": "e8ea1c6a32a011f5a112c19d5c9215fccc1f8b942ea563f1fcd798c3675be60e",
+    "assets/paper-warfront/presentation-revisions/rc21-fog-stage-r1.json": "8dbb7c3b17ea93e24da694392be3a7dd2e4be96bb9550841302c3bf090bdcca2",
+    "assets/paper-warfront/presentation-revisions/rc22-observer-camera-r1.json": "687c345efd3226b26a55fc0540bf25336fd8495914514fd3ec3ffb36b200bc94",
+    "assets/paper-warfront/style-tokens.json": "bdfc5d7a21acf808b7c9d78e81b63b4adf226ec5aebf6acc72c45b5f2a1ed761",
+    "assets/paper-warfront/ui/paper-ui.json": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2",
+    "docs/paper-warfront/11-Godot架构与数据契约.md": "47fa86c52ca58802279e38cb6aaa3adaa5928a60fdc910710d72d48473fea0a5",
+    "docs/paper-warfront/134-受控前排反制与科技收益复核.md": "a309c593cdeb47922d47c78c90dda46ba8bafae0bc18b6019ccded60ea5312bc",
+    "docs/paper-warfront/16-玩家手册.md": "9e616f73ebb9c8d98a280d7fde064daabcf03b8c9531b5085eebb5f972bebb7d",
+    "docs/paper-warfront/README.md": "9ee87a3049eac6f5109f0ae32f9e14d0a646be5af6ac54f00b728c5c659ce200",
+    "game/tests/test_stalled_front_recruitment.gd": "fd2b16fc02e44fe0b0a4974e298491bca2ec7efac8d6e36ebc19256301183ee0",
+    "output/qa/godot/fielding-contact-rc25/baseline.json": "4eab3bb9396537ab21fd0f427f389573acbf1e093cdf287e1b998ef16256e82e",
+    "output/qa/godot/fielding-contact-rc25/compare-r3-matrix300-mid137.json": "44ea7a7047ce953457a571e26e7fa7854337643fe4fa3b71e6d8482145d796ed",
+    "output/qa/godot/fielding-contact-rc25/compare-r5-matrix160-mid137.json": "2ef9cd7232407cde15211c707bea693529748570debfbf9a48f6653f0c3b02fc",
+    "output/qa/godot/fielding-contact-rc25/compare-r5-matrix300-mid137.json": "51b2b250b9727cbd901b58f1d35eee40c2b6e59e0b2c5acc7ffab0fc76734762",
+    "output/qa/godot/fielding-contact-rc25/formal-hammer/verification.json": "e422129927525a5ec80888049c55c3a2d333de21689ab79b955573f546a26c77",
+    "output/qa/godot/fielding-contact-rc25/formal-reach/regression/report.json": "6c9bc15a54f2e9fb1bf1327c95f1d43a792c4f15586e71a4000b65c0a7e8a6e0",
+    "output/qa/godot/fielding-contact-rc25/formal-reach/verification.json": "fd10082448c86f24e59d21345a7120973c1b83305aeb14b6ce4cb8b547ce0ffa",
+    "output/qa/godot/fielding-contact-rc25/formal-recipe-runner.json": "73171c4acca4651ecc6aeeda55eb083e84afa7b2e04b18651253b0f433606d18",
+    "output/qa/godot/fielding-contact-rc25/generator-r1-r2.py": "4b43cbdce95eee58c4691c423d72df9a701e3251130152e8445cc9e10efc590c",
+    "output/qa/godot/fielding-contact-rc25/generator-r3.py": "4a4d8a262e3fa451494f12672717c22569a843ecc538a5759e39714eb3fa61fa",
+    "output/qa/godot/fielding-contact-rc25/normal-disabled/report.json": "7136f0bce87599177436216b4673bf85f741ae10871093bbe479e767ef86a84b",
+    "output/qa/godot/fielding-contact-rc25/normal-rc24-long-mu-yin/report.json": "33f881cc5b4bede6b25af35e0ca3e2bde91abe34f43b4069de6db37f51debeaf",
+    "output/qa/godot/fielding-contact-rc25/normal-rc24-long-yin-mu/report.json": "13d36b196e37642dc528e5e6f9ab78aca80d7d7d829deb9a996785d0bd78ac1b",
+    "output/qa/godot/fielding-contact-rc25/normal-rc24-short-mu-yin/report.json": "f19de0d3ca65a50c2b53c6a8ca83593cc11eb6b0a03f58b4c3e1fca5f48003f4",
+    "output/qa/godot/fielding-contact-rc25/normal-rc24-short-yin-mu/report.json": "172e9a8478ccd849c18f3a051649be8d852d67aab37c5fb4c9ba2f7e4d5f698a",
+    "output/qa/godot/fielding-contact-rc25/normal-trace-review.json": "6236fa15faeb910e6810e0388d6e4671847c2ef39b9b98c7e4a0783c9cba18fb",
+    "output/qa/godot/fielding-contact-rc25/observer-r1-shared-status.gd": "83de2c9b1db0d3e4880a9de03789e2e243ef2942f677f886f3c8757fb32ee2d0",
+    "output/qa/godot/fielding-contact-rc25/observer-v2.gd": "a2ba9ee92e12dbf1644bda3df7390dc89fa0e76aead755929de5b71124ce6382",
+    "output/qa/godot/fielding-contact-rc25/observer-v3.gd": "2028e2035d53923088fb13ce7b63086c71212b078ebd12ddba825fe971aebf75",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-00.json": "c30010c2ad117e3ac32a906e2e4e2e11c657286929a86c87122aa52fa67958de",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-05.json": "af92afccabae1407ee33911ffbbf2abb7af0506e82d24ac589d4510c81bf4416",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-10.json": "ec5d3ed8a35304d41cfb2fcac8e76c9af7327b59fdebde6e6b3344c20416a641",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-15.json": "c2a76e5249ceefca5f3bcbb63005f1cd5600c0660e26d5758d1d65b163ef0e6f",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-20.json": "f1654688bce7b53f3d7ebb994877569f8b39a9ea7ac67930a085a6a373845c91",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-25.json": "fe1b5fff557f5ca789fe26ee8930c8768a7a070ad9d939afc1c078df1ea53403",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-30.json": "a2e196a094017391e07249cfa49d03f221c5ebb3ac879d28c7aab2a151d1daf8",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-35.json": "cc497056db0ab8596561743520ac477e9ff92ffeb69b446f8551aefa63876279",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-40.json": "a397aef8924b92909e6d996716de5df960a6f95d2d65100bc44e07b95be4ee25",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-45.json": "039e8318c34fdd9075d7b5726f4ffd6d6135186e95d6e5eaab0104eab261202d",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-50.json": "84a41271adbc40dc6025cae9e709211a840e5ab0ecbe38f304763a132e5ef6b0",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-55.json": "1501d94da49a87687be85eeb0025a992a2a3ee2fd8ef5e8be51a6a1e98f12c28",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-60.json": "4eb5696de783f02e90c175f9c344595be6863ff8c58a1d04d0929af6e066c301",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-65.json": "06a7cd63015da4f9b522d84f5bcdafdbd2c337d565b74fb7f9dee0f056ff89b1",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-70.json": "4f0b1e8e40af1c6c7ae1a7c45295ca785aa5125209172ad7cbf47358bc92f59d",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-75.json": "9c4925cf860a58ccb578c57ce6b2ce1dceabf98b4590b175cd282e7c438b1026",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-80.json": "4e2797880fce56805633dd7e6e7b29afdf11e3e183ca7af59674941f59193fdb",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-85.json": "8e8465708b78f1183e6ae56a5d8ab77e9d9db3d55f1d3e56df7b9350b1d482a2",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-90.json": "50cd934e746142d0964768c7acaf51eb593ad2027f227622e2e65b7c56b5f286",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/batch-95.json": "9d53883e423f3c0b4cf1c9dcf435824eecd83a7ba2f8ca0f6a96f4a5391977b6",
+    "output/qa/godot/fielding-contact-rc25/r3-matrix300-mid137/report.json": "6fcd1a056e1f562f811bb02ab1edf9de389691686b64db31c39094a3fca9de99",
+    "output/qa/godot/fielding-contact-rc25/r3-protected-boundaries/report.json": "adde895e77f4fb5ace37aeaf422d55160ef8fcaacf3e0e783bf9480e814e5ca5",
+    "output/qa/godot/fielding-contact-rc25/r4-pilot300-mid137/report.json": "dc7c1fd35e416851c620adbaad8ed8b93890e7033822191e9f85d80308128e36",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-00.json": "4783927e65fca685331a916a98dc5172791c895981149ec374a150f462f8420f",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-05.json": "acf9a8b615e499d9f5ec24fe7c3ae5a9774f8fc2f579be6128f1ae3dd720c815",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-10.json": "9b4e56ce0a95e6a16c7c286546115217ae0c175b8baa4f3d343fa67d00ad81fe",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-15.json": "5943fa48ef492d60355aeb49eb943b5ac73e77fce445ec94bde9c98844f77bf2",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-20.json": "197d2dfd030a44ccdd6059182ba3ba86e6e87be83c4c81f41a595f1d6c4b53d2",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-25.json": "16ccf8e37f8730e2ef33e1c985d8037a2b43ca3951c611bf6d2a15bf128bef1b",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-30.json": "6ca3255ae58f1681d14a27c0a8c07a36a54bf9df10709d1ebde451144d096cce",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-35.json": "c443e39b684149ee53dd9ec1e11e198cd5920de21aa40f14241d529de7dbd5f3",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-40.json": "8c1409774ef8b472076eecd4a9e074bf6716e1de0896b8c4451805069e31a79e",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-45.json": "334603865af0a5a358e7b6dec21538f362ab3f89919b57227b023141582ed7fb",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-50.json": "f3334b1012aebda6e25535954ad6ae631dd71ec8ab25cc204f83ee887ca55c81",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-55.json": "5d06f8d8579462af7a21b8219d1af5a69b113a0a712dce363937a16dfe55f7e7",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-60.json": "5f6511eb87616949b6552ac7c76560623eae06c6e913a3230dc98bafaddd9fb2",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-65.json": "4c45821b3940b7eca6481c63ab1b9dc71482b5c18408b75bfed9a60bd3d3ffd7",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-70.json": "3311a36ac3e7ba0cc542940aabe2cb096ac09389061481ef1d28cbd5b709ffcb",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-75.json": "4111db275d8d94d42956c2fe738755915706ad976f19b5094bae69753ea71352",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-80.json": "395762b76fd109061e62e19cf9bbe739b7b9911d3019f7da5c7859024cbee6cc",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-85.json": "b7c456e9ed5cbe84e8b6939cdda174c6cdf6d8c61c74949e3624ed5e9b692c30",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-90.json": "86f9254904dc2d803ef12509500faed16c9e107420222f5a1b351acf0e04e1d9",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/batch-95.json": "a7279edb9e83a53cc25ee7d5790e3a0d61649fcd37bd548df59006ece46aa557",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix160-mid137/report.json": "67204ba8b1985846a4725e2ea8612e06071158d06eabfa7cfaceb0e29e08df1b",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-00.json": "638ffea36c67dab9f957cc55ae4703ed903780f2ccd3ddb9d937d01adc0b7e6d",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-05.json": "92494ae6755b1eecbc9cde605113081e803c1ecd3a834f7208e8b540380e1882",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-10.json": "26cce535e7ce3df5d4e290ad562a437b9a99c699b034573ae583eb3529572548",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-15.json": "fde4ad9efa35a7f3d7c83b571d08e82dbfdff51e0fe438c48c43a64ae0dc81a6",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-20.json": "bdf5942639dd80da4fe64f88dc11e301a6efc63706954029d4912ae456362216",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-25.json": "c2a847fef0d6caeb4f3d95618bda1379aa08d7671df7cfbb32e6466ca37a54a9",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-30.json": "24c2d6e25b1dbe1c6e377699152a833720d744f5fd1013e1898c10b3c4050886",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-35.json": "0b7cc7c9608195124583ed6408b4550fd7c0fd6e8945b895502fc437f3caffa2",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-40.json": "04535dbf1f70bf862b734e18fabf1e2561f2c2f4d0d45014fb7583618bf2fec0",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-45.json": "fb98c987ac3a303d0c916df26f0a26818857d647e64ed8eb296dbbd6be58e4c4",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-50.json": "c625f57f96fdf3859068ee224cc0c0e786d015eb102e13f7c199e48508986fef",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-55.json": "8697b345f8e7ecc5560dc5e012571869a771646fce77ef9ce4873850b9cc29b9",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-60.json": "d7aef413474da7192899c01bd97c2b3d1bfd63574ab1b6e48c07da348fe1876b",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-65.json": "9ee045d9f87431cdf0ce57dacfbd2a53b2613b205bec51a249cfd0a1c58afe53",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-70.json": "4ece84c3c18f5c5cf14d033b9f7fa3c741f1851da6239df1aed51c633978d977",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-75.json": "6f470f6de65d53c894f9aca5526bd0e35147ac0c65585b310f8d7e7c800de82f",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-80.json": "f8f41da8562b0aec653b8b11b881b560092e3a090ff47f816fcf1bdc98e2e7e2",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-85.json": "00bfa8f33070aed777aeb86a70f6ea7c090268751fb2cb8cd0ac8bd2e607b30c",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-90.json": "9a1ba3e0d3dfccb27ec7e718956826dae6e6763bb177487d177b10de65f46b85",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/batch-95.json": "aecca77dd7df4825d0c8511652690c8514ed1f4801c9fd82b3b1e7eecdb0bc51",
+    "output/qa/godot/fielding-contact-rc25/r5-matrix300-mid137/report.json": "b7710db7d2104c0c8e11540c5d74ca53716cdea767e44fc0fac3ff15b51e7d3e",
+    "output/qa/godot/fielding-contact-rc25/r5-menu-seeds/r5-271/report.json": "489eac37c26dbd0e0d9143d51154716185baa1c8af921dc6d853eca32a44536c",
+    "output/qa/godot/fielding-contact-rc25/r5-menu-seeds/r5-419/report.json": "3e2bb9c6dcab1e4f4faee9956e2e5509e98656e5860a527619911f8eaf18b228",
+    "output/qa/godot/fielding-contact-rc25/r5-menu-seeds/rc24-271/report.json": "196f8c2c7599743ada79631713677f999c0670b9d957c49974dc8db71b0000b9",
+    "output/qa/godot/fielding-contact-rc25/r5-menu-seeds/rc24-419/report.json": "5f4b7a1c04ba048795c2ae96daa4ba5f94ff8f96c0b34fe6859f53680b5ce125",
+    "output/qa/godot/fielding-contact-rc25/r5-menu-seeds/report.json": "14b58533cd95ad76320dd188bf1138fbdb124fa789a6add11ff7912701313dd0",
+    "output/qa/godot/fielding-contact-rc25/r5-menu/menu-yin-mu/report.json": "54d89ca4dc00224a38550938096680fde1bb8bbf7131c79dfcc3af58bb366a64",
+    "output/qa/godot/fielding-contact-rc25/r5-menu/observer.gd": "be782471663eb62ff6bd072b8bcfd242523481b78eca343759dda55b4654d29c",
+    "output/qa/godot/fielding-contact-rc25/r5-menu/report.json": "7e3b3561603d3bf107bafae9d8c3f85106b732abca6d650ffb60bbeac8a169da",
+    "output/qa/godot/fielding-contact-rc25/r5-pilot300-mid137/report.json": "0397a6dea29db2381fddadf3815891e7115fe0350cbc7ed380f6f010290228b8",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/long-mu-yin/report.json": "a46529600e18261e2ec0523af55727bb0cc3b0b076342d1caa90dcdaad28f530",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/long-yin-mu/report.json": "165b89e0d59e03ff90af9095c931e669c5c5d3f284443c68626c37c0da64c8aa",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/observer.gd": "be782471663eb62ff6bd072b8bcfd242523481b78eca343759dda55b4654d29c",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/report.json": "66bedcb0d95c686ea9a1288fc5c4bb7659c7c182dd57149049c1809ce86eb5a0",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/short-mu-yin/report.json": "b497fe5c1fb37045b3871e03cbad14c6199b11b790e5f170d83b48ef7ed6c187",
+    "output/qa/godot/fielding-contact-rc25/r5-short-long/short-yin-mu/report.json": "757134271f2cc592548060dcf35c47857836ad7e2020fb47e7b0ce4dbcdaaf94",
+    "output/qa/godot/fielding-contact-rc25/ranged-r1-runtime/candidate.json": "fece3bfb7014b9d229cf0d5ca05430581e74550d21d62dc8fe8f69db8dcc095d",
+    "output/qa/godot/fielding-contact-rc25/ranged-r1-runtime/scripts/tactical_ai.gd": "b2844ff22c5b0acc5e45df7d6530d4e793e63ab9bfe32e9dad1f0b48a72583ba",
+    "output/qa/godot/fielding-contact-rc25/ranged-r1.diff": "8addc060f75569de25a5dd4677b149ab5d5d1a34afb9c5e7be9960baa1c5b53d",
+    "output/qa/godot/fielding-contact-rc25/ranged-r2-runtime/candidate.json": "170f8ea7a15cb8c4128e94da13b1855dd95fbb5ce6c606285e02815ea99348fa",
+    "output/qa/godot/fielding-contact-rc25/ranged-r2-runtime/scripts/tactical_ai.gd": "e32fe27a189d006decc08c619207a9fc0a3835f7e704944be2093ef484bb5c25",
+    "output/qa/godot/fielding-contact-rc25/ranged-r2.diff": "3c12e8d28e6a5d3ffadcf608e7a46703d9b5f01bfb7485221833e57161c03818",
+    "output/qa/godot/fielding-contact-rc25/ranged-r3-runtime/candidate.json": "4476d07aceee3fc5a71cc49d055bd09ec196f52fb44a984bba5eb4182d285cc3",
+    "output/qa/godot/fielding-contact-rc25/ranged-r3-runtime/scripts/tactical_ai.gd": "07ff66a8b535d132081ece9a288b25ed68b995a87e89f7eb1ef4ebdba986154f",
+    "output/qa/godot/fielding-contact-rc25/ranged-r3.diff": "fd5ce0a7a8887d2e9bb00095b6ce8429b2513c1074b9ab28fb967f5dda7d666e",
+    "output/qa/godot/fielding-contact-rc25/ranged-r4-runtime/candidate.json": "ece2ead52707f4067f539c05b7968de1135e140a9e2fa2212b984c769e6303a7",
+    "output/qa/godot/fielding-contact-rc25/ranged-r4-runtime/scripts/tactical_ai.gd": "05b2e3f5b95b249399164458ff8bd738594096747eb7eac171287d20806a85e4",
+    "output/qa/godot/fielding-contact-rc25/ranged-r4.diff": "a8690467a46c0e90c99cc22c91e0e5cd239925cda6ff440f9c3089c53eca014d",
+    "output/qa/godot/fielding-contact-rc25/ranged-r5-runtime/candidate.json": "602fef67c09379db201158fcd830c663b6eaf25dc171e8c930e6fe27fba4929b",
+    "output/qa/godot/fielding-contact-rc25/ranged-r5-runtime/scripts/tactical_ai.gd": "f6aff741aed1bab3627e8233409853ab2b2d0332538c11ae4af2fb3eb70cfc8a",
+    "output/qa/godot/fielding-contact-rc25/ranged-r5.diff": "057e058caa48c84dfcf283c5d03f8937763e00d8883a9ace9ef29ff86230d4d0",
+    "output/qa/godot/fielding-contact-rc25/rc24-yin-mu-menu-v2/report.json": "7ae21050c4b652ecb7ca248ff4b3e61eec0dd4b24a530693f5d3b452eaa7bf7b",
+    "output/qa/godot/fielding-contact-rc25/release/apk-logic/report.json": "485a06e3832cf1eeb9c541f2d5e3ecc6a2d2cc030b62575696e9659030f67ef6",
+    "output/qa/godot/fielding-contact-rc25/release/camera-render/report.json": "de7a120e03ff1c8c86ca573faabbd342de754d7ababc3435609d194267dd5687",
+    "output/qa/godot/fielding-contact-rc25/release/fog-render/report.json": "d5c3622e26afa0ef6871eea226290b7fd6f73b9313c94e10b1f48d640f677497",
+    "output/qa/godot/fielding-contact-rc25/release/mobile/mobile-matrix.json": "3fb36326cca5d12fe8944772224f1c71bff2c53184ab59bf022a4cc463ecbf4c",
+    "output/qa/godot/fielding-contact-rc25/release/normal-fielding/report.json": "d63e8e6d2711f411e6b7ee61a031ad384a7205ef2959fe25ac93e36d2b3fe309",
+    "output/qa/godot/fielding-contact-rc25/release/paper-ui-assets.json": "6a6c9e9c66cf0a1b630caf7552d4162fa5c3d53ec4161b8eeede327804eb0e16",
+    "output/qa/godot/fielding-contact-rc25/release/runner-report.json": "274ac3f90c8cd37444ab6dc15b98b9addbf5a44c79b269178442ed509d2539e4",
+    "output/qa/godot/fielding-contact-rc25/release/stage-proportions/report.json": "2beeb3957addd9c7e8cf702cdf17ea602a9d36492de5d4193c574691c3f9aef5",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/01-normal-opening.png": "e50bb5a833a214a3965595990dbb4119c8c087c8bcd1ac40a8da60b4a6f36e4e",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/02-paid-research.png": "1bc41f429a08961245953702e9551af0f9feb833bb66c3c291c5cce325e7245c",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/03-research-complete.png": "2d39e21add92dcfb2d643b24d4b11de63402ece616f72c61f036b63129acbffb",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/04-first-paid-production.png": "339bedf3f7bfa80f2d33cd87d198148678a951597f344ad4311b0ab5ae394f90",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/05-first-unit-impact.png": "541a271aef8e4b6b0a7d75ddb2898becb131b5c0c9c6c4a338780dd5b4a2b94d",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/06-controlled-frontline.png": "51a9fb5b4360c641a2e79775a92760ef30998e982e93efd891c8a003766c81be",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/07-paid-ranged-production.png": "e0f673882f732a4acf9658ff6d990821b5f17b5c6e75a5a527c868b779bc9388",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/08-counter-impact.png": "e1504eedea5a97d4d20db1258baffe7d4dce9a9754098f7bc0949c6ab7d831ea",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/report.json": "d8be81edafd0b120f6eddf3745b65583ac36e216c96ec74b1f314a8e99b62e6a",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front-vulkan/desktop/runtime.log": "2a5a7a313b4b516970ed5c9dbaa808e10b1fdb8f718ca6419221143c17f3f69c",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/01-normal-opening.png": "058d744f8883b62f5b93b5d4fc062dcdd122d72d3b1fce1f1d0fec2e4d02998c",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/02-paid-research.png": "7002aad3ecc96b048e977e56f69e894e4672ec4d9db8a6c50752f97d006b175e",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/03-research-complete.png": "a0faca3028af22f5087c91b56c4a86c2537391f543047f931107d4e61de477ce",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/04-first-paid-production.png": "5d082227c9cbb8aeb97b30c304f3c720e9da11458f6e0fac22c5c571f985c741",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/05-first-unit-impact.png": "e557a797005a1282fcc6abcd7f1bfe571068ad2dcb22f8dc315e81c779212b26",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/06-controlled-frontline.png": "26731c030b19375e6d8545d8ec9f91e8ee243384885370c995c265a5f47a12be",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/07-paid-ranged-production.png": "a10b35e73943fee1f2632a9f7f3774ffa32b57e10188410726be1592515170f4",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/08-counter-impact.png": "303b40a43ef54ce0630c0baa2d3c056774e8de1b98fbb92d90c4f8be7e8f7f09",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/desktop/report.json": "52a152bfc7d37ed03215fe022412d70a8fcafde7b560a8c7815a3570e0b8c644",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/01-normal-opening.png": "3a70a236a74bcdb32ee3a91ad03d1127206fff94b62ffd0b5ffa97d9ea78eceb",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/02-paid-research.png": "7fba7f3b3b62bb059aef2130704aa292da656438d4fd78381e3bae23c2e0c174",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/03-research-complete.png": "c401e02289bd9d04780f16a0585c5ea88dae88d93dbe8b4e6ad60806d528a5f5",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/04-first-paid-production.png": "be2a98a7623c3f6b559e3a681f8513cd16ca14cbb8205b49bface09d4a6e0e84",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/05-first-unit-impact.png": "3ac7266ecf5ab42ab4b5d588d9125deb6a4caa4e0715ec179345dc354d4390d4",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/06-controlled-frontline.png": "ec2d1434cd8a4522a3c2fe2863defd9551d98ee07ba9d8e8cbad18a2feb4e9d4",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/07-paid-ranged-production.png": "031293679382bfe83cc7b5367eaa45b2d9bc296cb18cb52fac2bdbd451b1f38d",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/08-counter-impact.png": "279d632e5d409bd60abd1cddd1d1b1a8dd9753a05affb396d6a277c1ee87e0a4",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/phone/report.json": "e1bdc6bb136153f80c71b078afbcc248af0f5a2aaebcbf46150512ae96d7017d",
+    "output/qa/godot/fielding-contact-rc25/release/stalled-front/report.json": "610f06db3aa993ca48b8111e129222286607907e6fb3ef1812a87538a008cdf0",
+    "output/qa/godot/fielding-contact-rc25/release/windows-logic/report.json": "25e2b9e461f13975bf724e702437b458a66dd779c913a1cae906181c2e8f958d",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-00.json": "14ca74ebf6080145ab65b9780ef65ac4adb56fd4902c1932011ebe4155d29d06",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-05.json": "0bb3dfc194dd42cc1ae12e9a9966a884b0956f319fe012d553e2825fde2bd914",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-10.json": "375e1349163356b736f0a4fd0e1cf0ce7db78ef42e0c7837fed8eb01bcfafbde",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-15.json": "1ea29bb46e1bab923b0d05ebc278aad1c618972651bec93180f61e0392831840",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-20.json": "4e35082bf6b81c1c6bc1e0abfec105be1783993c31044679ff195f26a588f159",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-25.json": "6a871948dfab64267d0a12520fcf33444ca7fb186bd387e70910e71fd049af1f",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-30.json": "d8de0f1c9f6bacae36004cd85dbe586254a7011ddb50bf6d0e20fb1231c93c96",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-35.json": "88f74c3c7b4ab90bfa2795b326aac593ee9c54fe319bc43b802d0d2cc5df0d78",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-40.json": "314ab7e761f86d024600ee5235fe57802eb19883c5499ce92e78b4509e24b9c9",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-45.json": "db175671cf3710c2b8da7f88faf653e3ecb1d1aa33f7cbabb6efbde6e77cb447",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-50.json": "c2062cff4cf719cba856ec227c9d30e8fa6aea0bce23d092f24dee25a84fadee",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-55.json": "5bbaa2545da4e33b85dcb0ba511a2b2d0ca4adfe1020ab1fa421accf03abd35c",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-60.json": "e4ad9eb40bad600eae1a2bb0cc58faeba663c1d3cc2ab0e6fdc36f75173402ba",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-65.json": "1af517e213b05859db9480e0435910676a40207d92df7d6f193d7313309e0808",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-70.json": "f6723348f05865390ca033dcd20872cc6aa9f283f1867f16ad4ae98efa93e71f",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-75.json": "8f2348aa32b2d2ef29620c0420beb96408eaf9d0ed2e65317d5555fbd3c12d68",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-80.json": "19ac165c57f5f0fe6b8d6831f5a8dde756b2f3dba979266525ac871711d41ce7",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-85.json": "b9d8329f4d9de6bcf40fe419ebb2f8c0ba95a99b52b4e3d89a037e19090b7731",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-90.json": "5bd80d8fb481cf07a6674b25be2a32c3927377abacb1e086562ebf4a3f406605",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/batch-95.json": "177e04997cf3f9ffcc99cbbe3d819e7e29d426bd32323ef288df5ac2cc62bbf5",
+    "output/qa/godot/paid-fielding-rc24/default-menu300-mid137/report.json": "7f1af0884ae236719f5ae9b3a7b121fc228db34d12b5a691b1b4f884a67ca39e",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-00.json": "98289e3b4a6983e89c8d2e3722eff72714d0b8d8298f0be1b6e5e1c9575a1862",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-05.json": "04b5f56b49a390197d89cc2b8180a887455c952625e492f18498e36eea50661e",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-10.json": "59149960f4ea0958d94c1fb9ca3b414253e4208595d752d79d6931b608160203",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-15.json": "882cd20aba61f24ad17ec502487018880fa1f217d4b10a88dd0e733bb751c308",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-20.json": "bb387646919162f004e44d33e5feaee3a7eaf1e5b74892c3fa791d1885c07788",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-25.json": "979e4985b93ec5720312a1402d3a023336ef7fa98266cfb41a61a9fbc6d185d0",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-30.json": "3cc28c4bbdd130cf347ff5728ef29e31262f5ab2cf82b2c49f6fe5f0e820667b",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-35.json": "63a5dd0c27625b45056aea9231259fb9737dff1109da387495aa4e6587960b15",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-40.json": "41890bae155ec45ddad58ecf603eee743c0bf67cc34cd765df54b179fb8bd11d",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-45.json": "7ad8d3dea9959e46db6d0c2dcbdbb3a7e9945f8c81e08282ca6e90cda377093d",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-50.json": "6148d8c02d37805e73a1b31f2360764ba1aefaa7f6caddd875cd5b5238bc8cfd",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-55.json": "2a4d5f6f64e684ccd2e9fdd19a9f4a3775eebf0de468936ac88748ea68410c0e",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-60.json": "fada3e69388d845317377199542609e81b112473fcff7c4ea5d8562edd0b8488",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-65.json": "eaad5d084677c84a97d1b86223bd848eb993703256a085bb0b73d3d9446973d3",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-70.json": "0c5ec46d19c552e27be0429047525d5e32a9d4b7bf661c1defee1d2a73d09652",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-75.json": "301285a575a87bb54994af58e1582bda2078e6fa6692f015802802adebbce002",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-80.json": "5a89286add47e0a0cb285d0aca15a79ef4037459fd2e8e15c93b1f368f619628",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-85.json": "a1f82e6fcd4692ee3b13501a0a92935e63d82a3c952a91c892a0950399f63025",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-90.json": "dcd00314f72021d87ce4e4e255fb81af2fa1a75c193579bc84c2b21bf6913b2e",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/batch-95.json": "9a6d66acef073e7147001179c6df8051a61f1fea7941725c03f95340cfa6122a",
+    "output/qa/godot/paid-fielding-rc24/default-mid137/report.json": "8502d0262300fefc7c533f3b7df15b6d819f8f421068163be4b1abeeac913763",
+    "release/3.0.0-rc25-preview/README.md": "a88db0f73db880f302a46fc46fc86dab85113571fd931a8769df1bcd4faf0899",
+    "release/3.0.0-rc25-preview/build-manifest.json": "57eae9538fee41d5f0bea7c5728dc154768b5a957b313572f013b8e4e79c649d",
+    "release/3.0.0-rc25-preview/preview-verification.json": "3a8eb96314364c03c03a463ac0baf8b4945ba13fc21a3d2f0694bfcb669182c1",
+    "tools/paper-warfront/audit_preview_build.py": "8b66e7c786a2c60ad8ad5e5faf49a5738b1ff7b5b083787a050743fb539a7745",
+    "tools/paper-warfront/check_ai_engagement.py": "5fb0fa103908bbe43d8965b5a86856ba6ebc5b63564a39b11e0740b4d2f22c6e",
+    "tools/paper-warfront/check_packaged_apk_logic.py": "28a82960297d8b5830041c81d986f012f5a21a5190def48e5d4470653435009d",
+    "tools/paper-warfront/check_packaged_windows_logic.py": "e64f791867cdc79ce428d103d2054a43554ccebab25a2ae1e05119a944ae9294",
+    "tools/paper-warfront/check_stalled_front_render.py": "70627d81381354ecf62102f405322377ea9724e9b31e15024b662abd653f603c",
+    "tools/paper-warfront/compare_contact_counter.py": "b93cbcb19de86819a3ac67c107409ea37b6aee036069fc1887ecf64799c95ee5",
+    "tools/paper-warfront/observe_contact_traces.py": "9818448e4d996e004febbd182480d8ec65213a6e9fa07cbe3ba5e1aef4111064",
+    "tools/paper-warfront/observe_paid_fielding.py": "56ac1457c3f27ae4d6cb38b9a923180d9b3404f8dd92d43b794f655ef9472007",
+    "tools/paper-warfront/prepare_contact_counter_trial.py": "4a4d8a262e3fa451494f12672717c22569a843ecc538a5759e39714eb3fa61fa",
+    "tools/paper-warfront/prepare_stalled_front_trial.py": "6f547c78853582ae705f1f20eacc05c3102bdbda70c6eb82783f1131b7d185ca",
+    "tools/paper-warfront/probe_fielding_contact.gd": "be782471663eb62ff6bd072b8bcfd242523481b78eca343759dda55b4654d29c",
+    "tools/paper-warfront/probe_stalled_front_render.gd": "100ab078a1f1c1c6b784730a0fba2de0c4f8fd56959e1499c0fb2c704faff221",
+    "tools/paper-warfront/test_stalled_front_recruitment.gd": "fd2b16fc02e44fe0b0a4974e298491bca2ec7efac8d6e36ebc19256301183ee0",
+    "tools/paper-warfront/write_stalled_front_revision.py": "681524e8986f010fa28c0bf12d0687e9ce916f297874ea1b03bdd5c0f092e6b9"
+  },
+  "builds_and_archives": [
+    {
+      "path": "release/3.0.0-rc25-preview/windows/PaperWarfront.exe",
+      "bytes": 238233416,
+      "sha256": "6356e898b79dc5f3b2355cf6e977b3cf895788c8f413b766a83e002e9ce08615"
+    },
+    {
+      "path": "release/3.0.0-rc25-preview/android/PaperWarfront-3.0.0-rc25-preview.apk",
+      "bytes": 176423794,
+      "sha256": "25d208dcb5a935e808ae899c06ed6e3d7ea6b2c9ccf169a9642362d56cc9bb1a"
+    },
+    {
+      "path": "release/3.0.0-rc25-preview/PaperWarfront-Windows-3.0.0-rc25-preview.zip",
+      "bytes": 165357265,
+      "sha256": "2dba61de5aeb51ce12a4365d5a7279a7b4f27111dac0519aad2290cad43203a7"
+    }
+  ]
+}

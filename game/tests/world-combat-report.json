@@ -1,0 +1,12 @@
+{
+	"checks": 2032,
+	"combat_units_recruited": 400,
+	"failures": [],
+	"not_covered": [
+		"human tactical balance judgement",
+		"all 200 full-length campaign victories",
+		"Android hardware input"
+	],
+	"passed": true,
+	"scope": "manual recruiting, charged costs, completed production, actual damage for 400 units; representative ability and faction outcomes"
+}

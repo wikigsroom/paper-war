@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "units": "degrees-and-milliseconds",
+  "profiles": {
+    "biped": {
+      "idle": {
+        "period_ms": 1100,
+        "torso_bob": 0.025
+      },
+      "walk": {
+        "period_ms": 620,
+        "leg_swing_degrees": 19,
+        "arm_swing_degrees": 11
+      },
+      "attack": {
+        "anticipation_ms": 160,
+        "strike_ms": 80,
+        "recovery_ms": 240,
+        "weapon_swing_degrees": 65
+      },
+      "hit": {
+        "duration_ms": 170,
+        "torso_rotation_degrees": -11
+      },
+      "cast": {
+        "duration_ms": 480,
+        "arm_raise_degrees": -48
+      },
+      "death": {
+        "duration_ms": 420,
+        "fold_rotation_degrees": 78
+      }
+    },
+    "worker": {
+      "walk_period_ms": 690,
+      "mine_period_ms": 750,
+      "carry_pose_arm_degrees": -24
+    },
+    "cart": {
+      "wheel_radius": 0.26,
+      "recoil_distance": 0.08,
+      "recoil_ms": 180
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "inputs": {
+    "res://data/balance-prototype.json": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6",
+    "res://scripts/battle_sim.gd": "4a390ec29767b61e0cf8c0bffe780cf848cd2508c1c2e99f090874a44b58f01a",
+    "res://scripts/battle_visibility.gd": "a7a5f6cdcd7f313b693bb3d8e842b283762371b64112847384e9ac75a2d6e23e",
+    "res://scripts/map_runtime.gd": "09460d25e9eef3237693c834c0310255e14083415ea4a7d466b578129a7ed01d",
+    "res://scripts/unit_abilities.gd": "9085d36281638648f17702f65b863085eae38c275b21813f15c158397d8f3535",
+    "res://tests/probe_sim_cpu_profile.gd": "1867af3da4577b61fb2bf3343719e1208eacb7105a0bf992c3af0601595e1dfb",
+    "res://tests/sim_cpu_profiler.gd": "f33d84e5be90119e9a24a5d976a8b8e1f335b27626e95d379bec0d672feee0d5"
+  },
+  "samples": 120,
+  "scope": "Instrumented native headless 120-unit CPU diagnosis. Timings are nested/cumulative and include instrumentation overhead; not rendered FPS or Android hardware evidence.",
+  "timings": {
+    "area_search": {
+      "calls": 24,
+      "us": 1217
+    },
+    "hit_resolution": {
+      "calls": 120,
+      "us": 1132
+    },
+    "movement_snapshot": {
+      "calls": 20350,
+      "us": 30161
+    },
+    "ranged_formation": {
+      "calls": 120,
+      "us": 44190
+    },
+    "target_search": {
+      "calls": 13111,
+      "us": 376623
+    },
+    "unit_phase_including_searches": {
+      "calls": 14400,
+      "us": 924529
+    }
+  },
+  "total_us": 1210391
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "status": "research_proposal_not_implemented_not_playtested",
+  "coordinate_system": "World units, x increases right, y increases down. These are authored proposals, never original-game measurements.",
+  "common_contract": {
+    "production_types_including_worker": [3, 5],
+    "no_manual_single_unit_retreat": true,
+    "solid_ground_required": true,
+    "slope_stat_modifier": "none unless independently justified",
+    "capacity_definition": "Simultaneous mining service slots; assignment preferences are separate.",
+    "worker_transfers": "Continuous real cargo trips, both directions, valid edge transitions.",
+    "release_gate": "Native measurements + actual player interaction + visual readability, not number of configs."
+  },
+  "maps": [
+    {
+      "id": "W01", "name": "归金坡", "priority": 1, "question": "先投资，还是先压制？", "length": 42,
+      "topology": "single_line", "objective": {"kind": "destroy_base", "enemy_base_id": "W01.base.1"},
+      "production_roles": ["工人", "前排", "远程", "重兵"],
+      "surface": [[0,0],[2,0],[6,0],[12,-0.4],[18,-1.6],[24,-1.6],[30,-0.4],[36,0],[40,0],[42,0]],
+      "branch": null,
+      "anchors": [
+        {"id":"W01.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"W01.site.rear.0","kind":"site","owner":0,"x":4,"label":"后位","functions":["mana"]},
+        {"id":"W01.mine.0","kind":"mine","owner":0,"x":6,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W01.site.front.0","kind":"site","owner":0,"x":12,"label":"前位","functions":["tower"]},
+        {"id":"W01.site.front.1","kind":"site","owner":1,"x":30,"label":"前位","functions":["tower"]},
+        {"id":"W01.mine.1","kind":"mine","owner":1,"x":36,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W01.site.rear.1","kind":"site","owner":1,"x":38,"label":"后位","functions":["mana"]},
+        {"id":"W01.base.1","kind":"base","owner":1,"x":40,"label":"敌方基地"}
+      ],
+      "plans": ["经济与研究换取后续成团", "先出兵，抢占对方投资窗口"],
+      "tradeoff": "延后战力 / 延后回款；进攻到矿区可能被拖住并遭反扑",
+      "measure": ["first_gold", "first_contact", "reinforcement_time", "worker_harassment_income", "mirror_side_check"],
+      "first_30_seconds": "回款、购买、接敌和救援法术形成一轮可看懂的交换",
+      "enemy_response": "发展时遭快压；急攻到矿区遇守方远程成团",
+      "original_evidence": ["R01","R03","R06","R07"], "open_questions": ["兵种/法术基准尚未在此白盒运行"]
+    },
+    {
+      "id": "W02", "name": "前哨外矿", "priority": 2, "question": "外矿能否回本并守住？", "length": 46,
+      "topology": "single_line", "objective": {"kind":"destroy_base","enemy_base_id":"W02.base.1"},
+      "production_roles": ["工人","前排","远程","攻城"],
+      "surface": [[0,0],[2,0],[6,0],[11,-0.5],[15,-1],[17,-1],[23,-0.3],[29,-1],[31,-1],[35,-0.5],[40,0],[44,0],[46,0]],
+      "branch": null,
+      "anchors": [
+        {"id":"W02.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"W02.mine.near.0","kind":"mine","owner":0,"x":6,"label":"近矿","service_capacity":1,"cargo":8},
+        {"id":"W02.mine.outer.0","kind":"mine","owner":0,"x":15,"label":"外矿","service_capacity":2,"cargo":8},
+        {"id":"W02.site.0","kind":"site","owner":0,"x":17,"label":"护矿位","functions":["tower"]},
+        {"id":"W02.site.1","kind":"site","owner":1,"x":29,"label":"护矿位","functions":["tower"]},
+        {"id":"W02.mine.outer.1","kind":"mine","owner":1,"x":31,"label":"外矿","service_capacity":2,"cargo":8},
+        {"id":"W02.mine.near.1","kind":"mine","owner":1,"x":40,"label":"近矿","service_capacity":1,"cargo":8},
+        {"id":"W02.base.1","kind":"base","owner":1,"x":44,"label":"敌方基地"}
+      ],
+      "plans": ["投资外矿和护矿位，增加总服务容量", "趁投资未回本出兵压制外矿"],
+      "tradeoff": "更长运输、施工与护卫投入 / 后续经济规模",
+      "measure": ["continuous_outer_trips_both_sides", "marginal_income", "payback_time", "construction_exposure", "attack_income_disruption"],
+      "first_30_seconds": "显示近矿服务瓶颈与外矿首批运输，观察扩张暴露",
+      "enemy_response": "识别外矿工人/施工后施压；快攻来时缩回近矿防守",
+      "original_evidence": ["R01","R03"], "open_questions": ["容量1/2是原创实验初值", "现有运输P0修复前不得评价回本", "若两种计划不能成立则修改或取消地图"]
+    },
+    {
+      "id": "W03", "name": "灯台长坡", "priority": 3, "question": "积累法力，还是快兵抢窗口？", "length": 58,
+      "topology": "single_line", "objective": {"kind":"destroy_base","enemy_base_id":"W03.base.1"},
+      "production_roles": ["工人","前排","远程","重兵","突击"],
+      "surface": [[0,0],[2,0],[7,0],[13,-0.6],[21,-2.1],[29,-3],[37,-2.1],[45,-0.6],[51,0],[56,0],[58,0]],
+      "branch": null,
+      "anchors": [
+        {"id":"W03.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"W03.site.rear.0","kind":"site","owner":0,"x":4,"label":"法力位","functions":["mana"]},
+        {"id":"W03.mine.0","kind":"mine","owner":0,"x":7,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W03.site.front.0","kind":"site","owner":0,"x":21,"label":"前哨位","functions":["tower"]},
+        {"id":"W03.site.front.1","kind":"site","owner":1,"x":37,"label":"前哨位","functions":["tower"]},
+        {"id":"W03.mine.1","kind":"mine","owner":1,"x":51,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W03.site.rear.1","kind":"site","owner":1,"x":54,"label":"法力位","functions":["mana"]},
+        {"id":"W03.base.1","kind":"base","owner":1,"x":56,"label":"敌方基地"}
+      ],
+      "plans": ["用防守空间积累法力与慢兵", "快兵赶在设施投资生效前施压"],
+      "tradeoff": "设施收益积累 / 远距离增援延迟",
+      "measure": ["fast_vs_heavy_arrival", "mana_before_pressure", "front_site_survival", "faction_side_exchange"],
+      "first_30_seconds": "首轮压力与设施生效竞速；显示增援还在路上",
+      "enemy_response": "快压针对后方积累；稳守用控制争取慢兵抵达",
+      "original_evidence": ["R06","R07"], "open_questions": ["长图阵营优势需反制与交换测试", "灯台为原创地标"]
+    },
+    {
+      "id": "W04", "name": "纸桥岔口", "priority": 4, "question": "直接支援，还是付时间绕阵地？", "length": 44,
+      "topology": "one_local_fork", "objective": {"kind":"destroy_base","enemy_base_id":"W04.base.1"},
+      "production_roles": ["工人","前排","远程","突击"],
+      "surface": [[0,0],[2,0],[6,0],[14,0],[22,0],[30,0],[38,0],[42,0],[44,0]],
+      "branch": {"id":"W04.bridge","from_x":14,"to_x":30,"surface":[[14,0],[17,-2],[22,-4],[27,-2],[30,0]],"support":"physical paper bridge with thickness and piers","route_sign_owner":0,"affected":"own combat units arriving after selection","worker_rule":"mine destination pathfinding independent of combat sign"},
+      "anchors": [
+        {"id":"W04.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"W04.mine.0","kind":"mine","owner":0,"x":6,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W04.fork","kind":"route_sign","owner":0,"x":14,"label":"路标"},
+        {"id":"W04.pressure","kind":"enemy_position","owner":1,"x":22,"label":"压制点"},
+        {"id":"W04.merge","kind":"merge","owner":null,"x":30,"label":"汇流"},
+        {"id":"W04.mine.1","kind":"mine","owner":1,"x":38,"label":"近矿","service_capacity":3,"cargo":8},
+        {"id":"W04.base.1","kind":"base","owner":1,"x":42,"label":"敌方基地"}
+      ],
+      "plans": ["主路更快，应对支援截止或上路阻击", "绕行更慢，换取不同遭遇"],
+      "tradeoff": "路径时间 / 阵地伤亡；高度不能自动保证免疫攻击",
+      "measure": ["two_enemy_conditions", "branch_arrival_delta", "cross_route_hits", "old_new_batch_sign_commit"],
+      "first_30_seconds": "第一批进入主路，再切换下一批；两批合法分流",
+      "enemy_response": "布置主路阵地或上路阻击，公开呈现敌情",
+      "original_evidence": ["R09"], "open_questions": ["PC路标权限未实测", "桥高-4与二维射程需逐点检查", "两路收益未完成实际验证"]
+    },
+    {
+      "id": "W05", "name": "矿线阻击", "priority": 5, "question": "威胁越矿线前，输出还是拖延？", "length": 44,
+      "topology": "single_line_task", "objective": {"kind":"intercept","target_uid":"mission-threat.01","failure_x":9,"failure_direction":-1,"victory":"target killed before crossing line","simultaneous_event_order":"pending specification before implementation"},
+      "production_roles": ["工人","前排","远程","控制辅助"],
+      "surface": [[0,0],[2,0],[9,0],[16,-0.5],[22,-1.2],[29,-0.5],[36,0],[42,0],[44,0]],
+      "branch": null,
+      "anchors": [
+        {"id":"W05.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"W05.mine.0","kind":"mine","owner":0,"x":9,"label":"矿点","service_capacity":3,"cargo":8},
+        {"id":"W05.line","kind":"failure_line","owner":0,"x":9,"label":"失败线"},
+        {"id":"mission-threat.01","kind":"task_target","owner":1,"x":36,"label":"指定威胁","direction":-1},
+        {"id":"W05.entry","kind":"enemy_entry","owner":1,"x":42,"label":"敌军入口"}
+      ],
+      "plans": ["远程提早输出", "前排与控制延长截击时间"],
+      "tradeoff": "立即伤害 / 可利用的时间预算",
+      "measure": ["target_id_stability", "actual_crossing", "control_deadline_update", "death_crossing_order"],
+      "first_30_seconds": "世界失败线与移动威胁同步显示；倒计时依据真实位置",
+      "enemy_response": "护卫指定威胁，牵制玩家远程与控制",
+      "original_evidence": ["R04"], "open_questions": ["HD历史成就仅为灵感，主任务未补证", "事件优先级、移速与护卫预算待白盒确定"]
+    },
+    {
+      "id": "W06", "name": "守签接力", "priority": 6, "question": "先布护卫，还是留法力救援？", "length": 50,
+      "topology": "single_line_task", "objective": {"kind":"escort","target_uid":"mission-carrier.01","start_x":6,"goal_x":44,"failure":"named carrier dies","victory":"named carrier arrives alive","asymmetry_reason":"Escort staging and enemy entry positions"},
+      "production_roles": ["工人","前排","远程","护卫辅助"],
+      "surface": [[0,0],[2,0],[6,0],[12,-0.3],[18,-1],[23,-1.4],[29,-1],[33,-0.3],[39,0],[44,0],[47,0],[50,0]],
+      "branch": null,
+      "anchors": [
+        {"id":"W06.base.0","kind":"base","owner":0,"x":2,"label":"己方基地"},
+        {"id":"mission-carrier.01","kind":"escort_target","owner":0,"x":6,"label":"护送起点","direction":1},
+        {"id":"W06.mine.0","kind":"mine","owner":0,"x":9,"label":"后方矿","service_capacity":3,"cargo":8},
+        {"id":"W06.site.0","kind":"site","owner":0,"x":23,"label":"防护位","functions":["tower"]},
+        {"id":"W06.entry.0","kind":"enemy_entry","owner":1,"x":33,"label":"敌军入口"},
+        {"id":"W06.goal","kind":"goal","owner":0,"x":44,"label":"护送终点"},
+        {"id":"W06.entry.1","kind":"enemy_entry","owner":1,"x":47,"label":"敌军入口"}
+      ],
+      "plans": ["提前投入护卫和中途防护位置", "保留法力，针对下一次伏击救援"],
+      "tradeoff": "先期空间控制 / 后期应急预算",
+      "measure": ["named_carrier_path", "protection_arrival", "enemy_wave_arrival", "camera_target_navigation", "economy_return_trip"],
+      "first_30_seconds": "让玩家看见保护对象、下一威胁入口与可投资位置",
+      "enemy_response": "分段伏击，打乱前排到达与保护队形",
+      "original_evidence": ["R04"], "open_questions": ["本作原创护送，并非已证实的中国3主任务", "敌波/载体速度待白盒测试"]
+    }
+  ]
+}

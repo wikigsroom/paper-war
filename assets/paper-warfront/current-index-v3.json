@@ -1,0 +1,16 @@
+{
+  "version": "3.0.0-rc1",
+  "runtime_manifest": "game/data/assets.json",
+  "theatre_provenance_records": 473,
+  "maps": 200,
+  "geometry_records": 193,
+  "unit_gallery_entries": 400,
+  "baseline_ids": [
+    "map.01.01",
+    "map.01.07",
+    "map.01.11",
+    "map.01.04",
+    "map.01.12",
+    "map.01.06"
+  ]
+}

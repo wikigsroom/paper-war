@@ -1,0 +1,487 @@
+{
+  "schema_version": 3,
+  "order": [
+    "yin",
+    "mo",
+    "deng",
+    "ji",
+    "yuan",
+    "qi",
+    "mu",
+    "shuang",
+    "jin",
+    "bai"
+  ],
+  "factions": [
+    {
+      "id": "yin",
+      "name": "印甲军",
+      "color": "b74532",
+      "region": "朱印疆",
+      "hero": "赤砚",
+      "title": "守印将军",
+      "motif": "朱印、方甲、铜签、封缄",
+      "mana": "upgrade",
+      "trait": "fortified",
+      "premise": "祖印碎裂后，印甲军封锁运输线。赤砚奉命收回失印，却发现被查封的村落仍在执行伪造王命。",
+      "stake": "守住秩序，还是承认自己保护的印令已经被篡改。",
+      "ending": "赤砚解除封路，把第一片祖印交给原本被视为敌人的拾纸祭司。",
+      "enemy": "mo",
+      "prefix": "朱印",
+      "combat_units": [
+        "unit.yin.axe",
+        "unit.yin.spear",
+        "unit.yin.hammer",
+        "unit.yin.cannon",
+        "unit.yin.banner",
+        "unit.yin.guard"
+      ],
+      "worker": "unit.yin.worker",
+      "default_roster": [
+        "unit.yin.axe",
+        "unit.yin.spear",
+        "unit.yin.hammer",
+        "unit.yin.cannon"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.yin.axe",
+        "unit.yin.spear",
+        "unit.yin.hammer",
+        "unit.yin.cannon",
+        "unit.yin.banner",
+        "unit.yin.guard"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.yin.repair",
+        "spell.yin.lightning",
+        "spell.yin.cold"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "mo",
+      "name": "墨骸社",
+      "color": "554160",
+      "region": "旧册泽",
+      "hero": "墨归",
+      "title": "拾纸祭司",
+      "motif": "旧纸、骨折、墨斑、尖刃",
+      "mana": "sacrifice",
+      "trait": "lifesteal",
+      "premise": "墨归从废纸坑召回被抹去的守城兵，他们共同指认死亡名单先于战斗印好。墨骸社因此追查命令的来源。",
+      "stake": "让亡者作证，还是把他们再次当成可以献弃的兵力。",
+      "ending": "墨归送回被夺印的活人，留下不能再被复制的原始死亡名单。",
+      "enemy": "deng",
+      "prefix": "旧墨",
+      "combat_units": [
+        "unit.mo.blade",
+        "unit.mo.needle",
+        "unit.mo.priest",
+        "unit.mo.giant",
+        "unit.mo.leech",
+        "unit.mo.warden"
+      ],
+      "worker": "unit.mo.worker",
+      "default_roster": [
+        "unit.mo.blade",
+        "unit.mo.needle",
+        "unit.mo.priest",
+        "unit.mo.giant"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.mo.blade",
+        "unit.mo.needle",
+        "unit.mo.priest",
+        "unit.mo.giant",
+        "unit.mo.leech",
+        "unit.mo.warden"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.mo.sacrifice",
+        "spell.mo.bind",
+        "spell.mo.poison"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "deng",
+      "name": "灯符朝",
+      "color": "377b78",
+      "region": "青灯都",
+      "hero": "灯照",
+      "title": "校符使",
+      "motif": "青灯、圆符、镜纸、复印纹",
+      "mana": "facility",
+      "trait": "ward",
+      "premise": "朝廷同一日发出互相冲突的两份王命。灯照检查纸灯网络，发现真正的王印被无限复印的命令掩盖。",
+      "stake": "维持灯网供给，还是公开会令朝廷崩溃的副本证据。",
+      "ending": "灯照切断伪令灯阵，保住供民间使用的灯网，并承认没有任何印令可以替代证词。",
+      "enemy": "ji",
+      "prefix": "青符",
+      "combat_units": [
+        "unit.deng.mirror",
+        "unit.deng.fire",
+        "unit.deng.shadow",
+        "unit.deng.effigy",
+        "unit.deng.summoner",
+        "unit.deng.illusionist"
+      ],
+      "worker": "unit.deng.worker",
+      "default_roster": [
+        "unit.deng.mirror",
+        "unit.deng.fire",
+        "unit.deng.shadow",
+        "unit.deng.effigy"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.deng.mirror",
+        "unit.deng.fire",
+        "unit.deng.shadow",
+        "unit.deng.effigy",
+        "unit.deng.summoner",
+        "unit.deng.illusionist"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.deng.protect",
+        "spell.deng.clone",
+        "spell.deng.fire"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "ji",
+      "name": "纸械工坊",
+      "color": "996a38",
+      "region": "铜折炉",
+      "hero": "榫七",
+      "title": "总装匠",
+      "motif": "铜色纸机、齿轮折线、卷轴车",
+      "mana": "construction",
+      "trait": "workshop",
+      "premise": "工坊为十院制造印机，却被告知所有故障都源于工人怠惰。榫七在停转矿炉里发现人为更改的生产顺序。",
+      "stake": "继续交付战争机器，还是让停工的工人掌握自己的运输线。",
+      "ending": "榫七拆除覆写机的送料结构，将可以修复祖印的榫接图交给鸢纸行会。",
+      "enemy": "yuan",
+      "prefix": "铜折",
+      "combat_units": [
+        "unit.ji.vanguard",
+        "unit.ji.javelin",
+        "unit.ji.engineer",
+        "unit.ji.artillery",
+        "unit.ji.demolisher",
+        "unit.ji.guard"
+      ],
+      "worker": "unit.ji.worker",
+      "default_roster": [
+        "unit.ji.vanguard",
+        "unit.ji.javelin",
+        "unit.ji.engineer",
+        "unit.ji.artillery"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.ji.vanguard",
+        "unit.ji.javelin",
+        "unit.ji.engineer",
+        "unit.ji.artillery",
+        "unit.ji.demolisher",
+        "unit.ji.guard"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.ji.repair",
+        "spell.ji.lightning",
+        "spell.ji.cold"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "yuan",
+      "name": "鸢纸行会",
+      "color": "527e9c",
+      "region": "雁信岭",
+      "hero": "飞笺",
+      "title": "领信人",
+      "motif": "蓝羽、折翼、风袋、信筒",
+      "mana": "junction",
+      "trait": "junction_haste",
+      "premise": "唯一能串联十院的雁路被相互矛盾的通行符封死。飞笺必须把目击者和榫接图送过被截断的汇流口。",
+      "stake": "快速送信完成契约，还是冒险带上拖慢队伍的人。",
+      "ending": "飞笺公开雁路时刻表，拒绝再替任何一院秘密封锁消息。",
+      "enemy": "qi",
+      "prefix": "雁羽",
+      "combat_units": [
+        "unit.yuan.vanguard",
+        "unit.yuan.archer",
+        "unit.yuan.harrier",
+        "unit.yuan.artillery",
+        "unit.yuan.lancer",
+        "unit.yuan.caravan"
+      ],
+      "worker": "unit.yuan.worker",
+      "default_roster": [
+        "unit.yuan.vanguard",
+        "unit.yuan.archer",
+        "unit.yuan.harrier",
+        "unit.yuan.artillery"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.yuan.vanguard",
+        "unit.yuan.archer",
+        "unit.yuan.harrier",
+        "unit.yuan.artillery",
+        "unit.yuan.lancer",
+        "unit.yuan.caravan"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.yuan.protect",
+        "spell.yuan.clone",
+        "spell.yuan.fire"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "qi",
+      "name": "金契商盟",
+      "color": "aa8a32",
+      "region": "契金埠",
+      "hero": "契衡",
+      "title": "行账人",
+      "motif": "金契、票据、秤签、结绳",
+      "mana": "delivery",
+      "trait": "bounty",
+      "premise": "商盟掌握矿路与债契，却发现账面上越来越多的金币来自没有运金人的归仓记录。契衡追查被印出来的繁荣。",
+      "stake": "保住账面财富，还是承认财富建立在被注销的名字上。",
+      "ending": "契衡烧毁强制债契，保留真实货运账，资助难民与活纸种子的运输。",
+      "enemy": "mu",
+      "prefix": "金契",
+      "combat_units": [
+        "unit.qi.vanguard",
+        "unit.qi.javelin",
+        "unit.qi.executioner",
+        "unit.qi.siege",
+        "unit.qi.caravan",
+        "unit.qi.sniper"
+      ],
+      "worker": "unit.qi.worker",
+      "default_roster": [
+        "unit.qi.vanguard",
+        "unit.qi.javelin",
+        "unit.qi.executioner",
+        "unit.qi.siege"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.qi.vanguard",
+        "unit.qi.javelin",
+        "unit.qi.executioner",
+        "unit.qi.siege",
+        "unit.qi.caravan",
+        "unit.qi.sniper"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.qi.repair",
+        "spell.qi.lightning",
+        "spell.qi.cold"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "mu",
+      "name": "植纤古庭",
+      "color": "64834a",
+      "region": "活纤林",
+      "hero": "纤枝",
+      "title": "守根人",
+      "motif": "纤维、叶纸、木纹、根脉",
+      "mana": "growth",
+      "trait": "regeneration",
+      "premise": "古庭的活纸能保存未经印写的记忆，却正在被新王命的墨液侵蚀。纤枝沿根脉寻找旧约的原始载体。",
+      "stake": "隔绝外界保住古庭，还是让活纸成为所有人的记忆容器。",
+      "ending": "纤枝将最后一株活纸交给十院共同保管，不再把记忆锁在古庭内部。",
+      "enemy": "shuang",
+      "prefix": "活纤",
+      "combat_units": [
+        "unit.mu.guard",
+        "unit.mu.poisoner",
+        "unit.mu.medic",
+        "unit.mu.colossus",
+        "unit.mu.warden",
+        "unit.mu.phoenix"
+      ],
+      "worker": "unit.mu.worker",
+      "default_roster": [
+        "unit.mu.guard",
+        "unit.mu.poisoner",
+        "unit.mu.medic",
+        "unit.mu.colossus"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.mu.guard",
+        "unit.mu.poisoner",
+        "unit.mu.medic",
+        "unit.mu.colossus",
+        "unit.mu.warden",
+        "unit.mu.phoenix"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.mu.sacrifice",
+        "spell.mu.bind",
+        "spell.mu.poison"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "shuang",
+      "name": "霜裁守序",
+      "color": "6996a7",
+      "region": "冻页台",
+      "hero": "霜律",
+      "title": "解封裁官",
+      "motif": "霜蓝、裁刀、冰页、方框",
+      "mana": "control",
+      "trait": "control_reward",
+      "premise": "裁院把争议证词冻结，声称这样便不会再有战争。霜律发现被冻结的不是争议，而是被反复擦除的和平协定。",
+      "stake": "服从永远不变的裁定，还是让矛盾公开并承担判断的责任。",
+      "ending": "霜律解冻十院旧约，撤销所有以沉默代替证据的裁决。",
+      "enemy": "jin",
+      "prefix": "霜裁",
+      "combat_units": [
+        "unit.shuang.shield",
+        "unit.shuang.javelin",
+        "unit.shuang.warden",
+        "unit.shuang.mortar",
+        "unit.shuang.scribe",
+        "unit.shuang.oracle"
+      ],
+      "worker": "unit.shuang.worker",
+      "default_roster": [
+        "unit.shuang.shield",
+        "unit.shuang.javelin",
+        "unit.shuang.warden",
+        "unit.shuang.mortar"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.shuang.shield",
+        "unit.shuang.javelin",
+        "unit.shuang.warden",
+        "unit.shuang.mortar",
+        "unit.shuang.scribe",
+        "unit.shuang.oracle"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.shuang.repair",
+        "spell.shuang.lightning",
+        "spell.shuang.cold"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "jin",
+      "name": "烬纸流亡",
+      "color": "b9673f",
+      "region": "余烬渡",
+      "hero": "烬禾",
+      "title": "渡纸人",
+      "motif": "炭边、橙火、补丁、残旗",
+      "mana": "damage",
+      "trait": "last_stand",
+      "premise": "印院战争后的难民被统一记录为灰烬。烬禾带着幸存者穿过旧战场，把十院收集的证据送到祖印核心。",
+      "stake": "靠愤怒摧毁所有印院，还是让每个幸存者获得自己的名字。",
+      "ending": "烬禾阻止报复性焚城，带着十院证据和活纸抵达留白庭。",
+      "enemy": "bai",
+      "prefix": "余烬",
+      "combat_units": [
+        "unit.jin.berserker",
+        "unit.jin.archer",
+        "unit.jin.leech",
+        "unit.jin.artillery",
+        "unit.jin.burner",
+        "unit.jin.demolisher"
+      ],
+      "worker": "unit.jin.worker",
+      "default_roster": [
+        "unit.jin.berserker",
+        "unit.jin.archer",
+        "unit.jin.leech",
+        "unit.jin.artillery"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.jin.berserker",
+        "unit.jin.archer",
+        "unit.jin.leech",
+        "unit.jin.artillery",
+        "unit.jin.burner",
+        "unit.jin.demolisher"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.jin.sacrifice",
+        "spell.jin.bind",
+        "spell.jin.poison"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    },
+    {
+      "id": "bai",
+      "name": "空白档案",
+      "color": "817c96",
+      "region": "留白庭",
+      "hero": "白匣",
+      "title": "末任校档官",
+      "motif": "象牙白、灰紫、空框、删改印",
+      "mana": "research",
+      "trait": "arcane_resistance",
+      "premise": "白匣发现归零印以消除记忆阻止战争，又以同样的消除制造下一场战争。他必须在自己的档案军追捕下解开覆写程序。",
+      "stake": "接受无争议的空白世界，还是保留真实且不能被统一的记忆。",
+      "ending": "十院拆解归零印，将祖印改为只能共同见证、不能覆写个人记忆的留名印。战场成为可读的旧页，而不是被抹去的历史。",
+      "enemy": "yin",
+      "prefix": "留白",
+      "combat_units": [
+        "unit.bai.mirror",
+        "unit.bai.repeater",
+        "unit.bai.oracle",
+        "unit.bai.colossus",
+        "unit.bai.illusionist",
+        "unit.bai.scribe"
+      ],
+      "worker": "unit.bai.worker",
+      "default_roster": [
+        "unit.bai.mirror",
+        "unit.bai.repeater",
+        "unit.bai.oracle",
+        "unit.bai.colossus"
+      ],
+      "mana_base": 0.5,
+      "core_roster": [
+        "unit.bai.mirror",
+        "unit.bai.repeater",
+        "unit.bai.oracle",
+        "unit.bai.colossus",
+        "unit.bai.illusionist",
+        "unit.bai.scribe"
+      ],
+      "production_limit": 5,
+      "opening_spells": [
+        "spell.bai.protect",
+        "spell.bai.clone",
+        "spell.bai.fire"
+      ],
+      "unit_identity_policy": "curated-asymmetric-kits-v1"
+    }
+  ]
+}

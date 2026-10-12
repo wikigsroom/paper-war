@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "scope": "Authored pose processing and emitter alignment. Does not change collision or damage.",
+  "units": {
+    "unit.mo.priest": {
+      "release_origin": [
+        165,
+        108
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.yin.spear": {
+      "release_origin": [
+        141,
+        96
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.yin.cannon": {
+      "release_origin": [
+        180,
+        111
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.mo.needle": {
+      "release_origin": [
+        180,
+        116
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.deng.fire": {
+      "release_origin": [
+        177,
+        109
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.yuan.archer": {
+      "release_origin": [
+        154,
+        96
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.yuan.artillery": {
+      "release_origin": [
+        138,
+        108
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.yuan.caravan": {
+      "release_origin": [
+        155,
+        103
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.qi.javelin": {
+      "release_origin": [
+        166,
+        86
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.qi.caravan": {
+      "release_origin": [
+        180,
+        119
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.qi.sniper": {
+      "release_origin": [
+        166,
+        99
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.mu.poisoner": {
+      "release_origin": [
+        165,
+        101
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.mu.medic": {
+      "release_origin": [
+        178,
+        114
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.shuang.javelin": {
+      "release_origin": [
+        162,
+        101
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.shuang.mortar": {
+      "release_origin": [
+        103,
+        92
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates.",
+      "omit_detached_components_frames": [
+        15,
+        16
+      ],
+      "cleanup_reason": "Generated airborne snowball/trail are separate alpha components; omit them on release/follow-through so the real simulated missile is the only flying ball. Loaded ammunition in windup remains."
+    },
+    "unit.shuang.scribe": {
+      "release_origin": [
+        176,
+        115
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.shuang.oracle": {
+      "release_origin": [
+        177,
+        100
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.jin.archer": {
+      "release_origin": [
+        154,
+        96
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.jin.artillery": {
+      "release_origin": [
+        128,
+        86
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.jin.burner": {
+      "release_origin": [
+        180,
+        117
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.bai.oracle": {
+      "release_origin": [
+        177,
+        115
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.bai.colossus": {
+      "release_origin": [
+        169,
+        110
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.bai.illusionist": {
+      "release_origin": [
+        153,
+        141
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.bai.scribe": {
+      "release_origin": [
+        160,
+        106
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.ji.javelin": {
+      "release_origin": [
+        166,
+        103
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.ji.engineer": {
+      "release_origin": [
+        179,
+        114
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.mu.warden": {
+      "release_origin": [
+        170,
+        112
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.bai.repeater": {
+      "release_origin": [
+        173,
+        96
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.mo.warden": {
+      "release_origin": [
+        178,
+        87
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.deng.summoner": {
+      "release_origin": [
+        174,
+        103
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.deng.illusionist": {
+      "release_origin": [
+        176,
+        104
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates."
+    },
+    "unit.ji.artillery": {
+      "release_origin": [
+        155,
+        113
+      ],
+      "reason": "Release frame 15 manually inspected: muzzle, extended hand, staff tip or unique body emitter; fixed 192 px frame coordinates.",
+      "clear_regions": {
+        "16": [
+          [
+            147,
+            98,
+            181,
+            114
+          ]
+        ]
+      },
+      "cleanup_reason": "Clear only the protruding gray bolt in follow-through frame 16; preserve the drawn bow, winch, recoil and all body motion. The actual reload uses its own six-frame cycle."
+    }
+  }
+}

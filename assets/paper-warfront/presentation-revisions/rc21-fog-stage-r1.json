@@ -1,0 +1,94 @@
+{
+  "revision": "rc21-fog-stage-r1",
+  "version": "3.0.0-rc21-preview",
+  "status": "verified-preview",
+  "assets": [
+    {
+      "id": "effect.common.theatre_fog",
+      "implementation": "native Godot ArrayMesh",
+      "source": "game/scripts/theatre_fog.gd",
+      "new_raster_generation": false
+    }
+  ],
+  "style_tokens_version": "1.1.0",
+  "reused_ui_asset_version": "3.0.0-rc16-preview",
+  "reused_ui_assets": 38,
+  "reused_ui_generation_model": "gpt-image-2.5",
+  "unchanged_actual_rc20_rc21_gameplay_bytecode_and_data": {
+    "scripts/battle_sim.gdc": "d5a4b3234171f88ab96d9cd3f43b935bd829581ebdb471dab4db2fda75864dd0",
+    "scripts/map_runtime.gdc": "b1122e496c45f18ee480c5f202d7fe0c3b9be39ba781691a902257d504685bc7",
+    "scripts/tactical_ai.gdc": "11affe58776976c7277ae6a71481019a8c16fb341c3607cfc87528c26db97991",
+    "scripts/unit_abilities.gdc": "c8a0a3ec0036a39c2e26d098ab7283db09f691520d8952d7ffaf0cbda2c9cbaf",
+    "scripts/match_projection.gdc": "8c79cc02cde7d36f1f5d196ba5c845fb1037280876385554ce2087f5554f9456",
+    "data/balance-prototype.json": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6",
+    "data/technology.json": "2f0609565372c123b875fd3e6033780d41a047bd3a14827d8dec463f37fa634c",
+    "data/maps.json": "0ed93e9a72e6c9e31c31e5f82cc9b95823e82e85948a282dad74284a3da1f2c9",
+    "data/campaign.json": "57a7b770ed5eb99820b7bfc086056c5194d7ef41dc4f9a9b2bb497f399f1b430",
+    "data/unit-actions.json": "dd200b26c90b21efd120ea04984193e7fa59acc432f68807ade2bb50ae3f9492",
+    "data/unit-frames.json": "3e4d1fcfeed4f430ee8623755d437e7c7ed57c8a404d1d8e98e91f0b6e8242ac"
+  },
+  "original_reference_scope": "Publisher screenshot visual analysis and existing PC HD screenshot; original games not run or measured frame by frame.",
+  "checks": {
+    "fog-render": {
+      "native_configs": 2,
+      "checks": 26,
+      "screenshots": 12
+    },
+    "stage-proportions": {
+      "native_configs": 2,
+      "checks": 22902,
+      "screenshots": 12
+    }
+  },
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "files": {
+    "game/project.godot": "f945fa2907212371f91956569498b7ad2232bb2c50aa3b24ce9470950a49f5c6",
+    "game/export_presets.cfg": "ecd4c052456f09a68545239e55f118e667a55807b5b76862fb210e4463154f82",
+    "game/scripts/theatre_fog.gd": "7e1c7a39326c6d771d15a3d22498f764ac4a8d9dd9f049cc443ea60c85f3c6ae",
+    "game/scripts/battle_visibility.gd": "2ebfc958d046138ef6453f6860cf0581047a7ed314e9ce176461df32fc209c56",
+    "game/scripts/battle_view.gd": "c17fabd1d9a3780bb9a7b1ed3528df58236f5eccd9171a642947a20d9896bcec",
+    "game/scripts/main.gd": "cef508560b2df03e11e586379813c9285859081c55e3dad5e902e05f4b13927c",
+    "game/scripts/mobile_ui.gd": "1f5b4b51d78a15224a4c2f70badd775f7de6f090f54c0727e1c7eff969836c01",
+    "game/scripts/local_duel.gd": "f8f0d326c8387219a943a0d52ecd66ab075925b666aee9f072190a229350c616",
+    "assets/paper-warfront/style-tokens.json": "d48a2ec9dd9f9676d16e2a856c8c0e93ad469a2ecdbedfe04eea2222ae2f3fda",
+    "game/data/style-tokens.json": "d48a2ec9dd9f9676d16e2a856c8c0e93ad469a2ecdbedfe04eea2222ae2f3fda",
+    "game/tests/test_fog_presentation.gd": "f639530417f2a1ef420bb6f07f24299aacdda3d455f57986a1470d437fb137a5",
+    "game/tests/mobile_ui_qa.gd": "883d6fffef69717748a0d48450a81b88c4fb8b63302c1992afa01b22a7870153",
+    "tools/paper-warfront/probe_fog_rendering.gd": "cb6af583ea4e1a2f7653d0f02d4d34e00ef720ca04a1e7defd9fdc453d8f1267",
+    "tools/paper-warfront/probe_stage_proportions.gd": "0b9d764628424706f8e912808ce758aff39b3de0e733e51724d0429f7aadad58",
+    "tools/paper-warfront/probe_duel_stage.gd": "f71aa7d38621cfb7c08ab3e7df4316b246ed61ba73647b44fa32045420aabd86",
+    "docs/paper-warfront/130-迷雾呈现与地图比例修复及rc21交付.md": "098a5ba9f34b8e1c2a575016821dd0e49c716a789b8a2dc2ca706d51c37b0d28",
+    "docs/paper-warfront/03-美术风格圣经.md": "f76c0f0d0e23d46417d64751510d81e01a8ad1ceddad1c30b1111247d9903017",
+    "docs/paper-warfront/07-交互与UI规范.md": "56a447d19c0e52416ec46b89de926587e1609bfb50881150908da6917c1b3d9b",
+    "docs/paper-warfront/11-Godot架构与数据契约.md": "b97ac9d781df88f5623bac535c1b390e2cb51f9a384f68b562311baefe51b68c",
+    "docs/paper-warfront/16-玩家手册.md": "f94885821cae3f18bdd36a7aaf25487949874226d9a0c6a08aad4c7969b4365d",
+    "output/qa/godot/fog-render-rc21/release/fog-render/report.json": "38103e52ff7692098be9ea495a87501614b6e04ae5090a61c9d2b70d8cd90f0b",
+    "output/qa/godot/fog-render-rc21/release/stage-proportions/report.json": "4de2de97f30e050616dbda386a866204e26afeb7ea0f20ea5d91317994bddc77",
+    "output/qa/godot/fog-render-rc21/stage-short-boundary/report.json": "c1abd768aa8a5ba76521a08602ba759378e6ce2b41835e6d1ed3a82802c19ce8",
+    "output/qa/godot/fog-render-rc21/stage-short-boundary/short/report.json": "a0244dbc5a37818f0cefb9bbd91d7c23de8122c4d20accdc3088099b454b3717",
+    "output/qa/godot/fog-render-rc21/release/duel-stage/report.json": "37ffc116eddebdb1fc189df00f1b119b4b16a3caf9d4d9d380e175306e5f5527",
+    "output/qa/godot/fog-render-rc21/release/mobile/mobile-matrix.json": "7db70d77d443482836e272b68a8afc22804485857537e0b76470c8de7dfeb1a3",
+    "output/qa/godot/fog-render-rc21/formal-reach/regression/report.json": "ebf6e8695a19b1804d44276f6dba91d079ca9e2db3b55b792991c5d0f84b0d52",
+    "output/qa/godot/fog-render-rc21/figures/comparisons.json": "571c4b456cc7a22dc8268241dbc8c927b4aece572198ddbf4d3223d00d1c53d5",
+    "release/3.0.0-rc21-preview/build-manifest.json": "4656b6baca1c95caaaef34b6acf14e05eef7224b4911954dc417c25ba3554f6b",
+    "release/3.0.0-rc21-preview/preview-verification.json": "a0d4c49d039935685a6a773d58835eb4a78d9b7458c3ea055a81cecfccdb8aa9"
+  },
+  "builds_and_archives": [
+    {
+      "path": "release/3.0.0-rc21-preview/windows/PaperWarfront.exe",
+      "bytes": 238227864,
+      "sha256": "b1c9f6e2a5e17258407f51debdf437a4b3f07a8c8ef73b5d5789cb4fbe1c5430"
+    },
+    {
+      "path": "release/3.0.0-rc21-preview/android/PaperWarfront-3.0.0-rc21-preview.apk",
+      "bytes": 176415602,
+      "sha256": "d4accb7992bde020da477d26bc18719214339b7e5e44e8017dfca3503b274324"
+    },
+    {
+      "path": "release/3.0.0-rc21-preview/PaperWarfront-Windows-3.0.0-rc21-preview.zip",
+      "bytes": 165339340,
+      "sha256": "15eace27e94bc8a6608f2903a125a5e2bc5f89613f5c991167840bc312e3d71e"
+    }
+  ]
+}

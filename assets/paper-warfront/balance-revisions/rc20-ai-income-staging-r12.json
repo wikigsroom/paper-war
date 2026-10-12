@@ -1,0 +1,242 @@
+{
+  "revision": "rc20-ai-income-staging-r12",
+  "status": "source-opt-in-mechanisms-verified-not-exported",
+  "formal_preview_version": "3.0.0-rc19-preview",
+  "default_enabled": false,
+  "formal_unit_price_changes": {},
+  "new_generated_images": 0,
+  "runtime_inputs": {
+    "game/scripts/ai_budget_planner.gd": "11c1afe2e2a17255da376ba28f37fee70781c997a5e6d8344e23b62a3de5c39a",
+    "game/scripts/tactical_ai.gd": "190b4f6d464a55ea0eccd86e40c305edba69f8f8583d47ed7b80f057448f1aef",
+    "game/tests/test_ai_income_staging.gd": "7442b36c20243ec741667a23f6b95a273cd349a03d6dd386b950d6c32579ec27",
+    "tools/paper-warfront/check_ai_engagement.py": "379c3e571c81a75809103e36b92b1a2224f06fa72a0ec1093d2452ccba521979",
+    "tools/paper-warfront/probe_budget_recovery.py": "e045450fdcaa61e5a8da7d28b6b92c826ab1988f42863dac47c6cdb9cbdb72dd",
+    "tools/paper-warfront/probe_budget_cross.py": "63e409e90ff73a4920337f91d970d8af9f44d85a6539f9a82e4e1d40875cb615",
+    "tools/paper-warfront/compare_contact_budget.py": "23b849d145a3e017d58b204ff22dfca993998bca32466842c1839c7c966a9b40",
+    "tools/paper-warfront/analyze_paid_opening.py": "82eb43ec912b1f7ab9dea49a6a52a3c125baa5e29ac46739108d49977c4b9dae",
+    "tools/paper-warfront/probe_contact_price.py": "f859645673ed0633e04c34aa2121337a4a50a70812c4a9f069a30c3504f26f0e"
+  },
+  "controlled_checks": [
+    {
+      "path": "output/qa/godot/core-alignment-rc20/income-staging-before/r10-final-harness72.log",
+      "sha256": "e95fc6543c5deb9cbd5de989459bc60f8787069a118b84bca6e4376e062c19ce",
+      "checks": 72,
+      "failures": 14
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/income-staging-before/r11-final-harness72.log",
+      "sha256": "ce6c4e382ee5b7510ed286e18173474022dc7c1cb74755e365f59735832deb61",
+      "checks": 72,
+      "failures": 4
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/income-staging-after/r12-final-harness72.log",
+      "sha256": "e729bd65a552214b31f3493a6d45af11687ede98490103f41e89b9c26b1d46cf",
+      "checks": 72,
+      "failures": 0
+    }
+  ],
+  "final_source_mechanisms": {
+    "groups": 64,
+    "checks": 13880,
+    "passed": true
+  },
+  "normal_mirror_pairs": {
+    "seed": 271,
+    "duration_seconds": 300,
+    "paired_trials": 60,
+    "identical_control_conditions": 30,
+    "totals": {
+      "before": {
+        "wins": 53,
+        "losses": 1,
+        "unresolved": 6,
+        "draws": 0,
+        "studies_completed": 65,
+        "studies_with_paid_orders": 57,
+        "studies_with_first_hits": 16,
+        "first_cohort_hits": 306,
+        "research_gold_without_followup": 660,
+        "sides_without_workers_including_queue": 2
+      },
+      "after": {
+        "wins": 56,
+        "losses": 0,
+        "unresolved": 4,
+        "draws": 0,
+        "studies_completed": 76,
+        "studies_with_paid_orders": 67,
+        "studies_with_first_hits": 9,
+        "first_cohort_hits": 280,
+        "research_gold_without_followup": 785,
+        "sides_without_workers_including_queue": 0
+      }
+    },
+    "balance_accepted": false
+  },
+  "cross_faction_observations": {
+    "map": "map.01.04",
+    "seed": 271,
+    "duration_seconds": 300,
+    "fresh_observations": 200,
+    "totals": {
+      "baseline": {
+        "west_wins": 40,
+        "east_wins": 39,
+        "draws": 0,
+        "unresolved": 21,
+        "completed_unit_studies": 286,
+        "studies_with_paid_orders": 11,
+        "studies_with_first_spawns": 9,
+        "studies_with_first_hits": 4,
+        "studies_with_first_specials": 0,
+        "first_cohort_hits": 111,
+        "first_cohort_healing": 0.0,
+        "research_gold_without_followup": 21042,
+        "sides_without_workers_including_queue": 94
+      },
+      "trial": {
+        "west_wins": 43,
+        "east_wins": 36,
+        "draws": 0,
+        "unresolved": 21,
+        "completed_unit_studies": 139,
+        "studies_with_paid_orders": 112,
+        "studies_with_first_spawns": 106,
+        "studies_with_first_hits": 42,
+        "studies_with_first_specials": 0,
+        "first_cohort_hits": 689,
+        "first_cohort_healing": 0.0,
+        "research_gold_without_followup": 2081,
+        "sides_without_workers_including_queue": 89
+      }
+    },
+    "default_policy_changed": false
+  },
+  "isolated_price_pilot": {
+    "unit": "unit.jin.berserker",
+    "formal_gold": 125,
+    "experimental_gold": 75,
+    "applies_to_both_sides": true,
+    "observations": 9,
+    "candidate_conditions": 6,
+    "candidate_wins": 6,
+    "candidate_completed_unit_studies": 0,
+    "formal_price_changed": false
+  },
+  "long_mirror": {
+    "map": "map.01.11",
+    "seed": 271,
+    "seconds": 600,
+    "observations": 2,
+    "both_policies_unresolved": true,
+    "completed_unit_studies": 0
+  },
+  "isolated_not_adopted": {
+    "r13": {
+      "provenance_passed": true,
+      "paired_trials": 6,
+      "identical_control_conditions": 3,
+      "totals": {
+        "before": {
+          "wins": 3,
+          "losses": 0,
+          "unresolved": 3,
+          "draws": 0,
+          "studies_completed": 0,
+          "studies_with_paid_orders": 0,
+          "studies_with_first_hits": 0,
+          "first_cohort_hits": 0,
+          "research_gold_without_followup": 0,
+          "sides_without_workers_including_queue": 0
+        },
+        "after": {
+          "wins": 3,
+          "losses": 0,
+          "unresolved": 3,
+          "draws": 0,
+          "studies_completed": 0,
+          "studies_with_paid_orders": 0,
+          "studies_with_first_hits": 0,
+          "first_cohort_hits": 0,
+          "research_gold_without_followup": 0,
+          "sides_without_workers_including_queue": 0
+        }
+      }
+    },
+    "r14": {
+      "provenance_passed": true,
+      "paired_trials": 6,
+      "identical_control_conditions": 3,
+      "totals": {
+        "before": {
+          "wins": 3,
+          "losses": 0,
+          "unresolved": 3,
+          "draws": 0,
+          "studies_completed": 0,
+          "studies_with_paid_orders": 0,
+          "studies_with_first_hits": 0,
+          "first_cohort_hits": 0,
+          "research_gold_without_followup": 0,
+          "sides_without_workers_including_queue": 0
+        },
+        "after": {
+          "wins": 3,
+          "losses": 0,
+          "unresolved": 3,
+          "draws": 0,
+          "studies_completed": 0,
+          "studies_with_paid_orders": 0,
+          "studies_with_first_hits": 0,
+          "first_cohort_hits": 0,
+          "research_gold_without_followup": 0,
+          "sides_without_workers_including_queue": 0
+        }
+      }
+    }
+  },
+  "evidence": [
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r10-r11-comparison.json",
+      "sha256": "88a43253209195ef9d462fc377ad44866fcabd9bb9060a6e5c4d9857be476e2b"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r10-r12-comparison.json",
+      "sha256": "a76cf2074eb73b58d87baabe1fd39d8f301ba3b9325a802c5ae1694fecbd4847"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r11-r12-comparison.json",
+      "sha256": "87377f9f252dea72fe00ca9aeaa4c625ab1e542bd97e3ef82c09c47f98dd83f4"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/engagement-regression-r12/report.json",
+      "sha256": "f1ee09078b990cd96056363d4d19087824a5fe0927fcefb2d9ab9beb40b4f7ef"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/jin-price75-r12-pilot/comparison.json",
+      "sha256": "14169ea6a6815c10f4c99887a1014b04107ac5aaf6dc8a42ee806445f0ddaec4"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/jin-r12-long600/comparison.json",
+      "sha256": "057e310ab837ed86f2b9943f3df680e15325819826308883430ce2b1a8ace95d"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/cross-r12-mid271/comparison.json",
+      "sha256": "df7ef1ac813e137c492a066803880f6e6c1877051107aa0a7701aebbf7bae03a"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/cross-r12-mid271/analysis.json",
+      "sha256": "bbb78922488c1069193125d8f7607ef9b35242d8859b96d880e011ae268733c2"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r12-r13-jin-comparison.json",
+      "sha256": "3446ec187f32ac8ac7e82611d9b2145be46f8da2c07d5b4f1a088ff9c52266f1"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r12-r14-jin-comparison.json",
+      "sha256": "c970b3088e91fd3523b84e7de2ba8e91f889a227c237b61a32855dce4fe85bc6"
+    }
+  ],
+  "scope": "Native Windows CPU R12 stage only. Paid follow-up improves in a complete 200-record middle-map comparison; faction strength, Jin technology, eight mirror ceilings and west-side outcomes remain unresolved. R13/R14 are isolated negative tests. Default AI and formal fees unchanged; no rc20 export, human, campaign-wide or Android hardware acceptance."
+}

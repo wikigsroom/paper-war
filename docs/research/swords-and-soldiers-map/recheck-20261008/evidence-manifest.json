@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-08",
+  "status": "research_artifacts_verified_game_acceptance_not_passed",
+  "baseline_game_source_sha256": {
+    "game/data/maps.json": "c246c8940d1e0ea9627cca1df0b09c0b405cfd582ab6a8cd2f41f15ddf1dc22d",
+    "game/data/campaign.json": "bb9b8764db877f4414a5f7aa5726b4af7296c11c07a5577f088e1dd221ece472",
+    "game/data/balance-prototype.json": "0a5f3bd83cef5cdb75c9f7d27b34c0ff20b9ab26788d2092d6f99e478b3cbfd9",
+    "game/scripts/map_runtime.gd": "5c525abe483f75e07c048a4393b6944c7bea0deb7e3bce5155bbfd5211d5266d",
+    "game/scripts/battle_view.gd": "9f068d5362a919919bfcf11034ae80c1009b4316795a6ef92e25d97f81be328f",
+    "game/scripts/battle_sim.gd": "26e627b4090799eea46e27b5b6865338ab2bac07d778cf9c4e104cec8ee64668",
+    "tools/paper-warfront/prepare_theatre_rules.py": "bcb902ca89ed612728cd5ecaa8d19d8389703879a4200f7d19c65c7882446753"
+  },
+  "supplemental_source_sha256": {
+    "game/scripts/tactical_ai.gd": "97658cb5159e378bb3645d5b047c07dd4c6f9ce51ed4f8ada25d2a853caff4ea",
+    "game/project.godot": "f7f674fc83048bdedfd335c3113e5c70c3fe8a1fc5ef068135ab4dfc76b47d6c"
+  },
+  "research_sha256": {
+    "docs/research/swords-and-soldiers-map/recheck-20261008/01-原作证据与地图语法.md": "6d04d4de964a9bfd348099261edafc29e7936f6b23fa21e12107532a0a29699c",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/02-当前版本空间审计.md": "36a72a562b5f15ca3fc71e97b675308153908561295e42518235cf38620b96d0",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/03-地图重做约束与六类白盒.md": "7a26a9e9cc7c81cedb50ddfa57cf3970b1511caad5e5531d76bfc2b0999a6c77",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/04-实机补证与验收方法.md": "8c79ceb5395ec81fb55663d4b5ae514c5ea366332cac8bf790d4bb467b02a6af",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/current-map-audit.json": "149fb589fb0a88c7af38e958844ac12a409671e86e10a7fae1a484ae768103db",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/figures/reference-vs-delivered.png": "c820efa90f47ad710653b980128f01dc0a6774aa6eeee02527ff9ef02fe893c0",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/figures/research-overview.png": "4d3a44395fa6824bb4757c74c23decf7bb3c92d29a57d67be65e5f5da6b7aa92",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/figures/whitebox-archetypes.png": "118ed7c4f90da010a5e332229cd0bf6de1d5a2c61498add0d50e3cce1579eddd",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/native-probes.json": "b00df00e01ca60ee2ef4ea436e4c7bba8b8727413c86494bccc52862f8159fa8",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/primary-source-metadata.json": "ece89da7e59df9f45b8d739b5f0957d5ce55bc8b956d6bc464c28b7945c1c11d",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/README.md": "2b298f9d76f99f43deac8d0e41ef1af8594e80faefd2e6c7584118d3227e4616",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/sources.json": "5b20038946c141a3ab2f41e2194c0d1172ccfba344aafdad12ac897b6212abff",
+    "docs/research/swords-and-soldiers-map/recheck-20261008/whitebox-specs.json": "8c70b112ef6ddbd490473c3a5af1ab7fdaac1351589e1d8871bc524602bcc787",
+    "tools/paper-warfront/research/collect_primary_map_sources.py": "00cb4d2875c708a5ce89c3f72d33c7cdcd4ea66517676543c14934de6c40f897",
+    "tools/paper-warfront/research/probe_map_decisions.gd": "89fb23e222e02d6a6147109bd092a24f6e31c37cf24adea6ce3891e60d1ace48",
+    "tools/paper-warfront/research/README.md": "e27e4e5b16ff88d3f4bf5b34094dd3eec4fac2bfc93831fe2c818ba59bb7983a",
+    "tools/paper-warfront/research/recheck_map_design.py": "73983b90f40e423ef2bc469c980b9cb7fafb3b45815e35d1bb8506bc44df8030",
+    "tools/paper-warfront/research/render_map_recheck.py": "a9788d6c5a89445c7380c5f8b5432350116d980a58766b6208554a7bb724ba04",
+    "tools/paper-warfront/research/verify_map_recheck.py": "23dcfd6c85d6d63eee626d7a34c94007280f84542aef52011db90436fac91dbe"
+  },
+  "checks": {
+    "local_links": 69,
+    "whitebox_proposals": 6,
+    "economic_fixtures": 36,
+    "route_fixtures": 10,
+    "contact_fixtures": 3
+  },
+  "known_failure": {
+    "kind": "P0 worker route stall",
+    "map": "map.01.01",
+    "side": 0,
+    "mine": "mine.0.1",
+    "gold_120_seconds": 11,
+    "near_gold_120_seconds": 160,
+    "state": {
+      "cargo": 0,
+      "edge": "ground.0",
+      "job": "mine",
+      "mine": "mine.0.1",
+      "route_plan": {
+        "distance": 8.29548329921722,
+        "exit": "west",
+        "next_edge": "ground.0"
+      },
+      "s": 0.0,
+      "uid": 5,
+      "x": 2.0,
+      "y": 0.200000002980232
+    }
+  },
+  "visual_review": {
+    "files": [
+      "figures/research-overview.png",
+      "figures/reference-vs-delivered.png",
+      "figures/whitebox-archetypes.png"
+    ],
+    "review": "Viewed locally after fixing label collisions, type weight, diagram overlap and screenshot card bounds"
+  },
+  "browser_cleanup": "Temporary research tab closed; browser.tabs.list() returned []",
+  "not_completed": [
+    "Original PC runtime measurement",
+    "Transport repair",
+    "Whitebox integration",
+    "Human gameplay acceptance",
+    "New Windows/Android release"
+  ]
+}

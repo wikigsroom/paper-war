@@ -1,0 +1,224 @@
+{
+	"checks": 37,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"inputs": {
+		"res://data/balance-prototype.json": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6",
+		"res://data/maps.json": "0ed93e9a72e6c9e31c31e5f82cc9b95823e82e85948a282dad74284a3da1f2c9",
+		"res://scripts/battle_sim.gd": "00c82b85f24d49af03a2b9bcb4a9632c1f91a782cc699cb4e08f1d4b0355fff5",
+		"res://scripts/map_runtime.gd": "09460d25e9eef3237693c834c0310255e14083415ea4a7d466b578129a7ed01d"
+	},
+	"maps": 6,
+	"passed": true,
+	"results": [
+		{
+			"cycle": 7.86818181818182,
+			"expected_trips": 38,
+			"final_cycle_trips": 1,
+			"gold": 304,
+			"last_30_seconds_trips": 4,
+			"map": "map.01.01",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 38
+		},
+		{
+			"cycle": 7.86818114715021,
+			"expected_trips": 38,
+			"final_cycle_trips": 1,
+			"gold": 304,
+			"last_30_seconds_trips": 4,
+			"map": "map.01.01",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 38
+		},
+		{
+			"cycle": 10.8181818181818,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.07",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 27
+		},
+		{
+			"cycle": 21.5906429090909,
+			"expected_trips": 13,
+			"final_cycle_trips": 1,
+			"gold": 104,
+			"last_30_seconds_trips": 1,
+			"map": "map.01.07",
+			"mine": "mine.0.1",
+			"side": 0,
+			"trips": 13
+		},
+		{
+			"cycle": 10.8181811099077,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.07",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 27
+		},
+		{
+			"cycle": 21.5906422008168,
+			"expected_trips": 13,
+			"final_cycle_trips": 1,
+			"gold": 104,
+			"last_30_seconds_trips": 1,
+			"map": "map.01.07",
+			"mine": "mine.1.1",
+			"side": 1,
+			"trips": 13
+		},
+		{
+			"cycle": 9.32272727272727,
+			"expected_trips": 32,
+			"final_cycle_trips": 1,
+			"gold": 256,
+			"last_30_seconds_trips": 3,
+			"map": "map.01.11",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 32
+		},
+		{
+			"cycle": 9.3227263495206,
+			"expected_trips": 32,
+			"final_cycle_trips": 1,
+			"gold": 256,
+			"last_30_seconds_trips": 3,
+			"map": "map.01.11",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 32
+		},
+		{
+			"cycle": 7.86818181818182,
+			"expected_trips": 38,
+			"final_cycle_trips": 1,
+			"gold": 304,
+			"last_30_seconds_trips": 4,
+			"map": "map.01.04",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 38
+		},
+		{
+			"cycle": 7.86818181818182,
+			"expected_trips": 38,
+			"final_cycle_trips": 1,
+			"gold": 304,
+			"last_30_seconds_trips": 4,
+			"map": "map.01.04",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 38
+		},
+		{
+			"cycle": 10.8181818181818,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.09",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 27
+		},
+		{
+			"cycle": 24.9894883892933,
+			"expected_trips": 12,
+			"final_cycle_trips": 2,
+			"gold": 96,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.09",
+			"mine": "mine.0.1",
+			"side": 0,
+			"trips": 12
+		},
+		{
+			"cycle": 10.8181833038885,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.09",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 27
+		},
+		{
+			"cycle": 25.0071846259988,
+			"expected_trips": 11,
+			"final_cycle_trips": 2,
+			"gold": 96,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.09",
+			"mine": "mine.1.1",
+			"side": 1,
+			"trips": 12
+		},
+		{
+			"cycle": 10.8181818181818,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.20",
+			"mine": "mine.0.0",
+			"side": 0,
+			"trips": 27
+		},
+		{
+			"cycle": 28.1446943267045,
+			"expected_trips": 10,
+			"final_cycle_trips": 1,
+			"gold": 80,
+			"last_30_seconds_trips": 1,
+			"map": "map.01.20",
+			"mine": "mine.0.1",
+			"side": 0,
+			"trips": 10
+		},
+		{
+			"cycle": 10.8181774996449,
+			"expected_trips": 27,
+			"final_cycle_trips": 1,
+			"gold": 216,
+			"last_30_seconds_trips": 2,
+			"map": "map.01.20",
+			"mine": "mine.1.0",
+			"side": 1,
+			"trips": 27
+		},
+		{
+			"cycle": 28.1303250944602,
+			"expected_trips": 10,
+			"final_cycle_trips": 1,
+			"gold": 80,
+			"last_30_seconds_trips": 1,
+			"map": "map.01.20",
+			"mine": "mine.1.1",
+			"side": 1,
+			"trips": 10
+		}
+	],
+	"scope": "Native continuous transport, 300s per infinite mine, both directions, no AI; not human gameplay or visual acceptance"
+}

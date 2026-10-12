@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "scope": "Swords & Soldiers (2009) and PC HD. Ports and sequel evidence are explicitly separated.",
+  "original_game_run": false,
+  "new_video_frame_measurement": false,
+  "access_note": "Web-indexed/full-page text, historical evidence and local screenshots are different evidence classes. Native urllib collection failed for several pages; successful browser gameplay or full-map capture is not claimed.",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "Designing levels without tools",
+      "author": "Joost van Dongen / Ronimo developer",
+      "published": "2010-12",
+      "version": "Original first game",
+      "url": "https://joostdevblog.blogspot.com/2010/12/designing-levels-without-tools.html",
+      "this_turn_access": "Full article text returned by web search index; direct page redirected to Google verification; native retrieval unavailable",
+      "evidence_class": "developer_primary_text",
+      "supports": [
+        "Core map data includes mines, towers, ground height and ground type",
+        "Core layout authored separately from procedural scenery"
+      ],
+      "does_not_support": [
+        "Precise map coordinates",
+        "Slope speed bonus",
+        "Snow movement penalty",
+        "Fog-of-war rule"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R02",
+      "title": "Evolving level art from Swords & Soldiers 1 to 2",
+      "author": "Joost van Dongen / Ronimo developer",
+      "published": "2014-07",
+      "version": "First game retrospect / sequel comparison",
+      "url": "https://joostdevblog.blogspot.com/2014/07/evolving-level-art-from-swords-soldiers.html",
+      "this_turn_access": "Full webpage text via web open; blog image links returned 403; native retrieval unavailable",
+      "evidence_class": "developer_primary_text",
+      "supports": [
+        "First-game terrain and small props authored manually",
+        "Procedural parallax scenery can repeat",
+        "Sequel uses more authored composition and landmarks"
+      ],
+      "does_not_support": [
+        "Sequel map layout as first-game evidence",
+        "Claim that blog figures were viewed this turn"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R03",
+      "title": "Swords & Soldiers — Nintendo official page and General Tips",
+      "author": "Nintendo / official game material",
+      "published": "2009 title page",
+      "version": "Wii first game",
+      "url": "https://www.nintendo.com/en-gb/Games/WiiWare/Swords-Soldiers-286811.html",
+      "this_turn_access": "Full official page text via web open; native metadata retrieved",
+      "evidence_class": "official_primary_text",
+      "supports": [
+        "Workers can be attacked",
+        "Enemy worker area can delay attackers while defender forms ranged response",
+        "Research/army/economy timing matters",
+        "Map size and layout selection"
+      ],
+      "does_not_support": [
+        "Exact miner capacity",
+        "PC HD map coordinates",
+        "All workers share one permanent income timer"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R04",
+      "title": "Swords and Soldiers HD — Global Achievements",
+      "author": "Official Steam achievement definitions",
+      "published": "HD store record",
+      "version": "PC HD",
+      "url": "https://steamcommunity.com/stats/SwordsandSoldiersHD/achievements/",
+      "this_turn_access": "Connection failures via web, native retrieval and temporary in-app tab; historical evidence only; tab closed and verified",
+      "evidence_class": "historical_official_record",
+      "historical_local_ledger": "../01-来源与事实台账.md",
+      "supports": [
+        "Previously recorded tower protection, giant-before-mine, named-unit survival challenges"
+      ],
+      "does_not_support": [
+        "Fresh task-screen verification",
+        "Achievements equal main win conditions",
+        "Chinese 3 proven escort mission"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "R05",
+      "title": "AI in Swords & Soldiers, part 2",
+      "author": "Joost van Dongen / Ronimo developer",
+      "published": "2011-01",
+      "version": "First game developer material",
+      "url": "https://joostdevblog.blogspot.com/2011/01/ai-in-swords-soldiers-part-2.html",
+      "this_turn_access": "Native metadata unavailable; no new AI claims drawn from this attempted source",
+      "evidence_class": "unavailable_primary_source",
+      "supports": [],
+      "does_not_support": [
+        "Current map decision validation"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "R06",
+      "title": "The many faces of balance in an RTS",
+      "author": "Joost van Dongen / Ronimo developer",
+      "published": "2011-01",
+      "version": "First game",
+      "url": "https://joostdevblog.blogspot.com/2011/01/many-faces-of-balance-in-rts.html",
+      "this_turn_access": "Full article text returned by web search",
+      "evidence_class": "developer_primary_text",
+      "supports": [
+        "First medium-sized map used as balance baseline",
+        "Larger defendable building space changes Chinese faction's mana advantage"
+      ],
+      "does_not_support": [
+        "Map length alone guarantees fairness",
+        "Same sites equally useful to every faction"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R07",
+      "title": "Postmortem: Ronimo Games' Swords & Soldiers",
+      "author": "Fabian Akker / Ronimo developer",
+      "published": "2009",
+      "version": "Original first game",
+      "url": "https://www.gamedeveloper.com/audio/postmortem-ronimo-games-i-swords-soldiers-i-",
+      "this_turn_access": "Fresh full article read via web open",
+      "evidence_class": "developer_primary_text",
+      "supports": [
+        "Manual retreat/stop prototypes removed to preserve tactical attention",
+        "Playable core before AI/tutorial/campaign expansion",
+        "Late balance changes can invalidate campaign difficulty",
+        "Faction-specific mana mechanisms"
+      ],
+      "does_not_support": [
+        "Current game has completed equivalent playtesting",
+        "All levels are identical flat lines"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R08",
+      "title": "PC Windows screenshot — technology panel open",
+      "author": "MobyGames screenshot record",
+      "version": "Windows HD",
+      "url": "https://www.mobygames.com/game/50971/swords-soldiers/screenshots/windows/503975/",
+      "this_turn_access": "Previously saved original screenshot visually inspected this turn",
+      "evidence_class": "local_original_screenshot",
+      "local_artifact": "../../../reference/hd-vikings-tech-tree.png",
+      "local_sha256": "81d03da9b422cf80216a2d30a3b127cf83216b723800c3925b6d7d5d9af8a06c",
+      "supports": [
+        "Solid terrain cross-section, rim and slope",
+        "Base/mine situated on ground",
+        "Horizontal navigation with viewport indicator"
+      ],
+      "does_not_support": [
+        "Default battle HUD area measurement",
+        "Full-map coordinates",
+        "Gameplay timed observation"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R09",
+      "title": "Review: Swords and Soldiers finally comes to iOS",
+      "author": "Indie Game Reviewer / first-hand play report",
+      "published": "2011",
+      "version": "iOS port",
+      "url": "https://indiegamereviewer.com/review-swords-and-soldiers-finally-comes-to-ios/",
+      "this_turn_access": "Fresh full article read via web open",
+      "evidence_class": "first_hand_port_play_record",
+      "supports": [
+        "Level three has alternative routes with different enemies and fixed resource pickups",
+        "Road signs direct units arriving later",
+        "Limited resources and no recruitable miners in that described case"
+      ],
+      "does_not_support": [
+        "PC HD player road-sign permissions verified",
+        "Every level requires a fork",
+        "Random neutral resource system"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "R10",
+      "title": "Making gameplay stand out against a rich background — May archive",
+      "author": "Joost van Dongen / Ronimo developer",
+      "published": "2015-05",
+      "version": "Sequel visual method",
+      "url": "https://joostdevblog.blogspot.com/2015/05/",
+      "this_turn_access": "Archive article body returned by web search; guessed standalone URL unavailable and not used as proof",
+      "evidence_class": "developer_secondary_version_text",
+      "supports": [
+        "Gameplay outlines and broad colors separated from painterly scenery",
+        "Corpse contrast can be reduced"
+      ],
+      "does_not_support": [
+        "Original first-game mechanics",
+        "This turn viewed all developer illustration assets"
+      ],
+      "reviewed": true
+    },
+    {
+      "id": "L01",
+      "title": "Paper Warfront 2.0 exported battle screenshot",
+      "author": "Local Godot exported runtime capture",
+      "version": "Delivered 2.0",
+      "this_turn_access": "Local screenshot visually inspected",
+      "evidence_class": "local_delivered_game_screenshot",
+      "local_artifact": "../../../../output/qa/godot/v2/export/battle.png",
+      "local_sha256": "eddb69376aeb25386ba63f39dfbc4d70b226b76adb551897c9115a19cb4a1496",
+      "supports": [
+        "Historic delivered terrain/HUD/unit readability problems"
+      ],
+      "does_not_support": [
+        "Current 3.0 runtime visual acceptance",
+        "Rebuilt Windows or Android package"
+      ],
+      "reviewed": true
+    }
+  ],
+  "claim_boundaries": [
+    "All six whitebox coordinates are original proposed values, not measured from Swords & Soldiers.",
+    "200-map audit and 49 native fixtures measure this project only.",
+    "Original precision facts remain pending when source or controlled playback is missing.",
+    "Public reference screenshots are research material, never production game assets."
+  ]
+}

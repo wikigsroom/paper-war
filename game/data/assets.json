@@ -1,0 +1,3783 @@
+{
+  "version": "3.0.0-rc5",
+  "stage": "map-rework-review-candidate",
+  "assets": {
+    "unit.yin.axe": {
+      "path": "res://assets/animation/frames-v1/unit-yin-axe-idle.png",
+      "category": "unit",
+      "content_box": [
+        45,
+        44,
+        467,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-axe-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 128.959,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-axe-atlas.png",
+        "frame_profile": "unit.yin.axe"
+      },
+      "action_profile": "unit.yin.axe",
+      "identity_version": 2
+    },
+    "unit.yin.spear": {
+      "path": "res://assets/animation/frames-v1/unit-yin-spear-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        162,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-spear-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 111.017,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-spear-atlas.png",
+        "frame_profile": "unit.yin.spear"
+      },
+      "action_profile": "unit.yin.spear",
+      "identity_version": 2
+    },
+    "unit.yin.hammer": {
+      "path": "res://assets/animation/frames-v1/unit-yin-hammer-idle.png",
+      "category": "unit",
+      "content_box": [
+        43,
+        44,
+        468,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-hammer-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 102.242,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-hammer-atlas.png",
+        "frame_profile": "unit.yin.hammer"
+      },
+      "action_profile": "unit.yin.hammer",
+      "identity_version": 2
+    },
+    "unit.yin.cannon": {
+      "path": "res://assets/animation/frames-v1/unit-yin-cannon-idle.png",
+      "category": "unit",
+      "content_box": [
+        37,
+        44,
+        474,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-cannon-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 113.92,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-cannon-atlas.png",
+        "frame_profile": "unit.yin.cannon"
+      },
+      "action_profile": "unit.yin.cannon",
+      "identity_version": 2
+    },
+    "unit.yin.worker": {
+      "path": "res://assets/animation/frames-v1/unit-yin-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        82,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 136.34,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-worker-atlas.png",
+        "frame_profile": "unit.yin.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.yin.worker",
+      "identity_version": 2
+    },
+    "portrait.yin.commander": {
+      "path": "res://assets/portraits/portrait-yin-commander.png",
+      "category": "portrait",
+      "content_box": [
+        97,
+        44,
+        415,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-yin-commander.png",
+      "world_height": 2.4
+    },
+    "unit.mo.blade": {
+      "path": "res://assets/animation/frames-v1/unit-mo-blade-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-blade-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        42,
+        44,
+        470,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 111.782,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-blade-atlas.png",
+        "frame_profile": "unit.mo.blade"
+      },
+      "action_profile": "unit.mo.blade",
+      "identity_version": 2
+    },
+    "unit.mo.needle": {
+      "path": "res://assets/animation/frames-v1/unit-mo-needle-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        119,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-needle-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 119.69,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-needle-atlas.png",
+        "frame_profile": "unit.mo.needle"
+      },
+      "action_profile": "unit.mo.needle",
+      "identity_version": 2
+    },
+    "unit.mo.priest": {
+      "path": "res://assets/animation/frames-v1/unit-mo-priest-idle.png",
+      "category": "unit",
+      "content_box": [
+        36,
+        44,
+        476,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-priest-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 123.629,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-priest-atlas.png",
+        "frame_profile": "unit.mo.priest"
+      },
+      "action_profile": "unit.mo.priest",
+      "identity_version": 2
+    },
+    "unit.mo.giant": {
+      "path": "res://assets/animation/frames-v1/unit-mo-giant-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        119,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-giant-portrait.png",
+      "world_height": 2.0,
+      "animation": {
+        "source_height": 96.58,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-giant-atlas.png",
+        "frame_profile": "unit.mo.giant"
+      },
+      "action_profile": "unit.mo.giant",
+      "identity_version": 2
+    },
+    "unit.mo.worker": {
+      "path": "res://assets/animation/frames-v1/unit-mo-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        82,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 116.834,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-worker-atlas.png",
+        "frame_profile": "unit.mo.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.mo.worker",
+      "identity_version": 2
+    },
+    "unit.mo.thrall": {
+      "path": "res://assets/animation/frames-v1/unit-mo-thrall-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-thrall-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        127,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 87.962,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-thrall-atlas.png",
+        "frame_profile": "unit.mo.thrall"
+      },
+      "action_profile": "unit.mo.thrall",
+      "identity_version": 2
+    },
+    "unit.deng.mirror": {
+      "path": "res://assets/animation/frames-v1/unit-deng-mirror-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        51,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-mirror-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 119.562,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-mirror-atlas.png",
+        "frame_profile": "unit.deng.mirror"
+      },
+      "action_profile": "unit.deng.mirror",
+      "identity_version": 2
+    },
+    "unit.deng.fire": {
+      "path": "res://assets/animation/frames-v1/unit-deng-fire-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        44,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-fire-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 115.669,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-fire-atlas.png",
+        "frame_profile": "unit.deng.fire"
+      },
+      "action_profile": "unit.deng.fire",
+      "identity_version": 2
+    },
+    "unit.deng.shadow": {
+      "path": "res://assets/animation/frames-v1/unit-deng-shadow-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        113,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-shadow-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 75.825,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-shadow-atlas.png",
+        "frame_profile": "unit.deng.shadow"
+      },
+      "action_profile": "unit.deng.shadow",
+      "identity_version": 2
+    },
+    "unit.deng.effigy": {
+      "path": "res://assets/animation/frames-v1/unit-deng-effigy-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-effigy-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        43,
+        44,
+        469,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 136.951,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-effigy-atlas.png",
+        "frame_profile": "unit.deng.effigy"
+      },
+      "action_profile": "unit.deng.effigy",
+      "identity_version": 2
+    },
+    "unit.deng.worker": {
+      "path": "res://assets/animation/frames-v1/unit-deng-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        41,
+        44,
+        471,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 125.233,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-worker-atlas.png",
+        "frame_profile": "unit.deng.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.deng.worker",
+      "identity_version": 2
+    },
+    "unit.deng.guardian": {
+      "path": "res://assets/animation/frames-v1/unit-deng-guardian-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-guardian-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        46,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 124.123,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-guardian-atlas.png",
+        "frame_profile": "unit.deng.guardian"
+      },
+      "action_profile": "unit.deng.guardian",
+      "identity_version": 2
+    },
+    "portrait.mo.commander": {
+      "path": "res://assets/portraits/portrait-mo-commander.png",
+      "category": "portrait",
+      "content_box": [
+        74,
+        44,
+        438,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-mo-commander.png",
+      "world_height": 2.4
+    },
+    "portrait.deng.commander": {
+      "path": "res://assets/portraits/portrait-deng-commander.png",
+      "category": "portrait",
+      "content_box": [
+        95,
+        44,
+        417,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-deng-commander.png",
+      "world_height": 2.4
+    },
+    "spell.yin.repair": {
+      "path": "res://assets/ui/icons/spell-yin-repair.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.lightning": {
+      "path": "res://assets/ui/icons/spell-yin-lightning.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.cold": {
+      "path": "res://assets/ui/icons/spell-yin-cold.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.fury": {
+      "path": "res://assets/ui/icons/spell-yin-fury.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.stamp": {
+      "path": "res://assets/ui/icons/spell-yin-stamp.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.sacrifice": {
+      "path": "res://assets/ui/icons/spell-mo-sacrifice.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.bind": {
+      "path": "res://assets/ui/icons/spell-mo-bind.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.poison": {
+      "path": "res://assets/ui/icons/spell-mo-poison.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.convert": {
+      "path": "res://assets/ui/icons/spell-mo-convert.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.burst": {
+      "path": "res://assets/ui/icons/spell-mo-burst.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.protect": {
+      "path": "res://assets/ui/icons/spell-deng-protect.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.clone": {
+      "path": "res://assets/ui/icons/spell-deng-clone.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.fire": {
+      "path": "res://assets/ui/icons/spell-deng-fire.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.root": {
+      "path": "res://assets/ui/icons/spell-deng-root.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.guardian": {
+      "path": "res://assets/ui/icons/spell-deng-guardian.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "building.yin.base": {
+      "path": "res://assets/buildings/building-yin-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        101,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.mo.base": {
+      "path": "res://assets/buildings/building-mo-base.png",
+      "category": "building",
+      "content_box": [
+        33,
+        44,
+        478,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.deng.base": {
+      "path": "res://assets/buildings/building-deng-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        88,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.yin.tower": {
+      "path": "res://assets/buildings/building-yin-tower.png",
+      "category": "building",
+      "content_box": [
+        70,
+        44,
+        442,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.mo.tower": {
+      "path": "res://assets/buildings/building-mo-tower.png",
+      "category": "building",
+      "content_box": [
+        54,
+        44,
+        457,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.deng.mana": {
+      "path": "res://assets/buildings/building-deng-mana.png",
+      "category": "building",
+      "content_box": [
+        73,
+        44,
+        438,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "resource.common.mine": {
+      "path": "res://assets/buildings/resource-common-mine.png",
+      "category": "resource",
+      "content_box": [
+        32,
+        251,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.common.gold-cart": {
+      "path": "res://assets/props/prop-common-gold-cart.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        32,
+        179,
+        480,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "building.deng.tower": {
+      "path": "res://assets/buildings/building-deng-tower.png",
+      "category": "building",
+      "content_box": [
+        81,
+        44,
+        430,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "ui.gold": {
+      "path": "res://assets/ui/icons/ui-gold.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.mana": {
+      "path": "res://assets/ui/icons/ui-mana.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.tech": {
+      "path": "res://assets/ui/icons/ui-tech.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.cancel": {
+      "path": "res://assets/ui/icons/ui-cancel.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.home": {
+      "path": "res://assets/ui/icons/ui-home.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.front": {
+      "path": "res://assets/ui/icons/ui-front.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.navigate": {
+      "path": "res://assets/ui/icons/ui-navigate.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.pause": {
+      "path": "res://assets/ui/icons/ui-pause.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.resume": {
+      "path": "res://assets/ui/icons/ui-resume.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.sound": {
+      "path": "res://assets/ui/icons/ui-sound.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.settings": {
+      "path": "res://assets/ui/icons/ui-settings.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.lock": {
+      "path": "res://assets/ui/icons/ui-lock.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.info": {
+      "path": "res://assets/ui/icons/ui-info.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.victory": {
+      "path": "res://assets/ui/icons/ui-victory.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.defeat": {
+      "path": "res://assets/ui/icons/ui-defeat.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.build": {
+      "path": "res://assets/ui/icons/ui-build.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.ivory": {
+      "path": "res://assets/materials/texture-paper-ivory.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.red": {
+      "path": "res://assets/materials/texture-paper-red.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.ink": {
+      "path": "res://assets/materials/texture-paper-ink.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.jade": {
+      "path": "res://assets/materials/texture-paper-jade.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.gold": {
+      "path": "res://assets/materials/texture-paper-gold.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.edge": {
+      "path": "res://assets/materials/texture-paper-edge.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.wood": {
+      "path": "res://assets/materials/texture-paper-wood.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.ground.path": {
+      "path": "res://assets/materials/texture-ground-path.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.ink.grain": {
+      "path": "res://assets/materials/texture-ink-grain.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.pine": {
+      "path": "res://assets/props/prop-terrain-pine.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        78,
+        44,
+        433,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "prop.terrain.rock": {
+      "path": "res://assets/props/prop-terrain-rock.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        32,
+        129,
+        480,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "prop.terrain.reeds": {
+      "path": "res://assets/props/prop-terrain-reeds.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        82,
+        44,
+        429,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "prop.terrain.arch": {
+      "path": "res://assets/props/prop-terrain-arch.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        32,
+        96,
+        480,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "prop.terrain.bridge": {
+      "path": "res://assets/props/prop-terrain-bridge.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        32,
+        270,
+        480,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "prop.yin.banner": {
+      "path": "res://assets/props/prop-yin-banner.png",
+      "category": "prop",
+      "content_box": [
+        102,
+        44,
+        409,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.mo.banner": {
+      "path": "res://assets/props/prop-mo-banner.png",
+      "category": "prop",
+      "content_box": [
+        177,
+        44,
+        334,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.deng.banner": {
+      "path": "res://assets/props/prop-deng-banner.png",
+      "category": "prop",
+      "content_box": [
+        98,
+        44,
+        413,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.terrain.lantern": {
+      "path": "res://assets/props/prop-terrain-lantern.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed",
+      "content_box": [
+        158,
+        44,
+        353,
+        476
+      ],
+      "source_size": [
+        512,
+        512
+      ]
+    },
+    "fx.repair": {
+      "path": "res://assets/fx/motifs/fx-repair.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.lightning": {
+      "path": "res://assets/fx/motifs/fx-lightning.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.cold": {
+      "path": "res://assets/fx/motifs/fx-cold.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.impact": {
+      "path": "res://assets/fx/motifs/fx-impact.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.sacrifice": {
+      "path": "res://assets/fx/motifs/fx-sacrifice.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.poison": {
+      "path": "res://assets/fx/motifs/fx-poison.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.control": {
+      "path": "res://assets/fx/motifs/fx-control.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.summon": {
+      "path": "res://assets/fx/motifs/fx-summon.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.protect": {
+      "path": "res://assets/fx/motifs/fx-protect.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.clone": {
+      "path": "res://assets/fx/motifs/fx-clone.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.fire": {
+      "path": "res://assets/fx/motifs/fx-fire.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.root": {
+      "path": "res://assets/fx/motifs/fx-root.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "background.stamp-plain": {
+      "path": "res://assets/backgrounds/theatre-yin.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "background.ink-marsh": {
+      "path": "res://assets/backgrounds/theatre-mo.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "background.lantern-ridge": {
+      "path": "res://assets/backgrounds/theatre-deng.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "audio.ui.click": {
+      "path": "res://assets/audio/sfx/audio-ui-click.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.cancel": {
+      "path": "res://assets/audio/sfx/audio-ui-cancel.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.invalid": {
+      "path": "res://assets/audio/sfx/audio-ui-invalid.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.research": {
+      "path": "res://assets/audio/sfx/audio-ui-research.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.recruit": {
+      "path": "res://assets/audio/sfx/audio-ui-recruit.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.gold": {
+      "path": "res://assets/audio/sfx/audio-ui-gold.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.paper-step": {
+      "path": "res://assets/audio/sfx/audio-combat-paper-step.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.slash": {
+      "path": "res://assets/audio/sfx/audio-combat-slash.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.throw": {
+      "path": "res://assets/audio/sfx/audio-combat-throw.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.hit": {
+      "path": "res://assets/audio/sfx/audio-combat-hit.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.heavy": {
+      "path": "res://assets/audio/sfx/audio-combat-heavy.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.cannon": {
+      "path": "res://assets/audio/sfx/audio-combat-cannon.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.death": {
+      "path": "res://assets/audio/sfx/audio-combat-death.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.repair": {
+      "path": "res://assets/audio/sfx/audio-magic-repair.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.ink": {
+      "path": "res://assets/audio/sfx/audio-magic-ink.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.seal": {
+      "path": "res://assets/audio/sfx/audio-magic-seal.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.clone": {
+      "path": "res://assets/audio/sfx/audio-magic-clone.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.result.victory": {
+      "path": "res://assets/audio/sfx/audio-result-victory.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.result.defeat": {
+      "path": "res://assets/audio/sfx/audio-result-defeat.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.warning.base": {
+      "path": "res://assets/audio/sfx/audio-warning-base.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.yin": {
+      "path": "res://assets/audio/music/music-yin.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.mo": {
+      "path": "res://assets/audio/music/music-mo.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.deng": {
+      "path": "res://assets/audio/music/music-deng.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "unit.yin.guard": {
+      "path": "res://assets/animation/frames-v1/unit-yin-guard-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-guard-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        46,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 130.335,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-guard-atlas.png",
+        "frame_profile": "unit.yin.guard"
+      },
+      "action_profile": "unit.yin.guard",
+      "identity_version": 2
+    },
+    "unit.yin.banner": {
+      "path": "res://assets/animation/frames-v1/unit-yin-banner-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-yin-banner-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        91,
+        44,
+        420,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 134.04,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yin-banner-atlas.png",
+        "frame_profile": "unit.yin.banner"
+      },
+      "action_profile": "unit.yin.banner",
+      "identity_version": 2
+    },
+    "unit.mo.leech": {
+      "path": "res://assets/animation/frames-v1/unit-mo-leech-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-leech-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        54,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 115.862,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-leech-atlas.png",
+        "frame_profile": "unit.mo.leech"
+      },
+      "action_profile": "unit.mo.leech",
+      "identity_version": 2
+    },
+    "unit.mo.warden": {
+      "path": "res://assets/animation/frames-v1/unit-mo-warden-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mo-warden-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        60,
+        44,
+        451,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 114.536,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mo-warden-atlas.png",
+        "frame_profile": "unit.mo.warden"
+      },
+      "action_profile": "unit.mo.warden",
+      "identity_version": 2
+    },
+    "unit.deng.summoner": {
+      "path": "res://assets/animation/frames-v1/unit-deng-summoner-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-summoner-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        58,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 126.0,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-summoner-atlas.png",
+        "frame_profile": "unit.deng.summoner"
+      },
+      "action_profile": "unit.deng.summoner",
+      "identity_version": 2
+    },
+    "unit.deng.illusionist": {
+      "path": "res://assets/animation/frames-v1/unit-deng-illusionist-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-deng-illusionist-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        53,
+        44,
+        459,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 123.147,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-deng-illusionist-atlas.png",
+        "frame_profile": "unit.deng.illusionist"
+      },
+      "action_profile": "unit.deng.illusionist",
+      "identity_version": 2
+    },
+    "unit.ji.vanguard": {
+      "path": "res://assets/animation/frames-v1/unit-ji-vanguard-idle.png",
+      "category": "unit",
+      "content_box": [
+        51,
+        44,
+        461,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-vanguard-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 100.242,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-vanguard-atlas.png",
+        "frame_profile": "unit.ji.vanguard"
+      },
+      "action_profile": "unit.ji.vanguard",
+      "identity_version": 2
+    },
+    "unit.ji.guard": {
+      "path": "res://assets/animation/frames-v1/unit-ji-guard-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-guard-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        46,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 112.405,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-guard-atlas.png",
+        "frame_profile": "unit.ji.guard"
+      },
+      "action_profile": "unit.ji.guard",
+      "identity_version": 2
+    },
+    "unit.ji.javelin": {
+      "path": "res://assets/animation/frames-v1/unit-ji-javelin-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        139,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-javelin-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 121.093,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-javelin-atlas.png",
+        "frame_profile": "unit.ji.javelin"
+      },
+      "action_profile": "unit.ji.javelin",
+      "identity_version": 2
+    },
+    "unit.ji.artillery": {
+      "path": "res://assets/animation/frames-v1/unit-ji-artillery-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        123,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-artillery-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 106.597,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-artillery-atlas.png",
+        "frame_profile": "unit.ji.artillery"
+      },
+      "action_profile": "unit.ji.artillery",
+      "identity_version": 2
+    },
+    "unit.ji.engineer": {
+      "path": "res://assets/animation/frames-v1/unit-ji-engineer-idle.png",
+      "category": "unit",
+      "content_box": [
+        42,
+        44,
+        469,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-engineer-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 111.886,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-engineer-atlas.png",
+        "frame_profile": "unit.ji.engineer"
+      },
+      "action_profile": "unit.ji.engineer",
+      "identity_version": 2
+    },
+    "unit.ji.demolisher": {
+      "path": "res://assets/animation/frames-v1/unit-ji-demolisher-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-demolisher-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        56,
+        44,
+        456,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 131.231,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-demolisher-atlas.png",
+        "frame_profile": "unit.ji.demolisher"
+      },
+      "action_profile": "unit.ji.demolisher",
+      "identity_version": 2
+    },
+    "unit.yuan.vanguard": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-vanguard-idle.png",
+      "category": "unit",
+      "content_box": [
+        61,
+        44,
+        451,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-vanguard-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 83.675,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-vanguard-atlas.png",
+        "frame_profile": "unit.yuan.vanguard"
+      },
+      "action_profile": "unit.yuan.vanguard",
+      "identity_version": 2
+    },
+    "unit.yuan.archer": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-archer-idle.png",
+      "category": "unit",
+      "content_box": [
+        35,
+        44,
+        476,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-archer-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 163.512,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-archer-atlas.png",
+        "frame_profile": "unit.yuan.archer"
+      },
+      "action_profile": "unit.yuan.archer",
+      "identity_version": 2
+    },
+    "unit.yuan.artillery": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-artillery-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        68,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-artillery-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 120.031,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-artillery-atlas.png",
+        "frame_profile": "unit.yuan.artillery"
+      },
+      "action_profile": "unit.yuan.artillery",
+      "identity_version": 2
+    },
+    "unit.yuan.lancer": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-lancer-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-lancer-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        42,
+        44,
+        470,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 94.322,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-lancer-atlas.png",
+        "frame_profile": "unit.yuan.lancer"
+      },
+      "action_profile": "unit.yuan.lancer",
+      "identity_version": 2
+    },
+    "unit.yuan.harrier": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-harrier-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        60,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-harrier-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 94.235,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-harrier-atlas.png",
+        "frame_profile": "unit.yuan.harrier"
+      },
+      "action_profile": "unit.yuan.harrier",
+      "identity_version": 2
+    },
+    "unit.yuan.caravan": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-caravan-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-caravan-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        34,
+        44,
+        478,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 108.943,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-caravan-atlas.png",
+        "frame_profile": "unit.yuan.caravan"
+      },
+      "action_profile": "unit.yuan.caravan",
+      "identity_version": 2
+    },
+    "unit.qi.vanguard": {
+      "path": "res://assets/animation/frames-v1/unit-qi-vanguard-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        51,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-vanguard-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 93.669,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-vanguard-atlas.png",
+        "frame_profile": "unit.qi.vanguard"
+      },
+      "action_profile": "unit.qi.vanguard",
+      "identity_version": 2
+    },
+    "unit.qi.javelin": {
+      "path": "res://assets/animation/frames-v1/unit-qi-javelin-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        142,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-javelin-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 134.423,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-javelin-atlas.png",
+        "frame_profile": "unit.qi.javelin"
+      },
+      "action_profile": "unit.qi.javelin",
+      "identity_version": 2
+    },
+    "unit.qi.sniper": {
+      "path": "res://assets/animation/frames-v1/unit-qi-sniper-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-sniper-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        176,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 122.329,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-sniper-atlas.png",
+        "frame_profile": "unit.qi.sniper"
+      },
+      "action_profile": "unit.qi.sniper",
+      "identity_version": 2
+    },
+    "unit.qi.siege": {
+      "path": "res://assets/animation/frames-v1/unit-qi-siege-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        131,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-siege-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 96.393,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-siege-atlas.png",
+        "frame_profile": "unit.qi.siege"
+      },
+      "action_profile": "unit.qi.siege",
+      "identity_version": 2
+    },
+    "unit.qi.executioner": {
+      "path": "res://assets/animation/frames-v1/unit-qi-executioner-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        115,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-executioner-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 109.925,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-executioner-atlas.png",
+        "frame_profile": "unit.qi.executioner"
+      },
+      "action_profile": "unit.qi.executioner",
+      "identity_version": 2
+    },
+    "unit.qi.caravan": {
+      "path": "res://assets/animation/frames-v1/unit-qi-caravan-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-caravan-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        34,
+        44,
+        478,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 99.669,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-caravan-atlas.png",
+        "frame_profile": "unit.qi.caravan"
+      },
+      "action_profile": "unit.qi.caravan",
+      "identity_version": 2
+    },
+    "unit.mu.guard": {
+      "path": "res://assets/animation/frames-v1/unit-mu-guard-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        64,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-guard-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 84.246,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-guard-atlas.png",
+        "frame_profile": "unit.mu.guard"
+      },
+      "action_profile": "unit.mu.guard",
+      "identity_version": 2
+    },
+    "unit.mu.medic": {
+      "path": "res://assets/animation/frames-v1/unit-mu-medic-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        46,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-medic-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 110.88,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-medic-atlas.png",
+        "frame_profile": "unit.mu.medic"
+      },
+      "action_profile": "unit.mu.medic",
+      "identity_version": 2
+    },
+    "unit.mu.poisoner": {
+      "path": "res://assets/animation/frames-v1/unit-mu-poisoner-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        85,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-poisoner-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 119.94,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-poisoner-atlas.png",
+        "frame_profile": "unit.mu.poisoner"
+      },
+      "action_profile": "unit.mu.poisoner",
+      "identity_version": 2
+    },
+    "unit.mu.warden": {
+      "path": "res://assets/animation/frames-v1/unit-mu-warden-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-warden-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        60,
+        44,
+        451,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 124.949,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-warden-atlas.png",
+        "frame_profile": "unit.mu.warden"
+      },
+      "action_profile": "unit.mu.warden",
+      "identity_version": 2
+    },
+    "unit.mu.colossus": {
+      "path": "res://assets/animation/frames-v1/unit-mu-colossus-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        99,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-colossus-portrait.png",
+      "world_height": 2.0,
+      "animation": {
+        "source_height": 120.856,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-colossus-atlas.png",
+        "frame_profile": "unit.mu.colossus"
+      },
+      "action_profile": "unit.mu.colossus",
+      "identity_version": 2
+    },
+    "unit.mu.phoenix": {
+      "path": "res://assets/animation/frames-v1/unit-mu-phoenix-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-phoenix-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        58,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 129.233,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-phoenix-atlas.png",
+        "frame_profile": "unit.mu.phoenix"
+      },
+      "action_profile": "unit.mu.phoenix",
+      "identity_version": 2
+    },
+    "unit.shuang.shield": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-shield-idle.png",
+      "category": "unit",
+      "content_box": [
+        43,
+        44,
+        469,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-shield-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 107.314,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-shield-atlas.png",
+        "frame_profile": "unit.shuang.shield"
+      },
+      "action_profile": "unit.shuang.shield",
+      "identity_version": 2
+    },
+    "unit.shuang.scribe": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-scribe-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-scribe-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        54,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 120.199,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-scribe-atlas.png",
+        "frame_profile": "unit.shuang.scribe"
+      },
+      "action_profile": "unit.shuang.scribe",
+      "identity_version": 2
+    },
+    "unit.shuang.mortar": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-mortar-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        55,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-mortar-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 85.161,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-mortar-atlas.png",
+        "frame_profile": "unit.shuang.mortar"
+      },
+      "action_profile": "unit.shuang.mortar",
+      "identity_version": 2
+    },
+    "unit.shuang.warden": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-warden-idle.png",
+      "category": "unit",
+      "content_box": [
+        60,
+        44,
+        451,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-warden-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 148.954,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-warden-atlas.png",
+        "frame_profile": "unit.shuang.warden"
+      },
+      "action_profile": "unit.shuang.warden",
+      "identity_version": 2
+    },
+    "unit.shuang.oracle": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-oracle-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-oracle-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        36,
+        44,
+        475,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 136.923,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-oracle-atlas.png",
+        "frame_profile": "unit.shuang.oracle"
+      },
+      "action_profile": "unit.shuang.oracle",
+      "identity_version": 2
+    },
+    "unit.jin.archer": {
+      "path": "res://assets/animation/frames-v1/unit-jin-archer-idle.png",
+      "category": "unit",
+      "content_box": [
+        42,
+        44,
+        469,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-archer-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 146.792,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-archer-atlas.png",
+        "frame_profile": "unit.jin.archer"
+      },
+      "action_profile": "unit.jin.archer",
+      "identity_version": 2
+    },
+    "unit.jin.artillery": {
+      "path": "res://assets/animation/frames-v1/unit-jin-artillery-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        66,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-artillery-portrait.png",
+      "world_height": 1.12,
+      "animation": {
+        "source_height": 130.73,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-artillery-atlas.png",
+        "frame_profile": "unit.jin.artillery"
+      },
+      "action_profile": "unit.jin.artillery",
+      "identity_version": 2
+    },
+    "unit.jin.burner": {
+      "path": "res://assets/animation/frames-v1/unit-jin-burner-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-burner-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        124,
+        44,
+        387,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 105.099,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-burner-atlas.png",
+        "frame_profile": "unit.jin.burner"
+      },
+      "action_profile": "unit.jin.burner",
+      "identity_version": 2
+    },
+    "unit.jin.leech": {
+      "path": "res://assets/animation/frames-v1/unit-jin-leech-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        54,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-leech-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 109.157,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-leech-atlas.png",
+        "frame_profile": "unit.jin.leech"
+      },
+      "action_profile": "unit.jin.leech",
+      "identity_version": 2
+    },
+    "unit.jin.demolisher": {
+      "path": "res://assets/animation/frames-v1/unit-jin-demolisher-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-demolisher-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        56,
+        44,
+        456,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 99.328,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-demolisher-atlas.png",
+        "frame_profile": "unit.jin.demolisher"
+      },
+      "action_profile": "unit.jin.demolisher",
+      "identity_version": 2
+    },
+    "unit.jin.berserker": {
+      "path": "res://assets/animation/frames-v1/unit-jin-berserker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        74,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-berserker-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 109.855,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-berserker-atlas.png",
+        "frame_profile": "unit.jin.berserker"
+      },
+      "action_profile": "unit.jin.berserker",
+      "identity_version": 2
+    },
+    "unit.bai.mirror": {
+      "path": "res://assets/animation/frames-v1/unit-bai-mirror-idle.png",
+      "category": "unit",
+      "content_box": [
+        38,
+        44,
+        473,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-mirror-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 139.039,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-mirror-atlas.png",
+        "frame_profile": "unit.bai.mirror"
+      },
+      "action_profile": "unit.bai.mirror",
+      "identity_version": 2
+    },
+    "unit.bai.scribe": {
+      "path": "res://assets/animation/frames-v1/unit-bai-scribe-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-scribe-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        32,
+        54,
+        480,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 96.812,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-scribe-atlas.png",
+        "frame_profile": "unit.bai.scribe"
+      },
+      "action_profile": "unit.bai.scribe",
+      "identity_version": 2
+    },
+    "unit.bai.repeater": {
+      "path": "res://assets/animation/frames-v1/unit-bai-repeater-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        162,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-repeater-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 131.534,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-repeater-atlas.png",
+        "frame_profile": "unit.bai.repeater"
+      },
+      "action_profile": "unit.bai.repeater",
+      "identity_version": 2
+    },
+    "unit.bai.illusionist": {
+      "path": "res://assets/animation/frames-v1/unit-bai-illusionist-idle.png",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-illusionist-portrait.png",
+      "category": "unit",
+      "style": "paper-theatre-v3",
+      "status": "runtime-linked-source-review-pending",
+      "content_box": [
+        53,
+        44,
+        459,
+        476
+      ],
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 73.904,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-illusionist-atlas.png",
+        "frame_profile": "unit.bai.illusionist"
+      },
+      "action_profile": "unit.bai.illusionist",
+      "identity_version": 2
+    },
+    "unit.bai.colossus": {
+      "path": "res://assets/animation/frames-v1/unit-bai-colossus-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        83,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-colossus-portrait.png",
+      "world_height": 2.0,
+      "animation": {
+        "source_height": 100.891,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-colossus-atlas.png",
+        "frame_profile": "unit.bai.colossus"
+      },
+      "action_profile": "unit.bai.colossus",
+      "identity_version": 2
+    },
+    "unit.bai.oracle": {
+      "path": "res://assets/animation/frames-v1/unit-bai-oracle-idle.png",
+      "category": "unit",
+      "content_box": [
+        36,
+        44,
+        475,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-oracle-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 102.363,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-oracle-atlas.png",
+        "frame_profile": "unit.bai.oracle"
+      },
+      "action_profile": "unit.bai.oracle",
+      "identity_version": 2
+    },
+    "unit.shuang.javelin": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-javelin-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        176,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-javelin-portrait.png",
+      "world_height": 1.42,
+      "animation": {
+        "source_height": 140.484,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-javelin-atlas.png",
+        "frame_profile": "unit.shuang.javelin"
+      },
+      "action_profile": "unit.shuang.javelin",
+      "identity_version": 2
+    },
+    "building.yin.mana": {
+      "path": "res://assets/buildings/building-yin-mana.png",
+      "category": "building",
+      "content_box": [
+        96,
+        44,
+        416,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.yin.terrain": {
+      "path": "res://assets/props/prop-yin-terrain.png",
+      "category": "prop",
+      "content_box": [
+        87,
+        44,
+        425,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.yin.cargo": {
+      "path": "res://assets/props/prop-yin-cargo.png",
+      "category": "prop",
+      "content_box": [
+        60,
+        44,
+        451,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "building.mo.mana": {
+      "path": "res://assets/buildings/building-mo-mana.png",
+      "category": "building",
+      "content_box": [
+        59,
+        44,
+        453,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mo.terrain": {
+      "path": "res://assets/props/prop-mo-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        87,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mo.cargo": {
+      "path": "res://assets/props/prop-mo-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        75,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.deng.terrain": {
+      "path": "res://assets/props/prop-deng-terrain.png",
+      "category": "prop",
+      "content_box": [
+        33,
+        44,
+        479,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.deng.cargo": {
+      "path": "res://assets/props/prop-deng-cargo.png",
+      "category": "prop",
+      "content_box": [
+        57,
+        44,
+        454,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "portrait.ji.commander": {
+      "path": "res://assets/portraits/portrait-ji-commander.png",
+      "category": "portrait",
+      "content_box": [
+        91,
+        44,
+        421,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-ji-commander.png",
+      "world_height": 2.4
+    },
+    "unit.ji.worker": {
+      "path": "res://assets/animation/frames-v1/unit-ji-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        109,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-ji-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 111.506,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-ji-worker-atlas.png",
+        "frame_profile": "unit.ji.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.ji.worker",
+      "identity_version": 2
+    },
+    "building.ji.base": {
+      "path": "res://assets/buildings/building-ji-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        87,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.ji.tower": {
+      "path": "res://assets/buildings/building-ji-tower.png",
+      "category": "building",
+      "content_box": [
+        32,
+        69,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.ji.mana": {
+      "path": "res://assets/buildings/building-ji-mana.png",
+      "category": "building",
+      "content_box": [
+        38,
+        44,
+        474,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.ji.terrain": {
+      "path": "res://assets/props/prop-ji-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        138,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.ji.banner": {
+      "path": "res://assets/props/prop-ji-banner.png",
+      "category": "prop",
+      "content_box": [
+        180,
+        44,
+        332,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.ji.cargo": {
+      "path": "res://assets/props/prop-ji-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        150,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.ji": {
+      "path": "res://assets/backgrounds/theatre-ji.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.yuan.commander": {
+      "path": "res://assets/portraits/portrait-yuan-commander.png",
+      "category": "portrait",
+      "content_box": [
+        87,
+        44,
+        425,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-yuan-commander.png",
+      "world_height": 2.4
+    },
+    "unit.yuan.worker": {
+      "path": "res://assets/animation/frames-v1/unit-yuan-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        81,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-yuan-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 110.177,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-yuan-worker-atlas.png",
+        "frame_profile": "unit.yuan.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.yuan.worker",
+      "identity_version": 2
+    },
+    "building.yuan.base": {
+      "path": "res://assets/buildings/building-yuan-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        66,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.yuan.tower": {
+      "path": "res://assets/buildings/building-yuan-tower.png",
+      "category": "building",
+      "content_box": [
+        32,
+        53,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.yuan.mana": {
+      "path": "res://assets/buildings/building-yuan-mana.png",
+      "category": "building",
+      "content_box": [
+        40,
+        44,
+        472,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.yuan.terrain": {
+      "path": "res://assets/props/prop-yuan-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        143,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.yuan.banner": {
+      "path": "res://assets/props/prop-yuan-banner.png",
+      "category": "prop",
+      "content_box": [
+        137,
+        44,
+        375,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.yuan.cargo": {
+      "path": "res://assets/props/prop-yuan-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        65,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.yuan": {
+      "path": "res://assets/backgrounds/theatre-yuan.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.qi.commander": {
+      "path": "res://assets/portraits/portrait-qi-commander.png",
+      "category": "portrait",
+      "content_box": [
+        93,
+        44,
+        419,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-qi-commander.png",
+      "world_height": 2.4
+    },
+    "unit.qi.worker": {
+      "path": "res://assets/animation/frames-v1/unit-qi-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        96,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-qi-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 108.004,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-qi-worker-atlas.png",
+        "frame_profile": "unit.qi.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.qi.worker",
+      "identity_version": 2
+    },
+    "building.qi.base": {
+      "path": "res://assets/buildings/building-qi-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        55,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.qi.tower": {
+      "path": "res://assets/buildings/building-qi-tower.png",
+      "category": "building",
+      "content_box": [
+        80,
+        44,
+        431,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.qi.mana": {
+      "path": "res://assets/buildings/building-qi-mana.png",
+      "category": "building",
+      "content_box": [
+        74,
+        44,
+        438,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.qi.terrain": {
+      "path": "res://assets/props/prop-qi-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        119,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.qi.banner": {
+      "path": "res://assets/props/prop-qi-banner.png",
+      "category": "prop",
+      "content_box": [
+        122,
+        44,
+        389,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.qi.cargo": {
+      "path": "res://assets/props/prop-qi-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        73,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.qi": {
+      "path": "res://assets/backgrounds/theatre-qi.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.mu.commander": {
+      "path": "res://assets/portraits/portrait-mu-commander.png",
+      "category": "portrait",
+      "content_box": [
+        79,
+        44,
+        433,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-mu-commander.png",
+      "world_height": 2.4
+    },
+    "unit.mu.worker": {
+      "path": "res://assets/animation/frames-v1/unit-mu-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        52,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-mu-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 122.905,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-mu-worker-atlas.png",
+        "frame_profile": "unit.mu.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.mu.worker",
+      "identity_version": 2
+    },
+    "building.mu.base": {
+      "path": "res://assets/buildings/building-mu-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        46,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.mu.tower": {
+      "path": "res://assets/buildings/building-mu-tower.png",
+      "category": "building",
+      "content_box": [
+        37,
+        44,
+        474,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.mu.mana": {
+      "path": "res://assets/buildings/building-mu-mana.png",
+      "category": "building",
+      "content_box": [
+        56,
+        44,
+        455,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mu.terrain": {
+      "path": "res://assets/props/prop-mu-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        124,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mu.banner": {
+      "path": "res://assets/props/prop-mu-banner.png",
+      "category": "prop",
+      "content_box": [
+        143,
+        44,
+        369,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.mu.cargo": {
+      "path": "res://assets/props/prop-mu-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        108,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.mu": {
+      "path": "res://assets/backgrounds/theatre-mu.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.shuang.commander": {
+      "path": "res://assets/portraits/portrait-shuang-commander.png",
+      "category": "portrait",
+      "content_box": [
+        85,
+        44,
+        426,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-shuang-commander.png",
+      "world_height": 2.4
+    },
+    "unit.shuang.worker": {
+      "path": "res://assets/animation/frames-v1/unit-shuang-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        73,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-shuang-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 120.454,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-shuang-worker-atlas.png",
+        "frame_profile": "unit.shuang.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.shuang.worker",
+      "identity_version": 2
+    },
+    "building.shuang.base": {
+      "path": "res://assets/buildings/building-shuang-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        47,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.shuang.tower": {
+      "path": "res://assets/buildings/building-shuang-tower.png",
+      "category": "building",
+      "content_box": [
+        67,
+        44,
+        444,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.shuang.mana": {
+      "path": "res://assets/buildings/building-shuang-mana.png",
+      "category": "building",
+      "content_box": [
+        71,
+        44,
+        440,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.shuang.terrain": {
+      "path": "res://assets/props/prop-shuang-terrain.png",
+      "category": "prop",
+      "content_box": [
+        34,
+        44,
+        477,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.shuang.banner": {
+      "path": "res://assets/props/prop-shuang-banner.png",
+      "category": "prop",
+      "content_box": [
+        118,
+        44,
+        393,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.shuang.cargo": {
+      "path": "res://assets/props/prop-shuang-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        121,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.shuang": {
+      "path": "res://assets/backgrounds/theatre-shuang.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.jin.commander": {
+      "path": "res://assets/portraits/portrait-jin-commander.png",
+      "category": "portrait",
+      "content_box": [
+        95,
+        44,
+        417,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-jin-commander.png",
+      "world_height": 2.4
+    },
+    "unit.jin.worker": {
+      "path": "res://assets/animation/frames-v1/unit-jin-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        32,
+        61,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-jin-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 135.823,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-jin-worker-atlas.png",
+        "frame_profile": "unit.jin.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.jin.worker",
+      "identity_version": 2
+    },
+    "building.jin.base": {
+      "path": "res://assets/buildings/building-jin-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        102,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.jin.tower": {
+      "path": "res://assets/buildings/building-jin-tower.png",
+      "category": "building",
+      "content_box": [
+        32,
+        88,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.jin.mana": {
+      "path": "res://assets/buildings/building-jin-mana.png",
+      "category": "building",
+      "content_box": [
+        47,
+        44,
+        465,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.jin.terrain": {
+      "path": "res://assets/props/prop-jin-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        84,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.jin.banner": {
+      "path": "res://assets/props/prop-jin-banner.png",
+      "category": "prop",
+      "content_box": [
+        123,
+        44,
+        389,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.jin.cargo": {
+      "path": "res://assets/props/prop-jin-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        61,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.jin": {
+      "path": "res://assets/backgrounds/theatre-jin.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "portrait.bai.commander": {
+      "path": "res://assets/portraits/portrait-bai-commander.png",
+      "category": "portrait",
+      "content_box": [
+        93,
+        44,
+        418,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support",
+      "portrait": "res://assets/characters/portraits/portrait-bai-commander.png",
+      "world_height": 2.4
+    },
+    "unit.bai.worker": {
+      "path": "res://assets/animation/frames-v1/unit-bai-worker-idle.png",
+      "category": "unit",
+      "content_box": [
+        40,
+        44,
+        472,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3",
+      "portrait": "res://assets/animation/frames-v1/unit-bai-worker-portrait.png",
+      "world_height": 1.22,
+      "animation": {
+        "source_height": 108.234,
+        "foot": [
+          96.0,
+          180
+        ],
+        "frame_version": 1,
+        "atlas": "res://assets/animation/frames-v1/unit-bai-worker-atlas.png",
+        "frame_profile": "unit.bai.worker"
+      },
+      "version": "3.0.0-rc2",
+      "action_profile": "unit.bai.worker",
+      "identity_version": 2
+    },
+    "building.bai.base": {
+      "path": "res://assets/buildings/building-bai-base.png",
+      "category": "building",
+      "content_box": [
+        32,
+        75,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.bai.tower": {
+      "path": "res://assets/buildings/building-bai-tower.png",
+      "category": "building",
+      "content_box": [
+        65,
+        44,
+        447,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "building.bai.mana": {
+      "path": "res://assets/buildings/building-bai-mana.png",
+      "category": "building",
+      "content_box": [
+        103,
+        44,
+        409,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.bai.terrain": {
+      "path": "res://assets/props/prop-bai-terrain.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        90,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.bai.banner": {
+      "path": "res://assets/props/prop-bai-banner.png",
+      "category": "prop",
+      "content_box": [
+        156,
+        44,
+        355,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "prop.bai.cargo": {
+      "path": "res://assets/props/prop-bai-cargo.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        65,
+        480,
+        476
+      ],
+      "status": "runtime-linked-reviewed",
+      "usage": "original-paper-world-support"
+    },
+    "background.bai": {
+      "path": "res://assets/backgrounds/theatre-bai.png",
+      "category": "background",
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "spell.ji.repair": {
+      "path": "res://assets/ui/icons/spell-yin-repair.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.repair"
+    },
+    "spell.ji.lightning": {
+      "path": "res://assets/ui/icons/spell-yin-lightning.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.lightning"
+    },
+    "spell.ji.cold": {
+      "path": "res://assets/ui/icons/spell-yin-cold.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.cold"
+    },
+    "spell.ji.fury": {
+      "path": "res://assets/ui/icons/spell-yin-fury.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.fury"
+    },
+    "spell.ji.stamp": {
+      "path": "res://assets/ui/icons/spell-yin-stamp.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.stamp"
+    },
+    "spell.yuan.protect": {
+      "path": "res://assets/ui/icons/spell-deng-protect.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.protect"
+    },
+    "spell.yuan.clone": {
+      "path": "res://assets/ui/icons/spell-deng-clone.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.clone"
+    },
+    "spell.yuan.fire": {
+      "path": "res://assets/ui/icons/spell-deng-fire.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.fire"
+    },
+    "spell.yuan.root": {
+      "path": "res://assets/ui/icons/spell-deng-root.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.root"
+    },
+    "spell.yuan.guardian": {
+      "path": "res://assets/ui/icons/spell-deng-guardian.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.guardian"
+    },
+    "spell.qi.repair": {
+      "path": "res://assets/ui/icons/spell-yin-repair.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.repair"
+    },
+    "spell.qi.lightning": {
+      "path": "res://assets/ui/icons/spell-yin-lightning.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.lightning"
+    },
+    "spell.qi.cold": {
+      "path": "res://assets/ui/icons/spell-yin-cold.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.cold"
+    },
+    "spell.qi.fury": {
+      "path": "res://assets/ui/icons/spell-yin-fury.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.fury"
+    },
+    "spell.qi.stamp": {
+      "path": "res://assets/ui/icons/spell-yin-stamp.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.stamp"
+    },
+    "spell.mu.sacrifice": {
+      "path": "res://assets/ui/icons/spell-mo-sacrifice.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.sacrifice"
+    },
+    "spell.mu.bind": {
+      "path": "res://assets/ui/icons/spell-mo-bind.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.bind"
+    },
+    "spell.mu.poison": {
+      "path": "res://assets/ui/icons/spell-mo-poison.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.poison"
+    },
+    "spell.mu.convert": {
+      "path": "res://assets/ui/icons/spell-mo-convert.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.convert"
+    },
+    "spell.mu.burst": {
+      "path": "res://assets/ui/icons/spell-mo-burst.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.burst"
+    },
+    "spell.shuang.repair": {
+      "path": "res://assets/ui/icons/spell-yin-repair.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.repair"
+    },
+    "spell.shuang.lightning": {
+      "path": "res://assets/ui/icons/spell-yin-lightning.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.lightning"
+    },
+    "spell.shuang.cold": {
+      "path": "res://assets/ui/icons/spell-yin-cold.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.cold"
+    },
+    "spell.shuang.fury": {
+      "path": "res://assets/ui/icons/spell-yin-fury.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.fury"
+    },
+    "spell.shuang.stamp": {
+      "path": "res://assets/ui/icons/spell-yin-stamp.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.yin.stamp"
+    },
+    "spell.jin.sacrifice": {
+      "path": "res://assets/ui/icons/spell-mo-sacrifice.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.sacrifice"
+    },
+    "spell.jin.bind": {
+      "path": "res://assets/ui/icons/spell-mo-bind.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.bind"
+    },
+    "spell.jin.poison": {
+      "path": "res://assets/ui/icons/spell-mo-poison.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.poison"
+    },
+    "spell.jin.convert": {
+      "path": "res://assets/ui/icons/spell-mo-convert.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.convert"
+    },
+    "spell.jin.burst": {
+      "path": "res://assets/ui/icons/spell-mo-burst.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.mo.burst"
+    },
+    "spell.bai.protect": {
+      "path": "res://assets/ui/icons/spell-deng-protect.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.protect"
+    },
+    "spell.bai.clone": {
+      "path": "res://assets/ui/icons/spell-deng-clone.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.clone"
+    },
+    "spell.bai.fire": {
+      "path": "res://assets/ui/icons/spell-deng-fire.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.fire"
+    },
+    "spell.bai.root": {
+      "path": "res://assets/ui/icons/spell-deng-root.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.root"
+    },
+    "spell.bai.guardian": {
+      "path": "res://assets/ui/icons/spell-deng-guardian.png",
+      "category": "spell",
+      "usage": "shared-spell-family-symbol",
+      "status": "runtime-linked-reviewed",
+      "shared_art_from": "spell.deng.guardian"
+    },
+    "prop.yin.landmark": {
+      "path": "res://assets/props/prop-yin-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        44,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mo.landmark": {
+      "path": "res://assets/props/prop-mo-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        85,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.deng.landmark": {
+      "path": "res://assets/props/prop-deng-landmark.png",
+      "category": "prop",
+      "content_box": [
+        34,
+        44,
+        478,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.ji.landmark": {
+      "path": "res://assets/props/prop-ji-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        164,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.yuan.landmark": {
+      "path": "res://assets/props/prop-yuan-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        138,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.qi.landmark": {
+      "path": "res://assets/props/prop-qi-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        183,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.mu.landmark": {
+      "path": "res://assets/props/prop-mu-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        97,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.shuang.landmark": {
+      "path": "res://assets/props/prop-shuang-landmark.png",
+      "category": "prop",
+      "content_box": [
+        36,
+        44,
+        476,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.jin.landmark": {
+      "path": "res://assets/props/prop-jin-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        137,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "prop.bai.landmark": {
+      "path": "res://assets/props/prop-bai-landmark.png",
+      "category": "prop",
+      "content_box": [
+        32,
+        97,
+        480,
+        476
+      ],
+      "status": "runtime-linked-source-review-pending",
+      "style": "paper-theatre-v3"
+    },
+    "material.common.earth": {
+      "path": "res://assets/environment/rc2/terrain-fiber.png",
+      "kind": "material",
+      "version": "3.0.0-rc2",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-fiber.png"
+    },
+    "material.common.edge.grass": {
+      "path": "res://assets/environment/rc2/terrain-edge-grass.png",
+      "kind": "material",
+      "version": "3.0.0-rc2",
+      "walk_y": 43,
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png"
+    },
+    "material.common.edge.slate": {
+      "path": "res://assets/environment/rc2/terrain-edge-slate.png",
+      "kind": "material",
+      "version": "3.0.0-rc2",
+      "walk_y": 44,
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png"
+    },
+    "material.common.edge.forest": {
+      "path": "res://assets/environment/rc2/terrain-edge-forest.png",
+      "kind": "material",
+      "version": "3.0.0-rc2",
+      "walk_y": 62,
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png"
+    },
+    "material.common.edge.ice": {
+      "path": "res://assets/environment/rc2/terrain-edge-ice.png",
+      "kind": "material",
+      "version": "3.0.0-rc2",
+      "walk_y": 58,
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png"
+    }
+  },
+  "engine": "Godot 4.7.2",
+  "verification": "Source review, native representative visuals and public-rule tests are recorded separately in docs/paper-warfront/redesign-3.0/README.md. No Android hardware acceptance."
+}

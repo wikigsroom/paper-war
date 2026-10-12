@@ -1,0 +1,93 @@
+{
+  "revision": "rc22-observer-camera-r1",
+  "version": "3.0.0-rc22-preview",
+  "status": "verified-preview",
+  "assets": [
+    {
+      "id": "camera.common.observer_front",
+      "implementation": "native Godot observer query and Control input",
+      "source": "game/scripts/battle_sim.gd",
+      "new_raster_generation": false
+    }
+  ],
+  "style_tokens_version": "1.2.0",
+  "reused_fog_stage_revision": "rc21-fog-stage-r1",
+  "reused_ui_asset_version": "3.0.0-rc16-preview",
+  "reused_ui_assets": 38,
+  "reused_ui_generation_model": "gpt-image-2.5",
+  "simulation_source_outside_front_identical_to_verified_rc21": true,
+  "rc21_baseline_source_sha256": "aec91b04832869b1b8a3face451732024eb73007e3c1f7e1cf610f6782cd7a26",
+  "unchanged_actual_rc21_rc22_rules_and_rendering": {
+    "scripts/map_runtime.gdc": "b1122e496c45f18ee480c5f202d7fe0c3b9be39ba781691a902257d504685bc7",
+    "scripts/battle_visibility.gdc": "a036add86f70a48387f3b6475309e21d330df401794c9b55ee448c80d270892b",
+    "scripts/theatre_fog.gdc": "dc93a64d56be4dd600934a1748e4bde84cdbbe6f1e3fbf882c252225996355bb",
+    "scripts/tactical_ai.gdc": "11affe58776976c7277ae6a71481019a8c16fb341c3607cfc87528c26db97991",
+    "scripts/unit_abilities.gdc": "c8a0a3ec0036a39c2e26d098ab7283db09f691520d8952d7ffaf0cbda2c9cbaf",
+    "scripts/match_projection.gdc": "8c79cc02cde7d36f1f5d196ba5c845fb1037280876385554ce2087f5554f9456",
+    "scripts/battle_command_rules.gdc": "470c7fc2a313fcb741f78889124607ca0d2ad522876818a5306e71c388734b9c",
+    "scripts/manual_spell_rules.gdc": "911bbc3f400b3ec6831c5dc7c837e919fadb3827649e0b8c0977f274c42e92ea",
+    "data/balance-prototype.json": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6",
+    "data/technology.json": "2f0609565372c123b875fd3e6033780d41a047bd3a14827d8dec463f37fa634c",
+    "data/maps.json": "0ed93e9a72e6c9e31c31e5f82cc9b95823e82e85948a282dad74284a3da1f2c9",
+    "data/campaign.json": "57a7b770ed5eb99820b7bfc086056c5194d7ef41dc4f9a9b2bb497f399f1b430",
+    "data/unit-actions.json": "dd200b26c90b21efd120ea04984193e7fa59acc432f68807ade2bb50ae3f9492",
+    "data/unit-frames.json": "3e4d1fcfeed4f430ee8623755d437e7c7ed57c8a404d1d8e98e91f0b6e8242ac"
+  },
+  "checks": {
+    "compiled_checks_per_package": 82,
+    "native_gpu_configs": 2,
+    "native_paid_navigation_checks": 44,
+    "screenshots": 12
+  },
+  "source_mechanism_checks": 15334,
+  "android_hardware_verified": false,
+  "full_balance_verified": false,
+  "original_game_numeric_equivalence_verified": false,
+  "files": {
+    "game/project.godot": "d87b0d75b1b03eb314f700c425fc33b6b23c52f9a81dbc833580b3f3eb297358",
+    "game/export_presets.cfg": "258f133bc826163731bb37f3f39b4e49cf49022e6b958932673f06999bbe1b2e",
+    "game/scripts/battle_sim.gd": "e1cf0ca7cf5b9e644cac005ed368317d8575f25ccf34a6611159fc08b4f7a3a5",
+    "game/scripts/battle_view.gd": "e65827f9b9c19661a03110ea3bd0101bbe7fddb95bcbca07e94bef5291dda762",
+    "game/scripts/local_duel.gd": "f8b8fea1efa597fefb3f3321e34ff403c2e55c5e8467a0d38c3b71345b1f338c",
+    "game/scripts/main.gd": "71819f9c63ba470193b97a86a6e07b29d06352642f5ae579b43493244adf13ed",
+    "game/scripts/mobile_ui.gd": "012144bb42e0eed56ad26f159e3f7cd9114cd187527a56b929bf5ca6dc45a6cb",
+    "assets/paper-warfront/style-tokens.json": "bdfc5d7a21acf808b7c9d78e81b63b4adf226ec5aebf6acc72c45b5f2a1ed761",
+    "game/data/style-tokens.json": "bdfc5d7a21acf808b7c9d78e81b63b4adf226ec5aebf6acc72c45b5f2a1ed761",
+    "game/tests/test_observer_camera.gd": "d8b89295f693898e011d9fd303ee4ef9b49aa67649eb2a10868a3b3fe006c01f",
+    "tools/paper-warfront/check_observer_camera.py": "a694f03682bd31ec33b31707967888bfdd252ca76619e42e86950becdd53be1d",
+    "tools/paper-warfront/probe_camera_rendering.gd": "2b49667f8de9875d33750ad9acf32c957f07c7ed40a970983c0cc71120f3a0e1",
+    "tools/paper-warfront/check_camera_rendering.py": "73f8402ddd5f7e4b8400e77495c1d941c483047e209e07aab9e80168c29a5217",
+    "docs/paper-warfront/131-玩家视野与前线导航修复及rc22交付.md": "bf26893ddd1ac1b086a21a9d4cb1d5cc9b3ebb2ccecbf5a43cf27e2f6031c812",
+    "docs/paper-warfront/11-Godot架构与数据契约.md": "6a733df92e61b71b503aed84af1df183325ca725faa09dca09b7b45fc16f32a7",
+    "docs/paper-warfront/16-玩家手册.md": "5eb9b62710556c170b133ec1687ae3d8362b8130db0dba7274405a269bc68723",
+    "output/qa/godot/observer-camera-rc22/rc21-battle_sim.gd": "aec91b04832869b1b8a3face451732024eb73007e3c1f7e1cf610f6782cd7a26",
+    "output/qa/godot/observer-camera-rc22/simulation-navigation.diff": "8e624bb8c058dae00267aff9e2b9f4494137cfff76d5c42a6a26225b3bcf83e4",
+    "output/qa/godot/observer-camera-rc22/before-final/report.json": "42417298654da71b19258fde51ca46bb29ca0001219d28d8c86c2e697bb0d894",
+    "output/qa/godot/observer-camera-rc22/render-before/report.json": "1ece9bfa727ee93fedf9c052a3a131d5a8860512bcfa8b683236b97902a54574",
+    "output/qa/godot/observer-camera-rc22/release/camera-render/report.json": "393528dbbfdaae9f8fb52589cebbd0cb51740f7795dba94bd9a7d65237cae1bb",
+    "output/qa/godot/observer-camera-rc22/release/fog-render/report.json": "ad8fc41e816fe1f0b54e6b84f30227616025fd2b67ff494145ca9a563580b811",
+    "output/qa/godot/observer-camera-rc22/release/stage-proportions/report.json": "9dfce2068dc314e3a0e7dc9bf65dea66ac37bcebd2b7454bf87aa7ac373b127f",
+    "output/qa/godot/observer-camera-rc22/release/mobile/mobile-matrix.json": "9dbd4ceae3f570134363670ae1aaf081d2d9f4a6face72b1e0bb921fadb59822",
+    "output/qa/godot/observer-camera-rc22/formal-reach/regression/report.json": "f58ea477c2eea60596129f03016edb53d8c25c5613d4b420c13fa7f54585225a",
+    "output/qa/godot/observer-camera-rc22/figures/comparisons.json": "607576e729a9fab63e5eefb4ea51141cbbac73b736b96465f20c3bd09aa66fc3",
+    "release/3.0.0-rc22-preview/build-manifest.json": "0ca8b1da2468d445e2c9b2d3bf0d80d7e55c4b6a7d69cc935453250d0956652c",
+    "release/3.0.0-rc22-preview/preview-verification.json": "77ddaf2092199a1f59f12081754e4a64151771c7aed92cf370c54ad9e70bd8c3"
+  },
+  "builds_and_archives": [
+    {
+      "path": "release/3.0.0-rc22-preview/windows/PaperWarfront.exe",
+      "bytes": 238229032,
+      "sha256": "d3676a37dbf9120f831ed6688a9923c3d2fa615b7f4986961dcaf61b65c21feb"
+    },
+    {
+      "path": "release/3.0.0-rc22-preview/android/PaperWarfront-3.0.0-rc22-preview.apk",
+      "bytes": 176419698,
+      "sha256": "9057eef9a9ba7d854a5ef8f9d1ae49cabd25eaec898b2d2e564d621944114a21"
+    },
+    {
+      "path": "release/3.0.0-rc22-preview/PaperWarfront-Windows-3.0.0-rc22-preview.zip",
+      "bytes": 165342180,
+      "sha256": "7856dac86465a980c2bb3fba2d7e6bfaf1ad3ca993c08e6d2042aaecafae2906"
+    }
+  ]
+}

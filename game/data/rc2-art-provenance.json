@@ -1,0 +1,960 @@
+{
+  "version": "3.0.0-rc2",
+  "records": [
+    {
+      "id": "unit.yin.worker",
+      "source": "game/assets/characters/cutouts/unit-yin-worker.png",
+      "source_sha256": "507eba0b2b7fc5c5d7bdbfb5bf06319e1868c8544cbc611c945f23b7f1b094b4",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          310,
+          302
+        ],
+        [
+          345,
+          268
+        ],
+        [
+          372,
+          199
+        ],
+        [
+          459,
+          183
+        ],
+        [
+          486,
+          328
+        ],
+        [
+          350,
+          385
+        ],
+        [
+          313,
+          346
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          302,
+          211
+        ],
+        [
+          335,
+          198
+        ],
+        [
+          457,
+          200
+        ],
+        [
+          477,
+          319
+        ],
+        [
+          434,
+          321
+        ],
+        [
+          403,
+          258
+        ],
+        [
+          349,
+          228
+        ]
+      ],
+      "pivot": [
+        318,
+        305
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-yin-worker-body-work.png",
+          "sha256": "180c31bba42677252b3e338f4b20aba16d495c53cd1f045388b788d2d1c798a4"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-yin-worker-arm-pick.png",
+          "sha256": "92c614b026567aa90c6d7c5aa0978ef4aac707571d35c1c4feb0428efb494364"
+        }
+      ]
+    },
+    {
+      "id": "unit.mo.worker",
+      "source": "game/assets/characters/cutouts/unit-mo-worker.png",
+      "source_sha256": "9fb19e09cb5821ba9e43cff0cc7e366bfabc62a83d3664d3e3e47d5798b3de1f",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          326,
+          325
+        ],
+        [
+          350,
+          300
+        ],
+        [
+          387,
+          248
+        ],
+        [
+          478,
+          248
+        ],
+        [
+          508,
+          370
+        ],
+        [
+          363,
+          409
+        ],
+        [
+          321,
+          369
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          370,
+          260
+        ],
+        [
+          420,
+          253
+        ],
+        [
+          493,
+          283
+        ],
+        [
+          505,
+          369
+        ],
+        [
+          468,
+          349
+        ],
+        [
+          427,
+          294
+        ],
+        [
+          383,
+          288
+        ]
+      ],
+      "pivot": [
+        326,
+        329
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-mo-worker-body-work.png",
+          "sha256": "191b33f132cedc7ec5977ea8d02586fb3e1627519fbd21e7b4b8d286ca51acc6"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-mo-worker-arm-pick.png",
+          "sha256": "adb1817a032c1996c4aa4c6c8667f1e36e2eadfc424c66e2b3d90fc049ff155f"
+        }
+      ]
+    },
+    {
+      "id": "unit.deng.worker",
+      "source": "game/assets/characters/cutouts/unit-deng-worker.png",
+      "source_sha256": "593e1caede20a26b18fbb6f41a7e16213bf2a3bae886c852b0045c0b915f0a20",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          328,
+          292
+        ],
+        [
+          365,
+          287
+        ],
+        [
+          382,
+          248
+        ],
+        [
+          399,
+          214
+        ],
+        [
+          482,
+          217
+        ],
+        [
+          506,
+          338
+        ],
+        [
+          361,
+          391
+        ],
+        [
+          328,
+          334
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          366,
+          239
+        ],
+        [
+          409,
+          215
+        ],
+        [
+          484,
+          241
+        ],
+        [
+          501,
+          338
+        ],
+        [
+          473,
+          322
+        ],
+        [
+          440,
+          276
+        ],
+        [
+          391,
+          254
+        ]
+      ],
+      "pivot": [
+        335,
+        297
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-deng-worker-body-work.png",
+          "sha256": "904d11f603ed9e3d872a47320caad088fdbff7c0d09211fd404e190b5664ce8d"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-deng-worker-arm-pick.png",
+          "sha256": "133e85d1c9e8bd4229d0912be31041b55fced6b66381ca72569579234882fa74"
+        }
+      ]
+    },
+    {
+      "id": "unit.ji.worker",
+      "source": "game/assets/characters/cutouts/unit-ji-worker.png",
+      "source_sha256": "92867dd88001fe4fa9a278c454abd1dfab22ab32b399c08f2990411156e5ec5d",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          318,
+          308
+        ],
+        [
+          358,
+          317
+        ],
+        [
+          385,
+          308
+        ],
+        [
+          409,
+          255
+        ],
+        [
+          492,
+          249
+        ],
+        [
+          510,
+          374
+        ],
+        [
+          352,
+          407
+        ],
+        [
+          320,
+          365
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          370,
+          267
+        ],
+        [
+          430,
+          248
+        ],
+        [
+          487,
+          263
+        ],
+        [
+          505,
+          367
+        ],
+        [
+          480,
+          355
+        ],
+        [
+          454,
+          289
+        ],
+        [
+          388,
+          286
+        ]
+      ],
+      "pivot": [
+        324,
+        325
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-ji-worker-body-work.png",
+          "sha256": "75d89c5c1e0c023386760223e7e939650c82f6d47d5af84346224f5c292fc274"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-ji-worker-arm-pick.png",
+          "sha256": "881f4a821d56b7b7b151bbb8c011e400fbe5697446a9267dfc7416f93e16a9ac"
+        }
+      ]
+    },
+    {
+      "id": "unit.yuan.worker",
+      "source": "game/assets/characters/cutouts/unit-yuan-worker.png",
+      "source_sha256": "c3c98de8380831bdd855135580409577b8ca945dca13e885e6eee0710231a75b",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          335,
+          306
+        ],
+        [
+          363,
+          307
+        ],
+        [
+          393,
+          278
+        ],
+        [
+          419,
+          254
+        ],
+        [
+          500,
+          259
+        ],
+        [
+          506,
+          366
+        ],
+        [
+          400,
+          402
+        ],
+        [
+          331,
+          362
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          378,
+          270
+        ],
+        [
+          430,
+          252
+        ],
+        [
+          487,
+          270
+        ],
+        [
+          509,
+          365
+        ],
+        [
+          476,
+          356
+        ],
+        [
+          450,
+          301
+        ],
+        [
+          398,
+          293
+        ]
+      ],
+      "pivot": [
+        345,
+        318
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-yuan-worker-body-work.png",
+          "sha256": "d9f0bc5ec6c130885b5334ebee92fb11f8398b230f9e2fdc049a782e1da8f5f5"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-yuan-worker-arm-pick.png",
+          "sha256": "e58f67c6077a0083e883655a76987851ef0dec512b0a331241a0725a20eb9287"
+        }
+      ]
+    },
+    {
+      "id": "unit.qi.worker",
+      "source": "game/assets/characters/cutouts/unit-qi-worker.png",
+      "source_sha256": "a5ab644f4bdb8b63091ef6b154734fb1d5bf8fb7e156251680b20d4cdeb89237",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          301,
+          325
+        ],
+        [
+          329,
+          339
+        ],
+        [
+          366,
+          300
+        ],
+        [
+          384,
+          265
+        ],
+        [
+          456,
+          273
+        ],
+        [
+          496,
+          386
+        ],
+        [
+          350,
+          419
+        ],
+        [
+          301,
+          372
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          312,
+          293
+        ],
+        [
+          329,
+          272
+        ],
+        [
+          419,
+          284
+        ],
+        [
+          470,
+          309
+        ],
+        [
+          491,
+          385
+        ],
+        [
+          458,
+          369
+        ],
+        [
+          428,
+          330
+        ],
+        [
+          359,
+          309
+        ]
+      ],
+      "pivot": [
+        307,
+        338
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-qi-worker-body-work.png",
+          "sha256": "4618d04dc927ee515b9f28b6aa9870a5f0662c45a43f5b0add0982c4de355270"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-qi-worker-arm-pick.png",
+          "sha256": "1f6d9e08ea68260b1d7932733ec5c106eea3a60d221a4e2567dbaebdec54a4cf"
+        }
+      ]
+    },
+    {
+      "id": "unit.mu.worker",
+      "source": "game/assets/characters/cutouts/unit-mu-worker.png",
+      "source_sha256": "17ae49b403308e52a5c2227a9f8f096409427346fb9e20dbc9fde77b712e7109",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          321,
+          299
+        ],
+        [
+          351,
+          315
+        ],
+        [
+          380,
+          271
+        ],
+        [
+          400,
+          215
+        ],
+        [
+          484,
+          226
+        ],
+        [
+          499,
+          334
+        ],
+        [
+          388,
+          393
+        ],
+        [
+          325,
+          369
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          349,
+          240
+        ],
+        [
+          392,
+          212
+        ],
+        [
+          450,
+          217
+        ],
+        [
+          493,
+          271
+        ],
+        [
+          497,
+          332
+        ],
+        [
+          464,
+          306
+        ],
+        [
+          426,
+          251
+        ],
+        [
+          367,
+          254
+        ]
+      ],
+      "pivot": [
+        330,
+        315
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-mu-worker-body-work.png",
+          "sha256": "4e3d5b048483b8008d71850176c7d810812f3f6aa8acb171c74b1a7f5e0ed191"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-mu-worker-arm-pick.png",
+          "sha256": "cad19d28ea65016c5d08f5efed53f406438055c20fe9bee0f8d14a88757b6a9b"
+        }
+      ]
+    },
+    {
+      "id": "unit.shuang.worker",
+      "source": "game/assets/characters/cutouts/unit-shuang-worker.png",
+      "source_sha256": "f89cc23fa9a42a6d8327b62eec74a26a63bf5efc61fda14cdbcbaf4edfbba476",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          316,
+          304
+        ],
+        [
+          353,
+          291
+        ],
+        [
+          376,
+          218
+        ],
+        [
+          452,
+          208
+        ],
+        [
+          503,
+          328
+        ],
+        [
+          364,
+          396
+        ],
+        [
+          312,
+          364
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          350,
+          227
+        ],
+        [
+          390,
+          211
+        ],
+        [
+          458,
+          223
+        ],
+        [
+          500,
+          282
+        ],
+        [
+          507,
+          329
+        ],
+        [
+          479,
+          310
+        ],
+        [
+          427,
+          248
+        ],
+        [
+          370,
+          252
+        ]
+      ],
+      "pivot": [
+        324,
+        313
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-shuang-worker-body-work.png",
+          "sha256": "60e80ef2a30547966bc21059854012fcbee2ff050800af7926d99a4fab7850d8"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-shuang-worker-arm-pick.png",
+          "sha256": "5308c3f4886f2812a164a509384d0d38db77d39363f99c0f701ecb99d5a474e5"
+        }
+      ]
+    },
+    {
+      "id": "unit.jin.worker",
+      "source": "game/assets/characters/cutouts/unit-jin-worker.png",
+      "source_sha256": "e09fea9932ddea24fffab9715443228cc1b8bc8938ef997699d95df9dba9f82f",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          313,
+          320
+        ],
+        [
+          353,
+          331
+        ],
+        [
+          401,
+          280
+        ],
+        [
+          423,
+          244
+        ],
+        [
+          490,
+          271
+        ],
+        [
+          504,
+          399
+        ],
+        [
+          359,
+          413
+        ],
+        [
+          313,
+          371
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          378,
+          270
+        ],
+        [
+          399,
+          245
+        ],
+        [
+          447,
+          253
+        ],
+        [
+          491,
+          285
+        ],
+        [
+          505,
+          393
+        ],
+        [
+          470,
+          377
+        ],
+        [
+          449,
+          305
+        ],
+        [
+          405,
+          288
+        ]
+      ],
+      "pivot": [
+        325,
+        333
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-jin-worker-body-work.png",
+          "sha256": "63f288f72b8a62407ea51df0afdbe619a97cbc4d82c13bb82647011012e5b32e"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-jin-worker-arm-pick.png",
+          "sha256": "8b951bcdb6ccad465fb12b305978ca2f99b72f0c4361101b036604b5f14da504"
+        }
+      ]
+    },
+    {
+      "id": "unit.bai.worker",
+      "source": "game/assets/characters/cutouts/unit-bai-worker.png",
+      "source_sha256": "4f4e39f5a45537ac44112857e5fe3e94e9a8d0d518429488c91b044a409b90e8",
+      "method": "authored-arm-mask-from-existing-sub2-silhouette",
+      "mask_polygon": [
+        [
+          315,
+          294
+        ],
+        [
+          351,
+          295
+        ],
+        [
+          390,
+          243
+        ],
+        [
+          423,
+          205
+        ],
+        [
+          490,
+          211
+        ],
+        [
+          509,
+          344
+        ],
+        [
+          371,
+          397
+        ],
+        [
+          313,
+          345
+        ]
+      ],
+      "pick_head_mask": [
+        [
+          367,
+          220
+        ],
+        [
+          416,
+          204
+        ],
+        [
+          483,
+          216
+        ],
+        [
+          508,
+          282
+        ],
+        [
+          510,
+          345
+        ],
+        [
+          478,
+          320
+        ],
+        [
+          443,
+          253
+        ],
+        [
+          383,
+          246
+        ]
+      ],
+      "pivot": [
+        328,
+        305
+      ],
+      "derived": [
+        {
+          "path": "game/assets/animation/rc2/unit-bai-worker-body-work.png",
+          "sha256": "2d232cb3942386523767f3d5fbe02fb42c20dda3cfa2b9ff30fec17d601d82bf"
+        },
+        {
+          "path": "game/assets/animation/rc2/unit-bai-worker-arm-pick.png",
+          "sha256": "a2611218be833ad9e13a84572fbbb83f3a7d533d446c79c3b6afa4e3ea4e5dc6"
+        }
+      ]
+    },
+    {
+      "id": "material.common.earth",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-fiber.png",
+      "source_sha256": "0152d3e9c33844d1e09eac8a5cdbe6aeab69443a50041fd2d4c332350399c4e1",
+      "model": "gpt-image-2.5",
+      "skill": "sub2-image-gen",
+      "prompt": "output/imagegen/paper-warfront/rc2/terrain-fiber.prompt.txt",
+      "method": "grayscale-autocontrast-luminance226-255-RGB-downsample-512",
+      "derived": [
+        {
+          "path": "game/assets/environment/rc2/terrain-fiber.png",
+          "sha256": "c0adb29851ca6ec478030f4bd6d3c2b2771c19595ef0083280d5c84db4c8a9c7"
+        }
+      ]
+    },
+    {
+      "id": "material.common.edge.grass",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png",
+      "source_sha256": "efa79bf311654b60340ef8137907556e7833e17e6d39f924cda8188789bfd59c",
+      "model": "gpt-image-2.5",
+      "skill": "sub2-image-gen",
+      "prompt": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.prompt.txt",
+      "quadrant": 0,
+      "crop": [
+        100,
+        178,
+        701,
+        436
+      ],
+      "walk_y": 43,
+      "method": "native-alpha-crop-discard-endcaps-Lanczos-512",
+      "derived": [
+        {
+          "path": "game/assets/environment/rc2/terrain-edge-grass.png",
+          "sha256": "b526b85744dc0f937ad2db795b1cc3bedb30a8fb5a65c4db79b307ecbd52e011"
+        }
+      ]
+    },
+    {
+      "id": "material.common.edge.slate",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png",
+      "source_sha256": "efa79bf311654b60340ef8137907556e7833e17e6d39f924cda8188789bfd59c",
+      "model": "gpt-image-2.5",
+      "skill": "sub2-image-gen",
+      "prompt": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.prompt.txt",
+      "quadrant": 1,
+      "crop": [
+        71,
+        179,
+        670,
+        437
+      ],
+      "walk_y": 44,
+      "method": "native-alpha-crop-discard-endcaps-Lanczos-512",
+      "derived": [
+        {
+          "path": "game/assets/environment/rc2/terrain-edge-slate.png",
+          "sha256": "e35f4721459ee17955d4c98280ac411a36d5048c79028a4f7d71fc8962cd6775"
+        }
+      ]
+    },
+    {
+      "id": "material.common.edge.forest",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png",
+      "source_sha256": "efa79bf311654b60340ef8137907556e7833e17e6d39f924cda8188789bfd59c",
+      "model": "gpt-image-2.5",
+      "skill": "sub2-image-gen",
+      "prompt": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.prompt.txt",
+      "quadrant": 2,
+      "crop": [
+        100,
+        92,
+        700,
+        369
+      ],
+      "walk_y": 62,
+      "method": "native-alpha-crop-discard-endcaps-Lanczos-512",
+      "derived": [
+        {
+          "path": "game/assets/environment/rc2/terrain-edge-forest.png",
+          "sha256": "b4dc6937b17f02edd4e809c5197f6b771dfe89513c7da106cbe296e6777a303e"
+        }
+      ]
+    },
+    {
+      "id": "material.common.edge.ice",
+      "source": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.png",
+      "source_sha256": "efa79bf311654b60340ef8137907556e7833e17e6d39f924cda8188789bfd59c",
+      "model": "gpt-image-2.5",
+      "skill": "sub2-image-gen",
+      "prompt": "output/imagegen/paper-warfront/rc2/terrain-edge-atlas.prompt.txt",
+      "quadrant": 3,
+      "crop": [
+        70,
+        95,
+        669,
+        373
+      ],
+      "walk_y": 58,
+      "method": "native-alpha-crop-discard-endcaps-Lanczos-512",
+      "derived": [
+        {
+          "path": "game/assets/environment/rc2/terrain-edge-ice.png",
+          "sha256": "163b221b4c60a3cb8fa79d5cca9d71f7ebf8fe33394e61ec3876e09edc0480d0"
+        }
+      ]
+    }
+  ]
+}

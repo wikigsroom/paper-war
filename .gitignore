@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.tools/
+.godot/
+**/.godot/
+*.import
+*.tmp
+*.bak
+*.keystore
+*.jks
+export_credentials.cfg
+.keys/
+
+# Godot/editor and local export caches.
+game/output/
+game/assets/animation/*.png
+game/assets/animation/actions-rc4/
+game/assets/animation/rc2/
+!game/assets/animation/frames-v1/
+build/
+release/
+
+# QA captures, backups, generated source images and local run logs are kept
+# outside the source repository. The checked-in GIF lives under docs/media.
+output/
+docs/media/*-frames/
+
+# Generated local metadata that can be recreated from the source contracts.
+*.egg-info/
+.pytest_cache/

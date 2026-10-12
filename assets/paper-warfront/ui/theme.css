@@ -1,0 +1,31 @@
+/* Documentation helper only. Runtime is Godot ui_theme.gd / paper-ui.json. */
+:root {
+  --pw-paper: #f6edda;
+  --pw-paper-light: #fff8e9;
+  --pw-edge: #c4b294;
+  --pw-ink: #24343c;
+  --pw-muted: #615b50;
+  --pw-yin: #b74532;
+  --pw-mo: #343332;
+  --pw-deng: #377b78;
+  --pw-gold: #92682a;
+  --pw-mana: #31747c;
+  --pw-repair: #75a486;
+  --pw-body-font: "Microsoft YaHei", "PingFang SC", sans-serif;
+  --pw-display-font: "KaiTi", "STKaiti", serif;
+  --pw-digit-font: "Consolas", monospace;
+  --pw-target-min: 48px;
+  --pw-outline: 2px;
+}
+.pw-panel { background: var(--pw-paper-light); color: var(--pw-ink); border: 1px solid var(--pw-edge); }
+.pw-action { position: relative; min-width: var(--pw-target-min); min-height: var(--pw-target-min); border: var(--pw-outline) solid var(--pw-ink); border-radius: 0; background: var(--pw-paper-light); color: var(--pw-ink); cursor: pointer; }
+.pw-action[aria-pressed="true"] { outline: 2px solid var(--pw-repair); outline-offset: 3px; }
+.pw-action[aria-disabled="true"] { cursor: default; filter: grayscale(1); }
+.pw-action:focus-visible { outline: 3px solid var(--pw-mana); outline-offset: 3px; }
+.pw-cost { font-family: var(--pw-digit-font); font-size: 14px; font-variant-numeric: tabular-nums; }
+.pw-cost[data-resource="gold"] { color: var(--pw-gold); }
+.pw-cost[data-resource="mana"] { color: var(--pw-mana); }
+.pw-hud { font-family: var(--pw-body-font); user-select: none; }
+@media (prefers-reduced-motion: reduce) {
+  .pw-hud *, .pw-panel * { animation: none !important; transition: none !important; }
+}

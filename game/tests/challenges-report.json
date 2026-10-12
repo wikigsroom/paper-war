@@ -1,0 +1,155 @@
+{
+	"passed": true,
+	"results": [
+		{
+			"id": "challenge.1",
+			"reason": "指定对象守住目标时间",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 8,
+				"gold_delivered": 448,
+				"healed": 401,
+				"interrupts": 2,
+				"killed": 8,
+				"lost": 4,
+				"mana_spent": 230,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 5
+				},
+				"summons": 0
+			},
+			"time": 150.000000000012,
+			"winner": 0
+		},
+		{
+			"id": "challenge.2",
+			"reason": "敌方纸城被攻破",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 14,
+				"gold_delivered": 432,
+				"healed": 972,
+				"interrupts": 1,
+				"killed": 14,
+				"lost": 5,
+				"mana_spent": 375,
+				"recruited": 13,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 12
+				},
+				"summons": 0
+			},
+			"time": 143.366666666673,
+			"winner": 0
+		},
+		{
+			"id": "challenge.3",
+			"reason": "敌方纸城被攻破",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 9,
+				"gold_delivered": 280,
+				"healed": 474,
+				"interrupts": 2,
+				"killed": 7,
+				"lost": 4,
+				"mana_spent": 255,
+				"recruited": 10,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.yin.cold": 1,
+					"spell.yin.fury": 1,
+					"spell.yin.lightning": 1,
+					"spell.yin.repair": 6
+				},
+				"summons": 0
+			},
+			"time": 112.516666666662,
+			"winner": 0
+		},
+		{
+			"id": "challenge.4",
+			"reason": "我方纸城失守",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 7,
+				"gold_delivered": 120,
+				"healed": 0,
+				"interrupts": 1,
+				"killed": 0,
+				"lost": 3,
+				"mana_spent": 70,
+				"recruited": 6,
+				"reflections": 0,
+				"spell_counts": {
+					"spell.mo.bind": 1,
+					"spell.mo.poison": 1,
+					"spell.mo.sacrifice": 5
+				},
+				"summons": 0
+			},
+			"time": 92.899999999996,
+			"winner": 1
+		},
+		{
+			"id": "challenge.5",
+			"reason": "我方纸城失守",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 128,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 0,
+				"lost": 10,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 7,
+				"spell_counts": {
+					"spell.deng.protect": 1,
+					"spell.deng.root": 2
+				},
+				"summons": 0
+			},
+			"time": 135.433333333333,
+			"winner": 1
+		},
+		{
+			"id": "challenge.6",
+			"reason": "我方纸城失守",
+			"stats": {
+				"build_counts": {},
+				"buildings": 0,
+				"casts": 3,
+				"gold_delivered": 136,
+				"healed": 0,
+				"interrupts": 0,
+				"killed": 1,
+				"lost": 10,
+				"mana_spent": 90,
+				"recruited": 8,
+				"reflections": 2,
+				"spell_counts": {
+					"spell.deng.root": 3
+				},
+				"summons": 0
+			},
+			"time": 151.100000000012,
+			"winner": 1
+		}
+	],
+	"scope": "six preserved tactical challenges under their authored budgets; both sides use public simulation rules; not human challenge-star completion"
+}

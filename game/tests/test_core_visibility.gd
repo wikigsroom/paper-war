@@ -1,0 +1,55 @@
+extends SceneTree
+const Data=preload("res://scripts/data_store.gd")
+const Simulation=preload("res://scripts/battle_sim.gd")
+var checks: int=0
+var failures: Array=[]
+func verify(value: bool,note: String="hidden enemy spell rejected"):
+	checks+=1
+	if not value:failures.append(note)
+func _initialize():call_deferred("run")
+func run():
+	var db=Data.new()
+	var s=Simulation.new(db)
+	s.start({"map":"map.01.01","faction":"yin","enemy":"mo","full_tech":true,"starting_gold":1000})
+	s.ai_enabled=[false,false]
+	var hidden=s.spawn("unit.mo.giant",1,s.bases[1].x-1)
+	s.visibility.refresh()
+	verify(not s.visible_to(0,hidden),"Enemy base must not reveal production")
+	verify(s.players[0].roster.size()==6,"Full faction available in match")
+	var mana: float=s.players[0].mana
+	verify(not s.request(0,"cast",{"id":"spell.yin.lightning","x":hidden.x,"target":hidden.uid}).ok)
+	verify(s.players[0].mana==mana,"Rejected hidden target costs nothing")
+	var scout=s.spawn("unit.yin.axe",0,hidden.x-2)
+	s.visibility.refresh()
+	verify(s.visible_to(0,hidden),"Scout reveals local enemy")
+	scout.hp=0
+	s.visibility.refresh()
+	verify(not s.visible_to(0,hidden),"Lost scout must retract current sight")
+	verify(not s.visibility.explored[0].is_empty(),"Exploration retained separately")
+	verify(not s.event_visible(0,{"kind":"impact","side":0,"x":hidden.x,"y":hidden.y}),"Owned projectile impact outside sight must not leak audio")
+	var scout2=s.spawn("unit.yin.axe",0,s.bases[1].x-2)
+	s.visibility.refresh()
+	verify(s.visibility.last_seen[0].has(-2),"Seen enemy base remembered")
+	scout2.hp=0;s.visibility.refresh()
+	var remembered: Dictionary=s.visibility.last_seen[0][-2].duplicate(true)
+	s.bases[1].hp=0;s.visibility.refresh()
+	verify(s.visibility.last_seen[0].get(-2,{})==remembered,"Hidden destruction does not refresh history")
+	var scout3=s.spawn("unit.yin.axe",0,s.bases[1].x-2)
+	s.visibility.refresh()
+	verify(not s.visibility.last_seen[0].has(-2),"Revisited empty position clears historical building")
+	var branch=Simulation.new(db)
+	branch.start({"map":"map.01.04","faction":"yin","enemy":"mo"})
+	branch.units.clear()
+	for base in branch.bases:base.hp=0
+	var observer=branch.spawn("unit.yin.axe",0,22)
+	branch.map.apply_anchor(observer,branch.map.anchor("ground.2",8))
+	var enemy=branch.spawn("unit.mo.giant",1,22)
+	branch.map.apply_anchor(enemy,branch.map.anchor("bridge",branch.map.edges.bridge.length*.5))
+	branch.visibility.refresh()
+	verify(not branch.visible_to(0,enemy),"Same horizontal coordinate on isolated upper road does not reveal")
+	branch.map.apply_anchor(enemy,branch.map.anchor("ground.2",12))
+	branch.visibility.refresh()
+	verify(branch.visible_to(0,enemy),"Same road nearby enemy reveals")
+	verify(not branch.visibility.point_visible(0,branch.map.anchor("ground.2",15)),"Beyond radius remains hidden")
+	print("CORE_VISIBILITY: ",checks," checks; failures=",failures)
+	quit(0 if failures.is_empty() else 1)

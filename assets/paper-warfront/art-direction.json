@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "canonical_references": [
+    "output/imagegen/v2/03-paper-warfront.png",
+    "assets/paper-warfront/previews/style-guide.png",
+    "assets/paper-warfront/previews/characters.png"
+  ],
+  "authoritative_tokens": "assets/paper-warfront/style-tokens.json",
+  "exploratory_illustrations": [
+    "output/imagegen/paper-warfront/sources/look-style-board.png",
+    "output/imagegen/paper-warfront/sources/look-lantern-battle.png"
+  ],
+  "exploration_policy": "Independent concept illustrations may vary in helmet, weapon, proportions and HUD numbers. Use the checked character library, canonical assembled guide, and rule/tokens data for implementation.",
+  "assembly_inputs": [
+    "assets/paper-warfront/characters/cutouts/unit-yin-axe.png",
+    "assets/paper-warfront/characters/cutouts/unit-mo-blade.png",
+    "assets/paper-warfront/characters/cutouts/unit-deng-mirror.png",
+    "assets/paper-warfront/materials/texture-paper-ivory.png",
+    "assets/paper-warfront/materials/texture-paper-red.png",
+    "assets/paper-warfront/materials/texture-paper-ink.png",
+    "assets/paper-warfront/materials/texture-paper-jade.png",
+    "assets/paper-warfront/materials/texture-paper-gold.png",
+    "assets/paper-warfront/materials/texture-paper-edge.png",
+    "assets/paper-warfront/materials/texture-paper-wood.png",
+    "assets/paper-warfront/materials/texture-ground-path.png",
+    "assets/paper-warfront/materials/texture-ink-grain.png"
+  ]
+}

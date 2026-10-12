@@ -1,0 +1,616 @@
+{
+  "role_count": 40,
+  "variant_count": 360,
+  "bespoke_core_count": 40,
+  "summoned_aliases": {
+    "unit.mo.thrall": "unit.mo.raider",
+    "unit.deng.guardian": "unit.deng.guard"
+  },
+  "masters": {
+    "vanguard": {
+      "master_id": "unit.yin.axe",
+      "master_path": "game/assets/characters/cutouts/unit-yin-axe.png",
+      "master_sha256": "20a57eb75cf21dc0f60f43d132288a1f9909e1cbf24290e09fc2cda5af48232e",
+      "donor_palette": "D85840",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    "javelin": {
+      "master_id": "unit.yin.spear",
+      "master_path": "game/assets/characters/cutouts/unit-yin-spear.png",
+      "master_sha256": "08611461610a6ecca787009f1264799a26a2140b823c9e313a9bdaab7f166372",
+      "donor_palette": "D85840",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    "crusher": {
+      "master_id": "unit.yin.hammer",
+      "master_path": "game/assets/characters/cutouts/unit-yin-hammer.png",
+      "master_sha256": "c938be92205d419b50903d528c0a2294fff86c48ebcc7b5d01f57df2f2c36fee",
+      "donor_palette": "D85840",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    "artillery": {
+      "master_id": "unit.yin.cannon",
+      "master_path": "game/assets/characters/cutouts/unit-yin-cannon.png",
+      "master_sha256": "6571230aa8da5f45b55eec67102b69fed1b78dcd19974fb5983483e0536ef4da",
+      "donor_palette": "D85840",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    "raider": {
+      "master_id": "unit.mo.raider",
+      "master_path": "game/assets/characters/cutouts/unit-mo-raider.png",
+      "master_sha256": "7c531787606c844464d704771406ab3b15a96bb3136ccf09045fbec709c4f56e",
+      "donor_palette": "7469B1",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    "poisoner": {
+      "master_id": "unit.mo.needle",
+      "master_path": "game/assets/characters/cutouts/unit-mo-needle.png",
+      "master_sha256": "cb3ebb35b86005b025f85e8062a4393cd23848fd9cc1d6f92207f89ee13812d1",
+      "donor_palette": "7469B1",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    "necromancer": {
+      "master_id": "unit.mo.priest",
+      "master_path": "game/assets/characters/cutouts/unit-mo-priest.png",
+      "master_sha256": "aa4b87b772f46be0f4f3fb2c87b7730efc5f870972e4226d582ebd684fac6ce8",
+      "donor_palette": "7469B1",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    "colossus": {
+      "master_id": "unit.mo.giant",
+      "master_path": "game/assets/characters/cutouts/unit-mo-giant.png",
+      "master_sha256": "48e0d0636b82207e21ce90dc3066de557b0b258c2b8e945c820afc01ab373684",
+      "donor_palette": "7469B1",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    "mirror": {
+      "master_id": "unit.deng.mirror",
+      "master_path": "game/assets/characters/cutouts/unit-deng-mirror.png",
+      "master_sha256": "baf2a7a1ba8ae8c72d50b5d650071b9300ac6d263e7cbe1f4fd276f42946bb36",
+      "donor_palette": "42A8A7",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    "repeater": {
+      "master_id": "unit.deng.fire",
+      "master_path": "game/assets/characters/cutouts/unit-deng-fire.png",
+      "master_sha256": "c82373a7c7f9e5d51651b82794d15237a5cf7aac398644379be7f08e5b1478a6",
+      "donor_palette": "42A8A7",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    "assassin": {
+      "master_id": "unit.deng.shadow",
+      "master_path": "game/assets/characters/cutouts/unit-deng-shadow.png",
+      "master_sha256": "12b129f16b58bd5e8cec35f2722a8b682777597ee215abb88933bbe559689903",
+      "donor_palette": "42A8A7",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    "guard": {
+      "master_id": "unit.deng.guard",
+      "master_path": "game/assets/characters/cutouts/unit-deng-guard.png",
+      "master_sha256": "e2b19095ab91bc2a2c3dcb31a57ef22852cc6343dd5be695a8e2f9797dba3057",
+      "donor_palette": "42A8A7",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    "engineer": {
+      "master_id": "unit.ji.engineer",
+      "master_path": "game/assets/characters/cutouts/unit-ji-engineer.png",
+      "master_sha256": "b482337309bae6b4868869738f9fc6e328d4696f1b2363828d47af4db2865bed",
+      "donor_palette": "E29643",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-ji.png",
+      "sha256": "ebffbf46646ba78c120bae94b50422444f49664f39a43865613d941df95ee0e7",
+      "model": "gpt-image-2.5",
+      "job": "army-ji"
+    },
+    "archer": {
+      "master_id": "unit.yuan.archer",
+      "master_path": "game/assets/characters/cutouts/unit-yuan-archer.png",
+      "master_sha256": "452460fa4bb8f0e3dcbea1b48cb459df45aca7e533481f8fe315716c7cb148c5",
+      "donor_palette": "528DC9",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yuan.png",
+      "sha256": "7764c96c22a5d2819008d8b2b3023809fd7fe1d592406a7104fcc4148b3ee3a4",
+      "model": "gpt-image-2.5",
+      "job": "army-yuan"
+    },
+    "harrier": {
+      "master_id": "unit.yuan.harrier",
+      "master_path": "game/assets/characters/cutouts/unit-yuan-harrier.png",
+      "master_sha256": "c5dd8cda01431a4ad50254666081917b5b015a3539c1b102da149e9a0fee1123",
+      "donor_palette": "528DC9",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yuan.png",
+      "sha256": "7764c96c22a5d2819008d8b2b3023809fd7fe1d592406a7104fcc4148b3ee3a4",
+      "model": "gpt-image-2.5",
+      "job": "army-yuan"
+    },
+    "executioner": {
+      "master_id": "unit.qi.executioner",
+      "master_path": "game/assets/characters/cutouts/unit-qi-executioner.png",
+      "master_sha256": "1fffd7f15fbb5d5937d0e560363d55bcef8276cec9e65ea1cd85dc309ab45bb6",
+      "donor_palette": "CBAC43",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-qi.png",
+      "sha256": "b935c5b26cf04f8bed576fada84b7e1cf757451510fc3ca03dbbf679ab2d1d1c",
+      "model": "gpt-image-2.5",
+      "job": "army-qi"
+    },
+    "siege": {
+      "master_id": "unit.qi.siege",
+      "master_path": "game/assets/characters/cutouts/unit-qi-siege.png",
+      "master_sha256": "2fcaaf870fc361968afe8505c74f9e6406ee6637a120241feb9827821ec26bb0",
+      "donor_palette": "CBAC43",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-qi.png",
+      "sha256": "b935c5b26cf04f8bed576fada84b7e1cf757451510fc3ca03dbbf679ab2d1d1c",
+      "model": "gpt-image-2.5",
+      "job": "army-qi"
+    },
+    "medic": {
+      "master_id": "unit.mu.medic",
+      "master_path": "game/assets/characters/cutouts/unit-mu-medic.png",
+      "master_sha256": "cf575f01f17b34b4aa588b6c4bf5610cbc3cfdd6d2cf73fd1c1ca18cb5bd77ed",
+      "donor_palette": "60975A",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mu.png",
+      "sha256": "c419e536b96665f875d514ee7bb2649f05d992d57254c3de34587784c9803471",
+      "model": "gpt-image-2.5",
+      "job": "army-mu"
+    },
+    "shield": {
+      "master_id": "unit.shuang.shield",
+      "master_path": "game/assets/characters/cutouts/unit-shuang-shield.png",
+      "master_sha256": "91620c9b0929cc1e0127cff95e96813ef0959915ae58dcddd3e7d6d2152b538f",
+      "donor_palette": "84C7D9",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "model": "gpt-image-2.5",
+      "job": "army-shuang"
+    },
+    "warden": {
+      "master_id": "unit.shuang.warden",
+      "master_path": "game/assets/characters/cutouts/unit-shuang-warden.png",
+      "master_sha256": "5fde880c3c1043b31f76340f7639ca645e8110c466b1cf2f3c5956859a1071eb",
+      "donor_palette": "84C7D9",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "model": "gpt-image-2.5",
+      "job": "army-shuang"
+    },
+    "mortar": {
+      "master_id": "unit.shuang.mortar",
+      "master_path": "game/assets/characters/cutouts/unit-shuang-mortar.png",
+      "master_sha256": "5155aeb40ef6ade492ae3dba55abdd63e3cec3b267347b64b82c5d8891df8b99",
+      "donor_palette": "84C7D9",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "model": "gpt-image-2.5",
+      "job": "army-shuang"
+    },
+    "berserker": {
+      "master_id": "unit.jin.berserker",
+      "master_path": "game/assets/characters/cutouts/unit-jin-berserker.png",
+      "master_sha256": "655d26af4710598ac15fefa422a22c3d1756b6944e0c74c04ad9a84901c6b75d",
+      "donor_palette": "DA773D",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-jin.png",
+      "sha256": "9e0c2518fca7eada8b1643485a876fdb960650315d1d0be913a3d3f0ce7bd36e",
+      "model": "gpt-image-2.5",
+      "job": "army-jin"
+    },
+    "leech": {
+      "master_id": "unit.jin.leech",
+      "master_path": "game/assets/characters/cutouts/unit-jin-leech.png",
+      "master_sha256": "5977c8982a553516a97bb5ec4174a572429271084845aeaadffebe950f6b0bd1",
+      "donor_palette": "DA773D",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-jin.png",
+      "sha256": "9e0c2518fca7eada8b1643485a876fdb960650315d1d0be913a3d3f0ce7bd36e",
+      "model": "gpt-image-2.5",
+      "job": "army-jin"
+    },
+    "oracle": {
+      "master_id": "unit.bai.oracle",
+      "master_path": "game/assets/characters/cutouts/unit-bai-oracle.png",
+      "master_sha256": "e0fdeee6af9df86065e34420e7442aa641368a8a79f6bc0ff3b0f93c23d39963",
+      "donor_palette": "425883",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-bai.png",
+      "sha256": "b38861b896266a06347578c8d9104f3b9f355eebb71077ced927d91463fa5e77",
+      "model": "gpt-image-2.5",
+      "job": "army-bai"
+    },
+    "banner": {
+      "master_id": "role.banner",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/banner.png",
+      "master_sha256": "ba9d14abeac3e2db822a443eae4c5257d045a8c8a5261b5d3373ac29fd3ada29",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        61,
+        17,
+        477,
+        565
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "burner": {
+      "master_id": "role.burner",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/burner.png",
+      "master_sha256": "219fbe66968cb6994f35513beec73eb82ce9743a957e0c1df97166b3edcdbd8c",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        648,
+        24,
+        977,
+        564
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "caravan": {
+      "master_id": "role.caravan",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/caravan.png",
+      "master_sha256": "097db7c8b3d3ce75a0e381610f0060bff72d332369e9e8bf9fc2ba516433e91c",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1105,
+        191,
+        1488,
+        564
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "chain": {
+      "master_id": "role.chain",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/chain.png",
+      "master_sha256": "889e3bb6ae370152b4525a0f3897a5963283847148dea9f21d71de5b889f824b",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        54,
+        608,
+        419,
+        1004
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "cleaver": {
+      "master_id": "role.cleaver",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/cleaver.png",
+      "master_sha256": "fbe6bd025ef9f5c93b74c3315461431733dcad8d9268491a01bc78e98aeb986c",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        615,
+        591,
+        1012,
+        1004
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "demolisher": {
+      "master_id": "role.demolisher",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/demolisher.png",
+      "master_sha256": "59fd1d4838c7aba9662009949fc6d1b4f7ab44e6394d361ab810fca6fd9dff40",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-00.png",
+      "sha256": "0ff95e0c49a5229ee12a8daf263aaa54faad18ebf05d18a3b6bbecb409c6b3bf",
+      "model": "gpt-image-2.5",
+      "job": "roles-00",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1182,
+        678,
+        1485,
+        1004
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "drummer": {
+      "master_id": "role.drummer",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/drummer.png",
+      "master_sha256": "1e3b0e7e2e6376e69e781f88f3ca99487981b24a8634eed5115689c471819222",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        77,
+        53,
+        394,
+        473
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "duelist": {
+      "master_id": "role.duelist",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/duelist.png",
+      "master_sha256": "1f8c3583f130471ea7651f778c6715f9d4bf68cc7c1127815383be0b9cca783b",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        531,
+        64,
+        1040,
+        464
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "illusionist": {
+      "master_id": "role.illusionist",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/illusionist.png",
+      "master_sha256": "886b090878a633d4cafc2bbcc5de17312b0ab347faf16a6f646ba9da554e06c9",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1095,
+        35,
+        1503,
+        469
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "lancer": {
+      "master_id": "role.lancer",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/lancer.png",
+      "master_sha256": "0004cb6fd31cc4d2b9ba1ba1b168e4785cb20e547772ea88cebab2f4e52387ab",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        45,
+        521,
+        496,
+        976
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "phoenix": {
+      "master_id": "role.phoenix",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/phoenix.png",
+      "master_sha256": "e62dad2bdbb70bef10c745fc4ae7f2765bcb1a99afb6852d5eec56f0090752a8",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        533,
+        518,
+        1038,
+        989
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "pike": {
+      "master_id": "role.pike",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/pike.png",
+      "master_sha256": "9c51cadcb755298bf36673476b0083a82faf7d4b5fa583701330a3cabad568a4",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-01.png",
+      "sha256": "5dce87b5d2f48349895da16424a0002779a0ba5fc4762fc8781a8d9d1f1380b3",
+      "model": "gpt-image-2.5",
+      "job": "roles-01",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1194,
+        465,
+        1499,
+        981
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "saboteur": {
+      "master_id": "role.saboteur",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/saboteur.png",
+      "master_sha256": "3bf2ec27309247921fae31212d5ce9ce5fbf49df124640447e31660d7e4df231",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-02.png",
+      "sha256": "f56a29fade859702c65b9f896f35a63dbb8130d766aaea28b9a36f1b07a84a5f",
+      "model": "gpt-image-2.5",
+      "job": "roles-02",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        47,
+        81,
+        405,
+        460
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "scribe": {
+      "master_id": "role.scribe",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/scribe.png",
+      "master_sha256": "57754ab7a80ef03c43d26578d86c7a7e92d9781fb6dbfc1563005d5eeb5e3375",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-02.png",
+      "sha256": "f56a29fade859702c65b9f896f35a63dbb8130d766aaea28b9a36f1b07a84a5f",
+      "model": "gpt-image-2.5",
+      "job": "roles-02",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        543,
+        63,
+        975,
+        470
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "sniper": {
+      "master_id": "role.sniper",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/sniper.png",
+      "master_sha256": "6a27acec80297732d0aa812bc20b5d5238ac678d4295a7ab334825b558360fb5",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-02.png",
+      "sha256": "f56a29fade859702c65b9f896f35a63dbb8130d766aaea28b9a36f1b07a84a5f",
+      "model": "gpt-image-2.5",
+      "job": "roles-02",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        997,
+        122,
+        1511,
+        466
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      }
+    },
+    "summoner": {
+      "master_id": "role.summoner",
+      "master_path": "output/imagegen/paper-warfront/theatre-v3/role-families/masters/summoner.png",
+      "master_sha256": "0835b7c703cb058d88bbd6c0f113637ce74dd3a6a1945b9dd30ee9ef7de4563b",
+      "donor_palette": "435AA3",
+      "source": "output/imagegen/paper-warfront/theatre-v3/role-families/roles-02.png",
+      "sha256": "f56a29fade859702c65b9f896f35a63dbb8130d766aaea28b9a36f1b07a84a5f",
+      "model": "gpt-image-2.5",
+      "job": "roles-02",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        23,
+        520,
+        521,
+        986
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      }
+    }
+  },
+  "palettes": {
+    "yin": "D85840",
+    "mo": "7469B1",
+    "deng": "42A8A7",
+    "ji": "E29643",
+    "yuan": "528DC9",
+    "qi": "CBAC43",
+    "mu": "60975A",
+    "shuang": "84C7D9",
+    "jin": "DA773D",
+    "bai": "425883"
+  },
+  "scope": "40 roles shared across ten faction palettes; 40 bespoke core troops, 360 palette variants and two summoned aliases. Not 400 independently generated illustrations."
+}

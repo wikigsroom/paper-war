@@ -1,0 +1,107 @@
+{
+  "revision": "rc20-ai-contact-budget-r10",
+  "status": "source-opt-in-mechanisms-verified-not-exported",
+  "formal_preview_version": "3.0.0-rc19-preview",
+  "default_enabled": false,
+  "formal_unit_price_changes": {},
+  "new_generated_images": 0,
+  "runtime_inputs": {
+    "game/scripts/ai_budget_planner.gd": "19987192e633784b4e531648909f8c18b240ea0886f99cf1da064d8d94695f15",
+    "game/scripts/tactical_ai.gd": "190b4f6d464a55ea0eccd86e40c305edba69f8f8583d47ed7b80f057448f1aef",
+    "game/tests/test_ai_contact_funding.gd": "6659bcda612c29783decac64f01ec60a4c9ed78dbff5e881228fc139baad696b",
+    "tools/paper-warfront/check_ai_engagement.py": "29ad439c6bdeb78d30dc7173b506b37d95dd4c7dbe94d4eeb6fdee1b9d489091",
+    "tools/paper-warfront/probe_budget_recovery.py": "4aee282316171f3dd676a837eb14ce74a50e02121bc62ed30b11c5f8d8ad5e2c",
+    "tools/paper-warfront/compare_contact_budget.py": "23b849d145a3e017d58b204ff22dfca993998bca32466842c1839c7c966a9b40",
+    "tools/paper-warfront/probe_contact_price.py": "f859645673ed0633e04c34aa2121337a4a50a70812c4a9f069a30c3504f26f0e"
+  },
+  "controlled_checks": [
+    {
+      "path": "output/qa/godot/core-alignment-rc20/contact-funding-before/r10-harness-r8.log",
+      "sha256": "bc9a86fa375b58ed39399808d21bd320db1e8f62f40626d4968f8e535791250c",
+      "checks": 70,
+      "failures": 14
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/contact-funding-before/r10-harness-r9.log",
+      "sha256": "3342fd609e6080dbfcf5d6ced8e2c28503f86c2369e2ad49b33cb53d844772e7",
+      "checks": 70,
+      "failures": 16
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/contact-funding-after/r10.log",
+      "sha256": "75e77d854605408b44d247623ded85df930c01aa3d97f0e8285cd1a46206e597",
+      "checks": 70,
+      "failures": 0
+    }
+  ],
+  "final_source_mechanisms": {
+    "groups": 63,
+    "checks": 13808,
+    "passed": true
+  },
+  "matched_observations": {
+    "seed": 271,
+    "seconds": 300,
+    "candidate_conditions": 24,
+    "identical_default_control_conditions": 12,
+    "r8": {
+      "wins": 17,
+      "losses": 1,
+      "unresolved": 6,
+      "draws": 0,
+      "studies_completed": 34,
+      "studies_with_paid_orders": 29,
+      "studies_with_first_hits": 16,
+      "first_cohort_hits": 306,
+      "research_gold_without_followup": 434,
+      "sides_without_workers_including_queue": 2
+    },
+    "r10": {
+      "wins": 17,
+      "losses": 1,
+      "unresolved": 6,
+      "draws": 0,
+      "studies_completed": 34,
+      "studies_with_paid_orders": 29,
+      "studies_with_first_hits": 16,
+      "first_cohort_hits": 306,
+      "research_gold_without_followup": 434,
+      "sides_without_workers_including_queue": 2
+    },
+    "balance_accepted": false
+  },
+  "isolated_price_pilot": {
+    "unit": "unit.jin.berserker",
+    "formal_gold": 125,
+    "experimental_gold": 75,
+    "applies_to_both_sides": true,
+    "observations": 9,
+    "candidate_conditions": 6,
+    "candidate_wins": 6,
+    "candidate_completed_unit_studies": 0,
+    "formal_price_changed": false
+  },
+  "evidence": [
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r8-r9-comparison.json",
+      "sha256": "30e041cfd96f18702397b5f50f984e431c26b5d8dca5df3b650f498302d5dee8"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r8-r10-comparison.json",
+      "sha256": "91c670e072a52834805946aa60d0f362dc6c9abbd0ff70dc8f7758b085cc7deb"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/r9-r10-comparison.json",
+      "sha256": "9700dbe536497a9590b8295bb6a249654df6cb292d9eb3e22092df094c3f3605"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/engagement-regression-r10/report.json",
+      "sha256": "360e9283e9f77c0aaec6fad5820b960a3ce4fab752e60bf7231450eaa24bd053"
+    },
+    {
+      "path": "output/qa/godot/core-alignment-rc20/jin-price-75-pilot-final/comparison.json",
+      "sha256": "4a6063c9618662f1d349bd187fd2cb0e34e4e0a926f2003b252c1a33aa2159be"
+    }
+  ],
+  "scope": "Native Windows CPU only. R10 restores the matched R8 outcomes; no improvement in paid research follow-up. Price experiment improves advancement but has zero advanced-unit studies. Default AI and formal fees unchanged; no rc20 executable, full balance, human or Android hardware acceptance."
+}

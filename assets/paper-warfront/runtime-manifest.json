@@ -1,0 +1,759 @@
+{
+  "version": "0.1.0",
+  "stage": "exported-candidates",
+  "assets": {
+    "unit.yin.axe": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-yin-axe.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.8,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-yin-axe.png",
+      "rig": "assets/paper-warfront/rigs/unit-yin-axe.json"
+    },
+    "unit.yin.spear": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-yin-spear.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.72,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-yin-spear.png",
+      "rig": "assets/paper-warfront/rigs/unit-yin-spear.json"
+    },
+    "unit.yin.hammer": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-yin-hammer.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 2.16,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-yin-hammer.png",
+      "rig": "assets/paper-warfront/rigs/unit-yin-hammer.json"
+    },
+    "unit.yin.cannon": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-yin-cannon.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.34,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-yin-cannon.png",
+      "rig": "assets/paper-warfront/rigs/unit-yin-cannon.json"
+    },
+    "unit.yin.worker": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-yin-worker.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.48,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-yin-worker.png",
+      "rig": "assets/paper-warfront/rigs/unit-yin-worker.json"
+    },
+    "portrait.yin.commander": {
+      "path": "assets/paper-warfront/characters/cutouts/portrait-yin-commander.png",
+      "category": "portrait",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 2.0,
+      "portrait": "assets/paper-warfront/ui/portraits/portrait-yin-commander.png"
+    },
+    "unit.mo.blade": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-blade.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.82,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-blade.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-blade.json"
+    },
+    "unit.mo.needle": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-needle.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.73,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-needle.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-needle.json"
+    },
+    "unit.mo.priest": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-priest.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.9,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-priest.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-priest.json"
+    },
+    "unit.mo.giant": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-giant.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 3.42,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-giant.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-giant.json"
+    },
+    "unit.mo.worker": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-worker.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.48,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-worker.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-worker.json"
+    },
+    "unit.mo.thrall": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-mo-thrall.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.36,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-mo-thrall.png",
+      "rig": "assets/paper-warfront/rigs/unit-mo-thrall.json"
+    },
+    "unit.deng.mirror": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-mirror.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.82,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-mirror.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-mirror.json"
+    },
+    "unit.deng.fire": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-fire.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.7,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-fire.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-fire.json"
+    },
+    "unit.deng.shadow": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-shadow.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.78,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-shadow.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-shadow.json"
+    },
+    "unit.deng.effigy": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-effigy.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 2.12,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-effigy.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-effigy.json"
+    },
+    "unit.deng.worker": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-worker.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.48,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-worker.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-worker.json"
+    },
+    "unit.deng.guardian": {
+      "path": "assets/paper-warfront/characters/cutouts/unit-deng-guardian.png",
+      "category": "unit",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 1.94,
+      "portrait": "assets/paper-warfront/ui/portraits/unit-deng-guardian.png",
+      "rig": "assets/paper-warfront/rigs/unit-deng-guardian.json"
+    },
+    "portrait.mo.commander": {
+      "path": "assets/paper-warfront/characters/cutouts/portrait-mo-commander.png",
+      "category": "portrait",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 2.0,
+      "portrait": "assets/paper-warfront/ui/portraits/portrait-mo-commander.png"
+    },
+    "portrait.deng.commander": {
+      "path": "assets/paper-warfront/characters/cutouts/portrait-deng-commander.png",
+      "category": "portrait",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "status": "visual-reviewed",
+      "world_height": 2.0,
+      "portrait": "assets/paper-warfront/ui/portraits/portrait-deng-commander.png"
+    },
+    "spell.yin.repair": {
+      "path": "assets/paper-warfront/ui/icons/spell-yin-repair.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.lightning": {
+      "path": "assets/paper-warfront/ui/icons/spell-yin-lightning.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.cold": {
+      "path": "assets/paper-warfront/ui/icons/spell-yin-cold.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.fury": {
+      "path": "assets/paper-warfront/ui/icons/spell-yin-fury.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.yin.stamp": {
+      "path": "assets/paper-warfront/ui/icons/spell-yin-stamp.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.sacrifice": {
+      "path": "assets/paper-warfront/ui/icons/spell-mo-sacrifice.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.bind": {
+      "path": "assets/paper-warfront/ui/icons/spell-mo-bind.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.poison": {
+      "path": "assets/paper-warfront/ui/icons/spell-mo-poison.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.convert": {
+      "path": "assets/paper-warfront/ui/icons/spell-mo-convert.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.mo.burst": {
+      "path": "assets/paper-warfront/ui/icons/spell-mo-burst.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.protect": {
+      "path": "assets/paper-warfront/ui/icons/spell-deng-protect.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.clone": {
+      "path": "assets/paper-warfront/ui/icons/spell-deng-clone.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.fire": {
+      "path": "assets/paper-warfront/ui/icons/spell-deng-fire.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.root": {
+      "path": "assets/paper-warfront/ui/icons/spell-deng-root.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "spell.deng.guardian": {
+      "path": "assets/paper-warfront/ui/icons/spell-deng-guardian.png",
+      "category": "spell",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "building.yin.base": {
+      "path": "assets/paper-warfront/buildings/reference/building-yin-base.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "building.mo.base": {
+      "path": "assets/paper-warfront/buildings/reference/building-mo-base.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "building.deng.base": {
+      "path": "assets/paper-warfront/buildings/reference/building-deng-base.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "building.yin.tower": {
+      "path": "assets/paper-warfront/buildings/reference/building-yin-tower.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "building.mo.tower": {
+      "path": "assets/paper-warfront/buildings/reference/building-mo-tower.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "building.deng.mana": {
+      "path": "assets/paper-warfront/buildings/reference/building-deng-mana.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "resource.common.mine": {
+      "path": "assets/paper-warfront/buildings/reference/resource-common-mine.png",
+      "category": "resource",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "prop.common.gold-cart": {
+      "path": "assets/paper-warfront/props/prop-common-gold-cart.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "building.deng.tower": {
+      "path": "assets/paper-warfront/buildings/reference/building-deng-tower.png",
+      "category": "building",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "ui.gold": {
+      "path": "assets/paper-warfront/ui/icons/ui-gold.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.mana": {
+      "path": "assets/paper-warfront/ui/icons/ui-mana.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.tech": {
+      "path": "assets/paper-warfront/ui/icons/ui-tech.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.cancel": {
+      "path": "assets/paper-warfront/ui/icons/ui-cancel.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.home": {
+      "path": "assets/paper-warfront/ui/icons/ui-home.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.front": {
+      "path": "assets/paper-warfront/ui/icons/ui-front.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.navigate": {
+      "path": "assets/paper-warfront/ui/icons/ui-navigate.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.pause": {
+      "path": "assets/paper-warfront/ui/icons/ui-pause.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.resume": {
+      "path": "assets/paper-warfront/ui/icons/ui-resume.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.sound": {
+      "path": "assets/paper-warfront/ui/icons/ui-sound.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.settings": {
+      "path": "assets/paper-warfront/ui/icons/ui-settings.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.lock": {
+      "path": "assets/paper-warfront/ui/icons/ui-lock.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.info": {
+      "path": "assets/paper-warfront/ui/icons/ui-info.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.victory": {
+      "path": "assets/paper-warfront/ui/icons/ui-victory.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.defeat": {
+      "path": "assets/paper-warfront/ui/icons/ui-defeat.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "ui.build": {
+      "path": "assets/paper-warfront/ui/icons/ui-build.png",
+      "category": "ui",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.ivory": {
+      "path": "assets/paper-warfront/materials/texture-paper-ivory.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.red": {
+      "path": "assets/paper-warfront/materials/texture-paper-red.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.ink": {
+      "path": "assets/paper-warfront/materials/texture-paper-ink.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.jade": {
+      "path": "assets/paper-warfront/materials/texture-paper-jade.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.gold": {
+      "path": "assets/paper-warfront/materials/texture-paper-gold.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.edge": {
+      "path": "assets/paper-warfront/materials/texture-paper-edge.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.paper.wood": {
+      "path": "assets/paper-warfront/materials/texture-paper-wood.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.ground.path": {
+      "path": "assets/paper-warfront/materials/texture-ground-path.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "texture.ink.grain": {
+      "path": "assets/paper-warfront/materials/texture-ink-grain.png",
+      "category": "texture",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.pine": {
+      "path": "assets/paper-warfront/props/prop-terrain-pine.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.rock": {
+      "path": "assets/paper-warfront/props/prop-terrain-rock.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.reeds": {
+      "path": "assets/paper-warfront/props/prop-terrain-reeds.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.arch": {
+      "path": "assets/paper-warfront/props/prop-terrain-arch.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.bridge": {
+      "path": "assets/paper-warfront/props/prop-terrain-bridge.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.yin.banner": {
+      "path": "assets/paper-warfront/props/prop-yin-banner.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.mo.banner": {
+      "path": "assets/paper-warfront/props/prop-mo-banner.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.deng.banner": {
+      "path": "assets/paper-warfront/props/prop-deng-banner.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "prop.terrain.lantern": {
+      "path": "assets/paper-warfront/props/prop-terrain-lantern.png",
+      "category": "prop",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "fx.repair": {
+      "path": "assets/paper-warfront/fx/motifs/fx-repair.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.lightning": {
+      "path": "assets/paper-warfront/fx/motifs/fx-lightning.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.cold": {
+      "path": "assets/paper-warfront/fx/motifs/fx-cold.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.impact": {
+      "path": "assets/paper-warfront/fx/motifs/fx-impact.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.sacrifice": {
+      "path": "assets/paper-warfront/fx/motifs/fx-sacrifice.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.poison": {
+      "path": "assets/paper-warfront/fx/motifs/fx-poison.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.control": {
+      "path": "assets/paper-warfront/fx/motifs/fx-control.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.summon": {
+      "path": "assets/paper-warfront/fx/motifs/fx-summon.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.protect": {
+      "path": "assets/paper-warfront/fx/motifs/fx-protect.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.clone": {
+      "path": "assets/paper-warfront/fx/motifs/fx-clone.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.fire": {
+      "path": "assets/paper-warfront/fx/motifs/fx-fire.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "fx.root": {
+      "path": "assets/paper-warfront/fx/motifs/fx-root.png",
+      "category": "fx",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "status": "visual-reviewed"
+    },
+    "background.stamp-plain": {
+      "path": "assets/paper-warfront/backgrounds/background-stamp-plain.png",
+      "category": "background",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "background.ink-marsh": {
+      "path": "assets/paper-warfront/backgrounds/background-ink-marsh.png",
+      "category": "background",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "background.lantern-ridge": {
+      "path": "assets/paper-warfront/backgrounds/background-lantern-ridge.png",
+      "category": "background",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "visual-reviewed"
+    },
+    "audio.ui.click": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-click.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.cancel": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-cancel.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.invalid": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-invalid.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.research": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-research.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.recruit": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-recruit.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.ui.gold": {
+      "path": "assets/paper-warfront/audio/sfx/audio-ui-gold.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.paper-step": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-paper-step.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.slash": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-slash.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.throw": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-throw.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.hit": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-hit.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.heavy": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-heavy.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.cannon": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-cannon.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.combat.death": {
+      "path": "assets/paper-warfront/audio/sfx/audio-combat-death.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.repair": {
+      "path": "assets/paper-warfront/audio/sfx/audio-magic-repair.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.ink": {
+      "path": "assets/paper-warfront/audio/sfx/audio-magic-ink.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.seal": {
+      "path": "assets/paper-warfront/audio/sfx/audio-magic-seal.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.magic.clone": {
+      "path": "assets/paper-warfront/audio/sfx/audio-magic-clone.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.result.victory": {
+      "path": "assets/paper-warfront/audio/sfx/audio-result-victory.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.result.defeat": {
+      "path": "assets/paper-warfront/audio/sfx/audio-result-defeat.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.warning.base": {
+      "path": "assets/paper-warfront/audio/sfx/audio-warning-base.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.yin": {
+      "path": "assets/paper-warfront/audio/sfx/audio-music-yin.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.mo": {
+      "path": "assets/paper-warfront/audio/sfx/audio-music-mo.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    },
+    "audio.music.deng": {
+      "path": "assets/paper-warfront/audio/sfx/audio-music-deng.wav",
+      "category": "audio",
+      "usage": "runtime-candidate-after-visual-review",
+      "status": "derived-candidate"
+    }
+  }
+}

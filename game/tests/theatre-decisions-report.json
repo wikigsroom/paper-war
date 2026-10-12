@@ -1,0 +1,1100 @@
+{
+	"checks": [
+		{
+			"data": {
+				"fast": {
+					"id": "unit.yin.axe",
+					"mana": 46.8999999999996,
+					"side": 0,
+					"time": 13.8000000000003,
+					"x": 21.0002632141113
+				},
+				"heavy": {
+					"id": "unit.yin.cannon",
+					"mana": 54.0583333333325,
+					"side": 0,
+					"time": 28.1166666666664,
+					"x": 21.0039005279541
+				}
+			},
+			"kind": "long-map reinforcement delay: side 0",
+			"passed": true
+		},
+		{
+			"data": {
+				"fast": {
+					"id": "unit.yin.axe",
+					"mana": 46.8999999999996,
+					"side": 1,
+					"time": 13.8000000000003,
+					"x": 36.9997367858887
+				},
+				"heavy": {
+					"id": "unit.yin.cannon",
+					"mana": 54.0583333333325,
+					"side": 1,
+					"time": 28.1166666666664,
+					"x": 36.9960975646973
+				}
+			},
+			"kind": "long-map reinforcement delay: side 1",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "paper bridge takes extra reinforcement time",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {
+				"bridge": {
+					"defender": "ground.2",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "bridge",
+					"time": 23.6666666666666
+				},
+				"direct": {
+					"defender": "ground.2",
+					"hp": 0.0,
+					"reached_merge": false,
+					"route": "ground.2",
+					"time": 24.7499999999999
+				}
+			},
+			"kind": "bridge avoids the main melee position",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "fork fixture recruits through paid production",
+			"passed": true
+		},
+		{
+			"data": {
+				"bridge": {
+					"defender": "bridge",
+					"hp": 0.0,
+					"reached_merge": false,
+					"route": "bridge",
+					"time": 25.4833333333332
+				},
+				"direct": {
+					"defender": "bridge",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "ground.2",
+					"time": 22.1833333333334
+				}
+			},
+			"kind": "ground route avoids an upper melee position",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "bridge target visibility matches scouting",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "bridge target visibility matches scouting",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "bridge target visibility matches scouting",
+			"passed": true
+		},
+		{
+			"data": {
+				"hits": 2
+			},
+			"kind": "cross-route ranged hit at the bridge approach",
+			"passed": true
+		},
+		{
+			"data": {
+				"hits": 2
+			},
+			"kind": "bridge height gives no immunity inside the actual 4.2 range",
+			"passed": true
+		},
+		{
+			"data": {
+				"hits": 0
+			},
+			"kind": "bridge target beyond actual 2D range cannot be hit",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "bridge target visibility matches scouting",
+			"passed": true
+		},
+		{
+			"data": {
+				"hits": 0
+			},
+			"kind": "unscouted bridge target cannot be shot across roads",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "intercept target dies before line: victory",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "live crossing remains failure after later same-tick impact",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "escort must arrive alive",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "live named escort reaches goal",
+			"passed": true
+		},
+		{
+			"data": {
+				"time": 79.2833333333301
+			},
+			"kind": "escort endpoint seam settles after crossing: map.01.10",
+			"passed": true
+		},
+		{
+			"data": {
+				"time": 75.0166666666637
+			},
+			"kind": "escort endpoint seam settles after crossing: map.01.16",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "entry unit pays ordinary recruitment price",
+			"passed": true
+		},
+		{
+			"data": {
+				"spawn_x": 33.0
+			},
+			"kind": "paid enemy production uses the declared first entrance",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "base destruction cannot skip protect",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "destroyed base cannot recruit",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "base destruction cannot skip survive",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "destroyed base cannot recruit",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "base destruction cannot skip intercept",
+			"passed": true
+		},
+		{
+			"data": {},
+			"kind": "destroyed base cannot recruit",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 96,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 1,
+					"lost": 8,
+					"mana_income": {
+						"passive": 47.7583333333313
+					},
+					"mana_spent": 60,
+					"recruited": 6,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 2
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					7.19999999999998,
+					7.21666666666665
+				],
+				"first_hit": 17.5000000000003,
+				"map": "map.01.01",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 192,
+					"healed": 85,
+					"interrupts": 0,
+					"killed": 8,
+					"lost": 1,
+					"mana_income": {
+						"passive": 47.7583333333313
+					},
+					"mana_spent": 65,
+					"recruited": 4,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 95.5166666666625,
+				"winner": 0
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.01",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.01",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 88,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 1,
+					"lost": 9,
+					"mana_income": {
+						"passive": 52.2166666666643
+					},
+					"mana_spent": 90,
+					"recruited": 7,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 3
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					10.1666666666668,
+					10.1833333333334
+				],
+				"first_hit": 17.2833333333336,
+				"map": "map.01.07",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 160,
+					"healed": 170,
+					"interrupts": 0,
+					"killed": 9,
+					"lost": 1,
+					"mana_income": {
+						"passive": 52.2166666666643
+					},
+					"mana_spent": 90,
+					"recruited": 5,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 2
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 104.433333333329,
+				"winner": 0
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.07",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.07",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 112,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 7,
+					"mana_income": {
+						"passive": 60.3499999999972
+					},
+					"mana_spent": 75,
+					"recruited": 5,
+					"reflections": 9,
+					"spell_counts": {
+						"spell.deng.clone": 1,
+						"spell.deng.protect": 1
+					},
+					"summons": 1
+				},
+				"first_deposit": [
+					8.66666666666668,
+					8.68333333333334
+				],
+				"first_hit": 22.7666666666667,
+				"map": "map.01.11",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 400,
+					"healed": 76,
+					"interrupts": 0,
+					"killed": 7,
+					"lost": 2,
+					"mana_income": {
+						"passive": 60.3499999999972
+					},
+					"mana_spent": 65,
+					"recruited": 8,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 120.699999999994,
+				"winner": 0
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.11",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.11",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 4,
+					"gold_delivered": 280,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 7,
+					"lost": 10,
+					"mana_income": {
+						"passive": 90.0000000000177
+					},
+					"mana_spent": 120,
+					"recruited": 8,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 4
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					7.19999999999998,
+					7.21666666666665
+				],
+				"first_hit": 12.5166666666669,
+				"map": "map.01.04",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 4,
+					"gold_delivered": 544,
+					"healed": 201,
+					"interrupts": 0,
+					"killed": 10,
+					"lost": 7,
+					"mana_income": {
+						"passive": 90.0000000000177
+					},
+					"mana_spent": 115,
+					"recruited": 11,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 3
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 180.000000000035,
+				"winner": -2
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.04",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.04",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 1,
+					"gold_delivered": 64,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 3,
+					"lost": 2,
+					"mana_income": {
+						"passive": 18.2166666666663
+					},
+					"mana_spent": 30,
+					"recruited": 2,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 1
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					11.5666666666668,
+					7.21666666666665
+				],
+				"first_hit": 16.266666666667,
+				"map": "map.01.12",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 1,
+					"gold_delivered": 64,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 3,
+					"mana_income": {
+						"passive": 18.2166666666663
+					},
+					"mana_spent": 40,
+					"recruited": 6,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 36.4333333333325,
+				"winner": 0
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.12",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.12",
+			"passed": true
+		},
+		{
+			"data": {
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 248,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 0,
+					"lost": 11,
+					"mana_income": {
+						"passive": 54.7333333333309
+					},
+					"mana_spent": 90,
+					"recruited": 9,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 3
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					11.5666666666668,
+					8.68333333333334
+				],
+				"first_hit": 25.8833333333331,
+				"map": "map.01.06",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 208,
+					"healed": 170,
+					"interrupts": 0,
+					"killed": 11,
+					"lost": 0,
+					"mana_income": {
+						"passive": 54.7333333333309
+					},
+					"mana_spent": 90,
+					"recruited": 5,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 2
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 109.466666666662,
+				"winner": 0
+			},
+			"kind": "authored-map first combat within 30 seconds: map.01.06",
+			"passed": true
+		},
+		{
+			"data": {
+				"counts": [
+					7,
+					7
+				]
+			},
+			"kind": "normal missions retain six combat choices plus worker: map.01.06",
+			"passed": true
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"failures": [],
+	"inputs": {
+		"res://data/balance-prototype.json": "d9a40238835333ecebe45be5ad82176fceef55431d922c9991768df12eb3e820",
+		"res://data/campaign.json": "57a7b770ed5eb99820b7bfc086056c5194d7ef41dc4f9a9b2bb497f399f1b430",
+		"res://data/maps.json": "0ed93e9a72e6c9e31c31e5f82cc9b95823e82e85948a282dad74284a3da1f2c9",
+		"res://scripts/battle_sim.gd": "673e6df80c79b080d82517e92653c95b208de81f5c6c5eed53a8eb848832af17",
+		"res://scripts/map_runtime.gd": "f151553cd960a6114d6be9d49646a55083cf9a59b2d50587ca2725c3ffb117a2",
+		"res://scripts/tactical_ai.gd": "82078d7f82df5ba87c18976da80f647fe4546597544fa88a0c4cd17fc1478a55"
+	},
+	"measurements": {
+		"authored_smoke": [
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 96,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 1,
+					"lost": 8,
+					"mana_income": {
+						"passive": 47.7583333333313
+					},
+					"mana_spent": 60,
+					"recruited": 6,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 2
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					7.19999999999998,
+					7.21666666666665
+				],
+				"first_hit": 17.5000000000003,
+				"map": "map.01.01",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 192,
+					"healed": 85,
+					"interrupts": 0,
+					"killed": 8,
+					"lost": 1,
+					"mana_income": {
+						"passive": 47.7583333333313
+					},
+					"mana_spent": 65,
+					"recruited": 4,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 95.5166666666625,
+				"winner": 0
+			},
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 88,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 1,
+					"lost": 9,
+					"mana_income": {
+						"passive": 52.2166666666643
+					},
+					"mana_spent": 90,
+					"recruited": 7,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 3
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					10.1666666666668,
+					10.1833333333334
+				],
+				"first_hit": 17.2833333333336,
+				"map": "map.01.07",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 160,
+					"healed": 170,
+					"interrupts": 0,
+					"killed": 9,
+					"lost": 1,
+					"mana_income": {
+						"passive": 52.2166666666643
+					},
+					"mana_spent": 90,
+					"recruited": 5,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 2
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 104.433333333329,
+				"winner": 0
+			},
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 112,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 7,
+					"mana_income": {
+						"passive": 60.3499999999972
+					},
+					"mana_spent": 75,
+					"recruited": 5,
+					"reflections": 9,
+					"spell_counts": {
+						"spell.deng.clone": 1,
+						"spell.deng.protect": 1
+					},
+					"summons": 1
+				},
+				"first_deposit": [
+					8.66666666666668,
+					8.68333333333334
+				],
+				"first_hit": 22.7666666666667,
+				"map": "map.01.11",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 2,
+					"gold_delivered": 400,
+					"healed": 76,
+					"interrupts": 0,
+					"killed": 7,
+					"lost": 2,
+					"mana_income": {
+						"passive": 60.3499999999972
+					},
+					"mana_spent": 65,
+					"recruited": 8,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 120.699999999994,
+				"winner": 0
+			},
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 4,
+					"gold_delivered": 280,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 7,
+					"lost": 10,
+					"mana_income": {
+						"passive": 90.0000000000177
+					},
+					"mana_spent": 120,
+					"recruited": 8,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 4
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					7.19999999999998,
+					7.21666666666665
+				],
+				"first_hit": 12.5166666666669,
+				"map": "map.01.04",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 4,
+					"gold_delivered": 544,
+					"healed": 201,
+					"interrupts": 0,
+					"killed": 10,
+					"lost": 7,
+					"mana_income": {
+						"passive": 90.0000000000177
+					},
+					"mana_spent": 115,
+					"recruited": 11,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 3
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 180.000000000035,
+				"winner": -2
+			},
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 1,
+					"gold_delivered": 64,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 3,
+					"lost": 2,
+					"mana_income": {
+						"passive": 18.2166666666663
+					},
+					"mana_spent": 30,
+					"recruited": 2,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 1
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					11.5666666666668,
+					7.21666666666665
+				],
+				"first_hit": 16.266666666667,
+				"map": "map.01.12",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 1,
+					"gold_delivered": 64,
+					"healed": 0,
+					"interrupts": 0,
+					"killed": 2,
+					"lost": 3,
+					"mana_income": {
+						"passive": 18.2166666666663
+					},
+					"mana_spent": 40,
+					"recruited": 6,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 36.4333333333325,
+				"winner": 0
+			},
+			{
+				"enemy": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 248,
+					"healed": 0,
+					"interrupts": 1,
+					"killed": 0,
+					"lost": 11,
+					"mana_income": {
+						"passive": 54.7333333333309
+					},
+					"mana_spent": 90,
+					"recruited": 9,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.mo.bind": 3
+					},
+					"summons": 0
+				},
+				"first_deposit": [
+					11.5666666666668,
+					8.68333333333334
+				],
+				"first_hit": 25.8833333333331,
+				"map": "map.01.06",
+				"player": {
+					"build_counts": {},
+					"buildings": 0,
+					"casts": 3,
+					"gold_delivered": 208,
+					"healed": 170,
+					"interrupts": 0,
+					"killed": 11,
+					"lost": 0,
+					"mana_income": {
+						"passive": 54.7333333333309
+					},
+					"mana_spent": 90,
+					"recruited": 5,
+					"reflections": 0,
+					"spell_counts": {
+						"spell.yin.lightning": 1,
+						"spell.yin.repair": 2
+					},
+					"summons": 0
+				},
+				"production_counts": [
+					7,
+					7
+				],
+				"time": 109.466666666662,
+				"winner": 0
+			}
+		],
+		"long_map": [
+			{
+				"fast": {
+					"id": "unit.yin.axe",
+					"mana": 46.8999999999996,
+					"side": 0,
+					"time": 13.8000000000003,
+					"x": 21.0002632141113
+				},
+				"heavy": {
+					"id": "unit.yin.cannon",
+					"mana": 54.0583333333325,
+					"side": 0,
+					"time": 28.1166666666664,
+					"x": 21.0039005279541
+				}
+			},
+			{
+				"fast": {
+					"id": "unit.yin.axe",
+					"mana": 46.8999999999996,
+					"side": 1,
+					"time": 13.8000000000003,
+					"x": 36.9997367858887
+				},
+				"heavy": {
+					"id": "unit.yin.cannon",
+					"mana": 54.0583333333325,
+					"side": 1,
+					"time": 28.1166666666664,
+					"x": 36.9960975646973
+				}
+			}
+		],
+		"route_pressure_matrix": [
+			{
+				"bridge": {
+					"defender": "",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "bridge",
+					"time": 23.6666666666666
+				},
+				"defender": "",
+				"direct": {
+					"defender": "",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "ground.2",
+					"time": 22.1833333333334
+				}
+			},
+			{
+				"bridge": {
+					"defender": "ground.2",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "bridge",
+					"time": 23.6666666666666
+				},
+				"defender": "ground.2",
+				"direct": {
+					"defender": "ground.2",
+					"hp": 0.0,
+					"reached_merge": false,
+					"route": "ground.2",
+					"time": 24.7499999999999
+				}
+			},
+			{
+				"bridge": {
+					"defender": "bridge",
+					"hp": 0.0,
+					"reached_merge": false,
+					"route": "bridge",
+					"time": 25.4833333333332
+				},
+				"defender": "bridge",
+				"direct": {
+					"defender": "bridge",
+					"hp": 160.0,
+					"reached_merge": true,
+					"route": "ground.2",
+					"time": 22.1833333333334
+				}
+			}
+		]
+	},
+	"passed": true,
+	"scope": "Native controlled route-pressure alternatives, real paid production, reinforcement timing, two-dimensional ranged hits, explicit mission event order and six automated opening smokes. Not original-HD measurements, human balance acceptance or Android hardware QA."
+}

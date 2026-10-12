@@ -1,0 +1,42 @@
+[
+  {
+    "id": "R01",
+    "url": "https://joostdevblog.blogspot.com/2010/12/designing-levels-without-tools.html",
+    "retrieved": "2026-10-08",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R02",
+    "url": "https://joostdevblog.blogspot.com/2014/07/evolving-level-art-from-swords-soldiers.html",
+    "retrieved": "2026-10-08",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R03",
+    "url": "https://www.nintendo.com/en-gb/Games/WiiWare/Swords-Soldiers-286811.html",
+    "retrieved": "2026-10-08",
+    "http_status": 200,
+    "final_url": "https://www.nintendo.com/en-gb/Games/WiiWare/Swords-Soldiers-286811.html",
+    "content_sha256": "91d59ed639e229c0d67f9b1ed578305e25d673663f83b742a07f3df23bf09ec0",
+    "title": "Swords & Soldiers | WiiWare | Games | Nintendo UK",
+    "article_images": [],
+    "image_links": [],
+    "status": "retrieved"
+  },
+  {
+    "id": "R04",
+    "url": "https://steamcommunity.com/stats/63500/achievements/?l=english",
+    "retrieved": "2026-10-08",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "id": "R05",
+    "url": "https://joostdevblog.blogspot.com/2011/01/ai-in-swords-soldiers-part-2.html",
+    "retrieved": "2026-10-08",
+    "status": "unavailable",
+    "error": "<urlopen error timed out>"
+  }
+]

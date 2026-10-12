@@ -1,0 +1,1455 @@
+{
+  "version": 5,
+  "profiles": {
+    "unit.yin.axe": {
+      "id": "unit.yin.axe",
+      "role": "vanguard",
+      "gesture": "slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.yin.axe",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.spear": {
+      "id": "unit.yin.spear",
+      "role": "javelin",
+      "gesture": "throw",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.yin.spear",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.hammer": {
+      "id": "unit.yin.hammer",
+      "role": "crusher",
+      "gesture": "hammer",
+      "projectile": "",
+      "windup": 0.38,
+      "recovery": 0.3,
+      "source_art": "unit.yin.hammer",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.cannon": {
+      "id": "unit.yin.cannon",
+      "role": "artillery",
+      "gesture": "stamp_machine",
+      "projectile": "seal",
+      "windup": 0.4,
+      "recovery": 0.3,
+      "source_art": "unit.yin.cannon",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.banner": {
+      "id": "unit.yin.banner",
+      "role": "banner",
+      "gesture": "banner",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.yin.banner",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.guard": {
+      "id": "unit.yin.guard",
+      "role": "guard",
+      "gesture": "shield",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.yin.guard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yin.worker": {
+      "id": "unit.yin.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.yin.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.mo.blade": {
+      "id": "unit.mo.blade",
+      "role": "lancer",
+      "gesture": "dual_slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.mo.blade",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.needle": {
+      "id": "unit.mo.needle",
+      "role": "poisoner",
+      "gesture": "blowpipe",
+      "projectile": "needle",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mo.needle",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.priest": {
+      "id": "unit.mo.priest",
+      "role": "necromancer",
+      "gesture": "ritual",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mo.priest",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.giant": {
+      "id": "unit.mo.giant",
+      "role": "colossus",
+      "gesture": "punch",
+      "projectile": "",
+      "windup": 0.65,
+      "recovery": 0.3,
+      "source_art": "unit.mo.giant",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.leech": {
+      "id": "unit.mo.leech",
+      "role": "leech",
+      "gesture": "reap",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mo.leech",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.warden": {
+      "id": "unit.mo.warden",
+      "role": "warden",
+      "gesture": "pin_cast",
+      "projectile": "needle",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mo.warden",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mo.worker": {
+      "id": "unit.mo.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.mo.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.deng.mirror": {
+      "id": "unit.deng.mirror",
+      "role": "mirror",
+      "gesture": "mirror",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.deng.mirror",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.fire": {
+      "id": "unit.deng.fire",
+      "role": "repeater",
+      "gesture": "talisman",
+      "projectile": "fire",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.deng.fire",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.shadow": {
+      "id": "unit.deng.shadow",
+      "role": "assassin",
+      "gesture": "stab",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.deng.shadow",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.effigy": {
+      "id": "unit.deng.effigy",
+      "role": "shield",
+      "gesture": "shield",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.deng.effigy",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.summoner": {
+      "id": "unit.deng.summoner",
+      "role": "summoner",
+      "gesture": "paper_fold",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.deng.summoner",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.illusionist": {
+      "id": "unit.deng.illusionist",
+      "role": "illusionist",
+      "gesture": "fan",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.deng.illusionist",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.worker": {
+      "id": "unit.deng.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.deng.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.ji.vanguard": {
+      "id": "unit.ji.vanguard",
+      "role": "vanguard",
+      "gesture": "punch",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.ji.vanguard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.javelin": {
+      "id": "unit.ji.javelin",
+      "role": "javelin",
+      "gesture": "crossbow",
+      "projectile": "bolt",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.ji.javelin",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.engineer": {
+      "id": "unit.ji.engineer",
+      "role": "engineer",
+      "gesture": "wrench",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.ji.engineer",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.artillery": {
+      "id": "unit.ji.artillery",
+      "role": "artillery",
+      "gesture": "ballista",
+      "projectile": "bolt",
+      "windup": 0.4,
+      "recovery": 0.3,
+      "source_art": "unit.ji.artillery",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.demolisher": {
+      "id": "unit.ji.demolisher",
+      "role": "demolisher",
+      "gesture": "bomb",
+      "projectile": "",
+      "windup": 0.28,
+      "recovery": 0.3,
+      "source_art": "unit.ji.demolisher",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.guard": {
+      "id": "unit.ji.guard",
+      "role": "guard",
+      "gesture": "shield",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.ji.guard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.ji.worker": {
+      "id": "unit.ji.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.ji.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.yuan.vanguard": {
+      "id": "unit.yuan.vanguard",
+      "role": "vanguard",
+      "gesture": "lance",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.yuan.vanguard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.archer": {
+      "id": "unit.yuan.archer",
+      "role": "archer",
+      "gesture": "bow",
+      "projectile": "arrow",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.yuan.archer",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.harrier": {
+      "id": "unit.yuan.harrier",
+      "role": "harrier",
+      "gesture": "hook",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.yuan.harrier",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.artillery": {
+      "id": "unit.yuan.artillery",
+      "role": "artillery",
+      "gesture": "kite_launcher",
+      "projectile": "kite",
+      "windup": 0.4,
+      "recovery": 0.3,
+      "source_art": "unit.yuan.artillery",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.lancer": {
+      "id": "unit.yuan.lancer",
+      "role": "lancer",
+      "gesture": "lance",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.yuan.lancer",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.caravan": {
+      "id": "unit.yuan.caravan",
+      "role": "caravan",
+      "gesture": "sail",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.yuan.caravan",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.yuan.worker": {
+      "id": "unit.yuan.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.yuan.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.qi.vanguard": {
+      "id": "unit.qi.vanguard",
+      "role": "vanguard",
+      "gesture": "slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.qi.vanguard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.javelin": {
+      "id": "unit.qi.javelin",
+      "role": "javelin",
+      "gesture": "throw",
+      "projectile": "coin",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.qi.javelin",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.executioner": {
+      "id": "unit.qi.executioner",
+      "role": "executioner",
+      "gesture": "reap",
+      "projectile": "",
+      "windup": 0.3,
+      "recovery": 0.3,
+      "source_art": "unit.qi.executioner",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.siege": {
+      "id": "unit.qi.siege",
+      "role": "siege",
+      "gesture": "ram",
+      "projectile": "",
+      "windup": 0.48,
+      "recovery": 0.3,
+      "source_art": "unit.qi.siege",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.caravan": {
+      "id": "unit.qi.caravan",
+      "role": "caravan",
+      "gesture": "ledger",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.qi.caravan",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.sniper": {
+      "id": "unit.qi.sniper",
+      "role": "sniper",
+      "gesture": "crossbow",
+      "projectile": "bolt",
+      "windup": 0.45,
+      "recovery": 0.3,
+      "source_art": "unit.qi.sniper",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.qi.worker": {
+      "id": "unit.qi.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.qi.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.mu.guard": {
+      "id": "unit.mu.guard",
+      "role": "guard",
+      "gesture": "root_bash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mu.guard",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.poisoner": {
+      "id": "unit.mu.poisoner",
+      "role": "poisoner",
+      "gesture": "blowpipe",
+      "projectile": "seed",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mu.poisoner",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.medic": {
+      "id": "unit.mu.medic",
+      "role": "medic",
+      "gesture": "heal",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mu.medic",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.colossus": {
+      "id": "unit.mu.colossus",
+      "role": "colossus",
+      "gesture": "root_bash",
+      "projectile": "",
+      "windup": 0.72,
+      "recovery": 0.3,
+      "source_art": "unit.mu.colossus",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.warden": {
+      "id": "unit.mu.warden",
+      "role": "warden",
+      "gesture": "vine_cast",
+      "projectile": "leaf",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.mu.warden",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.phoenix": {
+      "id": "unit.mu.phoenix",
+      "role": "phoenix",
+      "gesture": "wing",
+      "projectile": "leaf",
+      "windup": 0.4,
+      "recovery": 0.3,
+      "source_art": "unit.mu.phoenix",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.mu.worker": {
+      "id": "unit.mu.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.mu.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.shuang.shield": {
+      "id": "unit.shuang.shield",
+      "role": "shield",
+      "gesture": "shield",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.shield",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.javelin": {
+      "id": "unit.shuang.javelin",
+      "role": "javelin",
+      "gesture": "throw",
+      "projectile": "frost",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.javelin",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.warden": {
+      "id": "unit.shuang.warden",
+      "role": "warden",
+      "gesture": "staple",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.warden",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.mortar": {
+      "id": "unit.shuang.mortar",
+      "role": "mortar",
+      "gesture": "mortar",
+      "projectile": "snow",
+      "windup": 0.65,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.mortar",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.scribe": {
+      "id": "unit.shuang.scribe",
+      "role": "scribe",
+      "gesture": "brush",
+      "projectile": "ink",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.scribe",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.oracle": {
+      "id": "unit.shuang.oracle",
+      "role": "oracle",
+      "gesture": "orb",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.shuang.oracle",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.shuang.worker": {
+      "id": "unit.shuang.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.shuang.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.jin.berserker": {
+      "id": "unit.jin.berserker",
+      "role": "berserker",
+      "gesture": "dual_slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.jin.berserker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.archer": {
+      "id": "unit.jin.archer",
+      "role": "archer",
+      "gesture": "bow",
+      "projectile": "fire_arrow",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.jin.archer",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.leech": {
+      "id": "unit.jin.leech",
+      "role": "leech",
+      "gesture": "hook",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.jin.leech",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.artillery": {
+      "id": "unit.jin.artillery",
+      "role": "artillery",
+      "gesture": "mortar",
+      "projectile": "fire_pot",
+      "windup": 0.55,
+      "recovery": 0.3,
+      "source_art": "unit.jin.artillery",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.burner": {
+      "id": "unit.jin.burner",
+      "role": "burner",
+      "gesture": "bellows",
+      "projectile": "fire",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.jin.burner",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.demolisher": {
+      "id": "unit.jin.demolisher",
+      "role": "demolisher",
+      "gesture": "bomb",
+      "projectile": "",
+      "windup": 0.28,
+      "recovery": 0.3,
+      "source_art": "unit.jin.demolisher",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.jin.worker": {
+      "id": "unit.jin.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.jin.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.bai.mirror": {
+      "id": "unit.bai.mirror",
+      "role": "mirror",
+      "gesture": "frame_guard",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.bai.mirror",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.repeater": {
+      "id": "unit.bai.repeater",
+      "role": "repeater",
+      "gesture": "crossbow",
+      "projectile": "glyph",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.bai.repeater",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.oracle": {
+      "id": "unit.bai.oracle",
+      "role": "oracle",
+      "gesture": "brush",
+      "projectile": "ink",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.bai.oracle",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.colossus": {
+      "id": "unit.bai.colossus",
+      "role": "colossus",
+      "gesture": "beast",
+      "projectile": "page_breath",
+      "windup": 0.72,
+      "recovery": 0.3,
+      "source_art": "unit.bai.colossus",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.illusionist": {
+      "id": "unit.bai.illusionist",
+      "role": "illusionist",
+      "gesture": "erase",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.bai.illusionist",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.scribe": {
+      "id": "unit.bai.scribe",
+      "role": "scribe",
+      "gesture": "stamp_cast",
+      "projectile": "seal",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.bai.scribe",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.bai.worker": {
+      "id": "unit.bai.worker",
+      "role": "worker",
+      "gesture": "mine",
+      "projectile": "",
+      "windup": 0,
+      "recovery": 0.24,
+      "source_art": "unit.bai.worker",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "mine",
+        "load",
+        "unload",
+        "queue",
+        "hurt",
+        "death",
+        "bound"
+      ]
+    },
+    "unit.mo.thrall": {
+      "id": "unit.mo.thrall",
+      "role": "summon",
+      "gesture": "slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.24,
+      "source_art": "unit.mo.thrall",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    },
+    "unit.deng.guardian": {
+      "id": "unit.deng.guardian",
+      "role": "summon",
+      "gesture": "slash",
+      "projectile": "",
+      "windup": 0.27,
+      "recovery": 0.3,
+      "source_art": "unit.deng.guardian",
+      "rig": "whole-drawn-frame-sheet",
+      "states": [
+        "idle",
+        "walk",
+        "windup",
+        "attack",
+        "hurt",
+        "death",
+        "special",
+        "bound"
+      ]
+    }
+  }
+}

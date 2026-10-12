@@ -1,0 +1,1288 @@
+{
+  "version": "1.0.0",
+  "assets": [
+    {
+      "id": "unit.yin.axe",
+      "name": "折斧兵",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-yin-axe.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-yin-axe.png",
+      "sha256": "1e4ab9b47f7676d88a213d622b11b3fe72eb83ac33bc54c6f18873e1651cd60a",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-yin-axe.png",
+      "parts": {
+        "body": "res://assets/animation/unit-yin-axe-body.png",
+        "leg-back": "res://assets/animation/unit-yin-axe-leg-back.png",
+        "leg-front": "res://assets/animation/unit-yin-axe-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.yin.spear",
+      "name": "纸矛手",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-yin-spear.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-yin-spear.png",
+      "sha256": "04cbbd515f18c1298862845393546fb8290cf332b46769c1260187c996011936",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-yin-spear.png",
+      "parts": {
+        "body": "res://assets/animation/unit-yin-spear-body.png",
+        "leg-back": "res://assets/animation/unit-yin-spear-leg-back.png",
+        "leg-front": "res://assets/animation/unit-yin-spear-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.yin.hammer",
+      "name": "压印锤卫",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-yin-hammer.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-yin-hammer.png",
+      "sha256": "68de452a95a1d1eb8e3d2497a62476a173d0de3c6fd65d14b6f1a3abf6026d6a",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-yin-hammer.png",
+      "parts": {
+        "body": "res://assets/animation/unit-yin-hammer-body.png",
+        "leg-back": "res://assets/animation/unit-yin-hammer-leg-back.png",
+        "leg-front": "res://assets/animation/unit-yin-hammer-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.yin.cannon",
+      "name": "卷轴炮车",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-yin-cannon.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-yin-cannon.png",
+      "sha256": "562948c2de49ff9f2764fd51baacdf2ffbe72a682dbdfb8a11d75c0fde21123d",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-yin-cannon.png",
+      "parts": {
+        "body": "res://assets/animation/unit-yin-cannon-body.png",
+        "leg-back": "res://assets/animation/unit-yin-cannon-leg-back.png",
+        "leg-front": "res://assets/animation/unit-yin-cannon-leg-front.png",
+        "wheel-back": "res://assets/animation/unit-yin-cannon-wheel-back.png",
+        "wheel-front": "res://assets/animation/unit-yin-cannon-wheel-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.yin.worker",
+      "name": "运金纸工",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-yin-worker.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-yin-worker.png",
+      "sha256": "1b39429d99eeeae80b505efe97220321110f9f5894ee8fd38f7771160af52921",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-yin-worker.png",
+      "parts": {
+        "body": "res://assets/animation/unit-yin-worker-body.png",
+        "leg-back": "res://assets/animation/unit-yin-worker-leg-back.png",
+        "leg-front": "res://assets/animation/unit-yin-worker-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "portrait.yin.commander",
+      "name": "印甲统帅",
+      "category": "portrait",
+      "runtime_path": "res://assets/characters/cutouts/portrait-yin-commander.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/portrait-yin-commander.png",
+      "sha256": "daa801c6f982cf4dc023932f5ac15fecd899d3590df9906922388d0bb7cd86fb",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/portrait-yin-commander.png"
+    },
+    {
+      "id": "unit.mo.blade",
+      "name": "墨刃猎兵",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-blade.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-blade.png",
+      "sha256": "63b279cd992cff98ce87a845b6f4398c6fa6175e74e617d71dcd6400c7018d5a",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-blade.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-blade-body.png",
+        "leg-back": "res://assets/animation/unit-mo-blade-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-blade-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.mo.needle",
+      "name": "墨针手",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-needle.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-needle.png",
+      "sha256": "bbc4efd90ac305a8e7c1feca21e0c7c4bc5d6fac6da27e3b7422385f3a0e8196",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-needle.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-needle-body.png",
+        "leg-back": "res://assets/animation/unit-mo-needle-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-needle-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.mo.priest",
+      "name": "拾纸祭司",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-priest.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-priest.png",
+      "sha256": "a5361bf05eccf3e62af28c9e04010490ac8a7f1be17db2ba376e1a03c5adc885",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-priest.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-priest-body.png",
+        "leg-back": "res://assets/animation/unit-mo-priest-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-priest-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.mo.giant",
+      "name": "纸巨人",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-giant.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-giant.png",
+      "sha256": "05a54218811bfdb767388fa6a5338a9f549e86ef5372ea34b8f03e3b2e8a805c",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-giant.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-giant-body.png",
+        "leg-back": "res://assets/animation/unit-mo-giant-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-giant-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.mo.worker",
+      "name": "拾金纸工",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-worker.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-worker.png",
+      "sha256": "1d7a232971f1a3b2644bb20dbcb2402be766e4eddd60eaa1701e939562f6f944",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-worker.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-worker-body.png",
+        "leg-back": "res://assets/animation/unit-mo-worker-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-worker-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.mo.thrall",
+      "name": "纸骨兵",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-mo-thrall.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-mo-thrall.png",
+      "sha256": "d57fe971d9ec634c2e4e0098b7d5dc68805734c0ffcac041b29cf36e4cf75466",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-mo-thrall.png",
+      "parts": {
+        "body": "res://assets/animation/unit-mo-thrall-body.png",
+        "leg-back": "res://assets/animation/unit-mo-thrall-leg-back.png",
+        "leg-front": "res://assets/animation/unit-mo-thrall-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.mirror",
+      "name": "镜符刀卫",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-mirror.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-mirror.png",
+      "sha256": "dfb26c4a2ebb22669d31a6bda267a67966b935003da9f6dbf1d0b00ffbe1203c",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-mirror.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-mirror-body.png",
+        "leg-back": "res://assets/animation/unit-deng-mirror-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-mirror-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.fire",
+      "name": "火签手",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-fire.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-fire.png",
+      "sha256": "74ec918f9fa8855213061f57e66abaf6dce89bc357c2da82308f9943868c8645",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-fire.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-fire-body.png",
+        "leg-back": "res://assets/animation/unit-deng-fire-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-fire-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.shadow",
+      "name": "折影客",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-shadow.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-shadow.png",
+      "sha256": "d929b3594baae4b2e20049666201fdbb8e29b0693f75c6ec7895dd0c31ddb954",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-shadow.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-shadow-body.png",
+        "leg-back": "res://assets/animation/unit-deng-shadow-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-shadow-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.effigy",
+      "name": "厚纸俑",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-effigy.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-effigy.png",
+      "sha256": "f3f2dde8a95802c2faa346d4eae61d9095a37d4c55d655cecd2a052908e5f33b",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-effigy.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-effigy-body.png",
+        "leg-back": "res://assets/animation/unit-deng-effigy-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-effigy-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.worker",
+      "name": "灯金纸工",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-worker.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-worker.png",
+      "sha256": "a26b090988ef3afe7cc4ff28df453f5af042cf85f95fd88262123e9286b3e4f2",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-worker.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-worker-body.png",
+        "leg-back": "res://assets/animation/unit-deng-worker-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-worker-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "unit.deng.guardian",
+      "name": "护符纸卫",
+      "category": "unit",
+      "runtime_path": "res://assets/characters/cutouts/unit-deng-guardian.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/unit-deng-guardian.png",
+      "sha256": "4b01caf249da1fe1c875b6c9ccdf0e0ce28f1ebbb11bd354259757326c6ce6f2",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/unit-deng-guardian.png",
+      "parts": {
+        "body": "res://assets/animation/unit-deng-guardian-body.png",
+        "leg-back": "res://assets/animation/unit-deng-guardian-leg-back.png",
+        "leg-front": "res://assets/animation/unit-deng-guardian-leg-front.png"
+      },
+      "scenario_evidence": "Unit rules: simulation-report.json; faction battle: ui-export/08 or 12; individual Android action untested."
+    },
+    {
+      "id": "portrait.mo.commander",
+      "name": "墨骸统帅",
+      "category": "portrait",
+      "runtime_path": "res://assets/characters/cutouts/portrait-mo-commander.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/portrait-mo-commander.png",
+      "sha256": "b076a5b527a2bde95dc68a032b6a69637b92f045972f35dee4e79672064f6d3d",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/portrait-mo-commander.png"
+    },
+    {
+      "id": "portrait.deng.commander",
+      "name": "灯符统帅",
+      "category": "portrait",
+      "runtime_path": "res://assets/characters/cutouts/portrait-deng-commander.png",
+      "source_path": "assets/paper-warfront/characters/cutouts/portrait-deng-commander.png",
+      "sha256": "dbc1e82fa4facbed112492298c48b9c4a5b8f3f8fcc87443a2df93523e13d22d",
+      "state": "runtime-linked",
+      "portrait": "res://assets/ui/portraits/portrait-deng-commander.png"
+    },
+    {
+      "id": "spell.yin.repair",
+      "name": "补纸",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-yin-repair.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-yin-repair.png",
+      "sha256": "8ab8e53a6e223f4eeaf24ecc6a1668c3b4e1e281b0338ace4057de33cd19de5c",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.yin.lightning",
+      "name": "雷印",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-yin-lightning.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-yin-lightning.png",
+      "sha256": "2f5f5cfac451eecc3952fb1a446490d79ab8a4bdbb3ac4625522a94bffd3ba09",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.yin.cold",
+      "name": "寒纸风",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-yin-cold.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-yin-cold.png",
+      "sha256": "51733e6044ea83489ac815792ee4f212ff6c91407c2913b719e15da9f3b016d9",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.yin.fury",
+      "name": "振甲",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-yin-fury.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-yin-fury.png",
+      "sha256": "7ffcb3fd5db4b2bf578a1ce99a9805c6f0aa58e473b20bc80e9b9cb51d900d5c",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.yin.stamp",
+      "name": "落印",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-yin-stamp.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-yin-stamp.png",
+      "sha256": "2f58bd2c6fbdd69268075c1c9deb04513af4da881769448c5aecb64cc98e3413",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.mo.sacrifice",
+      "name": "献纸",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-mo-sacrifice.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-mo-sacrifice.png",
+      "sha256": "875f1565a56e8d1bc470d9d189da8226634226450f1d2c5c232203ee7a789042",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.mo.bind",
+      "name": "墨缚",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-mo-bind.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-mo-bind.png",
+      "sha256": "6dc9be107de783f1fa05d9221835453d104e6e7df0f9e0a65b72ed4cc44f7505",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.mo.poison",
+      "name": "腐墨",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-mo-poison.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-mo-poison.png",
+      "sha256": "e5aa78aec6273884b453a87ffac9c83f386e12655a0c7d04f847b351489ac336",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.mo.convert",
+      "name": "夺印",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-mo-convert.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-mo-convert.png",
+      "sha256": "1d822c527aaae2442cf0316b6f1732eda1949800138d6defdd04615413de9084",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.mo.burst",
+      "name": "泼墨",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-mo-burst.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-mo-burst.png",
+      "sha256": "962d7e9396111f95731ed8ff786c04924407a21036aeb0a3366bdcb4410c8433",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.deng.protect",
+      "name": "护符",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-deng-protect.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-deng-protect.png",
+      "sha256": "ae3eca0b000169a779c61399dbcd1f4d5708aef982d8ec92244af368f7d99da9",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.deng.clone",
+      "name": "复印",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-deng-clone.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-deng-clone.png",
+      "sha256": "5f13fd562172f649108adf9117e5164779de6fa0c20239e24061b9e76c79742b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.deng.fire",
+      "name": "火签雨",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-deng-fire.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-deng-fire.png",
+      "sha256": "211e3e23cad7a8639194d49956ea883bf7707340a63672e2efe7b54eee1f305f",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.deng.root",
+      "name": "定字符",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-deng-root.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-deng-root.png",
+      "sha256": "60596af308a9ef5940d1a37e195b6afcdfe09fb0f0bdc1ba176723ca38413237",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "spell.deng.guardian",
+      "name": "唤纸卫",
+      "category": "spell",
+      "runtime_path": "res://assets/ui/icons/spell-deng-guardian.png",
+      "source_path": "assets/paper-warfront/ui/icons/spell-deng-guardian.png",
+      "sha256": "aa9b18e5c119aa158e8a6c31fdb81947f812d610b5431ebfb7c837f700c7c4c2",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.yin.base",
+      "name": "印甲纸城",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-yin-base.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-yin-base.png",
+      "sha256": "692f2d862ee822cc0d702f86db34ff458d6a1f9f5c7465cd558bce65da609f5c",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.mo.base",
+      "name": "墨骸纸寨",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-mo-base.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-mo-base.png",
+      "sha256": "280d690cdfc37fcc76e10796481843867097ec310b1709386365f610480a9905",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.deng.base",
+      "name": "灯符纸殿",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-deng-base.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-deng-base.png",
+      "sha256": "286318b561519b801fa7a8e1960b47ea9fe929a21768b29e4eb9e60844fa130e",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.yin.tower",
+      "name": "印甲纸哨",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-yin-tower.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-yin-tower.png",
+      "sha256": "7cb0fd008bdc075f5193f7f53d29de50d276b9ea5c784fed706b53054746dedd",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.mo.tower",
+      "name": "墨骨纸哨",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-mo-tower.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-mo-tower.png",
+      "sha256": "341e853c03b6e47ae63395cfe04f165000aef49d2cda3c2c7650a99e6b3ba0a4",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.deng.mana",
+      "name": "产法纸灯台",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-deng-mana.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-deng-mana.png",
+      "sha256": "0faa943c723b85a29a36b9d12af4549cb71feea441350157acc8b30f27025dcc",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "resource.common.mine",
+      "name": "纸金矿",
+      "category": "resource",
+      "runtime_path": "res://assets/buildings/reference/resource-common-mine.png",
+      "source_path": "assets/paper-warfront/buildings/reference/resource-common-mine.png",
+      "sha256": "fd6aa0af04fb0808e8e3f53c40f8ac406dbcaa91f99603685432cbbeac49ad1f",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.common.gold-cart",
+      "name": "运金小车",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-common-gold-cart.png",
+      "source_path": "assets/paper-warfront/props/prop-common-gold-cart.png",
+      "sha256": "8820cc140521c5fa22266b553709ab522c519fea9ee5dbcd1e7457106480f76b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "building.deng.tower",
+      "name": "灯符纸哨",
+      "category": "building",
+      "runtime_path": "res://assets/buildings/reference/building-deng-tower.png",
+      "source_path": "assets/paper-warfront/buildings/reference/building-deng-tower.png",
+      "sha256": "1abed20cce3f12826d1df8db620bd11f35f21781334b6226c04a770d2be2ac65",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.gold",
+      "name": "金币",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-gold.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-gold.png",
+      "sha256": "fee763d71d3ccb62e2b054e4f299c138042e230feced7b281cdfa400198ee60b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.mana",
+      "name": "法力",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-mana.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-mana.png",
+      "sha256": "afffc9112321f181b803756e3265f3a2b2fcacdfcc305ae60d13e07bfe95acee",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.tech",
+      "name": "科技",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-tech.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-tech.png",
+      "sha256": "b8de4f573cfda7237a79aba1cd1b447c0d61c9e4d51c5cfc9fe8b5ad5b236d2c",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.cancel",
+      "name": "取消",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-cancel.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-cancel.png",
+      "sha256": "207b9777116fc3986eb75a3f0d6c3006d395d958892def45d10fd380e82d7b18",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.home",
+      "name": "己方基地",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-home.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-home.png",
+      "sha256": "7d0d1adb14367ab5b7d0ec27ac807a878c0479b15aee90240e233a213a40f23b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.front",
+      "name": "当前交锋",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-front.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-front.png",
+      "sha256": "5a55e6b21447cfc5e84aabd3138ab3260cfad9d7c745760c108e382c8549acc7",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.navigate",
+      "name": "战线导航",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-navigate.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-navigate.png",
+      "sha256": "794e63ffa2e681f76a23acacc2045dfd6893056eaec5e2d9f5c5afed07033fb2",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.pause",
+      "name": "暂停",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-pause.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-pause.png",
+      "sha256": "41906b31bb476857ab16d985abc0b720fc9eeb3c3687bae0ae05cc564c2003d3",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.resume",
+      "name": "继续",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-resume.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-resume.png",
+      "sha256": "b617e94e0d96b1b722af471ba9a69982f80eec2f446956865ec7c7101366f646",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.sound",
+      "name": "音量",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-sound.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-sound.png",
+      "sha256": "495d8df71501b7c73e9748318f1f991230191193499322a66b3ed01cb944b723",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.settings",
+      "name": "设置",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-settings.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-settings.png",
+      "sha256": "a832cf3d6db1385b1a4fa5354c697b53e6802a5cc370e8bb41486c66dd946d0f",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.lock",
+      "name": "未解锁",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-lock.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-lock.png",
+      "sha256": "38ec7c16b8610688956a8458f7b49aad65c02aee552f01565efde32772a22333",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.info",
+      "name": "说明",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-info.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-info.png",
+      "sha256": "48a6f3a55e875a07de7cde9b01081aa0c522bec9eef6841daeba78923a80c79d",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.victory",
+      "name": "胜利",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-victory.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-victory.png",
+      "sha256": "97fccfaee636da27b29acd9cf06be85ee382b2c08f40adcc4e97e1c4f86ae313",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.defeat",
+      "name": "失败",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-defeat.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-defeat.png",
+      "sha256": "ee10d761e0c30c0ed8c48edc61d54fe8f8c5bc9b3553deece236f4a6f92dbc7b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "ui.build",
+      "name": "建造",
+      "category": "ui",
+      "runtime_path": "res://assets/ui/icons/ui-build.png",
+      "source_path": "assets/paper-warfront/ui/icons/ui-build.png",
+      "sha256": "47303d1b924e20fcb8a8e6aeacc55e12c17662c929f2a4494367003afa2fda50",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.ivory",
+      "name": "本色纸",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-ivory.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-ivory.png",
+      "sha256": "62272ff816b02359816306f82481f692c5bb8edffe75ca7746f9d26451c077a9",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.red",
+      "name": "朱印纸",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-red.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-red.png",
+      "sha256": "2a3991176d653aa0575d45e2a4e461c61716d5881b62350011b18cde4a425be4",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.ink",
+      "name": "墨纸",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-ink.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-ink.png",
+      "sha256": "ec15970b858d208a1e44ef70203ace1f088bc5344a13d371c1aae8fb371a8172",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.jade",
+      "name": "青符纸",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-jade.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-jade.png",
+      "sha256": "e503767cfcd64c767060f7d5df9f66d860ceb5d6128dd350ef2b253defbf89f8",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.gold",
+      "name": "哑光金纸",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-gold.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-gold.png",
+      "sha256": "b77764b4fb372d1bcb88c3c4a85b799bd7751c9efd434d2f27917ba6be5e69ac",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.edge",
+      "name": "纸侧面",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-edge.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-edge.png",
+      "sha256": "f964b79aaa68ac5ffb5ca67e799228d938c637814f02e4bc7e9c37873a35bcfd",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.paper.wood",
+      "name": "纸木纹",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-paper-wood.png",
+      "source_path": "assets/paper-warfront/materials/texture-paper-wood.png",
+      "sha256": "a393b38574adb9bfcbce1a41393a3f73d1ac67f9316cdeca854d2c57413c1b7a",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.ground.path",
+      "name": "纸路",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-ground-path.png",
+      "source_path": "assets/paper-warfront/materials/texture-ground-path.png",
+      "sha256": "f1ace14ba72da3f5b03513fd4e166d83ee5b8b7b35a5726626719a85123acbbd",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "texture.ink.grain",
+      "name": "墨粒底纹",
+      "category": "texture",
+      "runtime_path": "res://assets/materials/texture-ink-grain.png",
+      "source_path": "assets/paper-warfront/materials/texture-ink-grain.png",
+      "sha256": "9ab2cf27e8184c6156307a7a8f76a795bc1544d661ef48e3ec443d5037f74d64",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.pine",
+      "name": "纸松",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-pine.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-pine.png",
+      "sha256": "7bbcb5fe3bbea659a298cd46cc77370605be87d908ff1ad6efca67a697fbd4da",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.rock",
+      "name": "纸岩",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-rock.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-rock.png",
+      "sha256": "6788565e0734824bbf19740afa7beeaf90e7b750ab32abdfa95d725c5b444ced",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.reeds",
+      "name": "墨芦苇",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-reeds.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-reeds.png",
+      "sha256": "4878962d968c6c8b138f9b9a1a33b9e56e0de558c98b3d57e87a067fa6890748",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.arch",
+      "name": "旧纸牌坊",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-arch.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-arch.png",
+      "sha256": "03076821441f476edd353d2d38e99b629581b5b492924a6f479d680cc7e8341b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.bridge",
+      "name": "纸桥",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-bridge.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-bridge.png",
+      "sha256": "dd387428a1c953ab7e43af2a735ab6acf8badf034c419b481c839e559c8acb5f",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.yin.banner",
+      "name": "朱印军旗",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-yin-banner.png",
+      "source_path": "assets/paper-warfront/props/prop-yin-banner.png",
+      "sha256": "df6db54e475e9d84df15a16d40ec5cd31b4302bc2f3be84068a03c40a362b825",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.mo.banner",
+      "name": "墨骸军旗",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-mo-banner.png",
+      "source_path": "assets/paper-warfront/props/prop-mo-banner.png",
+      "sha256": "49faa20d807dab474fc60b70be184bd24815d5409c809b806256244a0a0b4c6b",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.deng.banner",
+      "name": "灯符军旗",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-deng-banner.png",
+      "source_path": "assets/paper-warfront/props/prop-deng-banner.png",
+      "sha256": "9eda39f1f2ea4120c10cb8b69b6658e63f0398d4c761fc429b5b853216314cfc",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "prop.terrain.lantern",
+      "name": "装饰纸灯",
+      "category": "prop",
+      "runtime_path": "res://assets/props/prop-terrain-lantern.png",
+      "source_path": "assets/paper-warfront/props/prop-terrain-lantern.png",
+      "sha256": "32525ae60274d4419790b39e5d0ed62511110e5ebcc2be76db667d26c56ecb57",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.repair",
+      "name": "补纸",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-repair.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-repair.png",
+      "sha256": "90f1e6fbc959916677a54fab94d9074a5e9d7ac6dc3e898119b6e3f6b052f377",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.lightning",
+      "name": "雷印",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-lightning.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-lightning.png",
+      "sha256": "86431750d46a7d2468b79c2285dbf09b5f48b4fbbbd871951463dc55220ace4c",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.cold",
+      "name": "寒纸风",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-cold.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-cold.png",
+      "sha256": "9be5e183be071aafc45a96a8280013056cb497e3399856d71eed427b65000606",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.impact",
+      "name": "重击",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-impact.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-impact.png",
+      "sha256": "a950cb50ee998d01f48567feb9b3e27fde7361b7bc86645c563b3ce6ab474b72",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.sacrifice",
+      "name": "献纸",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-sacrifice.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-sacrifice.png",
+      "sha256": "330fed43730de6ab97e79c3e60e53e4e330861650adbef5f91be84aebc0c9189",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.poison",
+      "name": "腐墨",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-poison.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-poison.png",
+      "sha256": "be16117ef92af9f7dee09b671c304bef5ad1eeada833e54411271f6357e0b066",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.control",
+      "name": "夺印",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-control.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-control.png",
+      "sha256": "616f39d4b1469a3f18f6573e195371513d95fcbc24c8b9f0e75c972533d51caf",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.summon",
+      "name": "拾纸召唤",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-summon.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-summon.png",
+      "sha256": "42574ee060284d13352d49efd34ab3d1773cfab2ed1384d708b592b06ade5d75",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.protect",
+      "name": "护符",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-protect.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-protect.png",
+      "sha256": "fffa58d9b66a339076422d4c8dcc1fc3d68d3ca92bcb64e40ff160f3835e62c5",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.clone",
+      "name": "复印",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-clone.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-clone.png",
+      "sha256": "7a4066a8f0f523b3871e5452f7049e59119d9893742e27f7f586b268bde37158",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.fire",
+      "name": "火签雨",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-fire.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-fire.png",
+      "sha256": "6238f04b54d17c42ca142c49d10a264e461b5085b588e3166ad5e2fae1f093e3",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "fx.root",
+      "name": "定字符",
+      "category": "fx",
+      "runtime_path": "res://assets/fx/motifs/fx-root.png",
+      "source_path": "assets/paper-warfront/fx/motifs/fx-root.png",
+      "sha256": "119029607dd932fa1a217f44b563a0b3b47efc7dc0306fb1c622d532d06d7922",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "background.stamp-plain",
+      "name": "印原练兵场",
+      "category": "background",
+      "runtime_path": "res://assets/backgrounds/background-stamp-plain.png",
+      "source_path": "assets/paper-warfront/backgrounds/background-stamp-plain.png",
+      "sha256": "8564a114cffe839658eed692af2ddba825e1c9607758404c740476eb1d392c0e",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "background.ink-marsh",
+      "name": "墨沼旧纸场",
+      "category": "background",
+      "runtime_path": "res://assets/backgrounds/background-ink-marsh.png",
+      "source_path": "assets/paper-warfront/backgrounds/background-ink-marsh.png",
+      "sha256": "90f82cb34fc5667a24fa628d91793c609edef098567ae1605aa655c93f3f8818",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "background.lantern-ridge",
+      "name": "灯台纸岭",
+      "category": "background",
+      "runtime_path": "res://assets/backgrounds/background-lantern-ridge.png",
+      "source_path": "assets/paper-warfront/backgrounds/background-lantern-ridge.png",
+      "sha256": "3e8e7a1abf475e07e6d1f556bc46ee73436ce91222f713dca3c3452e91e00c53",
+      "state": "runtime-linked"
+    },
+    {
+      "id": "audio.ui.click",
+      "name": "纸签点击",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-click.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-click.wav",
+      "sha256": "bd062cd0b23faf2648001def0c952057a7d52fc0dd629a5744cbe0987103a6d9",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.09,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.ui.cancel",
+      "name": "收签取消",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-cancel.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-cancel.wav",
+      "sha256": "4b1a6cc3ab96f6d1beda0c7636fcdcb8a90bfee2ad49e34188ff96604b803d15",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.12,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.ui.invalid",
+      "name": "操作无效",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-invalid.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-invalid.wav",
+      "sha256": "5a5e4bef58fae2cccf04d92e4f42dceaea172d5681f109a26afe4210065b6de7",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.16,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.ui.research",
+      "name": "科技盖印",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-research.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-research.wav",
+      "sha256": "bdccef157dc9a455d648bb6e81b49ff1fdd3e707192200b5dd751b9825b6a6ed",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.32,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.ui.recruit",
+      "name": "招募折纸",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-recruit.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-recruit.wav",
+      "sha256": "5d6363d185a508e2a847e3e4aa2cf506319cb1ee0fe508dd8519e79462112cbb",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.25,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.ui.gold",
+      "name": "金币入袋",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-ui-gold.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-ui-gold.wav",
+      "sha256": "20aa7c161c1f31d026ca53c91a35bf2b7ec90e829a1d805feda970489c716e19",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.25,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.paper-step",
+      "name": "纸步",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-paper-step.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-paper-step.wav",
+      "sha256": "41918a8428118cca4e02208fd3914e47909a9e4b5ac46573a5e861aca9914ce8",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.1,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.slash",
+      "name": "纸刃挥砍",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-slash.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-slash.wav",
+      "sha256": "f6a3fac85df39e6f10d7c783a9309bdc6aa857fd6077d3b2f6a0d0757bac8b70",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.18,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.throw",
+      "name": "纸矛投出",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-throw.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-throw.wav",
+      "sha256": "45ac7556ebe666a27f5cac8ce27f540765f2df61c1a600b37800fdc99d3b2c3b",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.22,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.hit",
+      "name": "纸甲受击",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-hit.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-hit.wav",
+      "sha256": "d834c2a05f87b947afcf22e5bb401494295b6461c643b914c642a998f3c5461b",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.16,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.heavy",
+      "name": "压印重击",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-heavy.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-heavy.wav",
+      "sha256": "8997540a335c841fac58505e100798a4536b04d710f21afd142ca3dd363729b2",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.42,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.cannon",
+      "name": "卷轴炮响",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-cannon.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-cannon.wav",
+      "sha256": "5adcc52b279f60ddf5b0c465c3ff2c1791a4f0da9f3e270a479e809066279554",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.5,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.combat.death",
+      "name": "散纸阵亡",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-combat-death.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-combat-death.wav",
+      "sha256": "d134024ea918e658739087bd9d2c78c6f6eaba79ebcb9dafc679801b3e6556f7",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.35,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.magic.repair",
+      "name": "补纸回响",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-magic-repair.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-magic-repair.wav",
+      "sha256": "dfa1168ebe3d55df24ad501604b0d05d639be45f058c1ffba24b9febcd2fde87",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.6,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.magic.ink",
+      "name": "墨术涌动",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-magic-ink.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-magic-ink.wav",
+      "sha256": "b1cf01da4ad52f03b4e3911cfca33626618b77e53c25cd5b8f4cd795f249b8c5",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.55,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.magic.seal",
+      "name": "灯符展开",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-magic-seal.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-magic-seal.wav",
+      "sha256": "5fa20a1ff7a351dab13667a07fd9b4f5ce569b032310d25dba7dd2835583fd6b",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.45,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.magic.clone",
+      "name": "复印展开",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-magic-clone.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-magic-clone.wav",
+      "sha256": "872c0833bb37640951cb2223e465f99a7a956d18eab48afa80bd33f834b2160f",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.42,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.result.victory",
+      "name": "胜利印章",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-result-victory.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-result-victory.wav",
+      "sha256": "2468c942ae4500680befa8aa1c300f5c1b62b05b07627bd877c0554f2d278254",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 1.1,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.result.defeat",
+      "name": "失败收卷",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-result-defeat.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-result-defeat.wav",
+      "sha256": "4a113df509aefe9c902a99a637ecfe4908f64b50cf83cd914b47b8f23280ca80",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.9,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.warning.base",
+      "name": "基地告急",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/sfx/audio-warning-base.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-warning-base.wav",
+      "sha256": "5de027adfd868656569ea5e8b9ee9500f43d5c059ecce984143b1abde7267b3b",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 44100,
+        "seconds": 0.55,
+        "peak": 0.5500045777764214
+      }
+    },
+    {
+      "id": "audio.music.yin",
+      "name": "印甲节奏草稿",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/music/music-yin.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-music-yin.wav",
+      "sha256": "0c0497a5a5f26ca3ab1f67334e16388545a195a76021759116f58a2f171af519",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 22050,
+        "seconds": 40.0,
+        "peak": 0.31608020264290293
+      }
+    },
+    {
+      "id": "audio.music.mo",
+      "name": "墨骸节奏草稿",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/music/music-mo.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-music-mo.wav",
+      "sha256": "f9a2e36413a59af7eb61deb3111d1fa8bda328b2ee8f3df59e923b45edaf7444",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 22050,
+        "seconds": 40.0,
+        "peak": 0.30042420728171637
+      }
+    },
+    {
+      "id": "audio.music.deng",
+      "name": "灯符节奏草稿",
+      "category": "audio",
+      "runtime_path": "res://assets/audio/music/music-deng.wav",
+      "source_path": "assets/paper-warfront/audio/sfx/audio-music-deng.wav",
+      "sha256": "0ddc1485efb0c014eab7ee2a3783a85d905bfbcac318a723ee791f11dfe66cac",
+      "state": "runtime-linked",
+      "audio": {
+        "rate": 22050,
+        "seconds": 40.0,
+        "peak": 0.29276406140324107
+      }
+    }
+  ]
+}

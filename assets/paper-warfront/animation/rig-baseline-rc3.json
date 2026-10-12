@@ -1,0 +1,8744 @@
+{
+  "unit.yin.axe": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-axe-body.png",
+      "leg-back": "res://assets/animation/unit-yin-axe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-axe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.yin.spear": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-spear-body.png",
+      "leg-back": "res://assets/animation/unit-yin-spear-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-spear-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.yin.hammer": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-hammer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-hammer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-hammer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.yin.cannon": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yin-cannon-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yin-cannon-wheel-front.png",
+      "body": "res://assets/animation/unit-yin-cannon-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.yin.worker": {
+    "hip": 370,
+    "foot": [
+      255,
+      476
+    ],
+    "source_height": 394,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-yin-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-yin-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-yin-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      190,
+      370
+    ],
+    "leg-front_pivot": [
+      320,
+      370
+    ],
+    "arm-pick_pivot": [
+      318,
+      305
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.mo.blade": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-blade-body.png",
+      "leg-back": "res://assets/animation/unit-mo-blade-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-blade-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.mo.needle": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-needle-body.png",
+      "leg-back": "res://assets/animation/unit-mo-needle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-needle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.mo.priest": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-priest-body.png",
+      "leg-back": "res://assets/animation/unit-mo-priest-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-priest-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.mo.giant": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-giant-body.png",
+      "leg-back": "res://assets/animation/unit-mo-giant-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-giant-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.mo.worker": {
+    "hip": 370,
+    "foot": [
+      239,
+      476
+    ],
+    "source_height": 394,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-mo-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-mo-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-mo-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      175,
+      370
+    ],
+    "leg-front_pivot": [
+      303,
+      370
+    ],
+    "arm-pick_pivot": [
+      326,
+      329
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.mo.thrall": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-thrall-body.png",
+      "leg-back": "res://assets/animation/unit-mo-thrall-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-thrall-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.deng.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-deng-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.deng.fire": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-fire-body.png",
+      "leg-back": "res://assets/animation/unit-deng-fire-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-fire-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.deng.shadow": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-shadow-body.png",
+      "leg-back": "res://assets/animation/unit-deng-shadow-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-shadow-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.deng.effigy": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-effigy-body.png",
+      "leg-back": "res://assets/animation/unit-deng-effigy-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-effigy-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.deng.worker": {
+    "hip": 359,
+    "foot": [
+      255,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-deng-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-deng-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-deng-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      174,
+      359
+    ],
+    "leg-front_pivot": [
+      337,
+      359
+    ],
+    "arm-pick_pivot": [
+      335,
+      297
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.deng.guardian": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-guardian-body.png",
+      "leg-back": "res://assets/animation/unit-deng-guardian-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-guardian-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.yin.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-pike-body.png",
+      "leg-back": "res://assets/animation/unit-yin-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.yin.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-yin-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.yin.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-shield-body.png",
+      "leg-back": "res://assets/animation/unit-yin-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.yin.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-yin-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.yin.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-yin-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.yin.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-yin-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.yin.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yin-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yin-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-yin-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.yin.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-chain-body.png",
+      "leg-back": "res://assets/animation/unit-yin-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.yin.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-raider-body.png",
+      "leg-back": "res://assets/animation/unit-yin-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.yin.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-yin-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.yin.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-warden-body.png",
+      "leg-back": "res://assets/animation/unit-yin-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.yin.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-yin-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.yin.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-archer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.yin.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-guard-body.png",
+      "leg-back": "res://assets/animation/unit-yin-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.yin.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-medic-body.png",
+      "leg-back": "res://assets/animation/unit-yin-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.yin.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-yin-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.yin.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-yin-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.yin.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-yin-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.yin.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.yin.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-banner-body.png",
+      "leg-back": "res://assets/animation/unit-yin-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.yin.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.yin.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.yin.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-burner-body.png",
+      "leg-back": "res://assets/animation/unit-yin-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.yin.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-yin-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.yin.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-yin-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.yin.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yin-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yin-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-yin-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.yin.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-yin-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.yin.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-leech-body.png",
+      "leg-back": "res://assets/animation/unit-yin-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.yin.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-yin-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.yin.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-yin-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.yin.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-yin-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.yin.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-yin-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.yin.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-yin-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.yin.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-yin-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.yin.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-yin-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.yin.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-yin-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-yin-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yin-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.mo.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-mo-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.mo.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-archer-body.png",
+      "leg-back": "res://assets/animation/unit-mo-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.mo.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-guard-body.png",
+      "leg-back": "res://assets/animation/unit-mo-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.mo.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-medic-body.png",
+      "leg-back": "res://assets/animation/unit-mo-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.mo.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-pike-body.png",
+      "leg-back": "res://assets/animation/unit-mo-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.mo.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-mo-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.mo.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-mo-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.mo.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-mo-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.mo.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-shield-body.png",
+      "leg-back": "res://assets/animation/unit-mo-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.mo.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-mo-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.mo.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-mo-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.mo.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-banner-body.png",
+      "leg-back": "res://assets/animation/unit-mo-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.mo.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-mo-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.mo.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-mo-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.mo.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-mo-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.mo.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-mo-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.mo.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-burner-body.png",
+      "leg-back": "res://assets/animation/unit-mo-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.mo.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-mo-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.mo.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-mo-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.mo.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-mo-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.mo.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mo-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mo-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-mo-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.mo.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mo-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mo-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-mo-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.mo.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mo-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mo-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-mo-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.mo.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-chain-body.png",
+      "leg-back": "res://assets/animation/unit-mo-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.mo.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-mo-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.mo.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-leech-body.png",
+      "leg-back": "res://assets/animation/unit-mo-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.mo.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-raider-body.png",
+      "leg-back": "res://assets/animation/unit-mo-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.mo.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-mo-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.mo.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-mo-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.mo.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-mo-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.mo.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-mo-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.mo.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-warden-body.png",
+      "leg-back": "res://assets/animation/unit-mo-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.mo.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-mo-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.mo.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-mo-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.mo.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-mo-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.mo.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-mo-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-mo-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mo-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.deng.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-deng-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.deng.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-archer-body.png",
+      "leg-back": "res://assets/animation/unit-deng-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.deng.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-guard-body.png",
+      "leg-back": "res://assets/animation/unit-deng-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.deng.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-medic-body.png",
+      "leg-back": "res://assets/animation/unit-deng-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.deng.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-pike-body.png",
+      "leg-back": "res://assets/animation/unit-deng-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.deng.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-deng-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.deng.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-deng-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.deng.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-deng-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.deng.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-deng-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.deng.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-deng-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.deng.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-banner-body.png",
+      "leg-back": "res://assets/animation/unit-deng-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.deng.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-deng-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.deng.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-deng-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.deng.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-deng-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.deng.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-deng-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.deng.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-burner-body.png",
+      "leg-back": "res://assets/animation/unit-deng-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.deng.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-deng-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.deng.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-deng-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.deng.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-deng-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-deng-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-deng-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.deng.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-deng-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-deng-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-deng-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.deng.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-deng-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-deng-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-deng-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.deng.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-chain-body.png",
+      "leg-back": "res://assets/animation/unit-deng-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.deng.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-deng-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.deng.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-leech-body.png",
+      "leg-back": "res://assets/animation/unit-deng-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.deng.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-raider-body.png",
+      "leg-back": "res://assets/animation/unit-deng-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.deng.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-deng-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.deng.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-deng-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.deng.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-deng-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.deng.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-deng-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.deng.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-deng-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.deng.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-warden-body.png",
+      "leg-back": "res://assets/animation/unit-deng-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.deng.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-deng-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.deng.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-deng-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.deng.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-deng-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.deng.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-deng-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.deng.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-deng-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-deng-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-deng-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.ji.vanguard": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-ji-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      341,
+      359
+    ]
+  },
+  "unit.ji.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-archer-body.png",
+      "leg-back": "res://assets/animation/unit-ji-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.ji.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-guard-body.png",
+      "leg-back": "res://assets/animation/unit-ji-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.ji.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-medic-body.png",
+      "leg-back": "res://assets/animation/unit-ji-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.ji.javelin": {
+    "hip": 385,
+    "foot": [
+      185,
+      476
+    ],
+    "source_height": 337,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-ji-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      118,
+      385
+    ],
+    "leg-front_pivot": [
+      253,
+      385
+    ]
+  },
+  "unit.ji.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-ji-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.ji.artillery": {
+    "hip": 381,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 353,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-ji-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-ji-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-ji-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      176,
+      398
+    ],
+    "wheel-front_pivot": [
+      333,
+      398
+    ]
+  },
+  "unit.ji.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-ji-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.ji.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-pike-body.png",
+      "leg-back": "res://assets/animation/unit-ji-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.ji.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-ji-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.ji.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-ji-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.ji.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-ji-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.ji.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-ji-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.ji.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-shield-body.png",
+      "leg-back": "res://assets/animation/unit-ji-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.ji.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-ji-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.ji.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-banner-body.png",
+      "leg-back": "res://assets/animation/unit-ji-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.ji.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-ji-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.ji.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-ji-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.ji.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-ji-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.ji.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-ji-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.ji.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-burner-body.png",
+      "leg-back": "res://assets/animation/unit-ji-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.ji.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-ji-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.ji.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-ji-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.ji.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-ji-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-ji-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-ji-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.ji.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-ji-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-ji-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-ji-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.ji.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-chain-body.png",
+      "leg-back": "res://assets/animation/unit-ji-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.ji.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-ji-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.ji.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-leech-body.png",
+      "leg-back": "res://assets/animation/unit-ji-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.ji.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-raider-body.png",
+      "leg-back": "res://assets/animation/unit-ji-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.ji.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-ji-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.ji.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-ji-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.ji.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-ji-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.ji.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-ji-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.ji.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-ji-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.ji.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-warden-body.png",
+      "leg-back": "res://assets/animation/unit-ji-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.ji.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-ji-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.ji.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-ji-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.ji.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-ji-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.ji.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-ji-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.ji.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-ji-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-ji-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.yuan.vanguard": {
+    "hip": 359,
+    "foot": [
+      290,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      221,
+      359
+    ],
+    "leg-front_pivot": [
+      359,
+      359
+    ]
+  },
+  "unit.yuan.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-archer-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.yuan.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-guard-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.yuan.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-medic-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.yuan.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.yuan.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.yuan.artillery": {
+    "hip": 366,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 408,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yuan-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yuan-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-yuan-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      151,
+      386
+    ],
+    "wheel-front_pivot": [
+      331,
+      386
+    ]
+  },
+  "unit.yuan.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.yuan.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-pike-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.yuan.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.yuan.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.yuan.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.yuan.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.yuan.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-shield-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.yuan.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.yuan.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-banner-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.yuan.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.yuan.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.yuan.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.yuan.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.yuan.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-burner-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.yuan.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.yuan.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.yuan.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yuan-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yuan-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-yuan-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.yuan.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-yuan-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-yuan-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-yuan-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.yuan.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-chain-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.yuan.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.yuan.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-leech-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.yuan.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-raider-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.yuan.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.yuan.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.yuan.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.yuan.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.yuan.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.yuan.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-warden-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.yuan.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.yuan.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.yuan.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.yuan.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.yuan.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-yuan-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-yuan-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.qi.vanguard": {
+    "hip": 361,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-qi-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      361
+    ],
+    "leg-front_pivot": [
+      275,
+      361
+    ]
+  },
+  "unit.qi.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-archer-body.png",
+      "leg-back": "res://assets/animation/unit-qi-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.qi.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-guard-body.png",
+      "leg-back": "res://assets/animation/unit-qi-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.qi.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-medic-body.png",
+      "leg-back": "res://assets/animation/unit-qi-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.qi.javelin": {
+    "hip": 386,
+    "foot": [
+      184,
+      476
+    ],
+    "source_height": 334,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-qi-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      386
+    ],
+    "leg-front_pivot": [
+      237,
+      386
+    ]
+  },
+  "unit.qi.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-qi-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.qi.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-qi-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-qi-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-qi-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.qi.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-qi-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.qi.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-pike-body.png",
+      "leg-back": "res://assets/animation/unit-qi-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.qi.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-qi-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.qi.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-qi-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.qi.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-qi-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.qi.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-qi-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.qi.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-shield-body.png",
+      "leg-back": "res://assets/animation/unit-qi-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.qi.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-qi-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.qi.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-banner-body.png",
+      "leg-back": "res://assets/animation/unit-qi-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.qi.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-qi-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.qi.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-qi-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.qi.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-qi-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.qi.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-qi-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.qi.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-burner-body.png",
+      "leg-back": "res://assets/animation/unit-qi-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.qi.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-qi-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.qi.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-qi-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.qi.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-qi-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-qi-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-qi-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.qi.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-qi-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-qi-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-qi-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.qi.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-chain-body.png",
+      "leg-back": "res://assets/animation/unit-qi-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.qi.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-qi-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.qi.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-leech-body.png",
+      "leg-back": "res://assets/animation/unit-qi-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.qi.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-raider-body.png",
+      "leg-back": "res://assets/animation/unit-qi-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.qi.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-qi-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.qi.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-qi-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.qi.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-qi-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.qi.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-qi-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.qi.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-qi-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.qi.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-warden-body.png",
+      "leg-back": "res://assets/animation/unit-qi-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.qi.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-qi-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.qi.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-qi-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.qi.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-qi-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.qi.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-qi-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.qi.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-qi-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-qi-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.mu.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-mu-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.mu.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-archer-body.png",
+      "leg-back": "res://assets/animation/unit-mu-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.mu.guard": {
+    "hip": 365,
+    "foot": [
+      224,
+      476
+    ],
+    "source_height": 412,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-guard-body.png",
+      "leg-back": "res://assets/animation/unit-mu-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      143,
+      365
+    ],
+    "leg-front_pivot": [
+      305,
+      365
+    ]
+  },
+  "unit.mu.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-medic-body.png",
+      "leg-back": "res://assets/animation/unit-mu-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.mu.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-mu-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.mu.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-mu-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.mu.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mu-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mu-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-mu-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.mu.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-mu-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.mu.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-pike-body.png",
+      "leg-back": "res://assets/animation/unit-mu-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.mu.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-mu-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.mu.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-mu-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.mu.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-mu-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.mu.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-mu-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.mu.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-shield-body.png",
+      "leg-back": "res://assets/animation/unit-mu-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.mu.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-mu-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.mu.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-banner-body.png",
+      "leg-back": "res://assets/animation/unit-mu-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.mu.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-mu-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.mu.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-mu-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.mu.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-mu-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.mu.poisoner": {
+    "hip": 370,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 391,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-mu-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      125,
+      370
+    ],
+    "leg-front_pivot": [
+      259,
+      370
+    ]
+  },
+  "unit.mu.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-burner-body.png",
+      "leg-back": "res://assets/animation/unit-mu-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.mu.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-mu-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.mu.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-mu-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.mu.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mu-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mu-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-mu-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.mu.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-mu-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-mu-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-mu-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.mu.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-chain-body.png",
+      "leg-back": "res://assets/animation/unit-mu-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.mu.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-mu-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.mu.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-leech-body.png",
+      "leg-back": "res://assets/animation/unit-mu-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.mu.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-raider-body.png",
+      "leg-back": "res://assets/animation/unit-mu-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.mu.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-mu-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.mu.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-mu-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.mu.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-mu-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.mu.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-mu-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.mu.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-mu-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.mu.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-warden-body.png",
+      "leg-back": "res://assets/animation/unit-mu-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.mu.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-mu-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.mu.colossus": {
+    "hip": 374,
+    "foot": [
+      243,
+      476
+    ],
+    "source_height": 377,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-mu-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      158,
+      374
+    ],
+    "leg-front_pivot": [
+      329,
+      374
+    ]
+  },
+  "unit.mu.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-mu-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.mu.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-mu-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.mu.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-mu-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-mu-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.shuang.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.shuang.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-archer-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.shuang.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-guard-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.shuang.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.shuang.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-shuang-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-shuang-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-shuang-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.shuang.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.shuang.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-pike-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.shuang.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.shuang.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.shuang.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.shuang.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.shuang.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-shield-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.shuang.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.shuang.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-banner-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.shuang.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.shuang.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.shuang.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.shuang.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.shuang.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-burner-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.shuang.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.shuang.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.shuang.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-shuang-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-shuang-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-shuang-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.shuang.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-shuang-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-shuang-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-shuang-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.shuang.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-chain-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.shuang.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.shuang.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-leech-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.shuang.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-raider-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.shuang.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.shuang.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.shuang.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.shuang.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.shuang.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.shuang.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-warden-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.shuang.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.shuang.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.shuang.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.shuang.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.shuang.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.jin.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-jin-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.jin.archer": {
+    "hip": 359,
+    "foot": [
+      237,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-archer-body.png",
+      "leg-back": "res://assets/animation/unit-jin-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      156,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.jin.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-guard-body.png",
+      "leg-back": "res://assets/animation/unit-jin-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.jin.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-medic-body.png",
+      "leg-back": "res://assets/animation/unit-jin-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.jin.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-jin-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.jin.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-jin-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.jin.artillery": {
+    "hip": 365,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 410,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-jin-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-jin-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-jin-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      175,
+      386
+    ],
+    "wheel-front_pivot": [
+      357,
+      386
+    ]
+  },
+  "unit.jin.mirror": {
+    "hip": 361,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 425,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-jin-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      155,
+      361
+    ],
+    "leg-front_pivot": [
+      291,
+      361
+    ]
+  },
+  "unit.jin.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-pike-body.png",
+      "leg-back": "res://assets/animation/unit-jin-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.jin.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-jin-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.jin.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-jin-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.jin.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-jin-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.jin.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-jin-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.jin.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-shield-body.png",
+      "leg-back": "res://assets/animation/unit-jin-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.jin.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-jin-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.jin.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-banner-body.png",
+      "leg-back": "res://assets/animation/unit-jin-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.jin.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-jin-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.jin.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-jin-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.jin.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-jin-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.jin.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-jin-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.jin.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-burner-body.png",
+      "leg-back": "res://assets/animation/unit-jin-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.jin.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-jin-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.jin.repeater": {
+    "hip": 359,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-jin-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      123,
+      359
+    ],
+    "leg-front_pivot": [
+      268,
+      359
+    ]
+  },
+  "unit.jin.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-jin-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-jin-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-jin-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.jin.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-jin-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-jin-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-jin-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.jin.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-chain-body.png",
+      "leg-back": "res://assets/animation/unit-jin-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.jin.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-jin-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.jin.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-leech-body.png",
+      "leg-back": "res://assets/animation/unit-jin-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.jin.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-raider-body.png",
+      "leg-back": "res://assets/animation/unit-jin-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.jin.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-jin-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.jin.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-jin-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.jin.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-jin-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.jin.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-jin-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.jin.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-jin-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.jin.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-warden-body.png",
+      "leg-back": "res://assets/animation/unit-jin-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.jin.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-jin-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.jin.colossus": {
+    "hip": 380,
+    "foot": [
+      228,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-jin-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      145,
+      380
+    ],
+    "leg-front_pivot": [
+      312,
+      380
+    ]
+  },
+  "unit.jin.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-jin-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.jin.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-jin-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.jin.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-jin-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-jin-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.bai.vanguard": {
+    "hip": 359,
+    "foot": [
+      282,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-vanguard-body.png",
+      "leg-back": "res://assets/animation/unit-bai-vanguard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-vanguard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      210,
+      359
+    ],
+    "leg-front_pivot": [
+      354,
+      359
+    ]
+  },
+  "unit.bai.archer": {
+    "hip": 359,
+    "foot": [
+      281,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-archer-body.png",
+      "leg-back": "res://assets/animation/unit-bai-archer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-archer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      212,
+      359
+    ],
+    "leg-front_pivot": [
+      352,
+      359
+    ]
+  },
+  "unit.bai.guard": {
+    "hip": 360,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-guard-body.png",
+      "leg-back": "res://assets/animation/unit-bai-guard-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-guard-leg-front.png"
+    },
+    "leg-back_pivot": [
+      193,
+      360
+    ],
+    "leg-front_pivot": [
+      393,
+      360
+    ]
+  },
+  "unit.bai.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-medic-body.png",
+      "leg-back": "res://assets/animation/unit-bai-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.bai.javelin": {
+    "hip": 391,
+    "foot": [
+      173,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-bai-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      391
+    ],
+    "leg-front_pivot": [
+      227,
+      391
+    ]
+  },
+  "unit.bai.crusher": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-crusher-body.png",
+      "leg-back": "res://assets/animation/unit-bai-crusher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-crusher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      201,
+      359
+    ],
+    "leg-front_pivot": [
+      350,
+      359
+    ]
+  },
+  "unit.bai.artillery": {
+    "hip": 359,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-bai-artillery-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-bai-artillery-wheel-front.png",
+      "body": "res://assets/animation/unit-bai-artillery-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      189,
+      381
+    ],
+    "wheel-front_pivot": [
+      328,
+      381
+    ]
+  },
+  "unit.bai.mirror": {
+    "hip": 359,
+    "foot": [
+      239,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-mirror-body.png",
+      "leg-back": "res://assets/animation/unit-bai-mirror-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-mirror-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      313,
+      359
+    ]
+  },
+  "unit.bai.pike": {
+    "hip": 359,
+    "foot": [
+      210,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-pike-body.png",
+      "leg-back": "res://assets/animation/unit-bai-pike-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-pike-leg-front.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      254,
+      359
+    ]
+  },
+  "unit.bai.cleaver": {
+    "hip": 359,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-cleaver-body.png",
+      "leg-back": "res://assets/animation/unit-bai-cleaver-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-cleaver-leg-front.png"
+    },
+    "leg-back_pivot": [
+      105,
+      359
+    ],
+    "leg-front_pivot": [
+      280,
+      359
+    ]
+  },
+  "unit.bai.duelist": {
+    "hip": 381,
+    "foot": [
+      174,
+      476
+    ],
+    "source_height": 352,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-duelist-body.png",
+      "leg-back": "res://assets/animation/unit-bai-duelist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-duelist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      85,
+      381
+    ],
+    "leg-front_pivot": [
+      264,
+      381
+    ]
+  },
+  "unit.bai.lancer": {
+    "hip": 359,
+    "foot": [
+      179,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-lancer-body.png",
+      "leg-back": "res://assets/animation/unit-bai-lancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-lancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      101,
+      359
+    ],
+    "leg-front_pivot": [
+      258,
+      359
+    ]
+  },
+  "unit.bai.assassin": {
+    "hip": 378,
+    "foot": [
+      248,
+      476
+    ],
+    "source_height": 363,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-assassin-body.png",
+      "leg-back": "res://assets/animation/unit-bai-assassin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-assassin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      175,
+      378
+    ],
+    "leg-front_pivot": [
+      321,
+      378
+    ]
+  },
+  "unit.bai.shield": {
+    "hip": 359,
+    "foot": [
+      202,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-shield-body.png",
+      "leg-back": "res://assets/animation/unit-bai-shield-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-shield-leg-front.png"
+    },
+    "leg-back_pivot": [
+      140,
+      359
+    ],
+    "leg-front_pivot": [
+      264,
+      359
+    ]
+  },
+  "unit.bai.harrier": {
+    "hip": 364,
+    "foot": [
+      234,
+      476
+    ],
+    "source_height": 416,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-harrier-body.png",
+      "leg-back": "res://assets/animation/unit-bai-harrier-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-harrier-leg-front.png"
+    },
+    "leg-back_pivot": [
+      150,
+      364
+    ],
+    "leg-front_pivot": [
+      320,
+      364
+    ]
+  },
+  "unit.bai.banner": {
+    "hip": 359,
+    "foot": [
+      275,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-banner-body.png",
+      "leg-back": "res://assets/animation/unit-bai-banner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-banner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      232,
+      359
+    ],
+    "leg-front_pivot": [
+      318,
+      359
+    ]
+  },
+  "unit.bai.drummer": {
+    "hip": 359,
+    "foot": [
+      250,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-drummer-body.png",
+      "leg-back": "res://assets/animation/unit-bai-drummer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-drummer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      166,
+      359
+    ],
+    "leg-front_pivot": [
+      334,
+      359
+    ]
+  },
+  "unit.bai.engineer": {
+    "hip": 359,
+    "foot": [
+      214,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-engineer-body.png",
+      "leg-back": "res://assets/animation/unit-bai-engineer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-engineer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      142,
+      359
+    ],
+    "leg-front_pivot": [
+      286,
+      359
+    ]
+  },
+  "unit.bai.scribe": {
+    "hip": 362,
+    "foot": [
+      195,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-scribe-body.png",
+      "leg-back": "res://assets/animation/unit-bai-scribe-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-scribe-leg-front.png"
+    },
+    "leg-back_pivot": [
+      131,
+      362
+    ],
+    "leg-front_pivot": [
+      259,
+      362
+    ]
+  },
+  "unit.bai.poisoner": {
+    "hip": 380,
+    "foot": [
+      167,
+      476
+    ],
+    "source_height": 357,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-poisoner-body.png",
+      "leg-back": "res://assets/animation/unit-bai-poisoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-poisoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      96,
+      380
+    ],
+    "leg-front_pivot": [
+      238,
+      380
+    ]
+  },
+  "unit.bai.burner": {
+    "hip": 359,
+    "foot": [
+      221,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-burner-body.png",
+      "leg-back": "res://assets/animation/unit-bai-burner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-burner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      183,
+      359
+    ],
+    "leg-front_pivot": [
+      260,
+      359
+    ]
+  },
+  "unit.bai.sniper": {
+    "hip": 395,
+    "foot": [
+      165,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-sniper-body.png",
+      "leg-back": "res://assets/animation/unit-bai-sniper-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-sniper-leg-front.png"
+    },
+    "leg-back_pivot": [
+      104,
+      395
+    ],
+    "leg-front_pivot": [
+      227,
+      395
+    ]
+  },
+  "unit.bai.repeater": {
+    "hip": 391,
+    "foot": [
+      205,
+      476
+    ],
+    "source_height": 314,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-repeater-body.png",
+      "leg-back": "res://assets/animation/unit-bai-repeater-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-repeater-leg-front.png"
+    },
+    "leg-back_pivot": [
+      146,
+      391
+    ],
+    "leg-front_pivot": [
+      266,
+      391
+    ]
+  },
+  "unit.bai.siege": {
+    "hip": 383,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 345,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-bai-siege-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-bai-siege-wheel-front.png",
+      "body": "res://assets/animation/unit-bai-siege-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      133,
+      400
+    ],
+    "wheel-front_pivot": [
+      337,
+      400
+    ]
+  },
+  "unit.bai.mortar": {
+    "hip": 362,
+    "foot": [
+      256,
+      476
+    ],
+    "source_height": 421,
+    "parts": {
+      "wheel-back": "res://assets/animation/unit-bai-mortar-wheel-back.png",
+      "wheel-front": "res://assets/animation/unit-bai-mortar-wheel-front.png",
+      "body": "res://assets/animation/unit-bai-mortar-body.png"
+    },
+    "cart": true,
+    "wheel-back_pivot": [
+      152,
+      383
+    ],
+    "wheel-front_pivot": [
+      366,
+      383
+    ]
+  },
+  "unit.bai.chain": {
+    "hip": 359,
+    "foot": [
+      274,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-chain-body.png",
+      "leg-back": "res://assets/animation/unit-bai-chain-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-chain-leg-front.png"
+    },
+    "leg-back_pivot": [
+      179,
+      359
+    ],
+    "leg-front_pivot": [
+      369,
+      359
+    ]
+  },
+  "unit.bai.executioner": {
+    "hip": 379,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 361,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-executioner-body.png",
+      "leg-back": "res://assets/animation/unit-bai-executioner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-executioner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      129,
+      379
+    ],
+    "leg-front_pivot": [
+      301,
+      379
+    ]
+  },
+  "unit.bai.leech": {
+    "hip": 362,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 422,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-leech-body.png",
+      "leg-back": "res://assets/animation/unit-bai-leech-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-leech-leg-front.png"
+    },
+    "leg-back_pivot": [
+      177,
+      362
+    ],
+    "leg-front_pivot": [
+      322,
+      362
+    ]
+  },
+  "unit.bai.raider": {
+    "hip": 382,
+    "foot": [
+      244,
+      476
+    ],
+    "source_height": 349,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-raider-body.png",
+      "leg-back": "res://assets/animation/unit-bai-raider-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-raider-leg-front.png"
+    },
+    "leg-back_pivot": [
+      154,
+      382
+    ],
+    "leg-front_pivot": [
+      335,
+      382
+    ]
+  },
+  "unit.bai.demolisher": {
+    "hip": 359,
+    "foot": [
+      215,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-demolisher-body.png",
+      "leg-back": "res://assets/animation/unit-bai-demolisher-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-demolisher-leg-front.png"
+    },
+    "leg-back_pivot": [
+      112,
+      359
+    ],
+    "leg-front_pivot": [
+      317,
+      359
+    ]
+  },
+  "unit.bai.summoner": {
+    "hip": 363,
+    "foot": [
+      197,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-summoner-body.png",
+      "leg-back": "res://assets/animation/unit-bai-summoner-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-summoner-leg-front.png"
+    },
+    "leg-back_pivot": [
+      134,
+      363
+    ],
+    "leg-front_pivot": [
+      261,
+      363
+    ]
+  },
+  "unit.bai.necromancer": {
+    "hip": 359,
+    "foot": [
+      196,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-necromancer-body.png",
+      "leg-back": "res://assets/animation/unit-bai-necromancer-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-necromancer-leg-front.png"
+    },
+    "leg-back_pivot": [
+      130,
+      359
+    ],
+    "leg-front_pivot": [
+      263,
+      359
+    ]
+  },
+  "unit.bai.illusionist": {
+    "hip": 359,
+    "foot": [
+      200,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-illusionist-body.png",
+      "leg-back": "res://assets/animation/unit-bai-illusionist-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-illusionist-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      265,
+      359
+    ]
+  },
+  "unit.bai.saboteur": {
+    "hip": 360,
+    "foot": [
+      192,
+      476
+    ],
+    "source_height": 431,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-saboteur-body.png",
+      "leg-back": "res://assets/animation/unit-bai-saboteur-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-saboteur-leg-front.png"
+    },
+    "leg-back_pivot": [
+      120,
+      360
+    ],
+    "leg-front_pivot": [
+      263,
+      360
+    ]
+  },
+  "unit.bai.warden": {
+    "hip": 359,
+    "foot": [
+      222,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-warden-body.png",
+      "leg-back": "res://assets/animation/unit-bai-warden-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-warden-leg-front.png"
+    },
+    "leg-back_pivot": [
+      148,
+      359
+    ],
+    "leg-front_pivot": [
+      296,
+      359
+    ]
+  },
+  "unit.bai.colossus": {
+    "hip": 370,
+    "foot": [
+      249,
+      476
+    ],
+    "source_height": 393,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-colossus-body.png",
+      "leg-back": "res://assets/animation/unit-bai-colossus-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-colossus-leg-front.png"
+    },
+    "leg-back_pivot": [
+      156,
+      370
+    ],
+    "leg-front_pivot": [
+      343,
+      370
+    ]
+  },
+  "unit.bai.caravan": {
+    "hip": 359,
+    "foot": [
+      252,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-caravan-body.png",
+      "leg-back": "res://assets/animation/unit-bai-caravan-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-caravan-leg-front.png"
+    },
+    "leg-back_pivot": [
+      178,
+      359
+    ],
+    "leg-front_pivot": [
+      328,
+      359
+    ]
+  },
+  "unit.bai.oracle": {
+    "hip": 359,
+    "foot": [
+      187,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-oracle-body.png",
+      "leg-back": "res://assets/animation/unit-bai-oracle-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-oracle-leg-front.png"
+    },
+    "leg-back_pivot": [
+      135,
+      359
+    ],
+    "leg-front_pivot": [
+      239,
+      359
+    ]
+  },
+  "unit.bai.phoenix": {
+    "hip": 363,
+    "foot": [
+      293,
+      476
+    ],
+    "source_height": 418,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-phoenix-body.png",
+      "leg-back": "res://assets/animation/unit-bai-phoenix-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-phoenix-leg-front.png"
+    },
+    "leg-back_pivot": [
+      215,
+      363
+    ],
+    "leg-front_pivot": [
+      373,
+      363
+    ]
+  },
+  "unit.shuang.medic": {
+    "hip": 360,
+    "foot": [
+      204,
+      476
+    ],
+    "source_height": 430,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-medic-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-medic-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-medic-leg-front.png"
+    },
+    "leg-back_pivot": [
+      144,
+      360
+    ],
+    "leg-front_pivot": [
+      264,
+      360
+    ]
+  },
+  "unit.shuang.javelin": {
+    "hip": 395,
+    "foot": [
+      191,
+      476
+    ],
+    "source_height": 300,
+    "parts": {
+      "body": "res://assets/animation/unit-shuang-javelin-body.png",
+      "leg-back": "res://assets/animation/unit-shuang-javelin-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-javelin-leg-front.png"
+    },
+    "leg-back_pivot": [
+      119,
+      395
+    ],
+    "leg-front_pivot": [
+      264,
+      395
+    ]
+  },
+  "unit.bai.berserker": {
+    "hip": 367,
+    "foot": [
+      242,
+      476
+    ],
+    "source_height": 402,
+    "parts": {
+      "body": "res://assets/animation/unit-bai-berserker-body.png",
+      "leg-back": "res://assets/animation/unit-bai-berserker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-berserker-leg-front.png"
+    },
+    "leg-back_pivot": [
+      174,
+      367
+    ],
+    "leg-front_pivot": [
+      310,
+      367
+    ]
+  },
+  "unit.ji.worker": {
+    "hip": 377,
+    "foot": [
+      240,
+      476
+    ],
+    "source_height": 367,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-ji-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-ji-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-ji-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-ji-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      178,
+      377
+    ],
+    "leg-front_pivot": [
+      304,
+      377
+    ],
+    "arm-pick_pivot": [
+      324,
+      325
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.yuan.worker": {
+    "hip": 369,
+    "foot": [
+      266,
+      476
+    ],
+    "source_height": 395,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-yuan-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-yuan-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-yuan-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-yuan-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      188,
+      369
+    ],
+    "leg-front_pivot": [
+      345,
+      369
+    ],
+    "arm-pick_pivot": [
+      345,
+      318
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.qi.worker": {
+    "hip": 373,
+    "foot": [
+      245,
+      476
+    ],
+    "source_height": 380,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-qi-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-qi-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-qi-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-qi-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      187,
+      373
+    ],
+    "leg-front_pivot": [
+      304,
+      373
+    ],
+    "arm-pick_pivot": [
+      307,
+      338
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.mu.worker": {
+    "hip": 362,
+    "foot": [
+      264,
+      476
+    ],
+    "source_height": 424,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-mu-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-mu-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-mu-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-mu-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      187,
+      362
+    ],
+    "leg-front_pivot": [
+      340,
+      362
+    ],
+    "arm-pick_pivot": [
+      330,
+      315
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.shuang.worker": {
+    "hip": 367,
+    "foot": [
+      258,
+      476
+    ],
+    "source_height": 403,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-shuang-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-shuang-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-shuang-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-shuang-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      193,
+      367
+    ],
+    "leg-front_pivot": [
+      323,
+      367
+    ],
+    "arm-pick_pivot": [
+      324,
+      313
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.jin.worker": {
+    "hip": 364,
+    "foot": [
+      243,
+      476
+    ],
+    "source_height": 415,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-jin-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-jin-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-jin-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-jin-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      178,
+      364
+    ],
+    "leg-front_pivot": [
+      309,
+      364
+    ],
+    "arm-pick_pivot": [
+      325,
+      333
+    ],
+    "work_rig_version": "rc2"
+  },
+  "unit.bai.worker": {
+    "hip": 359,
+    "foot": [
+      243,
+      476
+    ],
+    "source_height": 432,
+    "parts": {
+      "body": "res://assets/animation/rc2/unit-bai-worker-body-work.png",
+      "leg-back": "res://assets/animation/unit-bai-worker-leg-back.png",
+      "leg-front": "res://assets/animation/unit-bai-worker-leg-front.png",
+      "arm-pick": "res://assets/animation/rc2/unit-bai-worker-arm-pick.png"
+    },
+    "leg-back_pivot": [
+      168,
+      359
+    ],
+    "leg-front_pivot": [
+      319,
+      359
+    ],
+    "arm-pick_pivot": [
+      328,
+      305
+    ],
+    "work_rig_version": "rc2"
+  }
+}

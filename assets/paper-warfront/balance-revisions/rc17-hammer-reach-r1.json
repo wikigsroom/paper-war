@@ -1,0 +1,92 @@
+{
+  "revision": "rc17-hammer-reach-r1",
+  "previous_revision": "rc14-executioner-reach-r1",
+  "status": "formal-preview-exported-and-package-verified",
+  "reason": "Paid advancing hammer stops behind the friendly axe at a native observed1.182 distance, outside the original0.82 reach. Symmetric formal-price recipe against six basic frontliners increases20 to26 hits at1.25 on short/mid/long roads. Actual ledger and event-side checks pass. Additional economic R8 AI remains opt-in.",
+  "units": {
+    "unit.yin.hammer": {
+      "before": {
+        "range": 0.82,
+        "gold": 95
+      },
+      "after": {
+        "range": 1.25,
+        "gold": 95
+      }
+    }
+  },
+  "files": {
+    "game/data/balance-prototype.json": {
+      "before_sha256": "00f6419d8bc3a72a65d2375044d80b35f1822c7a6bcfd007b7622172cbe72fa9",
+      "after_sha256": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6"
+    },
+    "assets/paper-warfront/balance-prototype.json": {
+      "before_sha256": "00f6419d8bc3a72a65d2375044d80b35f1822c7a6bcfd007b7622172cbe72fa9",
+      "after_sha256": "48b1a80fca593d0aeb6ebf4453b6c2527ad8be8f3617ac42f954cd9f696ce7e6"
+    },
+    "assets/paper-warfront/frame-rebuild/unit-briefs.json": {
+      "before_sha256": "7c1ff699edfa4ab2a0d05331bf8c6d19fc5ac8b3ef9b8d4a624370c36c529d14",
+      "after_sha256": "246c15533a2e63cebfd97800a496b2a5d728599a74aebd7ff2f40471558383f7"
+    },
+    "assets/paper-warfront/frame-rebuild/roster.csv": {
+      "before_sha256": "79f037e5c7a527af047b6bff17f3682ef6a544be981e1bc5f1bc8b0153e2c85f",
+      "after_sha256": "5a629b789a90f5acc9aa93ebfe563bf7642b8c648f7a39f1bab66448b6331075"
+    },
+    "tools/paper-warfront/design_distinct_rosters.py": {
+      "before_sha256": "e84fd982185a4ca4b26204d8d61f54acfed9bab9f454c42ffc8d34ea4cdfe86a",
+      "after_sha256": "f1ac0f9b267aaa16c96cc7895b6a3fbd47bf9d7f24f99010b2ae7f0daa26f671"
+    },
+    "docs/paper-warfront/frame-rebuild/01-阵营与兵种设计.md": {
+      "before_sha256": "fef274c4fb3c7a4e323c919063b8a78e5dc1ed6580f9233884451e88bd8d41a6",
+      "after_sha256": "3f70e1ab74729c1be262561271017a457fae65ea86f8525c6cf8b08ae6d416f6"
+    },
+    "docs/paper-warfront/frame-rebuild/05-阵营轮廓与执行参数.md": {
+      "before_sha256": "332bbc95d9184c9e885a8b137d292fab4ff8607baeb6354cd91e77e0a2f8df4c",
+      "after_sha256": "2bc63b19c74fbef775da4ec6a5d4d1d6fefefdf3f450b2edef46d04d0214e9b6"
+    }
+  },
+  "art_contract": {
+    "identity_version": 2,
+    "atlas_sha256": "61c4579cbcba624a72b49b3d99740fdafda9a1f1aa0a8a30495593e903209a5f",
+    "frame_count": 36,
+    "action_release": "native same normal windup and production contract"
+  },
+  "diagnostic_record": "output/qa/godot/core-alignment-rc17/crew-growth/hammer-screen-diagnostics.json",
+  "diagnostic_inputs": "pre-formal R8 snapshot; runtime0.82/1.25 overrides recorded, not export proof",
+  "scope": "Formal gameplay reach correction is exported in rc17 Windows EXE and Android APK. Native GPU animations, actual exported EXE UI, paid recipes, package logic and archive proof are verified. Android physical hardware and full balance remain unverified; budget AI R8 remains opt-in and disabled by default.",
+  "verification": {
+    "release_version": "3.0.0-rc17-preview",
+    "source_mechanism_groups": 62,
+    "source_mechanism_checks": 13738,
+    "compiled_checks_per_package": 798,
+    "paper_ui_checks": 98,
+    "paper_ui_assets": 38,
+    "android_hardware_verified": false,
+    "full_balance_verified": false,
+    "experimental_budget_ai_default_enabled": false,
+    "files": {
+      "output/qa/godot/core-alignment-rc17/formal-hammer/verification.json": "002b3d04bc40ccdad633157e6e9ab669fa00d13553170fedeb6384f65d4a050f",
+      "output/qa/godot/core-alignment-rc17/formal-hammer/paid-recipes.json": "4efcb660f77b57bf4f5a5c73b20fcc4b6a7d423876d51cf3240f747bd5c95375",
+      "output/qa/godot/core-alignment-rc17/formal-hammer/reach-controls.json": "dbdf94a7bdc6d9f1fb3e1a28811dd07e6cbf45aa708bb331d373668b29b34097",
+      "release/3.0.0-rc17-preview/preview-verification.json": "b18f8439875aae977699eb94860eccc21de60eb64421dd1aabbeb01c9ba3aa8c",
+      "release/3.0.0-rc17-preview/build-manifest.json": "92b5782abf94210c1399a2bb6648e227aed2f8d2fd6e05c93d6e587f1431013a"
+    },
+    "artifacts": [
+      {
+        "path": "release/3.0.0-rc17-preview/windows/PaperWarfront.exe",
+        "bytes": 238210176,
+        "sha256": "e8a3c6c3e3c046c63685b73aa536abe816ecf9177f40f5d6d2680e1400b6a6cd"
+      },
+      {
+        "path": "release/3.0.0-rc17-preview/android/PaperWarfront-3.0.0-rc17-preview.apk",
+        "bytes": 176398556,
+        "sha256": "1666b7a3d2d3e994c3b7080baab2d7ffabc10964b46f6844bc519b3b793eefa6"
+      },
+      {
+        "path": "release/3.0.0-rc17-preview/PaperWarfront-Windows-3.0.0-rc17-preview.zip",
+        "bytes": 165322053,
+        "sha256": "a63d353e0a9f6b334930aec950de4b68bbd8aab3e00c7dc1ccb78abc4ad106f9"
+      }
+    ]
+  }
+}

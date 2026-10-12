@@ -1,0 +1,6719 @@
+{
+  "project": "paper-warfront",
+  "version": "0.1.0",
+  "status_model": [
+    "design-ready",
+    "source-generated",
+    "derived-candidate",
+    "visual-reviewed",
+    "runtime-verified"
+  ],
+  "assets": [
+    {
+      "id": "unit.yin.axe",
+      "name": "折斧兵",
+      "faction": "yin",
+      "role": "耐久近战",
+      "shape": "broad",
+      "height": 1.8,
+      "weapon": "folded axe",
+      "shield": "square stamp shield",
+      "visual": "Stout paper infantry, broad square vermilion armor, folded axe, thick square stamp shield, earnest ivory face, short sturdy limbs.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-yin-axe.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-yin-axe.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-yin-axe.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          18,
+          55,
+          481,
+          480
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 261318,
+        "sha256": "1e4ab9b47f7676d88a213d622b11b3fe72eb83ac33bc54c6f18873e1651cd60a",
+        "source_content_box": [
+          0,
+          1,
+          463,
+          425
+        ],
+        "scale": 0.9676025917926566,
+        "content_box": [
+          32,
+          66,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.763975+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.yin.spear",
+      "name": "纸矛手",
+      "faction": "yin",
+      "role": "投射远程",
+      "shape": "ranged",
+      "height": 1.72,
+      "weapon": "paper spear",
+      "visual": "Slimmer red-armored paper spear thrower, two folded javelins, pointed small helmet, forward throwing hand; distinct from melee shield infantry.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-yin-spear.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-yin-spear.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-yin-spear.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          545,
+          92,
+          1006,
+          480
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 150017,
+        "sha256": "04cbbd515f18c1298862845393546fb8290cf332b46769c1260187c996011936",
+        "source_content_box": [
+          0,
+          0,
+          461,
+          388
+        ],
+        "scale": 0.9718004338394793,
+        "content_box": [
+          32,
+          99,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764063+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.yin.hammer",
+      "name": "压印锤卫",
+      "faction": "yin",
+      "role": "重击控制",
+      "shape": "heavy",
+      "height": 2.16,
+      "weapon": "stamp hammer",
+      "visual": "Very wide stocky vermilion heavy guard, enormous rectangular stamp hammer with an abstract seal, thick pauldrons, concentrated funny face.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-yin-hammer.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-yin-hammer.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-yin-hammer.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1022,
+          24,
+          1529,
+          480
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 289554,
+        "sha256": "68de452a95a1d1eb8e3d2497a62476a173d0de3c6fd65d14b6f1a3abf6026d6a",
+        "source_content_box": [
+          0,
+          0,
+          506,
+          456
+        ],
+        "scale": 0.8853754940711462,
+        "content_box": [
+          32,
+          72,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764075+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.yin.cannon",
+      "name": "卷轴炮车",
+      "faction": "yin",
+      "role": "慢速攻城",
+      "shape": "cart",
+      "height": 1.34,
+      "weapon": "scroll cannon",
+      "visual": "A short wheeled paper siege cart, folded scroll cannon barrel, vermilion printed frame, two simple cardboard wheels, absolutely no operator or real metal.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-yin-cannon.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-yin-cannon.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-yin-cannon.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          37,
+          603,
+          479,
+          969
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 303136,
+        "sha256": "562948c2de49ff9f2764fd51baacdf2ffbe72a682dbdfb8a11d75c0fde21123d",
+        "source_content_box": [
+          2,
+          0,
+          442,
+          366
+        ],
+        "scale": 1.018181818181818,
+        "content_box": [
+          32,
+          103,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764084+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.yin.worker",
+      "name": "运金纸工",
+      "faction": "yin",
+      "role": "采金经济",
+      "shape": "worker",
+      "height": 1.48,
+      "weapon": "paper pick",
+      "visual": "Small unarmored ivory paper worker with a red sash, round conical paper cap, tiny folded pick and visible gold-carrying satchel, gentle face.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-yin-worker.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-yin-worker.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-yin-worker.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          619,
+          624,
+          930,
+          968
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 226299,
+        "sha256": "1b39429d99eeeae80b505efe97220321110f9f5894ee8fd38f7771160af52921",
+        "source_content_box": [
+          0,
+          0,
+          311,
+          343
+        ],
+        "scale": 1.2594752186588922,
+        "content_box": [
+          60,
+          44,
+          452,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764093+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "portrait.yin.commander",
+      "name": "印甲统帅",
+      "faction": "yin",
+      "role": "叙事肖像",
+      "shape": "broad",
+      "height": 2.0,
+      "weapon": "seal baton",
+      "visual": "Proud paper general with broad vermilion armor, square stamp-shaped helmet crest, absurdly serious eyebrows, a tiny seal baton; no playable hero.",
+      "priority": "P2",
+      "category": "portrait",
+      "asset_path": "assets/paper-warfront/characters/cutouts/portrait-yin-commander.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/portrait-yin-commander.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1018,
+          519,
+          1461,
+          981
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 235574,
+        "sha256": "daa801c6f982cf4dc023932f5ac15fecd899d3590df9906922388d0bb7cd86fb",
+        "source_content_box": [
+          0,
+          0,
+          443,
+          462
+        ],
+        "scale": 0.935064935064935,
+        "content_box": [
+          49,
+          44,
+          463,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764097+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-yin.png",
+      "source_job": "characters-yin",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.blade",
+      "name": "墨刃猎兵",
+      "faction": "mo",
+      "role": "跃袭近战",
+      "shape": "slender",
+      "height": 1.82,
+      "weapon": "ink blade",
+      "visual": "Angular ink-black blade hunter, long folded arms, narrow pointed paper mask with ivory face, hooked paper blade, lively lean silhouette.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-blade.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-blade.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-blade.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          62,
+          33,
+          510,
+          491
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 178491,
+        "sha256": "63b279cd992cff98ce87a845b6f4398c6fa6175e74e617d71dcd6400c7018d5a",
+        "source_content_box": [
+          0,
+          0,
+          447,
+          456
+        ],
+        "scale": 0.9473684210526315,
+        "content_box": [
+          44,
+          44,
+          467,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764102+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.needle",
+      "name": "墨针手",
+      "faction": "mo",
+      "role": "持续伤害远程",
+      "shape": "ranged",
+      "height": 1.73,
+      "weapon": "ink blowpipe",
+      "visual": "Thin charcoal paper poison shooter with a narrow straw-paper hat, short ink blowpipe, tiny poison vial shape on belt, sharp eyes; no cloud effects.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-needle.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-needle.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-needle.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          617,
+          91,
+          990,
+          492
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 173422,
+        "sha256": "bbc4efd90ac305a8e7c1feca21e0c7c4bc5d6fac6da27e3b7422385f3a0e8196",
+        "source_content_box": [
+          0,
+          0,
+          373,
+          400
+        ],
+        "scale": 1.08,
+        "content_box": [
+          54,
+          44,
+          457,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764109+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.priest",
+      "name": "拾纸祭司",
+      "faction": "mo",
+      "role": "阵亡标记召唤支援",
+      "shape": "slender",
+      "height": 1.9,
+      "weapon": "paperbone staff",
+      "visual": "Tall narrow ink-paper priest, ragged folded robe, skull-paper mask, one paperbone staff topped with a simple curled scrap, composed ritual expression.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-priest.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-priest.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-priest.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1103,
+          17,
+          1476,
+          499
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 186378,
+        "sha256": "a5361bf05eccf3e62af28c9e04010490ac8a7f1be17db2ba376e1a03c5adc885",
+        "source_content_box": [
+          0,
+          1,
+          372,
+          482
+        ],
+        "scale": 0.8981288981288982,
+        "content_box": [
+          89,
+          44,
+          423,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764116+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.giant",
+      "name": "纸巨人",
+      "faction": "mo",
+      "role": "巨型范围威胁",
+      "shape": "giant",
+      "height": 3.42,
+      "weapon": "folded fists",
+      "visual": "Huge angular charcoal folded-paper giant with a rectangular ink-swirl mask, extremely broad jointed shoulders, hanging ivory paper strips and giant folded hands. Simple few polygon panels.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-giant.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-giant.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-giant.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          35,
+          513,
+          554,
+          988
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 325131,
+        "sha256": "05a54218811bfdb767388fa6a5338a9f549e86ef5372ea34b8f03e3b2e8a805c",
+        "source_content_box": [
+          0,
+          0,
+          519,
+          474
+        ],
+        "scale": 0.8631984585741811,
+        "content_box": [
+          32,
+          67,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764121+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.worker",
+      "name": "拾金纸工",
+      "faction": "mo",
+      "role": "采金经济",
+      "shape": "worker",
+      "height": 1.48,
+      "weapon": "paper pick",
+      "visual": "Small ivory paper worker with charcoal sash, round conical paper cap, tiny folded pick and gold satchel, same base economic body size as other workers.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-worker.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-worker.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-worker.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          677,
+          663,
+          955,
+          985
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 193849,
+        "sha256": "1d7a232971f1a3b2644bb20dbcb2402be766e4eddd60eaa1701e939562f6f944",
+        "source_content_box": [
+          0,
+          0,
+          278,
+          322
+        ],
+        "scale": 1.3416149068322982,
+        "content_box": [
+          69,
+          44,
+          442,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764128+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.mo.thrall",
+      "name": "纸骨兵",
+      "faction": "mo",
+      "role": "消费阵亡标记后的召唤兵",
+      "shape": "slender",
+      "height": 1.36,
+      "weapon": "bone-paper knife",
+      "visual": "Small ivory skeleton-like paper soldier, flat skull mask with two black eye holes, three simple folded paperbone limb pieces, tiny paper knife. Non-anatomical funny fragile cutout.",
+      "priority": "P0",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-mo-thrall.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-mo-thrall.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-mo-thrall.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1150,
+          653,
+          1413,
+          985
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 6,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 147531,
+        "sha256": "d57fe971d9ec634c2e4e0098b7d5dc68805734c0ffcac041b29cf36e4cf75466",
+        "source_content_box": [
+          0,
+          0,
+          263,
+          331
+        ],
+        "scale": 1.3051359516616314,
+        "content_box": [
+          84,
+          44,
+          427,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764134+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-mo.png",
+      "source_job": "characters-mo",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.mirror",
+      "name": "镜符刀卫",
+      "faction": "deng",
+      "role": "投射物反制近战",
+      "shape": "fan",
+      "height": 1.82,
+      "weapon": "curved seal blade",
+      "shield": "round mirror shield",
+      "visual": "Jade and dull-gold paper guard, fan-shaped folded helmet, curved paper blade, clearly visible round printed mirror shield, broad elegant silhouette.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-mirror.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-mirror.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-mirror.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          66,
+          18,
+          477,
+          472
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 227645,
+        "sha256": "dfb26c4a2ebb22669d31a6bda267a67966b935003da9f6dbf1d0b00ffbe1203c",
+        "source_content_box": [
+          1,
+          1,
+          410,
+          454
+        ],
+        "scale": 0.9536423841059603,
+        "content_box": [
+          61,
+          44,
+          451,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764142+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.fire",
+      "name": "火签手",
+      "faction": "deng",
+      "role": "爆发远程",
+      "shape": "ranged",
+      "height": 1.7,
+      "weapon": "fire-slip launcher",
+      "visual": "Jade paper ranged soldier with small winged cap, a short folded launcher holding two red paper fire-slips, gold printed trim, angular cheerful face, no flame effect.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-fire.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-fire.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-fire.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          613,
+          64,
+          970,
+          472
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 197874,
+        "sha256": "74ec918f9fa8855213061f57e66abaf6dce89bc357c2da82308f9943868c8645",
+        "source_content_box": [
+          1,
+          1,
+          356,
+          408
+        ],
+        "scale": 1.0614250614250613,
+        "content_box": [
+          67,
+          44,
+          444,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764149+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.shadow",
+      "name": "折影客",
+      "faction": "deng",
+      "role": "有限越线突击",
+      "shape": "slender",
+      "height": 1.78,
+      "weapon": "folded short blades",
+      "visual": "Narrow jade charcoal paper infiltrator with folded hood and fan tail sash, two short paper blades, crouched-ready but neutral complete-body pose, no transparency.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-shadow.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-shadow.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-shadow.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1045,
+          91,
+          1474,
+          466
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 213070,
+        "sha256": "d929b3594baae4b2e20049666201fdbb8e29b0693f75c6ec7895dd0c31ddb954",
+        "source_content_box": [
+          0,
+          0,
+          429,
+          375
+        ],
+        "scale": 1.0442890442890442,
+        "content_box": [
+          32,
+          84,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764157+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.effigy",
+      "name": "厚纸俑",
+      "faction": "deng",
+      "role": "特殊耐久护卫",
+      "shape": "heavy",
+      "height": 2.12,
+      "weapon": "paper polearm",
+      "visual": "Sturdy thick layered ivory paper effigy guard, jade rectangular plates, dull-gold seal crest, simple stiff face and long paper polearm, visibly thicker cutout edge.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-effigy.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-effigy.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-effigy.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          60,
+          482,
+          493,
+          993
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 236429,
+        "sha256": "f3f2dde8a95802c2faa346d4eae61d9095a37d4c55d655cecd2a052908e5f33b",
+        "source_content_box": [
+          1,
+          0,
+          432,
+          511
+        ],
+        "scale": 0.8454011741682974,
+        "content_box": [
+          74,
+          44,
+          438,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764167+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.worker",
+      "name": "灯金纸工",
+      "faction": "deng",
+      "role": "采金经济",
+      "shape": "worker",
+      "height": 1.48,
+      "weapon": "paper pick",
+      "visual": "Small ivory paper worker with jade sash, round conical paper cap, tiny folded pick and gold satchel, same proportions as red and ink workers.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-worker.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-worker.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-worker.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          612,
+          640,
+          909,
+          992
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 194952,
+        "sha256": "a26b090988ef3afe7cc4ff28df453f5af042cf85f95fd88262123e9286b3e4f2",
+        "source_content_box": [
+          1,
+          0,
+          297,
+          352
+        ],
+        "scale": 1.2272727272727273,
+        "content_box": [
+          74,
+          44,
+          437,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764177+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "unit.deng.guardian",
+      "name": "护符纸卫",
+      "faction": "deng",
+      "role": "限时法术召唤护卫",
+      "shape": "fan",
+      "height": 1.94,
+      "weapon": "seal staff",
+      "visual": "Ivory and jade summoned paper guardian with a large circular abstract seal on chest, broad flat fan headdress and blunt seal staff, no glow, no letters, no magic effects.",
+      "priority": "P1",
+      "category": "unit",
+      "asset_path": "assets/paper-warfront/characters/cutouts/unit-deng-guardian.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/unit-deng-guardian.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "rig_path": "assets/paper-warfront/rigs/unit-deng-guardian.json",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1031,
+          490,
+          1493,
+          993
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 5,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 287728,
+        "sha256": "4b01caf249da1fe1c875b6c9ccdf0e0ce28f1ebbb11bd354259757326c6ce6f2",
+        "source_content_box": [
+          1,
+          1,
+          461,
+          503
+        ],
+        "scale": 0.8605577689243028,
+        "content_box": [
+          58,
+          44,
+          454,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764185+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/characters-deng.png",
+      "source_job": "characters-deng",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "portrait.mo.commander",
+      "name": "墨骸统帅",
+      "faction": "mo",
+      "role": "叙事肖像",
+      "shape": "slender",
+      "height": 2.0,
+      "weapon": "paperbone baton",
+      "source_group": "commanders-extra",
+      "visual": "A comically self-important tall ink-black paper commander, angular ivory half-mask revealing one raised eyebrow, broad pointed paper collar, three small red seal strips, paperbone baton and a folded hood. Full body, very simple large paper panels, ritual personality, never a playable hero.",
+      "priority": "P2",
+      "category": "portrait",
+      "asset_path": "assets/paper-warfront/characters/cutouts/portrait-mo-commander.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/portrait-mo-commander.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "source_path": "output/imagegen/paper-warfront/sources/characters-commanders.png",
+      "source_job": "characters-commanders",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          2,
+          1
+        ]
+      },
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          261,
+          6,
+          806,
+          870
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 1,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 169681,
+        "sha256": "b076a5b527a2bde95dc68a032b6a69637b92f045972f35dee4e79672064f6d3d",
+        "source_content_box": [
+          1,
+          0,
+          545,
+          864
+        ],
+        "scale": 0.5,
+        "content_box": [
+          120,
+          44,
+          392,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764192+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      }
+    },
+    {
+      "id": "portrait.deng.commander",
+      "name": "灯符统帅",
+      "faction": "deng",
+      "role": "叙事肖像",
+      "shape": "fan",
+      "height": 2.0,
+      "weapon": "folded fan",
+      "source_group": "commanders-extra",
+      "visual": "A smug but humorous jade paper commander, oversized fan-shaped dull-gold paper crown, broad folded sleeves, round seal pendant, one folded hand fan and confidently arched eyebrows. Full body, clearly thin articulated paper panels, never a playable hero.",
+      "priority": "P2",
+      "category": "portrait",
+      "asset_path": "assets/paper-warfront/characters/cutouts/portrait-deng-commander.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "portrait_path": "assets/paper-warfront/ui/portraits/portrait-deng-commander.png",
+      "usage": "full-body-reference-and-prototype-cutout",
+      "source_path": "output/imagegen/paper-warfront/sources/characters-commanders.png",
+      "source_job": "characters-commanders",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          2,
+          1
+        ]
+      },
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          1004,
+          60,
+          1664,
+          870
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "subject_components": 1,
+          "removed_components": 1,
+          "method": "whole-source-connected-silhouette"
+        },
+        "bytes": 217931,
+        "sha256": "dbc1e82fa4facbed112492298c48b9c4a5b8f3f8fcc87443a2df93523e13d22d",
+        "source_content_box": [
+          0,
+          0,
+          659,
+          809
+        ],
+        "scale": 0.5339925834363412,
+        "content_box": [
+          80,
+          44,
+          432,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764199+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "portrait_visual_review": "passed"
+      }
+    },
+    {
+      "id": "spell.yin.repair",
+      "name": "补纸",
+      "faction": "yin",
+      "target": "allied-combat-unit",
+      "motif": "one visibly torn ivory paper plate joined by a jade repair seal",
+      "effect": "单体恢复生命",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-yin-repair.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          434,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 46831,
+        "sha256": "8ab8e53a6e223f4eeaf24ecc6a1668c3b4e1e281b0338ace4057de33cd19de5c",
+        "source_content_box": [
+          53,
+          174,
+          405,
+          531
+        ],
+        "scale": 0.4302521008403362,
+        "content_box": [
+          20,
+          19,
+          171,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764208+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-yin.png",
+      "source_job": "spells-yin",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.yin.lightning",
+      "name": "雷印",
+      "faction": "yin",
+      "target": "enemy-unit",
+      "motif": "one sharp ivory lightning stroke inside a small vermilion square seal",
+      "effect": "直接伤害",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-yin-lightning.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          434,
+          0,
+          869,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 49660,
+        "sha256": "2f5f5cfac451eecc3952fb1a446490d79ab8a4bdbb3ac4625522a94bffd3ba09",
+        "source_content_box": [
+          62,
+          178,
+          383,
+          514
+        ],
+        "scale": 0.4571428571428572,
+        "content_box": [
+          22,
+          19,
+          169,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764214+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-yin.png",
+      "source_job": "spells-yin",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.yin.cold",
+      "name": "寒纸风",
+      "faction": "yin",
+      "target": "ground-area",
+      "motif": "three curled pale-blue paper wind strips with a tiny frost crystal",
+      "effect": "范围减速",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-yin-cold.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          869,
+          0,
+          1303,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 40796,
+        "sha256": "51733e6044ea83489ac815792ee4f212ff6c91407c2913b719e15da9f3b016d9",
+        "source_content_box": [
+          25,
+          181,
+          399,
+          533
+        ],
+        "scale": 0.43636363636363645,
+        "content_box": [
+          14,
+          19,
+          177,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764219+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-yin.png",
+      "source_job": "spells-yin",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.yin.fury",
+      "name": "振甲",
+      "faction": "yin",
+      "target": "allied-combat-unit",
+      "motif": "a raised red paper gauntlet above a bold vermilion double chevron",
+      "effect": "限时攻击强化",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-yin-fury.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1303,
+          0,
+          1738,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 27264,
+        "sha256": "7ffcb3fd5db4b2bf578a1ce99a9805c6f0aa58e473b20bc80e9b9cb51d900d5c",
+        "source_content_box": [
+          75,
+          114,
+          332,
+          594
+        ],
+        "scale": 0.32000000000000006,
+        "content_box": [
+          55,
+          19,
+          137,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764225+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-yin.png",
+      "source_job": "spells-yin",
+      "source_cell": {
+        "column": 3,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.yin.stamp",
+      "name": "落印",
+      "faction": "yin",
+      "target": "ground-area",
+      "motif": "a heavy square vermilion stamp pressing down on three paper fragments",
+      "effect": "高消耗范围伤害",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-yin-stamp.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1738,
+          0,
+          2172,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 30646,
+        "sha256": "2f58bd2c6fbdd69268075c1c9deb04513af4da881769448c5aecb64cc98e3413",
+        "source_content_box": [
+          19,
+          128,
+          375,
+          578
+        ],
+        "scale": 0.3413333333333334,
+        "content_box": [
+          35,
+          19,
+          157,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764232+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-yin.png",
+      "source_job": "spells-yin",
+      "source_cell": {
+        "column": 4,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.mo.sacrifice",
+      "name": "献纸",
+      "faction": "mo",
+      "target": "allied-sacrificable-combat-unit",
+      "motif": "an ivory folded soldier silhouette dissolving into one blue mana droplet",
+      "effect": "剩余生命换法力并完整移除单位",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-mo-sacrifice.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          434,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 40631,
+        "sha256": "875f1565a56e8d1bc470d9d189da8226634226450f1d2c5c232203ee7a789042",
+        "source_content_box": [
+          32,
+          176,
+          423,
+          530
+        ],
+        "scale": 0.4296675191815857,
+        "content_box": [
+          12,
+          20,
+          180,
+          172
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764241+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-mo.png",
+      "source_job": "spells-mo",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.mo.bind",
+      "name": "墨缚",
+      "faction": "mo",
+      "target": "enemy-combat-unit",
+      "motif": "one black ink ribbon knotted around a small ivory paper wrist",
+      "effect": "限时行动控制",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-mo-bind.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          434,
+          0,
+          869,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 32223,
+        "sha256": "6dc9be107de783f1fa05d9221835453d104e6e7df0f9e0a65b72ed4cc44f7505",
+        "source_content_box": [
+          47,
+          192,
+          393,
+          544
+        ],
+        "scale": 0.43636363636363645,
+        "content_box": [
+          20,
+          19,
+          171,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764247+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-mo.png",
+      "source_job": "spells-mo",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.mo.poison",
+      "name": "腐墨",
+      "faction": "mo",
+      "target": "ground-area",
+      "motif": "three bounded charcoal ink curls with two small muted violet droplets",
+      "effect": "范围持续伤害",
+      "priority": "P0",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-mo-poison.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          869,
+          0,
+          1303,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 32189,
+        "sha256": "e5aa78aec6273884b453a87ffac9c83f386e12655a0c7d04f847b351489ac336",
+        "source_content_box": [
+          41,
+          185,
+          382,
+          525
+        ],
+        "scale": 0.451764705882353,
+        "content_box": [
+          19,
+          19,
+          173,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764257+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-mo.png",
+      "source_job": "spells-mo",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.mo.convert",
+      "name": "夺印",
+      "faction": "mo",
+      "target": "convertible-enemy-combat-unit",
+      "motif": "an ivory paper mask half red half charcoal with one curved takeover arrow",
+      "effect": "昂贵归属转换",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-mo-convert.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1303,
+          0,
+          1738,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 1
+        },
+        "bytes": 38695,
+        "sha256": "1d822c527aaae2442cf0316b6f1732eda1949800138d6defdd04615413de9084",
+        "source_content_box": [
+          35,
+          172,
+          380,
+          521
+        ],
+        "scale": 0.4401146131805158,
+        "content_box": [
+          20,
+          19,
+          172,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764263+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-mo.png",
+      "source_job": "spells-mo",
+      "source_cell": {
+        "column": 3,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.mo.burst",
+      "name": "泼墨",
+      "faction": "mo",
+      "target": "ground-area",
+      "motif": "one bold charcoal ink splash with five distinct pointed paper rays",
+      "effect": "范围爆发伤害",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-mo-burst.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1738,
+          0,
+          2172,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 27614,
+        "sha256": "962d7e9396111f95731ed8ff786c04924407a21036aeb0a3366bdcb4410c8433",
+        "source_content_box": [
+          0,
+          135,
+          403,
+          540
+        ],
+        "scale": 0.3792592592592593,
+        "content_box": [
+          19,
+          19,
+          172,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": true,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764269+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "cell_boundary_review": "Exported silhouette visually confirmed complete; source-cell boundary warning reviewed."
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-mo.png",
+      "source_job": "spells-mo",
+      "source_cell": {
+        "column": 4,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.deng.protect",
+      "name": "护符",
+      "faction": "deng",
+      "target": "allied-combat-unit",
+      "motif": "one round jade paper shield enclosing a small ivory folded figure",
+      "effect": "限时保护",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-deng-protect.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          434,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 45848,
+        "sha256": "ae3eca0b000169a779c61399dbcd1f4d5708aef982d8ec92244af368f7d99da9",
+        "source_content_box": [
+          61,
+          176,
+          398,
+          514
+        ],
+        "scale": 0.4544378698224853,
+        "content_box": [
+          19,
+          19,
+          172,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764275+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-deng.png",
+      "source_job": "spells-deng",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.deng.clone",
+      "name": "复印",
+      "faction": "deng",
+      "target": "clonable-allied-combat-unit",
+      "motif": "two identical small jade paper silhouettes unfolding from one silhouette",
+      "effect": "带来源标签的限时复制",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-deng-clone.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          434,
+          0,
+          869,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 35823,
+        "sha256": "5f13fd562172f649108adf9117e5164779de6fa0c20239e24061b9e76c79742b",
+        "source_content_box": [
+          40,
+          164,
+          428,
+          524
+        ],
+        "scale": 0.42666666666666675,
+        "content_box": [
+          13,
+          19,
+          179,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764284+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-deng.png",
+      "source_job": "spells-deng",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.deng.fire",
+      "name": "火签雨",
+      "faction": "deng",
+      "target": "ground-area",
+      "motif": "three red paper slips falling diagonally with small gold flame tips",
+      "effect": "范围多段打击",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-deng-fire.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          869,
+          0,
+          1303,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 23479,
+        "sha256": "211e3e23cad7a8639194d49956ea883bf7707340a63672e2efe7b54eee1f305f",
+        "source_content_box": [
+          60,
+          152,
+          407,
+          537
+        ],
+        "scale": 0.398961038961039,
+        "content_box": [
+          27,
+          19,
+          165,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764292+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-deng.png",
+      "source_job": "spells-deng",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.deng.root",
+      "name": "定字符",
+      "faction": "deng",
+      "target": "enemy-combat-unit",
+      "motif": "an ivory folded foot anchored by two jade square seals",
+      "effect": "限制移动",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-deng-root.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1303,
+          0,
+          1738,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 33016,
+        "sha256": "60596af308a9ef5940d1a37e195b6afcdfe09fb0f0bdc1ba176723ca38413237",
+        "source_content_box": [
+          45,
+          195,
+          382,
+          521
+        ],
+        "scale": 0.4711656441717792,
+        "content_box": [
+          16,
+          19,
+          175,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764298+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-deng.png",
+      "source_job": "spells-deng",
+      "source_cell": {
+        "column": 3,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "spell.deng.guardian",
+      "name": "唤纸卫",
+      "faction": "deng",
+      "target": "legal-ground-summon-point",
+      "motif": "an ivory paper guardian stepping out of a jade round seal",
+      "effect": "限时召唤护卫",
+      "priority": "P1",
+      "category": "spell",
+      "asset_path": "assets/paper-warfront/ui/icons/spell-deng-guardian.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          1738,
+          0,
+          2172,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 52537,
+        "sha256": "aa9b18e5c119aa158e8a6c31fdb81947f812d610b5431ebfb7c837f700c7c4c2",
+        "source_content_box": [
+          20,
+          191,
+          381,
+          521
+        ],
+        "scale": 0.46537396121883656,
+        "content_box": [
+          12,
+          19,
+          180,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764303+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/spells-deng.png",
+      "source_job": "spells-deng",
+      "source_cell": {
+        "column": 4,
+        "row": 0,
+        "grid": [
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "building.yin.base",
+      "name": "印甲纸城",
+      "faction": "yin",
+      "motif": "broad layered vermilion paper fortress, square stamp gate, two squat folded towers",
+      "priority": "P0",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-yin-base.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          418,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 216260,
+        "sha256": "692f2d862ee822cc0d702f86db34ff458d6a1f9f5c7465cd558bce65da609f5c",
+        "source_content_box": [
+          25,
+          71,
+          408,
+          357
+        ],
+        "scale": 1.1697127937336815,
+        "content_box": [
+          32,
+          141,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764308+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.mo.base",
+      "name": "墨骸纸寨",
+      "faction": "mo",
+      "motif": "charcoal folded-paper palisade fortress, angular mask gate, narrow crooked towers",
+      "priority": "P0",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-mo-base.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          0,
+          836,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 213759,
+        "sha256": "280d690cdfc37fcc76e10796481843867097ec310b1709386365f610480a9905",
+        "source_content_box": [
+          20,
+          48,
+          397,
+          364
+        ],
+        "scale": 1.1883289124668435,
+        "content_box": [
+          32,
+          100,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764314+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.deng.base",
+      "name": "灯符纸殿",
+      "faction": "deng",
+      "motif": "jade and dull-gold layered paper palace, fan roof, round seal gate",
+      "priority": "P1",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-deng-base.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          0,
+          1254,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 247663,
+        "sha256": "286318b561519b801fa7a8e1960b47ea9fe929a21768b29e4eb9e60844fa130e",
+        "source_content_box": [
+          5,
+          83,
+          388,
+          362
+        ],
+        "scale": 1.1697127937336815,
+        "content_box": [
+          32,
+          150,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764321+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.yin.tower",
+      "name": "印甲纸哨",
+      "faction": "yin",
+      "motif": "short vermilion folded-paper watchtower with a broad square roof and paper bolt slot",
+      "priority": "P1",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-yin-tower.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          418,
+          418,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 209516,
+        "sha256": "7cb0fd008bdc075f5193f7f53d29de50d276b9ea5c784fed706b53054746dedd",
+        "source_content_box": [
+          75,
+          26,
+          335,
+          384
+        ],
+        "scale": 1.2067039106145252,
+        "content_box": [
+          99,
+          44,
+          413,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764329+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.mo.tower",
+      "name": "墨骨纸哨",
+      "faction": "mo",
+      "motif": "short ink-black folded-paper watchtower with angular bone mask and narrow roof",
+      "priority": "P1",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-mo-tower.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          418,
+          836,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 160820,
+        "sha256": "341e853c03b6e47ae63395cfe04f165000aef49d2cda3c2c7650a99e6b3ba0a4",
+        "source_content_box": [
+          91,
+          14,
+          309,
+          384
+        ],
+        "scale": 1.1675675675675676,
+        "content_box": [
+          128,
+          44,
+          383,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764335+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.deng.mana",
+      "name": "产法纸灯台",
+      "faction": "deng",
+      "motif": "jade paper lantern on a simple layered stand, dull-gold circular seal, gentle pale-blue center, not an area buff",
+      "priority": "P1",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-deng-mana.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          418,
+          1254,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 168720,
+        "sha256": "0faa943c723b85a29a36b9d12af4549cb71feea441350157acc8b30f27025dcc",
+        "source_content_box": [
+          102,
+          30,
+          298,
+          382
+        ],
+        "scale": 1.2272727272727273,
+        "content_box": [
+          135,
+          44,
+          376,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764341+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "resource.common.mine",
+      "name": "纸金矿",
+      "faction": "common",
+      "motif": "ivory paper rock arch with three muted golden paper ore chunks, open dark mine mouth",
+      "priority": "P0",
+      "category": "resource",
+      "asset_path": "assets/paper-warfront/buildings/reference/resource-common-mine.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          836,
+          418,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 238468,
+        "sha256": "fd6aa0af04fb0808e8e3f53c40f8ac406dbcaa91f99603685432cbbeac49ad1f",
+        "source_content_box": [
+          27,
+          39,
+          401,
+          341
+        ],
+        "scale": 1.1978609625668448,
+        "content_box": [
+          32,
+          114,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764349+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 0,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.common.gold-cart",
+      "name": "运金小车",
+      "faction": "common",
+      "motif": "small two-wheel printed-paper cart carrying three gold folded lumps",
+      "priority": "P0",
+      "category": "prop",
+      "asset_path": "assets/paper-warfront/props/prop-common-gold-cart.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          836,
+          836,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 182378,
+        "sha256": "8820cc140521c5fa22266b553709ab522c519fea9ee5dbcd1e7457106480f76b",
+        "source_content_box": [
+          31,
+          82,
+          402,
+          328
+        ],
+        "scale": 1.2075471698113207,
+        "content_box": [
+          32,
+          179,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764354+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 1,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "building.deng.tower",
+      "name": "灯符纸哨",
+      "faction": "deng",
+      "motif": "short jade folded-paper watchtower with fan roof and small round paper mirror",
+      "priority": "P1",
+      "category": "building",
+      "asset_path": "assets/paper-warfront/buildings/reference/building-deng-tower.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          836,
+          1254,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 200983,
+        "sha256": "1abed20cce3f12826d1df8db620bd11f35f21781334b6226c04a770d2be2ac65",
+        "source_content_box": [
+          62,
+          12,
+          327,
+          353
+        ],
+        "scale": 1.2668621700879765,
+        "content_box": [
+          88,
+          44,
+          424,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764359+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/structures.png",
+      "source_job": "structures",
+      "source_cell": {
+        "column": 2,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "ui.gold",
+      "name": "金币",
+      "motif": "one dull golden printed coin with one bold square center",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-gold.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          314,
+          314
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 43778,
+        "sha256": "fee763d71d3ccb62e2b054e4f299c138042e230feced7b281cdfa400198ee60b",
+        "source_content_box": [
+          65,
+          68,
+          282,
+          284
+        ],
+        "scale": 0.7111111111111112,
+        "content_box": [
+          19,
+          19,
+          173,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764363+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.mana",
+      "name": "法力",
+      "motif": "one solid blue printed water-drop",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-mana.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          314,
+          0,
+          627,
+          314
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 26167,
+        "sha256": "afffc9112321f181b803756e3265f3a2b2fcacdfcc305ae60d13e07bfe95acee",
+        "source_content_box": [
+          83,
+          60,
+          238,
+          293
+        ],
+        "scale": 0.6592274678111589,
+        "content_box": [
+          45,
+          19,
+          147,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764369+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.tech",
+      "name": "科技",
+      "motif": "three simple square nodes joined by branching ink lines",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-tech.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          627,
+          0,
+          940,
+          314
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 28222,
+        "sha256": "b8de4f573cfda7237a79aba1cd1b447c0d61c9e4d51c5cfc9fe8b5ad5b236d2c",
+        "source_content_box": [
+          37,
+          75,
+          271,
+          283
+        ],
+        "scale": 0.717948717948718,
+        "content_box": [
+          12,
+          21,
+          180,
+          170
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764376+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.cancel",
+      "name": "取消",
+      "motif": "a bold charcoal X made of two paper strokes",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-cancel.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          940,
+          0,
+          1254,
+          314
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 32204,
+        "sha256": "207b9777116fc3986eb75a3f0d6c3006d395d958892def45d10fd380e82d7b18",
+        "source_content_box": [
+          42,
+          74,
+          249,
+          283
+        ],
+        "scale": 0.7349282296650719,
+        "content_box": [
+          20,
+          19,
+          172,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764381+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 3,
+        "row": 0,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.home",
+      "name": "己方基地",
+      "motif": "a small square paper fortress with one triangular pennant",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-home.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          314,
+          314,
+          627
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 32382,
+        "sha256": "7d0d1adb14367ab5b7d0ec27ac807a878c0479b15aee90240e233a213a40f23b",
+        "source_content_box": [
+          73,
+          22,
+          274,
+          284
+        ],
+        "scale": 0.586259541984733,
+        "content_box": [
+          37,
+          19,
+          155,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764386+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.front",
+      "name": "当前交锋",
+      "motif": "two crossed paper swords with one small impact notch",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-front.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          314,
+          314,
+          627,
+          627
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 38437,
+        "sha256": "5a55e6b21447cfc5e84aabd3138ab3260cfad9d7c745760c108e382c8549acc7",
+        "source_content_box": [
+          50,
+          37,
+          289,
+          287
+        ],
+        "scale": 0.6144000000000001,
+        "content_box": [
+          22,
+          19,
+          169,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764391+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.navigate",
+      "name": "战线导航",
+      "motif": "one thin horizontal line with left and right triangular arrowheads",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-navigate.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          627,
+          314,
+          940,
+          627
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 12698,
+        "sha256": "794e63ffa2e681f76a23acacc2045dfd6893056eaec5e2d9f5c5afed07033fb2",
+        "source_content_box": [
+          24,
+          111,
+          284,
+          204
+        ],
+        "scale": 0.6461538461538462,
+        "content_box": [
+          12,
+          66,
+          180,
+          126
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764397+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.pause",
+      "name": "暂停",
+      "motif": "two broad vertical charcoal paper bars",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-pause.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          940,
+          314,
+          1254,
+          627
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 34650,
+        "sha256": "41906b31bb476857ab16d985abc0b720fc9eeb3c3687bae0ae05cc564c2003d3",
+        "source_content_box": [
+          63,
+          61,
+          230,
+          260
+        ],
+        "scale": 0.7718592964824121,
+        "content_box": [
+          31,
+          19,
+          160,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764403+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 3,
+        "row": 1,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.resume",
+      "name": "继续",
+      "motif": "one broad charcoal right-facing triangle",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-resume.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          627,
+          314,
+          940
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 25677,
+        "sha256": "b617e94e0d96b1b722af471ba9a69982f80eec2f446956865ec7c7101366f646",
+        "source_content_box": [
+          95,
+          40,
+          282,
+          257
+        ],
+        "scale": 0.7078341013824886,
+        "content_box": [
+          30,
+          19,
+          162,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764408+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 0,
+        "row": 2,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.sound",
+      "name": "音量",
+      "motif": "one small paper bell and two short curved sound strokes",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-sound.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          314,
+          627,
+          627,
+          940
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 1
+        },
+        "bytes": 34716,
+        "sha256": "495d8df71501b7c73e9748318f1f991230191193499322a66b3ed01cb944b723",
+        "source_content_box": [
+          50,
+          55,
+          279,
+          245
+        ],
+        "scale": 0.7336244541484717,
+        "content_box": [
+          12,
+          26,
+          180,
+          165
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764415+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 1,
+        "row": 2,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.settings",
+      "name": "设置",
+      "motif": "one simple charcoal six-tooth paper gear with a round central hole",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-settings.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          627,
+          627,
+          940,
+          940
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 33350,
+        "sha256": "a832cf3d6db1385b1a4fa5354c697b53e6802a5cc370e8bb41486c66dd946d0f",
+        "source_content_box": [
+          36,
+          32,
+          265,
+          261
+        ],
+        "scale": 0.6707423580786027,
+        "content_box": [
+          19,
+          19,
+          173,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764422+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 2,
+        "row": 2,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.lock",
+      "name": "未解锁",
+      "motif": "one small square paper padlock with broad curved loop",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-lock.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          940,
+          627,
+          1254,
+          940
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 32853,
+        "sha256": "38ec7c16b8610688956a8458f7b49aad65c02aee552f01565efde32772a22333",
+        "source_content_box": [
+          60,
+          22,
+          230,
+          255
+        ],
+        "scale": 0.6592274678111589,
+        "content_box": [
+          40,
+          19,
+          152,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764429+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 3,
+        "row": 2,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.info",
+      "name": "说明",
+      "motif": "one simple lowercase i-shaped ink pictogram",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-info.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          940,
+          314,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 13377,
+        "sha256": "48a6f3a55e875a07de7cde9b01081aa0c522bec9eef6841daeba78923a80c79d",
+        "source_content_box": [
+          142,
+          14,
+          203,
+          240
+        ],
+        "scale": 0.6796460176991151,
+        "content_box": [
+          75,
+          19,
+          116,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764436+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 0,
+        "row": 3,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.victory",
+      "name": "胜利",
+      "motif": "one upright vermilion paper pennant with a gold circle",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-victory.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          314,
+          940,
+          627,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 28616,
+        "sha256": "97fccfaee636da27b29acd9cf06be85ee382b2c08f40adcc4e97e1c4f86ae313",
+        "source_content_box": [
+          74,
+          0,
+          243,
+          251
+        ],
+        "scale": 0.6119521912350598,
+        "content_box": [
+          44,
+          19,
+          147,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": true,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764442+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "cell_boundary_review": "Exported silhouette visually confirmed complete; source-cell boundary warning reviewed."
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 1,
+        "row": 3,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.defeat",
+      "name": "失败",
+      "motif": "one torn charcoal paper pennant leaning down",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-defeat.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          627,
+          940,
+          940,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 28890,
+        "sha256": "ee10d761e0c30c0ed8c48edc61d54fe8f8c5bc9b3553deece236f4a6f92dbc7b",
+        "source_content_box": [
+          37,
+          18,
+          275,
+          243
+        ],
+        "scale": 0.6826666666666668,
+        "content_box": [
+          15,
+          19,
+          177,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764449+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 2,
+        "row": 3,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "ui.build",
+      "name": "建造",
+      "motif": "one folded paper roof above a short jade paper hammer",
+      "category": "ui",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/ui/icons/ui-build.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 192,
+        "height": 192,
+        "mode": "RGBA",
+        "source_crop": [
+          940,
+          940,
+          1254,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 30492,
+        "sha256": "47303d1b924e20fcb8a8e6aeacc55e12c17662c929f2a4494367003afa2fda50",
+        "source_content_box": [
+          21,
+          1,
+          261,
+          253
+        ],
+        "scale": 0.6095238095238096,
+        "content_box": [
+          23,
+          19,
+          169,
+          173
+        ],
+        "anchor": [
+          96,
+          96
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": true,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764456+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。",
+        "cell_boundary_review": "Exported silhouette visually confirmed complete; source-cell boundary warning reviewed."
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/ui-common.png",
+      "source_job": "ui-common",
+      "source_cell": {
+        "column": 3,
+        "row": 3,
+        "grid": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.ivory",
+      "name": "本色纸",
+      "motif": "warm ivory handmade rice paper, subtle fine fibers, perfectly flat even light",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-ivory.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          0,
+          512,
+          341
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 390907,
+        "sha256": "62272ff816b02359816306f82481f692c5bb8edffe75ca7746f9d26451c077a9",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764461+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.red",
+      "name": "朱印纸",
+      "motif": "muted vermilion printed paper with tiny uneven ink grain and fine ivory fibers",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-red.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          512,
+          0,
+          1024,
+          341
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 474598,
+        "sha256": "2a3991176d653aa0575d45e2a4e461c61716d5881b62350011b18cde4a425be4",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764466+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.ink",
+      "name": "墨纸",
+      "motif": "warm charcoal printed paper with subtle pale fibers, not absolute black",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-ink.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          1024,
+          0,
+          1536,
+          341
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 492878,
+        "sha256": "ec15970b858d208a1e44ef70203ace1f088bc5344a13d371c1aae8fb371a8172",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764470+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.jade",
+      "name": "青符纸",
+      "motif": "muted jade printed paper with sparse tiny ivory fibers",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-jade.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          341,
+          512,
+          683
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 491938,
+        "sha256": "e503767cfcd64c767060f7d5df9f66d860ceb5d6128dd350ef2b253defbf89f8",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764474+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.gold",
+      "name": "哑光金纸",
+      "motif": "dull ochre gold printed paper, matte pigment, no reflective metal",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-gold.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          512,
+          341,
+          1024,
+          683
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 478440,
+        "sha256": "b77764b4fb372d1bcb88c3c4a85b799bd7751c9efd434d2f27917ba6be5e69ac",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764478+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.edge",
+      "name": "纸侧面",
+      "motif": "pale grey-beige paper edge fibers, delicate horizontal layers, uniform texture",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-edge.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          1024,
+          341,
+          1536,
+          683
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 472809,
+        "sha256": "f964b79aaa68ac5ffb5ca67e799228d938c637814f02e4bc7e9c37873a35bcfd",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764484+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.paper.wood",
+      "name": "纸木纹",
+      "motif": "brown printed wood-grain marks on matte paper, broad sparse strokes, not real wood",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-paper-wood.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          683,
+          512,
+          1024
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 509322,
+        "sha256": "a393b38574adb9bfcbce1a41393a3f73d1ac67f9316cdeca854d2c57413c1b7a",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764490+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 0,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.ground.path",
+      "name": "纸路",
+      "motif": "warm sand-ivory paper path with sparse small charcoal speckles, low contrast",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-ground-path.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          512,
+          683,
+          1024,
+          1024
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 437804,
+        "sha256": "f1ace14ba72da3f5b03513fd4e166d83ee5b8b7b35a5726626719a85123acbbd",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764495+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 1,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "texture.ink.grain",
+      "name": "墨粒底纹",
+      "motif": "ivory paper with sparse irregular tiny charcoal ink dots distributed evenly",
+      "category": "texture",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/materials/texture-ink-grain.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "source_crop": [
+          1024,
+          683,
+          1536,
+          1024
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 388396,
+        "sha256": "9ab2cf27e8184c6156307a7a8f76a795bc1544d661ef48e3ec443d5037f74d64",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          512,
+          512
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764503+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/paper-materials.png",
+      "source_job": "paper-materials",
+      "source_cell": {
+        "column": 2,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.pine",
+      "name": "纸松",
+      "motif": "one low-contrast sage paper pine silhouette with three folded triangular foliage layers",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-pine.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          418,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 182266,
+        "sha256": "7bbcb5fe3bbea659a298cd46cc77370605be87d908ff1ad6efca67a697fbd4da",
+        "source_content_box": [
+          91,
+          72,
+          340,
+          375
+        ],
+        "scale": 1.4257425742574257,
+        "content_box": [
+          78,
+          44,
+          433,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764507+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.rock",
+      "name": "纸岩",
+      "motif": "one broad ivory-grey rock made of three folded paper facets",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-rock.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          0,
+          836,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 205570,
+        "sha256": "6788565e0734824bbf19740afa7beeaf90e7b750ab32abdfa95d725c5b444ced",
+        "source_content_box": [
+          57,
+          128,
+          366,
+          367
+        ],
+        "scale": 1.4498381877022655,
+        "content_box": [
+          32,
+          129,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764511+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.reeds",
+      "name": "墨芦苇",
+      "motif": "one small cluster of thin pale charcoal cut-paper reeds",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-reeds.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          0,
+          1254,
+          418
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 1
+        },
+        "bytes": 160542,
+        "sha256": "4878962d968c6c8b138f9b9a1a33b9e56e0de558c98b3d57e87a067fa6890748",
+        "source_content_box": [
+          101,
+          90,
+          328,
+          373
+        ],
+        "scale": 1.5265017667844523,
+        "content_box": [
+          82,
+          44,
+          429,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764515+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.arch",
+      "name": "旧纸牌坊",
+      "motif": "one small grey-beige layered paper ceremonial arch with simple folded roof",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-arch.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          418,
+          418,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 184293,
+        "sha256": "03076821441f476edd353d2d38e99b629581b5b492924a6f479d680cc7e8341b",
+        "source_content_box": [
+          64,
+          72,
+          368,
+          330
+        ],
+        "scale": 1.4736842105263157,
+        "content_box": [
+          32,
+          96,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764520+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.bridge",
+      "name": "纸桥",
+      "motif": "one short side-view ivory paper bridge with three blunt folded supports",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-bridge.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          418,
+          836,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 151073,
+        "sha256": "dd387428a1c953ab7e43af2a735ab6acf8badf034c419b481c839e559c8acb5f",
+        "source_content_box": [
+          40,
+          151,
+          380,
+          307
+        ],
+        "scale": 1.3176470588235294,
+        "content_box": [
+          32,
+          270,
+          480,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764527+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.yin.banner",
+      "name": "朱印军旗",
+      "motif": "one vermilion paper pennant with an abstract square seal on a simple grey paper pole",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-yin-banner.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          418,
+          1254,
+          836
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 1
+        },
+        "bytes": 156995,
+        "sha256": "df6db54e475e9d84df15a16d40ec5cd31b4302bc2f3be84068a03c40a362b825",
+        "source_content_box": [
+          111,
+          42,
+          348,
+          353
+        ],
+        "scale": 1.3890675241157557,
+        "content_box": [
+          91,
+          44,
+          420,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764532+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.mo.banner",
+      "name": "墨骸军旗",
+      "motif": "one charcoal paper pennant with abstract ivory mask mark on a simple grey paper pole",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-mo-banner.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          836,
+          418,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 1
+        },
+        "bytes": 163928,
+        "sha256": "49faa20d807dab474fc60b70be184bd24815d5409c809b806256244a0a0b4c6b",
+        "source_content_box": [
+          111,
+          19,
+          351,
+          339
+        ],
+        "scale": 1.35,
+        "content_box": [
+          94,
+          44,
+          418,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764538+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 0,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.deng.banner",
+      "name": "灯符军旗",
+      "motif": "one jade paper pennant with an abstract dull-gold round seal on a simple grey paper pole",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-deng-banner.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          418,
+          836,
+          836,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 162785,
+        "sha256": "9eda39f1f2ea4120c10cb8b69b6658e63f0398d4c761fc429b5b853216314cfc",
+        "source_content_box": [
+          101,
+          19,
+          340,
+          339
+        ],
+        "scale": 1.35,
+        "content_box": [
+          94,
+          44,
+          417,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764544+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 1,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "prop.terrain.lantern",
+      "name": "装饰纸灯",
+      "motif": "one small unlit beige-jade folded paper lantern, simple handle, visually weaker than a mana facility",
+      "category": "prop",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/props/prop-terrain-lantern.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGBA",
+        "source_crop": [
+          836,
+          836,
+          1254,
+          1254
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 115907,
+        "sha256": "32525ae60274d4419790b39e5d0ed62511110e5ebcc2be76db667d26c56ecb57",
+        "source_content_box": [
+          137,
+          31,
+          282,
+          352
+        ],
+        "scale": 1.3457943925233644,
+        "content_box": [
+          158,
+          44,
+          353,
+          476
+        ],
+        "anchor": [
+          256,
+          476
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764553+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/terrain-props.png",
+      "source_job": "terrain-props",
+      "source_cell": {
+        "column": 2,
+        "row": 2,
+        "grid": [
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.repair",
+      "name": "补纸",
+      "motif": "two torn ivory paper panels rejoined by one small jade square seal",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-repair.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          0,
+          362,
+          362
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 88969,
+        "sha256": "90f1e6fbc959916677a54fab94d9074a5e9d7ac6dc3e898119b6e3f6b052f377",
+        "source_content_box": [
+          53,
+          76,
+          321,
+          309
+        ],
+        "scale": 0.835820895522388,
+        "content_box": [
+          16,
+          30,
+          240,
+          225
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764558+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.lightning",
+      "name": "雷印",
+      "motif": "one jagged ivory-blue printed lightning stroke with a small red seal",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-lightning.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          362,
+          0,
+          724,
+          362
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 39784,
+        "sha256": "86431750d46a7d2468b79c2285dbf09b5f48b4fbbbd871951463dc55220ace4c",
+        "source_content_box": [
+          71,
+          37,
+          283,
+          338
+        ],
+        "scale": 0.6803986710963456,
+        "content_box": [
+          56,
+          25,
+          200,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764566+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 1,
+        "row": 0,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.cold",
+      "name": "寒纸风",
+      "motif": "three thin curled pale-blue paper wind ribbons",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-cold.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          724,
+          0,
+          1086,
+          362
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 56547,
+        "sha256": "9be5e183be071aafc45a96a8280013056cb497e3399856d71eed427b65000606",
+        "source_content_box": [
+          42,
+          76,
+          321,
+          323
+        ],
+        "scale": 0.8028673835125448,
+        "content_box": [
+          16,
+          29,
+          240,
+          227
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764571+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 2,
+        "row": 0,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.impact",
+      "name": "重击",
+      "motif": "five short vermilion ink impact rays and three tiny paper scraps",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-impact.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          1086,
+          0,
+          1448,
+          362
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 40714,
+        "sha256": "a950cb50ee998d01f48567feb9b3e27fde7361b7bc86645c563b3ce6ab474b72",
+        "source_content_box": [
+          48,
+          45,
+          311,
+          332
+        ],
+        "scale": 0.713588850174216,
+        "content_box": [
+          34,
+          25,
+          222,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764577+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 3,
+        "row": 0,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.sacrifice",
+      "name": "献纸",
+      "motif": "an ivory paper scrap unfolding into one blue mana drop",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-sacrifice.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          362,
+          362,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 58102,
+        "sha256": "330fed43730de6ab97e79c3e60e53e4e330861650adbef5f91be84aebc0c9189",
+        "source_content_box": [
+          45,
+          55,
+          321,
+          317
+        ],
+        "scale": 0.7816793893129771,
+        "content_box": [
+          20,
+          25,
+          236,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764582+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 0,
+        "row": 1,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.poison",
+      "name": "腐墨",
+      "motif": "three bounded muted violet-charcoal ink curls",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-poison.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          362,
+          362,
+          724,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 54021,
+        "sha256": "be16117ef92af9f7dee09b671c304bef5ad1eeada833e54411271f6357e0b066",
+        "source_content_box": [
+          42,
+          37,
+          320,
+          332
+        ],
+        "scale": 0.6942372881355933,
+        "content_box": [
+          31,
+          25,
+          224,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764587+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 1,
+        "row": 1,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.control",
+      "name": "夺印",
+      "motif": "one black ribbon circling an ivory mask with a curved arrow",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-control.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          724,
+          362,
+          1086,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 54178,
+        "sha256": "616f39d4b1469a3f18f6573e195371513d95fcbc24c8b9f0e75c972533d51caf",
+        "source_content_box": [
+          68,
+          27,
+          293,
+          323
+        ],
+        "scale": 0.6918918918918919,
+        "content_box": [
+          50,
+          25,
+          206,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764592+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 2,
+        "row": 1,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.summon",
+      "name": "拾纸召唤",
+      "motif": "three ivory paper strips folding into a tiny standing paperbone silhouette",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-summon.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          1086,
+          362,
+          1448,
+          724
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 54697,
+        "sha256": "42574ee060284d13352d49efd34ab3d1773cfab2ed1384d708b592b06ade5d75",
+        "source_content_box": [
+          32,
+          63,
+          314,
+          300
+        ],
+        "scale": 0.7943262411347518,
+        "content_box": [
+          16,
+          34,
+          240,
+          222
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764597+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 3,
+        "row": 1,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.protect",
+      "name": "护符",
+      "motif": "one thin jade circular paper-seal shield with an open center",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-protect.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          0,
+          724,
+          362,
+          1086
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 58190,
+        "sha256": "fffa58d9b66a339076422d4c8dcc1fc3d68d3ca92bcb64e40ff160f3835e62c5",
+        "source_content_box": [
+          39,
+          23,
+          322,
+          310
+        ],
+        "scale": 0.713588850174216,
+        "content_box": [
+          27,
+          25,
+          229,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764601+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 0,
+        "row": 2,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.clone",
+      "name": "复印",
+      "motif": "two offset jade outline silhouettes opening from one paper shape",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-clone.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          362,
+          724,
+          724,
+          1086
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 62507,
+        "sha256": "7a4066a8f0f523b3871e5452f7049e59119d9893742e27f7f586b268bde37158",
+        "source_content_box": [
+          54,
+          23,
+          313,
+          303
+        ],
+        "scale": 0.7314285714285714,
+        "content_box": [
+          33,
+          25,
+          222,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764608+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 1,
+        "row": 2,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.fire",
+      "name": "火签雨",
+      "motif": "three vermilion rectangular slips each with a tiny dull-gold flame tip",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-fire.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          724,
+          724,
+          1086,
+          1086
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 55408,
+        "sha256": "6238f04b54d17c42ca142c49d10a264e461b5085b588e3166ad5e2fae1f093e3",
+        "source_content_box": [
+          41,
+          25,
+          301,
+          298
+        ],
+        "scale": 0.7501831501831502,
+        "content_box": [
+          30,
+          25,
+          225,
+          230
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764614+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 2,
+        "row": 2,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "fx.root",
+      "name": "定字符",
+      "motif": "two jade square paper seals linked by one short ink ribbon",
+      "category": "fx",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/fx/motifs/fx-root.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "visual-reference; final geometry or effect is procedural",
+      "export_info": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "source_crop": [
+          1086,
+          724,
+          1448,
+          1086
+        ],
+        "alpha_method": "native-alpha",
+        "cleanup": {
+          "removed_tiny_components": 0
+        },
+        "bytes": 42186,
+        "sha256": "119029607dd932fa1a217f44b563a0b3b47efc7dc0306fb1c622d532d06d7922",
+        "source_content_box": [
+          32,
+          97,
+          321,
+          241
+        ],
+        "scale": 0.7750865051903114,
+        "content_box": [
+          16,
+          72,
+          240,
+          184
+        ],
+        "anchor": [
+          128,
+          128
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764620+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/fx-motifs.png",
+      "source_job": "fx-motifs",
+      "source_cell": {
+        "column": 3,
+        "row": 2,
+        "grid": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "id": "background.stamp-plain",
+      "name": "印原练兵场",
+      "motif": "distant pale grey-green cut-paper mountains, a few faint pine silhouettes, broad warm ivory sky, one tiny distant vermilion stamp pavilion far above the battle zone",
+      "category": "background",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/backgrounds/background-stamp-plain.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 2048,
+        "height": 768,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          0,
+          2048,
+          768
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 1457210,
+        "sha256": "8564a114cffe839658eed692af2ddba825e1c9607758404c740476eb1d392c0e",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          2048,
+          768
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764625+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/background-stamp-plain.png",
+      "source_job": "background-stamp-plain",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "background.ink-marsh",
+      "name": "墨沼旧纸场",
+      "motif": "distant layered pale charcoal marsh reeds, paper-grey mist and faded ink hills, a tiny ruined paper arch far away, warm off-white sky",
+      "category": "background",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/backgrounds/background-ink-marsh.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 1983,
+        "height": 793,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          0,
+          1983,
+          793
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 1514008,
+        "sha256": "90f82cb34fc5667a24fa628d91793c609edef098567ae1605aa655c93f3f8818",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          1983,
+          793
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764631+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/background-ink-marsh.png",
+      "source_job": "background-ink-marsh",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "background.lantern-ridge",
+      "name": "灯台纸岭",
+      "motif": "distant low-contrast jade-grey folded ridges, tiny unlit paper lantern silhouettes, an ivory-gold pale sky, faint fan-roof pavilion at far distance",
+      "category": "background",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/backgrounds/background-lantern-ridge.png",
+      "status": "visual-reviewed",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "export_info": {
+        "width": 2172,
+        "height": 724,
+        "mode": "RGB",
+        "source_crop": [
+          0,
+          0,
+          2172,
+          724
+        ],
+        "alpha_method": "opaque-surface",
+        "cleanup": {},
+        "bytes": 1746432,
+        "sha256": "3e8e7a1abf475e07e6d1f556bc46ee73436ce91222f713dca3c3452e91e00c53",
+        "anchor": [
+          0,
+          0
+        ],
+        "content_box": [
+          0,
+          0,
+          2172,
+          724
+        ]
+      },
+      "qa": {
+        "decoded": true,
+        "cell_border_touch": false,
+        "visual_review": "passed",
+        "runtime_review": "pending",
+        "reviewed_by": "Codex",
+        "reviewed_at_utc": "2026-10-07T20:16:18.764638+00:00",
+        "review_note": "已检查人物、头像、图标、环境、纸材、母题和背景检查板，并逐一查看三个源格边界提示图标；轮廓完整，邻格碎片已清理。静态素材通过，实际动画、密集点选、混音和性能待游戏内验证。"
+      },
+      "source_path": "output/imagegen/paper-warfront/sources/background-lantern-ridge.png",
+      "source_job": "background-lantern-ridge",
+      "source_cell": {
+        "column": 0,
+        "row": 0,
+        "grid": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "audio.ui.click",
+      "name": "纸签点击",
+      "kind": "tap",
+      "duration": 0.09,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-click.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 3969,
+        "duration": 0.09,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.ui.cancel",
+      "name": "收签取消",
+      "kind": "paper",
+      "duration": 0.12,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-cancel.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 5292,
+        "duration": 0.12,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.ui.invalid",
+      "name": "操作无效",
+      "kind": "wood",
+      "duration": 0.16,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-invalid.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 7056,
+        "duration": 0.16,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.ui.research",
+      "name": "科技盖印",
+      "kind": "stamp",
+      "duration": 0.32,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-research.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 14112,
+        "duration": 0.32,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.ui.recruit",
+      "name": "招募折纸",
+      "kind": "paper",
+      "duration": 0.25,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-recruit.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 11025,
+        "duration": 0.25,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.ui.gold",
+      "name": "金币入袋",
+      "kind": "chime",
+      "duration": 0.25,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-ui-gold.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 11025,
+        "duration": 0.25,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.paper-step",
+      "name": "纸步",
+      "kind": "paper",
+      "duration": 0.1,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-paper-step.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 4410,
+        "duration": 0.1,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.slash",
+      "name": "纸刃挥砍",
+      "kind": "whoosh",
+      "duration": 0.18,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-slash.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 7938,
+        "duration": 0.18,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.throw",
+      "name": "纸矛投出",
+      "kind": "whoosh",
+      "duration": 0.22,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-throw.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 9702,
+        "duration": 0.22,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.hit",
+      "name": "纸甲受击",
+      "kind": "wood",
+      "duration": 0.16,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-hit.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 7056,
+        "duration": 0.16,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.heavy",
+      "name": "压印重击",
+      "kind": "stamp",
+      "duration": 0.42,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-heavy.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 18522,
+        "duration": 0.42,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.cannon",
+      "name": "卷轴炮响",
+      "kind": "boom",
+      "duration": 0.5,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-cannon.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 22050,
+        "duration": 0.5,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.combat.death",
+      "name": "散纸阵亡",
+      "kind": "paper",
+      "duration": 0.35,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-combat-death.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 15435,
+        "duration": 0.35,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.magic.repair",
+      "name": "补纸回响",
+      "kind": "chime",
+      "duration": 0.6,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-magic-repair.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 26460,
+        "duration": 0.6,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.magic.ink",
+      "name": "墨术涌动",
+      "kind": "ink",
+      "duration": 0.55,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-magic-ink.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 24255,
+        "duration": 0.55,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.magic.seal",
+      "name": "灯符展开",
+      "kind": "chime",
+      "duration": 0.45,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-magic-seal.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 19845,
+        "duration": 0.45,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.magic.clone",
+      "name": "复印展开",
+      "kind": "paper",
+      "duration": 0.42,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-magic-clone.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 18522,
+        "duration": 0.42,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.result.victory",
+      "name": "胜利印章",
+      "kind": "victory",
+      "duration": 1.1,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-result-victory.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 48510,
+        "duration": 1.1,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.result.defeat",
+      "name": "失败收卷",
+      "kind": "defeat",
+      "duration": 0.9,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-result-defeat.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 39690,
+        "duration": 0.9,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.warning.base",
+      "name": "基地告急",
+      "kind": "warning",
+      "duration": 0.55,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-warning-base.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      },
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 24255,
+        "duration": 0.55,
+        "peak": 0.5500045777764214,
+        "method": "deterministic procedural prototype; listening and in-game mix review pending"
+      }
+    },
+    {
+      "id": "audio.music.yin",
+      "name": "印甲节奏草稿",
+      "kind": "music",
+      "mood": "yin",
+      "duration": 10.0,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-music-yin.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 441000,
+        "duration": 10.0,
+        "peak": 0.3499862666707358,
+        "tempo_bpm": 96,
+        "method": "procedural rhythm/harmony sketch, not mastered final music; listening review pending"
+      },
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      }
+    },
+    {
+      "id": "audio.music.mo",
+      "name": "墨骸节奏草稿",
+      "kind": "music",
+      "mood": "mo",
+      "duration": 10.0,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-music-mo.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 441000,
+        "duration": 10.0,
+        "peak": 0.3499862666707358,
+        "tempo_bpm": 96,
+        "method": "procedural rhythm/harmony sketch, not mastered final music; listening review pending"
+      },
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      }
+    },
+    {
+      "id": "audio.music.deng",
+      "name": "灯符节奏草稿",
+      "kind": "music",
+      "mood": "deng",
+      "duration": 10.0,
+      "category": "audio",
+      "faction": "common",
+      "asset_path": "assets/paper-warfront/audio/sfx/audio-music-deng.wav",
+      "status": "derived-candidate",
+      "version": "0.1.0",
+      "usage": "runtime-candidate-after-visual-review",
+      "audio_info": {
+        "sample_rate": 44100,
+        "channels": 1,
+        "bits": 16,
+        "frames": 441000,
+        "duration": 10.0,
+        "peak": 0.3499862666707358,
+        "tempo_bpm": 96,
+        "method": "procedural rhythm/harmony sketch, not mastered final music; listening review pending"
+      },
+      "qa": {
+        "format_review": "checked",
+        "listening_review": "pending",
+        "runtime_review": "pending"
+      }
+    }
+  ]
+}

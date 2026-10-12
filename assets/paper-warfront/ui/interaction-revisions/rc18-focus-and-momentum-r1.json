@@ -1,0 +1,57 @@
+{
+  "revision": "rc18-focus-and-momentum-r1",
+  "version": "3.0.0-rc18-preview",
+  "status": "native-source-and-compiled-ui-verified-preview-exported",
+  "art_library": "assets/paper-warfront/ui/paper-ui.json",
+  "art_library_version": "3.0.0-rc16-preview",
+  "scope": "Keyboard modal focus in each native viewport, original focus restoration, replacement-sheet continuity and touch momentum cancellation for hidden, suspended, modal-blocked and paused shared lists.",
+  "source_before": {
+    "game/scripts/main.gd": "eee396c7df5b6b7118c71db62e3a3771f20faaf470efc7fca7c38e3b21363ac3",
+    "game/scripts/mobile_scroll.gd": "bb17e619bd1605a2d2b20ebaf62576e08c5404c09382eb314e2933c495ae9070",
+    "game/scripts/duel_scroll.gd": "7daf3dc0fc83f99e50f87ca05caf8a5c7022b8cd22c55422cdab2f34aa5e5bfe",
+    "game/scripts/local_duel.gd": "efb00bbf32151f7f6da7a49661ae5e21d113a5ff754be98efa10e68edf5a388f",
+    "game/project.godot": "7bbe340c9f981268d4e7ca5b1a1914d0aaae581b813d121ade2e310c78065b4d",
+    "game/export_presets.cfg": "9c748f156c4de3048b24a9a760d34c5a5d51ef42e7aea31f4ab6a2a842d39aac"
+  },
+  "source_after": {
+    "game/scripts/main.gd": "5d74150e310fdee0872780f17ef7f6faa490ab87597b8cc837cd7fbb159e8df4",
+    "game/scripts/ui_focus_scope.gd": "7d61d60d9725bc8c934b2920fc077a95953e23233989ea86f3b8cad31aa1597d",
+    "game/scripts/mobile_scroll.gd": "96c2d91fa727e803cbc080acb61fcafb97d8da51f0ad26689876571c33fb943f",
+    "game/scripts/duel_scroll.gd": "b39cab0e5f6d6b5dfd9e26d19d2d6cd6cefafdb297aa87240842aa815eeb3796",
+    "game/scripts/local_duel.gd": "8ca4d97a996275c68b79416f1090728a805f0fbfed95aad4896442e48ddb2521",
+    "game/project.godot": "7622b6774b688e8d1358a21d9dcf1afb2b3d43ffb784145b832267fa67701888",
+    "game/export_presets.cfg": "eca6fec5a5aeb361caba79f52eda6cd6024d3476177a63717c536f4a9a1019aa",
+    "docs/paper-warfront/07-交互与UI规范.md": "dc2cf98d8825e76f51bfccc723024147b7feabd98ba99f9cc1f245a1ae1c9ad5"
+  },
+  "native_before_failure_count": 78,
+  "native_after_check_count": 157,
+  "native_after_failure_count": 0,
+  "evidence": {
+    "output/qa/godot/ui-rc18/navigation-baseline-final/report.json": "a72ff1a6498a9c5f4dd2cf4b9efe37d4e4f58bf5b330833438ec520961b6a10a",
+    "output/qa/godot/ui-rc18/navigation-source-final/report.json": "d696442b8d32c249b9f0dcc84e9f9a9c103ddff610233b1052c4c4c5e9ebba4d",
+    "output/qa/godot/ui-rc18/release/modal-navigation/report.json": "db901708845fd7c86a02f2b1929250946065f3b792dd1070aa283361558da9ca",
+    "release/3.0.0-rc18-preview/preview-verification.json": "779afad6102ce58bf8dd916dd739035be9b709dc34b0555279f579934a1893c8",
+    "release/3.0.0-rc18-preview/build-manifest.json": "5b2675ca00ab50338cd81b67fe27411e1d73f0ec496fed8492471ac0251453a3",
+    "docs/paper-warfront/125-纸页焦点与滚动状态收尾.md": "bf39981808849716875c61dddc52020525189595a78126f25d8916a04bae5db1"
+  },
+  "native_compiled_check_count": 157,
+  "artifacts": [
+    {
+      "path": "release/3.0.0-rc18-preview/windows/PaperWarfront.exe",
+      "bytes": 238212400,
+      "sha256": "cfe95fccdc5094e9520d5ef5f8b4e3c6f242ae076bf3bedce5ce108fe9629a3c"
+    },
+    {
+      "path": "release/3.0.0-rc18-preview/android/PaperWarfront-3.0.0-rc18-preview.apk",
+      "bytes": 176402815,
+      "sha256": "83403174297ffd3e57d1e6b32d25ce1ad8b28352ac05f6d7af835b1915c26c09"
+    },
+    {
+      "path": "release/3.0.0-rc18-preview/PaperWarfront-Windows-3.0.0-rc18-preview.zip",
+      "bytes": 165326361,
+      "sha256": "537f7f86094c18ebf83e6280f7495d030fb6f37156738e6f3e4b9390c2a17162"
+    }
+  ],
+  "android_hardware_verified": false,
+  "full_balance_verified": false
+}

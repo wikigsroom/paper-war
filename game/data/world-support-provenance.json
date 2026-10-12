@@ -1,0 +1,1863 @@
+{
+  "model": "gpt-image-2.5",
+  "skill": "sub2-image-gen",
+  "records": [
+    {
+      "id": "portrait.yin.commander",
+      "source": "output/imagegen/paper-warfront/world-support/yin-utility.png",
+      "sha256": "34b41169c3a7a5a5fb5df7746cab39e031c096ea1c00891caacfc83be0ec0241",
+      "source_box": [
+        28,
+        17,
+        388,
+        503
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.yin.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        507,
+        572,
+        957,
+        968
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    {
+      "id": "building.yin.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yin.png",
+      "sha256": "94a4fb3dc266b24b5996225b8c63202d02f5145d96dde42df8ecc252a77ccaae",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        978,
+        515,
+        1521,
+        969
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-yin"
+    },
+    {
+      "id": "building.yin.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/repairs/props-yin.png",
+      "sha256": "87c0323bc36bc57ccb8833ada8ee0ed0cc5d3c1253ba34f107e32cdf91716c7a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        159,
+        115,
+        575,
+        599
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-yin"
+    },
+    {
+      "id": "building.yin.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/repairs/props-yin.png",
+      "sha256": "87c0323bc36bc57ccb8833ada8ee0ed0cc5d3c1253ba34f107e32cdf91716c7a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        744,
+        122,
+        1093,
+        592
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-yin"
+    },
+    {
+      "id": "prop.yin.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/repairs/props-yin.png",
+      "sha256": "87c0323bc36bc57ccb8833ada8ee0ed0cc5d3c1253ba34f107e32cdf91716c7a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        175,
+        694,
+        512,
+        1126
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-yin"
+    },
+    {
+      "id": "prop.yin.banner",
+      "source": "output/imagegen/paper-warfront/world-support/yin-utility.png",
+      "sha256": "34b41169c3a7a5a5fb5df7746cab39e031c096ea1c00891caacfc83be0ec0241",
+      "source_box": [
+        851,
+        518,
+        1176,
+        977
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.yin.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/yin-utility.png",
+      "sha256": "34b41169c3a7a5a5fb5df7746cab39e031c096ea1c00891caacfc83be0ec0241",
+      "source_box": [
+        1206,
+        646,
+        1514,
+        985
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "portrait.mo.commander",
+      "source": "output/imagegen/paper-warfront/world-support/mo-utility.png",
+      "sha256": "232de8d8b80df34982f475e66ed32bffd3c00fadd169e39bc18afe0ed9232ebb",
+      "source_box": [
+        18,
+        22,
+        408,
+        485
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 11,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.mo.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        624,
+        635,
+        1000,
+        966
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    {
+      "id": "building.mo.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1022,
+        485,
+        1520,
+        970
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-mo"
+    },
+    {
+      "id": "building.mo.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mo.png",
+      "sha256": "b03b5537e1f5e756aaf4364379dfbe1fc732f9b9d68c07480564a4dbcf15a365",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        76,
+        15,
+        626,
+        607
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-mo"
+    },
+    {
+      "id": "building.mo.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mo.png",
+      "sha256": "b03b5537e1f5e756aaf4364379dfbe1fc732f9b9d68c07480564a4dbcf15a365",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        716,
+        11,
+        1259,
+        609
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-mo"
+    },
+    {
+      "id": "prop.mo.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mo.png",
+      "sha256": "b03b5537e1f5e756aaf4364379dfbe1fc732f9b9d68c07480564a4dbcf15a365",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        14,
+        627,
+        655,
+        1184
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-mo"
+    },
+    {
+      "id": "prop.mo.banner",
+      "source": "output/imagegen/paper-warfront/world-support/mo-utility.png",
+      "sha256": "232de8d8b80df34982f475e66ed32bffd3c00fadd169e39bc18afe0ed9232ebb",
+      "source_box": [
+        876,
+        499,
+        1057,
+        995
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 11,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.mo.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/mo-utility.png",
+      "sha256": "232de8d8b80df34982f475e66ed32bffd3c00fadd169e39bc18afe0ed9232ebb",
+      "source_box": [
+        1137,
+        631,
+        1505,
+        961
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 11,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "portrait.deng.commander",
+      "source": "output/imagegen/paper-warfront/world-support/deng-utility.png",
+      "sha256": "978f59d3f450ec3d034b8f69dbf3d32f870bc63d850b2fb32f01905c28543ad8",
+      "source_box": [
+        27,
+        18,
+        382,
+        494
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 11,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.deng.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        578,
+        586,
+        957,
+        967
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    {
+      "id": "building.deng.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        961,
+        499,
+        1514,
+        979
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-deng"
+    },
+    {
+      "id": "building.deng.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-deng.png",
+      "sha256": "813d6e599db20f0bf5258784e9f6d82a6c691e4d42c6912ee805d5e0794ea176",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        45,
+        24,
+        567,
+        672
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-deng"
+    },
+    {
+      "id": "building.deng.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-deng.png",
+      "sha256": "813d6e599db20f0bf5258784e9f6d82a6c691e4d42c6912ee805d5e0794ea176",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        663,
+        65,
+        1177,
+        674
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-deng"
+    },
+    {
+      "id": "prop.deng.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-deng.png",
+      "sha256": "813d6e599db20f0bf5258784e9f6d82a6c691e4d42c6912ee805d5e0794ea176",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        74,
+        720,
+        610,
+        1238
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-deng"
+    },
+    {
+      "id": "prop.deng.banner",
+      "source": "output/imagegen/paper-warfront/world-support/deng-utility.png",
+      "sha256": "978f59d3f450ec3d034b8f69dbf3d32f870bc63d850b2fb32f01905c28543ad8",
+      "source_box": [
+        788,
+        502,
+        1147,
+        996
+      ],
+      "extraction": {
+        "subject_components": 2,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.deng.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/deng-utility.png",
+      "sha256": "978f59d3f450ec3d034b8f69dbf3d32f870bc63d850b2fb32f01905c28543ad8",
+      "source_box": [
+        1204,
+        643,
+        1508,
+        976
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 11,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "portrait.ji.commander",
+      "source": "output/imagegen/paper-warfront/world-support/ji-utility.png",
+      "sha256": "0792847405c97ab38c36b0e4ceebc8a012a841a665b7b67c9c5c0dd2a01a3dd8",
+      "source_box": [
+        33,
+        24,
+        391,
+        492
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.ji.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-ji.png",
+      "sha256": "ebffbf46646ba78c120bae94b50422444f49664f39a43865613d941df95ee0e7",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        545,
+        595,
+        995,
+        966
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-ji"
+    },
+    {
+      "id": "building.ji.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-ji.png",
+      "sha256": "ebffbf46646ba78c120bae94b50422444f49664f39a43865613d941df95ee0e7",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1005,
+        516,
+        1518,
+        962
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-ji"
+    },
+    {
+      "id": "building.ji.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-ji.png",
+      "sha256": "f7ee9fed717f60ac06e3e7a9e599bf4e5f0374d815006bf8ca70cf0b8fc88f66",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        138,
+        11,
+        672,
+        498
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-ji"
+    },
+    {
+      "id": "building.ji.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-ji.png",
+      "sha256": "f7ee9fed717f60ac06e3e7a9e599bf4e5f0374d815006bf8ca70cf0b8fc88f66",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        894,
+        8,
+        1388,
+        498
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-ji"
+    },
+    {
+      "id": "prop.ji.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-ji.png",
+      "sha256": "f7ee9fed717f60ac06e3e7a9e599bf4e5f0374d815006bf8ca70cf0b8fc88f66",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        117,
+        513,
+        751,
+        992
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-ji"
+    },
+    {
+      "id": "prop.ji.banner",
+      "source": "output/imagegen/paper-warfront/world-support/ji-utility.png",
+      "sha256": "0792847405c97ab38c36b0e4ceebc8a012a841a665b7b67c9c5c0dd2a01a3dd8",
+      "source_box": [
+        892,
+        510,
+        1065,
+        997
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.ji.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/ji-utility.png",
+      "sha256": "0792847405c97ab38c36b0e4ceebc8a012a841a665b7b67c9c5c0dd2a01a3dd8",
+      "source_box": [
+        1135,
+        662,
+        1518,
+        940
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.ji",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-ji.png",
+      "sha256": "3690c5a03f380e06681a72e519d277c714292e4c2201eceadf083db2caf805fd",
+      "model": "gpt-image-2.5",
+      "job": "background-ji"
+    },
+    {
+      "id": "portrait.yuan.commander",
+      "source": "output/imagegen/paper-warfront/world-support/yuan-utility.png",
+      "sha256": "85220a2b15f43747935c6fc83896953ba59e9ca6af6c8d83b5ddb3544d61c86c",
+      "source_box": [
+        11,
+        9,
+        392,
+        496
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.yuan.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yuan.png",
+      "sha256": "7764c96c22a5d2819008d8b2b3023809fd7fe1d592406a7104fcc4148b3ee3a4",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        528,
+        543,
+        1020,
+        976
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-yuan"
+    },
+    {
+      "id": "building.yuan.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-yuan.png",
+      "sha256": "7764c96c22a5d2819008d8b2b3023809fd7fe1d592406a7104fcc4148b3ee3a4",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1009,
+        502,
+        1519,
+        970
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-yuan"
+    },
+    {
+      "id": "building.yuan.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-yuan.png",
+      "sha256": "af8d4c48b63231c9b65d0c046c339ff69e770e44d0eea97bb62f25cf855bf2af",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        102,
+        20,
+        719,
+        604
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-yuan"
+    },
+    {
+      "id": "building.yuan.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-yuan.png",
+      "sha256": "af8d4c48b63231c9b65d0c046c339ff69e770e44d0eea97bb62f25cf855bf2af",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        788,
+        44,
+        1345,
+        603
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-yuan"
+    },
+    {
+      "id": "prop.yuan.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-yuan.png",
+      "sha256": "af8d4c48b63231c9b65d0c046c339ff69e770e44d0eea97bb62f25cf855bf2af",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        49,
+        640,
+        662,
+        1096
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-yuan"
+    },
+    {
+      "id": "prop.yuan.banner",
+      "source": "output/imagegen/paper-warfront/world-support/yuan-utility.png",
+      "sha256": "85220a2b15f43747935c6fc83896953ba59e9ca6af6c8d83b5ddb3544d61c86c",
+      "source_box": [
+        862,
+        504,
+        1130,
+        990
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.yuan.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/yuan-utility.png",
+      "sha256": "85220a2b15f43747935c6fc83896953ba59e9ca6af6c8d83b5ddb3544d61c86c",
+      "source_box": [
+        1166,
+        657,
+        1520,
+        983
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.yuan",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-yuan.png",
+      "sha256": "57e4e81a63e387f37ffcbe5e0d4ddeb47624a05dd485abd91d5d28ed241fefdc",
+      "model": "gpt-image-2.5",
+      "job": "background-yuan"
+    },
+    {
+      "id": "portrait.qi.commander",
+      "source": "output/imagegen/paper-warfront/world-support/qi-utility.png",
+      "sha256": "d9937869d12f18025ac2a67f9ced2fccc707a934f7a0732b9ccaed7fc813a067",
+      "source_box": [
+        12,
+        9,
+        380,
+        495
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 12,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.qi.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-qi.png",
+      "sha256": "b935c5b26cf04f8bed576fada84b7e1cf757451510fc3ca03dbbf679ab2d1d1c",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        525,
+        571,
+        972,
+        950
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-qi"
+    },
+    {
+      "id": "building.qi.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-qi.png",
+      "sha256": "b935c5b26cf04f8bed576fada84b7e1cf757451510fc3ca03dbbf679ab2d1d1c",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        975,
+        478,
+        1515,
+        984
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-qi"
+    },
+    {
+      "id": "building.qi.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-qi.png",
+      "sha256": "a8a2358251f11039445d087f46b681594483636167bf726ceb304915532c584b",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        162,
+        9,
+        659,
+        620
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-qi"
+    },
+    {
+      "id": "building.qi.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-qi.png",
+      "sha256": "a8a2358251f11039445d087f46b681594483636167bf726ceb304915532c584b",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        783,
+        28,
+        1283,
+        622
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-qi"
+    },
+    {
+      "id": "prop.qi.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-qi.png",
+      "sha256": "a8a2358251f11039445d087f46b681594483636167bf726ceb304915532c584b",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        114,
+        642,
+        695,
+        1107
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-qi"
+    },
+    {
+      "id": "prop.qi.banner",
+      "source": "output/imagegen/paper-warfront/world-support/qi-utility.png",
+      "sha256": "d9937869d12f18025ac2a67f9ced2fccc707a934f7a0732b9ccaed7fc813a067",
+      "source_box": [
+        829,
+        499,
+        1142,
+        1003
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 12,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.qi.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/qi-utility.png",
+      "sha256": "d9937869d12f18025ac2a67f9ced2fccc707a934f7a0732b9ccaed7fc813a067",
+      "source_box": [
+        1175,
+        658,
+        1523,
+        972
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 12,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.qi",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-qi.png",
+      "sha256": "fe2bcd2b31304812ab50f66d5b2e14dda7e8ff762ec656945ddca21404f71ea1",
+      "model": "gpt-image-2.5",
+      "job": "background-qi"
+    },
+    {
+      "id": "portrait.mu.commander",
+      "source": "output/imagegen/paper-warfront/world-support/mu-utility.png",
+      "sha256": "406c4fb48bf7c0c133fa00dd71aeef0cacfbec5d19677aa58d1fa02a9003ea70",
+      "source_box": [
+        11,
+        13,
+        417,
+        509
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.mu.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mu.png",
+      "sha256": "c419e536b96665f875d514ee7bb2649f05d992d57254c3de34587784c9803471",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        577,
+        558,
+        1017,
+        975
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-mu"
+    },
+    {
+      "id": "building.mu.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mu.png",
+      "sha256": "c419e536b96665f875d514ee7bb2649f05d992d57254c3de34587784c9803471",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1028,
+        497,
+        1525,
+        973
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-mu"
+    },
+    {
+      "id": "building.mu.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mu.png",
+      "sha256": "dd15a1860c4a3b95f730592db8a57915a85da82c752928d998eb1ad67573279a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        74,
+        14,
+        706,
+        641
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-mu"
+    },
+    {
+      "id": "building.mu.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mu.png",
+      "sha256": "dd15a1860c4a3b95f730592db8a57915a85da82c752928d998eb1ad67573279a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        695,
+        41,
+        1251,
+        643
+      ],
+      "extraction": {
+        "subject_components": 2,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-mu"
+    },
+    {
+      "id": "prop.mu.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mu.png",
+      "sha256": "dd15a1860c4a3b95f730592db8a57915a85da82c752928d998eb1ad67573279a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        18,
+        658,
+        676,
+        1172
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-mu"
+    },
+    {
+      "id": "prop.mu.banner",
+      "source": "output/imagegen/paper-warfront/world-support/mu-utility.png",
+      "sha256": "406c4fb48bf7c0c133fa00dd71aeef0cacfbec5d19677aa58d1fa02a9003ea70",
+      "source_box": [
+        886,
+        513,
+        1134,
+        987
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.mu.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/mu-utility.png",
+      "sha256": "406c4fb48bf7c0c133fa00dd71aeef0cacfbec5d19677aa58d1fa02a9003ea70",
+      "source_box": [
+        1161,
+        644,
+        1526,
+        944
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.mu",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-mu.png",
+      "sha256": "7402f389a7dae8b24f55ade87eefae3f5c3f60197c84d11611a9a15469ca40c5",
+      "model": "gpt-image-2.5",
+      "job": "background-mu"
+    },
+    {
+      "id": "portrait.shuang.commander",
+      "source": "output/imagegen/paper-warfront/world-support/shuang-utility.png",
+      "sha256": "cf3942a2d9e3d81a0bd60878d1c3e12c5a9ed4a4ce73113ec538ab74df71dccf",
+      "source_box": [
+        10,
+        24,
+        392,
+        509
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.shuang.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        566,
+        586,
+        1004,
+        980
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-shuang"
+    },
+    {
+      "id": "building.shuang.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-shuang.png",
+      "sha256": "893ee202ab8a52c61ad06be3dc185d265144c08fbee38b902ebd7dff4db77898",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        1024,
+        513,
+        1517,
+        987
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-shuang"
+    },
+    {
+      "id": "building.shuang.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-shuang.png",
+      "sha256": "b1ca0369a345507f4ee1224b24ad71b6b70eba3fcf9f0d3953ddf8f269c0ba38",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        71,
+        16,
+        611,
+        636
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-shuang"
+    },
+    {
+      "id": "building.shuang.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-shuang.png",
+      "sha256": "b1ca0369a345507f4ee1224b24ad71b6b70eba3fcf9f0d3953ddf8f269c0ba38",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        641,
+        19,
+        1187,
+        660
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-shuang"
+    },
+    {
+      "id": "prop.shuang.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-shuang.png",
+      "sha256": "b1ca0369a345507f4ee1224b24ad71b6b70eba3fcf9f0d3953ddf8f269c0ba38",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        9,
+        656,
+        635,
+        1267
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-shuang"
+    },
+    {
+      "id": "prop.shuang.banner",
+      "source": "output/imagegen/paper-warfront/world-support/shuang-utility.png",
+      "sha256": "cf3942a2d9e3d81a0bd60878d1c3e12c5a9ed4a4ce73113ec538ab74df71dccf",
+      "source_box": [
+        846,
+        512,
+        1147,
+        986
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.shuang.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/shuang-utility.png",
+      "sha256": "cf3942a2d9e3d81a0bd60878d1c3e12c5a9ed4a4ce73113ec538ab74df71dccf",
+      "source_box": [
+        1168,
+        714,
+        1516,
+        989
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.shuang",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-shuang.png",
+      "sha256": "0232a80f1bae08941ea0b074a841443eaccf4f09d54a703676394d27f8027f6c",
+      "model": "gpt-image-2.5",
+      "job": "background-shuang"
+    },
+    {
+      "id": "portrait.jin.commander",
+      "source": "output/imagegen/paper-warfront/world-support/jin-utility.png",
+      "sha256": "56b047feb62b50588a0817a93dfb0158977f11f837db7b8efaa1e8cd52bd9874",
+      "source_box": [
+        11,
+        10,
+        385,
+        511
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.jin.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-jin.png",
+      "sha256": "9e0c2518fca7eada8b1643485a876fdb960650315d1d0be913a3d3f0ce7bd36e",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        540,
+        560,
+        981,
+        971
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-jin"
+    },
+    {
+      "id": "building.jin.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-jin.png",
+      "sha256": "9e0c2518fca7eada8b1643485a876fdb960650315d1d0be913a3d3f0ce7bd36e",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        984,
+        517,
+        1523,
+        968
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-jin"
+    },
+    {
+      "id": "building.jin.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-jin.png",
+      "sha256": "25b960dbdfb6a41b6b1f6fc85310df09b97a81d53ffcb93a47f733adba4d2fbf",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        20,
+        11,
+        682,
+        585
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-jin"
+    },
+    {
+      "id": "building.jin.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-jin.png",
+      "sha256": "25b960dbdfb6a41b6b1f6fc85310df09b97a81d53ffcb93a47f733adba4d2fbf",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        746,
+        12,
+        1304,
+        586
+      ],
+      "extraction": {
+        "subject_components": 3,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-jin"
+    },
+    {
+      "id": "prop.jin.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-jin.png",
+      "sha256": "25b960dbdfb6a41b6b1f6fc85310df09b97a81d53ffcb93a47f733adba4d2fbf",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        59,
+        608,
+        641,
+        1115
+      ],
+      "extraction": {
+        "subject_components": 2,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-jin"
+    },
+    {
+      "id": "prop.jin.banner",
+      "source": "output/imagegen/paper-warfront/world-support/jin-utility.png",
+      "sha256": "56b047feb62b50588a0817a93dfb0158977f11f837db7b8efaa1e8cd52bd9874",
+      "source_box": [
+        875,
+        534,
+        1162,
+        1000
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.jin.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/jin-utility.png",
+      "sha256": "56b047feb62b50588a0817a93dfb0158977f11f837db7b8efaa1e8cd52bd9874",
+      "source_box": [
+        1193,
+        691,
+        1518,
+        992
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 10,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.jin",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-jin.png",
+      "sha256": "777802b2c6c9d18dc67ba2883158509e526f5c727cb62a68ce0d80eff1d12d6c",
+      "model": "gpt-image-2.5",
+      "job": "background-jin"
+    },
+    {
+      "id": "portrait.bai.commander",
+      "source": "output/imagegen/paper-warfront/world-support/bai-utility.png",
+      "sha256": "c0509e0678e5935dc100af3ef871555d1b82a733424e456841a07701276209a3",
+      "source_box": [
+        8,
+        10,
+        382,
+        506
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "unit.bai.worker",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-bai.png",
+      "sha256": "b38861b896266a06347578c8d9104f3b9f355eebb71077ced927d91463fa5e77",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        581,
+        579,
+        979,
+        976
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "worker",
+      "model": "gpt-image-2.5",
+      "job": "army-bai"
+    },
+    {
+      "id": "building.bai.base",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-bai.png",
+      "sha256": "b38861b896266a06347578c8d9104f3b9f355eebb71077ced927d91463fa5e77",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        979,
+        480,
+        1526,
+        971
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "army-bai"
+    },
+    {
+      "id": "building.bai.tower",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-bai.png",
+      "sha256": "52f023018fd5a501c1b801e149201f3876ccb8d2521ed0d5f5044cf54e60ef51",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        96,
+        12,
+        683,
+        675
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-bai"
+    },
+    {
+      "id": "building.bai.mana",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-bai.png",
+      "sha256": "52f023018fd5a501c1b801e149201f3876ccb8d2521ed0d5f5044cf54e60ef51",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        683,
+        17,
+        1156,
+        686
+      ],
+      "extraction": {
+        "subject_components": 5,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "building",
+      "model": "gpt-image-2.5",
+      "job": "props-bai"
+    },
+    {
+      "id": "prop.bai.terrain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-bai.png",
+      "sha256": "52f023018fd5a501c1b801e149201f3876ccb8d2521ed0d5f5044cf54e60ef51",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        36,
+        697,
+        644,
+        1222
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-bai"
+    },
+    {
+      "id": "prop.bai.banner",
+      "source": "output/imagegen/paper-warfront/world-support/bai-utility.png",
+      "sha256": "c0509e0678e5935dc100af3ef871555d1b82a733424e456841a07701276209a3",
+      "source_box": [
+        908,
+        508,
+        1140,
+        1010
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "prop.bai.cargo",
+      "source": "output/imagegen/paper-warfront/world-support/bai-utility.png",
+      "sha256": "c0509e0678e5935dc100af3ef871555d1b82a733424e456841a07701276209a3",
+      "source_box": [
+        1156,
+        621,
+        1527,
+        961
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 9,
+        "method": "whole-source-connected-silhouette"
+      },
+      "alpha_method": "native-alpha"
+    },
+    {
+      "id": "background.bai",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-bai.png",
+      "sha256": "37901e3bd5540687a1fc624c64cde850bd2430dcd72e1f59e29aad09e0e3428d",
+      "model": "gpt-image-2.5",
+      "job": "background-bai"
+    },
+    {
+      "id": "background.stamp-plain",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-yin.png",
+      "sha256": "20b3672f3de6ca02fa3bf6c2a835ea85665e386cb122ff711f3b6915a945e649",
+      "model": "gpt-image-2.5",
+      "job": "background-yin"
+    },
+    {
+      "id": "prop.yin.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/repairs/props-yin.png",
+      "sha256": "87c0323bc36bc57ccb8833ada8ee0ed0cc5d3c1253ba34f107e32cdf91716c7a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        753,
+        762,
+        1111,
+        1107
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-yin"
+    },
+    {
+      "id": "prop.mo.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mo.png",
+      "sha256": "b03b5537e1f5e756aaf4364379dfbe1fc732f9b9d68c07480564a4dbcf15a365",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        689,
+        646,
+        1296,
+        1177
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 7,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-mo"
+    },
+    {
+      "id": "background.ink-marsh",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-mo.png",
+      "sha256": "02817b34042c755c00132a1d5b88289567c02057382cd74d6c0b1b48886f85aa",
+      "model": "gpt-image-2.5",
+      "job": "background-mo"
+    },
+    {
+      "id": "prop.deng.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-deng.png",
+      "sha256": "813d6e599db20f0bf5258784e9f6d82a6c691e4d42c6912ee805d5e0794ea176",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        670,
+        723,
+        1198,
+        1238
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-deng"
+    },
+    {
+      "id": "background.lantern-ridge",
+      "source": "output/imagegen/paper-warfront/theatre-v3/background-deng.png",
+      "sha256": "6b55e3186f12b071ab57d14b94316508d2695d295a28a6da210f5a25d5cf16c9",
+      "model": "gpt-image-2.5",
+      "job": "background-deng"
+    },
+    {
+      "id": "prop.ji.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-ji.png",
+      "sha256": "f7ee9fed717f60ac06e3e7a9e599bf4e5f0374d815006bf8ca70cf0b8fc88f66",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        809,
+        527,
+        1472,
+        988
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-ji"
+    },
+    {
+      "id": "prop.yuan.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-yuan.png",
+      "sha256": "af8d4c48b63231c9b65d0c046c339ff69e770e44d0eea97bb62f25cf855bf2af",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        739,
+        652,
+        1339,
+        1106
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 3,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-yuan"
+    },
+    {
+      "id": "prop.qi.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-qi.png",
+      "sha256": "a8a2358251f11039445d087f46b681594483636167bf726ceb304915532c584b",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        720,
+        675,
+        1353,
+        1091
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 4,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-qi"
+    },
+    {
+      "id": "prop.mu.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-mu.png",
+      "sha256": "dd15a1860c4a3b95f730592db8a57915a85da82c752928d998eb1ad67573279a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        669,
+        666,
+        1273,
+        1178
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-mu"
+    },
+    {
+      "id": "prop.shuang.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-shuang.png",
+      "sha256": "b1ca0369a345507f4ee1224b24ad71b6b70eba3fcf9f0d3953ddf8f269c0ba38",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        627,
+        683,
+        1212,
+        1258
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-shuang"
+    },
+    {
+      "id": "prop.jin.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-jin.png",
+      "sha256": "25b960dbdfb6a41b6b1f6fc85310df09b97a81d53ffcb93a47f733adba4d2fbf",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        694,
+        598,
+        1368,
+        1110
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-jin"
+    },
+    {
+      "id": "prop.bai.landmark",
+      "source": "output/imagegen/paper-warfront/theatre-v3/props-bai.png",
+      "sha256": "52f023018fd5a501c1b801e149201f3876ccb8d2521ed0d5f5044cf54e60ef51",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        646,
+        715,
+        1240,
+        1219
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 8,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "prop",
+      "model": "gpt-image-2.5",
+      "job": "props-bai"
+    },
+    {
+      "id": "resource.common.mine",
+      "source": "output/imagegen/paper-warfront/theatre-v3/repairs/common-mine.png",
+      "sha256": "6fa01fdd708d74e477e1767911018e1d6d7f9bf820a134838b38bd18ccffd2ea",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        120,
+        180,
+        1431,
+        838
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 0,
+        "method": "whole-source-connected-silhouette"
+      },
+      "role": "resource",
+      "model": "gpt-image-2.5",
+      "job": "common-mine"
+    },
+    {
+      "id": "unit.mo.thrall",
+      "role": "raider",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-mo.png",
+      "sha256": "ffe165a007e57d59ef638ac7fde138427158dd74eee382d0b3ff5ffedfaf5f9a",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        48,
+        114,
+        505,
+        470
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 5,
+        "method": "whole-source-connected-silhouette"
+      },
+      "model": "gpt-image-2.5",
+      "job": "army-mo",
+      "master_id": "unit.mo.raider",
+      "master_sha256": "7c531787606c844464d704771406ab3b15a96bb3136ccf09045fbec709c4f56e",
+      "donor_palette": "7469B1",
+      "variant_method": "summoned_role_alias",
+      "target_palette": "7469B1",
+      "recolored_pixels": 0,
+      "output_sha256": "7c531787606c844464d704771406ab3b15a96bb3136ccf09045fbec709c4f56e",
+      "portrait_sha256": "106a3854ea5445e7900eeb41677852038aa0abea529812817c4583658965b725"
+    },
+    {
+      "id": "unit.deng.guardian",
+      "role": "guard",
+      "source": "output/imagegen/paper-warfront/theatre-v3/army-deng.png",
+      "sha256": "717bf7ad600d074021332ea86231c870c5a0de87033a52943fd8604cdbc30618",
+      "alpha_method": "native-alpha",
+      "source_box": [
+        22,
+        482,
+        536,
+        973
+      ],
+      "extraction": {
+        "subject_components": 1,
+        "removed_components": 6,
+        "method": "whole-source-connected-silhouette"
+      },
+      "model": "gpt-image-2.5",
+      "job": "army-deng",
+      "master_id": "unit.deng.guard",
+      "master_sha256": "e2b19095ab91bc2a2c3dcb31a57ef22852cc6343dd5be695a8e2f9797dba3057",
+      "donor_palette": "42A8A7",
+      "variant_method": "summoned_role_alias",
+      "target_palette": "42A8A7",
+      "recolored_pixels": 0,
+      "output_sha256": "e2b19095ab91bc2a2c3dcb31a57ef22852cc6343dd5be695a8e2f9797dba3057",
+      "portrait_sha256": "5837b822ece71a227c882ec85cd2648a46f9196eeaf9a8e9f787c714e1c7d86f"
+    }
+  ],
+  "status": "80 support sprites and 7 panoramas visually reviewed; runtime bindings complete"
+}
