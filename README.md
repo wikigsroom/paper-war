@@ -64,6 +64,7 @@
 - [单机地图剧情合同与路线分支验收](docs/paper-warfront/147-单机地图剧情合同与路线分支验收.md)
 - [战争迷雾失效缓存与 rc37 交付](docs/paper-warfront/148-战争迷雾失效缓存与rc37预览交付.md)
 - [剧情路线图与运行绘制缓存调优](docs/paper-warfront/149-剧情路线图与运行绘制缓存调优.md)
+- [RC38 导出资源排除与包体复核](docs/paper-warfront/151-RC38导出资源排除与包体复核.md)
 - [实体查询缓存、绘制排序复用与 RC38 双平台交付](docs/paper-warfront/150-实体查询缓存与构建输入遍历优化及rc38预览交付.md)
 - [完整故事路线](docs/paper-warfront/world/04-完整故事路线.md)
 
@@ -119,6 +120,8 @@ python tools/paper-warfront/package_release.py --windows-only
 ```
 
 `capture_gameplay_gif.py` 使用编译后的 Windows EXE、真实 Godot 渲染帧和 FFmpeg；默认输出 `docs/media/paper-warfront-gameplay.gif`。捕获目录是临时产物，已被 `.gitignore` 排除。
+
+导出预设保留正式运行资源，显式排除 `output/*` QA 生成物；因此本地截图、报告和历史帧不会进入 Windows PCK 或 Android APK。
 
 ## 验证入口
 
