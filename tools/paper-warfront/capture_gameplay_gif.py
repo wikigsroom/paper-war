@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PACK = ROOT / "release/3.0.0-rc37-preview/windows/PaperWarfront.exe"
+DEFAULT_PACK = ROOT / "release/3.0.0-rc38-preview/windows/PaperWarfront.exe"
 DEFAULT_OUTPUT = ROOT / "docs/media/paper-warfront-gameplay.gif"
 
 

@@ -39,7 +39,7 @@ def main():
 
 解压整个目录后运行 `PaperWarfront.exe`。若默认渲染无法启动，运行 `Play-OpenGLCompatibility.cmd`。资源已内嵌，不需要安装 Godot。
 
-本版包含战争迷雾失效缓存、200 张单机剧情地图、分支/汇流/回访路线、十院差异化兵种、原生 6×6 动作帧和移动端安全区适配。完整验证见发行目录中的 `README.md` 与 `preview-verification.json`。
+本版包含战争迷雾失效缓存、200 张单机剧情地图、分支/汇流/回访路线、十院差异化兵种、原生 6×6 动作帧和移动端安全区适配。完整验证见源码仓库的 `docs/paper-warfront/README.md`，以及发行目录中的 `build-manifest.json` 与 `SHA256SUMS.txt`。
 
 密集 124 单位压力窗口仍未宣称稳定 60FPS；Android APK 当前没有实体设备验证。许可证见 `licenses/`。
 

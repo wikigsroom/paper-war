@@ -1,6 +1,6 @@
 """Native Windows build/sign/validate. No containers, WSL or emulator."""
 from pathlib import Path
-from runtime_asset_inputs import runtime_asset_inputs
+from runtime_asset_inputs import runtime_asset_inputs, project_files
 import os, json, secrets, subprocess, hashlib, zipfile, sys, shutil, tempfile, struct
 sys.stdout.reconfigure(encoding='utf-8',errors='replace')
 
@@ -41,7 +41,7 @@ def main():
         descriptor=Path(str(asset)+'.import')
         if descriptor.exists():public_inputs.append(descriptor)
     for suffix in ['*.tscn','*.tres','*.gdshader','*.gd.uid']:
-        public_inputs.extend(p for p in GAME.rglob(suffix) if '.godot' not in p.parts)
+        public_inputs.extend(project_files(GAME,[suffix]))
     public_inputs.extend((GAME/'licenses').glob('*.txt'))
     public_inputs.extend((GAME/'assets/fonts').glob('OFL-*.txt'))
     public_inputs=sorted(set(public_inputs))

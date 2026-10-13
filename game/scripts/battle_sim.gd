@@ -44,6 +44,14 @@ var rng = RandomNumberGenerator.new()
 var ai_rng: Array=[RandomNumberGenerator.new(),RandomNumberGenerator.new()]
 var stats: Array = []
 var tick_count: int = 0
+# UID lookups are on the hot path for projectiles, events, visibility and UI.
+# The cache is rebuilt only when the live actor collection changes; hp is still
+# checked on every hit so a death processed inside the current tick cannot be
+# resurrected by a stale reference.
+var actor_lookup_cache: Dictionary = {}
+var actor_lookup_units_size: int = -1
+var actor_lookup_buildings_size: int = -1
+var actor_lookup_bases_size: int = -1
 var collecting_attacks: bool=false
 var attack_intents: Array=[]
 var collecting_combat_hits: bool=false
@@ -277,6 +285,7 @@ func start(options: Dictionary):
 	map = MapRuntime.new(db.map_definition(str(config.get("map","stamp-plain"))))
 	protected_uid=0;escort_uid=0;intercept_uid=0;intercept_crossed=false;result_reason=""
 	players.clear(); units.clear(); buildings.clear(); bases.clear(); corpses.clear()
+	actor_lookup_cache.clear();actor_lookup_units_size=-1;actor_lookup_buildings_size=-1;actor_lookup_bases_size=-1
 	projectiles.clear(); scheduled.clear(); spell_areas.clear(); events.clear(); stats.clear()
 	tick_units_snapshot.clear(); tick_projectiles_snapshot.clear(); tick_scheduled_snapshot.clear(); tick_corpses_snapshot.clear()
 	alive_units_buffer.clear(); alive_buildings_buffer.clear()
@@ -358,6 +367,19 @@ func drain_events() -> Array:
 	return out
 
 func actor(uid: int) -> Dictionary:
+	if actor_lookup_units_size!=units.size() or actor_lookup_buildings_size!=buildings.size() or actor_lookup_bases_size!=bases.size():
+		actor_lookup_cache.clear()
+		for a in units:
+			actor_lookup_cache[int(a.uid)]=a
+		for a in buildings:
+			actor_lookup_cache[int(a.uid)]=a
+		for a in bases:
+			actor_lookup_cache[int(a.uid)]=a
+		actor_lookup_units_size=units.size();actor_lookup_buildings_size=buildings.size();actor_lookup_bases_size=bases.size()
+	var cached: Dictionary=actor_lookup_cache.get(uid,{})
+	if not cached.is_empty():
+		if float(cached.get("hp",0))>0:return cached
+		actor_lookup_cache.erase(uid)
 	for a in units:
 		if a.uid == uid and a.hp>0: return a
 	for a in buildings:
@@ -373,6 +395,8 @@ func spawn(id: String, side: int, x: float, clone: bool = false, owner: int = 0,
 	var u = {"uid":next_uid,"id":id,"side":side,"x":clampf(x,west,east),"hp":float(def.hp),"max_hp":float(def.hp),"age":0.0,"cooldown":.2,"windup":0.0,"target":0,"hurt":0.0,"anim":"idle","anim_t":0.0,"walk":0.0,"facing":1 if side==0 else -1,"statuses":{},"special_cd":1.2,"summon_cd":1.0,"owner":owner,"clone":clone,"ttl":10.0 if clone else float(def.get("lifetime_seconds",-1.0)),"cargo":0,"job":"mine","job_time":0.0,"mine":"","ability_clock":1.0,"control_clock":0.0,"crossed_nodes":[]}
 	map.apply_anchor(u,map.project(Vector2(u.x,map.ground_y_at(u.x))))
 	next_uid+=1; units.append(u)
+	actor_lookup_cache[int(u.uid)]=u
+	actor_lookup_units_size=units.size()
 	if visibility!=null:visibility.mark_dirty()
 	if movement_sides_active:
 		movement_side_units[side].append(u);blocker_roads_dirty=true;marching_answers_ready=false
@@ -491,6 +515,8 @@ func build(side: int, id: String, slot: int, mission_setup: bool=false) -> Strin
 	var b = {"uid":next_uid,"id":id,"building":true,"base":false,"side":side,"slot":slot,"hp":float(def.hp),"max_hp":float(def.hp),"hurt":0.0,"cooldown":.8,"state":"constructing" if duration>0 else "active","construction":duration,"construction_total":duration,"disabled":0.0}
 	map.apply_anchor(b,slot_anchor(side,slot))
 	next_uid+=1; buildings.append(b)
+	actor_lookup_cache[int(b.uid)]=b
+	actor_lookup_buildings_size=buildings.size()
 	if visibility!=null:visibility.mark_dirty()
 	stats[side].buildings+=1
 	stats[side].build_counts[id]=int(stats[side].build_counts.get(id,0))+1

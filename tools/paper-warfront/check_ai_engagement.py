@@ -13,7 +13,7 @@ TESTS = [
     ("test_unit_order_equivalence.gd", "UNIT_ORDER_EQUIVALENCE", 1200),
     ("test_axis_target_boundaries.gd", "AXIS_TARGET_BOUNDARIES", 20),
     ("test_campaign_routes.gd", "CAMPAIGN_ROUTES", 103595),
-    ("test_story_objective_binding.gd", "STORY_OBJECTIVES", 1610),
+    ("test_story_objective_binding.gd", "STORY_OBJECTIVES", 1616),
     ("test_leap_blocker_phase.gd", "LEAP_BLOCKER_PHASE", 1200),
     ("test_road_target_equivalence.gd", "ROAD_TARGET_EQUIVALENCE", 58576),
     ("test_marching_query_equivalence.gd", "MARCHING_QUERY_EQUIVALENCE", 13600),

@@ -13,6 +13,9 @@ var unit_height_cache: Dictionary={}
 var unit_height_cache_scale: float=-1.0
 var render_point_cache: Dictionary={}
 var render_point_refs: Dictionary={}
+var ordered_units_cache: Array=[]
+var ordered_units_sources: Array=[]
+var ordered_units_tick: int=-1
 var draw_visibility_revision: int=-1
 var draw_visibility_side: int=-1
 const FramePlayer = preload("res://scripts/unit_frame_player.gd")
@@ -102,6 +105,7 @@ func reset(battle):
 	unit_atlas_cache.clear()
 	unit_height_cache.clear();unit_height_cache_scale=-1.0
 	render_point_cache.clear();render_point_refs.clear()
+	ordered_units_cache.clear();ordered_units_sources.clear();ordered_units_tick=-1
 	selected_spell=""; selected_building=""; selected_uid=0; shake=0
 
 func update(delta: float, paused: bool = false):
@@ -337,6 +341,12 @@ func ordered_units() -> Array:
 	# Cache each physical Y once. Keep the original comparator, including its
 	# approximate-height threshold and uid%5 ties, and the original input order.
 	var actors: Array=sim.units
+	var tick: int=int(sim.tick_count)
+	if ordered_units_tick==tick and ordered_units_sources.size()==actors.size():
+		var same_sources: bool=true
+		for index in range(actors.size()):
+			if not is_same(actors[index],ordered_units_sources[index]):same_sources=false;break
+		if same_sources:return ordered_units_cache
 	var heights: PackedFloat64Array=PackedFloat64Array()
 	var ties: PackedByteArray=PackedByteArray()
 	var indices: Array[int]=[]
@@ -346,7 +356,9 @@ func ordered_units() -> Array:
 	indices.sort_custom(func(a: int,b: int):return heights[a]<heights[b] if absf(heights[a]-heights[b])>.05 else ties[a]<ties[b])
 	var ordered: Array=[]
 	for index in indices:ordered.append(actors[index])
-	return ordered
+	ordered_units_sources.clear();ordered_units_sources.append_array(actors)
+	ordered_units_tick=tick;ordered_units_cache=ordered
+	return ordered_units_cache
 
 func mark_draw_layer(label_value: String,started: int) -> int:
 	var now: int=Time.get_ticks_usec()

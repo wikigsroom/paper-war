@@ -4,11 +4,11 @@
 
 ![Windows 原生实机战斗 GIF](docs/media/paper-warfront-gameplay.gif)
 
-上图由当前 `3.0.0-rc37-preview` Windows 原生导出包实际运行后抓取战斗帧生成，展示自动行军、上下道路、战争迷雾、资源 HUD、单位动作和纸片地层。GIF 是游玩展示素材，不代表 Android 真机性能结论。
+上图由当前 `3.0.0-rc38-preview` Windows 原生导出包实际运行后抓取战斗帧生成，展示自动行军、上下道路、战争迷雾、资源 HUD、单位动作和纸片地层。GIF 是游玩展示素材，不代表 Android 真机性能结论。
 
 ## 当前版本
 
-当前源码对应 `3.0.0-rc37-preview`。工作区中已生成 Windows EXE、Android APK、Windows ZIP 以及对应 SHA256 和 QA 记录；为了避免 GitHub 单文件及仓库体积限制，二进制发布物、QA 截图、Godot 导入缓存和本地工具链不提交到 Git，源码仓库可以在 Windows 环境中重新构建它们。
+当前源码对应 `3.0.0-rc38-preview`。工作区中已生成 Windows EXE、Android APK、Windows ZIP 以及对应 SHA256 和 QA 记录；为了避免 GitHub 单文件及仓库体积限制，二进制发布物、QA 截图、Godot 导入缓存和本地工具链不提交到 Git，源码仓库可以在 Windows 环境中重新构建它们。
 
 已经实现并进入当前源码的范围：
 
@@ -64,6 +64,7 @@
 - [单机地图剧情合同与路线分支验收](docs/paper-warfront/147-单机地图剧情合同与路线分支验收.md)
 - [战争迷雾失效缓存与 rc37 交付](docs/paper-warfront/148-战争迷雾失效缓存与rc37预览交付.md)
 - [剧情路线图与运行绘制缓存调优](docs/paper-warfront/149-剧情路线图与运行绘制缓存调优.md)
+- [实体查询缓存、绘制排序复用与 RC38 双平台交付](docs/paper-warfront/150-实体查询缓存与构建输入遍历优化及rc38预览交付.md)
 - [完整故事路线](docs/paper-warfront/world/04-完整故事路线.md)
 
 ## 操作与界面
@@ -101,8 +102,8 @@ tools/paper-warfront/            构建、导出、检查、截图和 GIF 工具
 
 ```powershell
 # 在仓库根目录执行
-$env:PAPER_RELEASE_VERSION = '3.0.0-rc37-preview'
-$env:PAPER_QA_DIR = 'output/qa/godot/render-runtime-rc37/local-build'
+$env:PAPER_RELEASE_VERSION = '3.0.0-rc38-preview'
+$env:PAPER_QA_DIR = 'output/qa/godot/render-runtime-rc38/local-build'
 python tools/paper-warfront/build_game.py
 
 # 运行编辑器或直接启动工程
@@ -113,7 +114,7 @@ python tools/paper-warfront/build_game.py
 python tools/paper-warfront/capture_gameplay_gif.py
 
 # 打包 Windows 预览 ZIP
-$env:PAPER_RELEASE_VERSION = '3.0.0-rc37-preview'
+$env:PAPER_RELEASE_VERSION = '3.0.0-rc38-preview'
 python tools/paper-warfront/package_release.py --windows-only
 ```
 
@@ -128,11 +129,11 @@ python tools/paper-warfront/package_release.py --windows-only
 - `check_story_routes_ui.py`：章节分支、汇流、存档重载和 200 张剧情简报的原生 UI 观察。
 - `check_packaged_apk_logic.py`、`check_packaged_windows_logic.py`：编译包逻辑和资源完整性。
 - `check_realtime_battle.py`：Windows 原生 GPU 实时观察；`stress` 是容量压力证据，不等同普通付费对局。
-- `write_rc37_visibility_release.py`：生成发布验证清单和系统修订索引。
+- `write_rc37_visibility_release.py`：生成历史 RC37 发布验证清单；RC38 的双平台验证记录直接保存在对应 QA 目录。
 
-当前 RC37 记录的关键结果：剧情 UI 237 项/200 张简报通过；移动矩阵 8 配置、26723 项通过，最低战场占比 70.6%；原生冒烟 6 场景通过；124 单位压力窗口均值 29.70ms/帧、p95 52.38ms；手机形状窗口均值 16.67ms/帧、p95 17.26ms。压力结果没有被表述为稳定 60FPS，Android 真机和全关真人平衡仍待后续验收。
+当前 RC38 记录的关键结果：剧情 UI 237 项/200 张简报通过；移动矩阵 8 配置、26723 项通过，最低战场占比 70.6%；APK 与 Windows EXE 各 38 组、195115 项编译包逻辑通过；124 单位压力窗口采样 227 帧，帧间隔均值 28.09ms、p95 34.75ms，应用处理均值 11.93ms、绘制回调均值 7.90ms；手机形状窗口 269 帧均值 16.67ms、p95 16.74ms。压力结果没有被表述为稳定 60FPS，Android 真机和全关真人平衡仍待后续验收。
 
-详细数字和构建哈希保存在本地生成的 `release/3.0.0-rc37-preview/preview-verification.json`，该目录因包含大体积二进制而不进入 Git。
+详细数字和构建哈希保存在本地生成的 `release/3.0.0-rc38-preview/build-manifest.json`、`release/3.0.0-rc38-preview/SHA256SUMS.txt` 及 `output/qa/godot/render-runtime-rc38/`，这些目录因包含大体积二进制或运行证据而不进入 Git。
 
 ## 约束与素材规则
 

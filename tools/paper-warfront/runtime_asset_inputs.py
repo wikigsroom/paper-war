@@ -3,8 +3,20 @@ from pathlib import Path
 import json
 import re
 import fnmatch
+import os
 
 RASTER_AUDIO_FONT = {'.png','.jpg','.jpeg','.webp','.svg','.ttf','.otf','.wav','.ogg','.mp3','.tres','.tscn','.gdshader'}
+
+
+def project_files(game, patterns):
+    """Walk authoring files without descending into Godot's generated cache."""
+    game=Path(game).resolve()
+    patterns=tuple(patterns)
+    for root, directories, files in os.walk(game):
+        directories[:]=[name for name in directories if name not in {'.godot','output'}]
+        for name in files:
+            if any(fnmatch.fnmatchcase(name,pattern) for pattern in patterns):
+                yield Path(root)/name
 
 
 def strings(value):
@@ -31,7 +43,7 @@ def runtime_asset_inputs(game):
         names.update(s for s in strings(json.loads(file.read_text('utf-8'))) if s.startswith('res://assets/'))
     literal_sources=[game/'project.godot',*sorted((game/'scripts').glob('*.gd'))]
     for pattern in ('*.tscn','*.tres','*.gdshader'):
-        literal_sources.extend(p for p in game.rglob(pattern) if '.godot' not in p.parts)
+        literal_sources.extend(project_files(game,[pattern]))
     for file in literal_sources:
         if omitted(file):continue
         names.update(re.findall(r'res://assets/[^\s"\'\)\]\}]+',file.read_text('utf-8')))
