@@ -369,7 +369,7 @@ def author_campaign(factions,maps):
                 'escort':'携证者存活并抵达回印点；其阵亡立即失败，拆城不能替代护送。',
                 'intercept':'击倒指定巨像；巨像抵达我方近矿线立即失败。'}[win]
             levels.append(level)
-    return levels,dict(schema_version=2,title='纸上兵戈：十院留名',premise='祖印碎裂，十院相互追索王命。玩家沿十位统帅的连续行动收集证据，阻止用抹除记忆换取和平的归零印。',
+    return levels,dict(schema_version=2,title='纸上兵戈',premise='祖印碎裂，十院相互追索王命。玩家沿十位统帅的连续行动收集证据，阻止用抹除记忆换取和平的归零印。',
                        antagonist='留白庭旧档军与自动覆写程序；不是任意一个可以被简单消灭的阵营。',
                        ending=factions[-1]['ending'],chapters=chapters,linear_route=[level['id'] for level in levels],facts=levels)
 

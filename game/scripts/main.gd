@@ -288,7 +288,7 @@ func theatre_menu():
 func credits_menu():
 	if mobile_ui:mobile.credits_menu();return
 	clear_ui(); screen="credits"; view.menu=true
-	menu_header("鸣谢与许可","纸上兵戈 · Paper Warfront  /  "+str(ProjectSettings.get_setting("application/config/version")))
+	menu_header("鸣谢与许可","纸上兵戈  /  "+str(ProjectSettings.get_setting("application/config/version")))
 	var p=panel(ui,Rect2(86,190,1428,605))
 	paragraph(p,"游戏设计、程序、纸偶素材加工与原创配乐：纸上兵戈制作工程\n美术素材：原创纸雕方案与经加工的生成图像\n引擎：Godot Engine（MIT 许可）\n中文字体：Noto Sans SC 与 Noto Serif SC 的子集（SIL Open Font License 1.1）",Rect2(30,22,1350,150),23)
 	var scroll=ScrollContainer.new(); scroll.position=Vector2(30,194); scroll.size=Vector2(1368,382); p.add_child(scroll)

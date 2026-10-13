@@ -1,4 +1,6 @@
-# 纸上兵戈：十院留名 · rc38-preview
+# 纸上兵戈 · rc38-preview
+
+[152-产品命名收敛](152-产品命名收敛.md)：正式展示名统一为“纸上兵戈”；`PaperWarfront` 仅保留为仓库、包体和历史技术标识。
 
 [151-RC38 导出资源排除与包体复核](151-RC38导出资源排除与包体复核.md)：Windows/Android 预设排除 `output/*`，不再把 QA 生成物打入 PCK；RC38 重新导出后 Windows/Android/ZIP 分别减少 1.68%/1.61%/1.71%，APK 与 Windows 内嵌包各 38 组、195115 项逻辑回归通过。
 

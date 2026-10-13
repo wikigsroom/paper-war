@@ -86,7 +86,7 @@ def main():
 法术与攻击反馈使用真实X/Y锚点，支路上死亡和命中不掉到另一条纸路。施工显示进度条，完工发纸屑与独立声音；设施封禁显示标记和下行状态音。减弱动态设置减少震动，音乐/声效可独立调节。纸灯辉光和背景装饰不能伪装成可点击路标或矿位。
 
 资产清单是game/data/assets.json，来源与模型记录在world-art-provenance.json，源图和提示词在output/imagegen/paper-warfront/world-v2与world-support，审图板对应各院40兵。技术切图检查、源图人眼检查、运行截图与动作检查是不同验收项，不能由PNG存在替代。400兵库按需加载并限制纹理缓存，避免在单局预装完整世界。''')
-    write(DOC/'16-玩家手册.md', '''# 纸上兵戈：十院留名 · 玩家手册
+    write(DOC/'16-玩家手册.md', '''# 纸上兵戈 · 玩家手册
 
 Windows双击PaperWarfront.exe；Android安装已签名APK，首次安装需允许当前文件来源。游戏离线单人，不要求网络账户。
 

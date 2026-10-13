@@ -1,4 +1,4 @@
-# 纸上兵戈 · Paper Warfront
+# 纸上兵戈
 
 一款使用 Godot 4.7.2、GDScript 和原生 Control UI 构建的纸片舞台即时战术游戏。项目以《剑与勇士 / Sword & Soldiers》的自动行军、资源循环、手动法术、科技与横向交战骨架为参照，加入十院不对称兵种、逐图剧情、非线性战役、战争迷雾和折纸舞台表现。
 
@@ -65,6 +65,7 @@
 - [战争迷雾失效缓存与 rc37 交付](docs/paper-warfront/148-战争迷雾失效缓存与rc37预览交付.md)
 - [剧情路线图与运行绘制缓存调优](docs/paper-warfront/149-剧情路线图与运行绘制缓存调优.md)
 - [RC38 导出资源排除与包体复核](docs/paper-warfront/151-RC38导出资源排除与包体复核.md)
+- [产品命名收敛](docs/paper-warfront/152-产品命名收敛.md)
 - [实体查询缓存、绘制排序复用与 RC38 双平台交付](docs/paper-warfront/150-实体查询缓存与构建输入遍历优化及rc38预览交付.md)
 - [完整故事路线](docs/paper-warfront/world/04-完整故事路线.md)
 

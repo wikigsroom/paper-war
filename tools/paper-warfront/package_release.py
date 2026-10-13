@@ -35,7 +35,7 @@ def main():
     for stale in [win/'README.txt',win/'README.md']:
         stale.unlink(missing_ok=True)
     manual=(ROOT/'docs/paper-warfront/16-玩家手册.md').read_text(encoding='utf-8')
-    (win/'README.md').write_text(f'''# 纸上兵戈：十院留名 · {VERSION}
+    (win/'README.md').write_text(f'''# 纸上兵戈 · {VERSION}
 
 解压整个目录后运行 `PaperWarfront.exe`。若默认渲染无法启动，运行 `Play-OpenGLCompatibility.cmd`。资源已内嵌，不需要安装 Godot。
 

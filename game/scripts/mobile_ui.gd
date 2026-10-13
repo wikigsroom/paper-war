@@ -487,7 +487,7 @@ func show_epilogue():
 
 func credits_menu():
 	var body=begin("credits","鸣谢与许可",credits_menu)
-	text(body,"纸上兵戈 · Paper Warfront / "+ProjectSettings.get_setting("application/config/version"),20)
+	text(body,"纸上兵戈 / "+ProjectSettings.get_setting("application/config/version"),20)
 	text(body,"原创纸雕题材、生成美术与纸偶加工。Godot Engine 使用 MIT 许可；中文字体采用 Noto Sans SC 与 Noto Serif SC（SIL OFL）。",17)
 	for path in ["res://licenses/GODOT-LICENSE.txt","res://licenses/GODOT-COPYRIGHT.txt","res://assets/fonts/OFL-NotoSansSC.txt","res://assets/fonts/OFL-NotoSerifSC.txt"]:text(body,FileAccess.get_file_as_string(path),14,UI.MUTED)
 
