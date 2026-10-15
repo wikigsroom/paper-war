@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "product_name": "纸上兵戈",
+  "branding_version": "1.0.0",
+  "status": "selected-and-composed",
+  "selected": {
+    "character_logo_id": "brand.logo.character.yin_marshal.woodblock_ink",
+    "character_logo_label": "02 木刻墨印·印甲统帅",
+    "wordmark_id": "brand.logo.wordmark.battle_seal",
+    "wordmark_label": "朱印战印"
+  },
+  "safe_area": {
+    "horizontal": "保留画布四周至少 7.5% 安全边距；主横幅不把文字 Logo 压到地平线和关键建筑上。",
+    "mobile": "Logo 组位于上 62% 以内，底部留出系统手势/刘海安全区。",
+    "character": "不得裁掉头盔、披带、盾牌和双脚。"
+  },
+  "usage": {
+    "brand.logo.character.yin_marshal.woodblock_ink": [
+      "app icon",
+      "launcher",
+      "main lockup character",
+      "chapter card accent"
+    ],
+    "brand.logo.wordmark.battle_seal": [
+      "main title",
+      "desktop menu",
+      "splash",
+      "store card"
+    ],
+    "brand.lockup.primary": [
+      "transparent UI lockup",
+      "loading card"
+    ],
+    "brand.banner.main": [
+      "desktop main menu / landing"
+    ],
+    "brand.banner.mobile_splash": [
+      "Android portrait splash / mobile promotion"
+    ],
+    "brand.banner.chapter_map": [
+      "campaign chapter / route selection"
+    ],
+    "brand.banner.social": [
+      "store/social/release note"
+    ]
+  },
+  "assets": [
+    {
+      "id": "brand.logo.character.yin_marshal.woodblock_ink",
+      "role": "selected-character-logo",
+      "path": "assets/paper-warfront/branding/selected/logo-character-yin-marshal-woodblock-v2.png",
+      "source": "output/imagegen/paper-warfront/logo-character-v2/02-woodblock-ink-warrior.png",
+      "version": "1.0.0",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "f81bfbd86678e92d25aec7c07cb32f9c4f3fcbade96727a4593a68aa8cf75972",
+      "bytes": 1582605,
+      "notes": [
+        "Selected option 02; use as icon and character side of primary lockup.",
+        "No text, letters, numbers, runes or watermark."
+      ]
+    },
+    {
+      "id": "brand.logo.wordmark.battle_seal",
+      "role": "selected-wordmark",
+      "path": "assets/paper-warfront/branding/selected/logo-wordmark-battle-seal-v1.png",
+      "source": "output/imagegen/paper-warfront/logo-directions-v1/01-battle-seal.png",
+      "version": "1.0.0",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "1ef5ad63a0bdbb305d68b5895e4e58a8be369fe67a64aefb46213f3d5ea4393e",
+      "bytes": 2149972,
+      "notes": [
+        "Selected option 朱印战印; the image contains the exact product title 纸上兵戈.",
+        "Use on light paper backgrounds or with a light paper plate."
+      ]
+    },
+    {
+      "id": "brand.lockup.primary",
+      "role": "transparent-primary-lockup",
+      "path": "assets/paper-warfront/branding/banners/brand-lockup-transparent.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/final/brand-lockup-transparent.png",
+      "version": "1.0.0",
+      "size": [
+        1600,
+        620
+      ],
+      "mode": "RGBA",
+      "sha256": "648fc88c937e361ff7a75ccef40a013ed31139576aeda976692e1d608e9bbfb5",
+      "bytes": 973648,
+      "notes": [
+        "Selected wordmark left + selected 印甲统帅 character right."
+      ]
+    },
+    {
+      "id": "brand.banner.main",
+      "role": "main-horizontal-banner",
+      "path": "assets/paper-warfront/branding/banners/banner-main-1920x800.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/final/banner-main-1920x800.png",
+      "version": "1.0.0",
+      "size": [
+        1920,
+        800
+      ],
+      "mode": "RGB",
+      "sha256": "a3158f6f0fef3045a95f9557bfcaf0f2402696bf223b05f414e1e37fa3f6640a",
+      "bytes": 2481730,
+      "notes": [
+        "Desktop/main menu hero; keep both logos inside the central 85% safe area."
+      ]
+    },
+    {
+      "id": "brand.banner.mobile_splash",
+      "role": "mobile-splash-banner",
+      "path": "assets/paper-warfront/branding/banners/banner-mobile-1080x1440.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/final/banner-mobile-1080x1440.png",
+      "version": "1.0.0",
+      "size": [
+        1080,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "4143bac5ebb36f618422901c818487d3d8122242d3711a12c9274d6d81641a44",
+      "bytes": 2667100,
+      "notes": [
+        "Portrait Android splash and mobile launch promotion."
+      ]
+    },
+    {
+      "id": "brand.banner.chapter_map",
+      "role": "chapter-map-banner",
+      "path": "assets/paper-warfront/branding/banners/banner-chapter-map-1600x900.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/final/banner-chapter-map-1600x900.png",
+      "version": "1.0.0",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "4b87e2cda72cbe7c486b63f2943ffaf4181a2f113b6f20f18d127dc927e56db8",
+      "bytes": 2643342,
+      "notes": [
+        "Single-player chapter/map presentation."
+      ]
+    },
+    {
+      "id": "brand.banner.social",
+      "role": "social-card-banner",
+      "path": "assets/paper-warfront/branding/banners/banner-social-1200x630.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/final/banner-social-1200x630.png",
+      "version": "1.0.0",
+      "size": [
+        1200,
+        630
+      ],
+      "mode": "RGB",
+      "sha256": "2049905fe462fc33c31a42992e5aa23dc6dee2da91ce0cea8e67cff6c28267f5",
+      "bytes": 1288587,
+      "notes": [
+        "Store, release note and social preview card."
+      ]
+    },
+    {
+      "id": "brand.background.main_stage",
+      "role": "generated-background",
+      "path": "assets/paper-warfront/branding/backgrounds/main-stage-background.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/backgrounds/main-stage-background.png",
+      "version": "1.0.0",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "ff9401c198e000cd89a44319130643b32491c21c9d53d0a6368a53a0ad93335e",
+      "bytes": 2824171,
+      "notes": [
+        "Textless source background for the main banner."
+      ]
+    },
+    {
+      "id": "brand.background.mobile_stage",
+      "role": "generated-background",
+      "path": "assets/paper-warfront/branding/backgrounds/mobile-stage-background.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/backgrounds/mobile-stage-background.png",
+      "version": "1.0.0",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "34a0bd4e9b1fa0270a6d55b4fe27ef817352ce27072d0c9b9cdfdce7c1564f84",
+      "bytes": 2826728,
+      "notes": [
+        "Textless source background for mobile splash."
+      ]
+    },
+    {
+      "id": "brand.background.chapter_map",
+      "role": "generated-background",
+      "path": "assets/paper-warfront/branding/backgrounds/chapter-map-background.png",
+      "source": "output/imagegen/paper-warfront/branding-v1/backgrounds/chapter-map-background.png",
+      "version": "1.0.0",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "cc6899c18471e93846dd6eef28a52930f2494e56374537e5461767c056a1bc51",
+      "bytes": 3134817,
+      "notes": [
+        "Textless source background for chapter map banner."
+      ]
+    }
+  ],
+  "generation": {
+    "skill": "sub2-image-gen",
+    "model": "gpt-image-2.5",
+    "source_records": [
+      "output/imagegen/paper-warfront/logo-character-v2/manifest.json",
+      "output/imagegen/paper-warfront/logo-directions-v1/manifest.json",
+      "output/imagegen/paper-warfront/branding-v1/processing-record.json"
+    ]
+  },
+  "constraints": [
+    "Do not redraw or regenerate the selected wordmark text in banners; composite the reviewed source.",
+    "Keep the selected character logo textless; no faction text, slogan or pseudo-writing on the shield.",
+    "Banners are artwork assets and do not replace Godot runtime splash/icon until runtime integration is explicitly performed."
+  ]
+}

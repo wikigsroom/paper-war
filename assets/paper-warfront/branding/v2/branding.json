@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "product_name": "纸上兵戈",
+  "branding_version": "1.1.0-candidate",
+  "status": "candidate-cohesive-banner-set",
+  "selected": {
+    "character_logo_id": "brand.logo.character.yin_marshal.woodblock_ink",
+    "character_logo_label": "02 木刻墨印·印甲统帅",
+    "character_source": "assets/paper-warfront/branding/v2/selected/logo-character-yin-marshal-woodblock-v2.png",
+    "wordmark_id": "brand.logo.wordmark.battle_seal",
+    "wordmark_label": "朱印战印",
+    "wordmark_source": "assets/paper-warfront/branding/v2/selected/logo-wordmark-battle-seal-v1.png"
+  },
+  "art_direction": {
+    "style": "two-color woodblock / risograph paper theatre",
+    "palette": {
+      "ink": "#343332",
+      "vermilion": "#B74532",
+      "ivory": "#F3EBDD",
+      "paper": "#E8DECA",
+      "jade": "#377B78",
+      "gold": "#B9964F"
+    },
+    "generated_art_has_text": false,
+    "copy_rendered_with": {
+      "display": "game/assets/fonts/NotoSerifSC.ttf",
+      "body": "game/assets/fonts/NotoSansSC.ttf"
+    },
+    "composition_rule": "Generate one shared paper theatre key art per surface; render exact selected wordmark and copy locally."
+  },
+  "copy": {
+    "main": {
+      "headline": "一纸成阵，横行破局",
+      "feature_line": "自动行军 · 金币与法力 · 雾中决策",
+      "support_line": "把每一次推进，都变成可读的战局。",
+      "cta": "展开战局",
+      "signature_line": "PAPER WARFRONT  ·  纸上兵戈"
+    },
+    "mobile": {
+      "headline": "纸上起兵，所见即战局",
+      "feature_line": "自动行军 · 金币与法力 · 雾中决策",
+      "cta": "展开战局"
+    },
+    "chapter": {
+      "headline": "每一次分岔，都是一场战役",
+      "support_line": "路线未定，战局先行。",
+      "cta": "进入章节"
+    },
+    "social": {
+      "headline": "布阵 · 推进 · 破城",
+      "support_line": "一纸成阵，横行破局",
+      "feature_line": "自动行军 · 雾中决策",
+      "cta": "纸上兵戈"
+    }
+  },
+  "sources": {
+    "prompts": [
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/prompts/chapter-key-art.txt",
+        "sha256": "88137da53f978e49bd978fb8850455880e3e8b034a2d07303d70b47f8b489643"
+      },
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/prompts/main-key-art.txt",
+        "sha256": "869fbcc7ce39084c40b7852f7206c247a6694b8594c9c446080016c500e3eafc"
+      },
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/prompts/mobile-key-art.txt",
+        "sha256": "aff586725b6b35aeb83a00c8380bee5f087d3a439c661c4cd696ea9309a4e816"
+      }
+    ],
+    "backgrounds": [
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/backgrounds/chapter-key-art.png",
+        "sha256": "a4de29f5930d6985927edef6a8ce21cbfc235e3c53f45e88385f604783c44f02"
+      },
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/backgrounds/main-key-art.png",
+        "sha256": "f23a12b15d93eddf283b2e51a06ba6d7c28a82b1294b8bffd9f00a3aef8f71d8"
+      },
+      {
+        "path": "output/imagegen/paper-warfront/branding-v2/backgrounds/mobile-key-art.png",
+        "sha256": "211859b107e96bd3df6e35fbf61d496c984f603729229514dc6cba675a5102ab"
+      }
+    ],
+    "composer": "tools/paper-warfront/compose_branding_v2.py"
+  },
+  "assets": [
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/brand-lockup-primary.png",
+      "role": "brand-lockup",
+      "usage": "selected character logo + selected wordmark on one paper plate",
+      "width": 1440,
+      "height": 520,
+      "mode": "RGBA",
+      "sha256": "b3e02d0933bef979a421c8b8f1d932febc1e2dbc8c914bbee6911322affd9506"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-main-1920x800.png",
+      "role": "banner",
+      "usage": "desktop / landing hero",
+      "width": 1920,
+      "height": 800,
+      "mode": "RGB",
+      "sha256": "7661b50a52d56c53f249d153513a7d73a247ce701b6f4b6fa7b7ad12b82730d7"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-mobile-1080x1440.png",
+      "role": "banner",
+      "usage": "portrait mobile launch / store feature",
+      "width": 1080,
+      "height": 1440,
+      "mode": "RGB",
+      "sha256": "05c55a09e128d3b7f26e312e21d5b0a0ce355a8064be5f38132a18783755c19d"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-chapter-map-1600x900.png",
+      "role": "banner",
+      "usage": "chapter map / campaign selection",
+      "width": 1600,
+      "height": 900,
+      "mode": "RGB",
+      "sha256": "3bd032902b1922acad22d2679d29d144c3b5c46f920cfd4e1be9b2471da6633e"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-social-1200x630.png",
+      "role": "banner",
+      "usage": "social / release card",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGB",
+      "sha256": "94ab59a7c16720654d798badcb5c90b5e3ddc5c57ef190e76469b41ae4b46282"
+    }
+  ],
+  "constraints": {
+    "safe_area": "7.5% horizontal banners; mobile top text within 50% height and bottom system gesture safe area",
+    "runtime_status": "candidate assets are not yet wired into Godot runtime",
+    "generated_text": "disabled; all copy is locally typeset"
+  }
+}

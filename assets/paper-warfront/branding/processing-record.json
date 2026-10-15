@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "version": "branding-v1",
+  "product_name": "纸上兵戈",
+  "selected": {
+    "character_logo": {
+      "asset_id": "brand.logo.character.yin_marshal.woodblock_ink.v2",
+      "source": "output/imagegen/paper-warfront/logo-character-v2/02-woodblock-ink-warrior.png",
+      "label": "02 木刻墨印·印甲统帅"
+    },
+    "word_logo": {
+      "asset_id": "brand.logo.wordmark.battle_seal.v1",
+      "source": "output/imagegen/paper-warfront/logo-directions-v1/01-battle-seal.png",
+      "label": "朱印战印（纸上兵戈文字标）"
+    }
+  },
+  "generation": {
+    "skill": "sub2-image-gen",
+    "model": "gpt-image-2.5",
+    "background_prompts": [
+      "prompts/main-stage-background.txt",
+      "prompts/mobile-stage-background.txt",
+      "prompts/chapter-map-background.txt"
+    ]
+  },
+  "compositing": {
+    "tool": "Pillow RGBA compositing",
+    "logo_text_is_rasterized": true,
+    "backgrounds_are_textless": true,
+    "selected_logos_are_not_redrawn": true,
+    "outputs": {
+      "brand_lockup": "final/brand-lockup-transparent.png",
+      "main": "final/banner-main-1920x800.png",
+      "mobile": "final/banner-mobile-1080x1440.png",
+      "chapter": "final/banner-chapter-map-1600x900.png",
+      "social": "final/banner-social-1200x630.png"
+    }
+  },
+  "assets": [
+    {
+      "path": "output/imagegen/paper-warfront/logo-directions-v1/01-battle-seal.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "1ef5ad63a0bdbb305d68b5895e4e58a8be369fe67a64aefb46213f3d5ea4393e",
+      "bytes": 2149972
+    },
+    {
+      "path": "output/imagegen/paper-warfront/logo-character-v2/02-woodblock-ink-warrior.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "f81bfbd86678e92d25aec7c07cb32f9c4f3fcbade96727a4593a68aa8cf75972",
+      "bytes": 1582605
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/backgrounds/chapter-map-background.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "cc6899c18471e93846dd6eef28a52930f2494e56374537e5461767c056a1bc51",
+      "bytes": 3134817
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/backgrounds/main-stage-background.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "ff9401c198e000cd89a44319130643b32491c21c9d53d0a6368a53a0ad93335e",
+      "bytes": 2824171
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/backgrounds/mobile-stage-background.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "sha256": "34a0bd4e9b1fa0270a6d55b4fe27ef817352ce27072d0c9b9cdfdce7c1564f84",
+      "bytes": 2826728
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/final/banner-chapter-map-1600x900.png",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "sha256": "4b87e2cda72cbe7c486b63f2943ffaf4181a2f113b6f20f18d127dc927e56db8",
+      "bytes": 2643342
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/final/banner-main-1920x800.png",
+      "size": [
+        1920,
+        800
+      ],
+      "mode": "RGB",
+      "sha256": "a3158f6f0fef3045a95f9557bfcaf0f2402696bf223b05f414e1e37fa3f6640a",
+      "bytes": 2481730
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/final/banner-mobile-1080x1440.png",
+      "size": [
+        1080,
+        1440
+      ],
+      "mode": "RGB",
+      "sha256": "4143bac5ebb36f618422901c818487d3d8122242d3711a12c9274d6d81641a44",
+      "bytes": 2667100
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/final/banner-social-1200x630.png",
+      "size": [
+        1200,
+        630
+      ],
+      "mode": "RGB",
+      "sha256": "2049905fe462fc33c31a42992e5aa23dc6dee2da91ce0cea8e67cff6c28267f5",
+      "bytes": 1288587
+    },
+    {
+      "path": "output/imagegen/paper-warfront/branding-v1/final/brand-lockup-transparent.png",
+      "size": [
+        1600,
+        620
+      ],
+      "mode": "RGBA",
+      "sha256": "648fc88c937e361ff7a75ccef40a013ed31139576aeda976692e1d608e9bbfb5",
+      "bytes": 973648
+    }
+  ],
+  "notes": [
+    "Final banner previews are generated brand assets and are not yet wired into Godot runtime.",
+    "Text logo remains the selected generated朱印战印 source; no new text was generated into the backgrounds."
+  ]
+}

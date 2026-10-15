@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "product_name": "纸上兵戈",
+  "branding_runtime_version": "1.1.0-runtime",
+  "selected": {
+    "character_logo_id": "brand.logo.character.yin_marshal.woodblock_ink",
+    "character_logo_label": "02 木刻墨印·印甲统帅",
+    "wordmark_id": "brand.logo.wordmark.battle_seal",
+    "wordmark_label": "朱印战印"
+  },
+  "generated_at_utc": "2026-10-14T11:02:34.981932+00:00",
+  "assets": [
+    {
+      "id": "brand.icon.launcher.yin_marshal.v2",
+      "role": "launcher-icon",
+      "path": "game/assets/icon.png",
+      "source": "derived from assets/paper-warfront/branding/v2/selected/logo-character-yin-marshal-woodblock-v2.png",
+      "version": "1.1.0-runtime",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 261419,
+      "sha256": "54d69af73ff7286870388096b18451d4f07f3dc45f748d8b6cd7fcb6d3103621"
+    },
+    {
+      "id": "brand.icon.android_foreground.yin_marshal.v2",
+      "role": "android-adaptive-foreground",
+      "path": "game/assets/branding/icon-foreground-432.png",
+      "source": "derived from assets/paper-warfront/branding/v2/selected/logo-character-yin-marshal-woodblock-v2.png",
+      "version": "1.1.0-runtime",
+      "width": 432,
+      "height": 432,
+      "mode": "RGBA",
+      "bytes": 196145,
+      "sha256": "a9fa9e2f36320e915481efc8ace061e986ae7cd8b8b4db70bc75a07f360f2ca2"
+    }
+  ],
+  "icon_derivation": {
+    "canvas": "512x512 opaque ivory paper tile",
+    "foreground_canvas": "432x432 transparent adaptive foreground",
+    "character_trim_threshold": 10,
+    "background": "ivory #F3EBDD with vermilion #B74532 and ink #343332 border",
+    "runtime_paths": [
+      "res://assets/icon.png",
+      "res://assets/branding/icon-foreground-432.png"
+    ]
+  },
+  "runtime_bindings": {
+    "project_icon": "res://assets/icon.png",
+    "android_launcher_main": "res://assets/icon.png",
+    "android_adaptive_foreground": "res://assets/branding/icon-foreground-432.png"
+  }
+}

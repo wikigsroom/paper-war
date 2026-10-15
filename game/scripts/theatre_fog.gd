@@ -63,10 +63,13 @@ func prepare(map):
 		if not samples.is_empty():columns.append({"lo":lo,"hi":hi,"roads":samples})
 
 static func mist_color(region: String,x: float,y: float,alpha: float) -> Color:
-	var hue: Color=Color("99948a")
-	if region in ["mo","bai"]:hue=Color("97929e")
-	elif region=="shuang":hue=Color("a3b2b6")
-	elif region in ["mu","qi"]:hue=Color("969d8b")
+	# Unknown space is a cool ink veil in the night-lantern direction. The
+	# authoritative opacity and explored-memory rules remain unchanged; only the
+	# presentation hue is moved away from the old daylight grey wash.
+	var hue: Color=Color("14263a")
+	if region in ["mo","bai"]:hue=Color("1b2237")
+	elif region=="shuang":hue=Color("183243")
+	elif region in ["mu","qi"]:hue=Color("1c302f")
 	# World-fixed fibers, not a moving screen pattern or a field of dark blocks.
 	var grain: float=(sin(x*1.17+y*.53)+sin(x*3.09-y*.71))*.012
 	hue=hue.lightened(maxf(0,grain)) if grain>=0 else hue.darkened(-grain)

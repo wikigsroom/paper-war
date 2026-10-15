@@ -1,0 +1,20 @@
+{
+  "asset_id": "background.night-lantern",
+  "display_name": "夜战灯笼 · 纸岭战场底图",
+  "direction": "03-night-lantern",
+  "runtime_path": "game/assets/backgrounds/background-night-lantern.png",
+  "source_path": "output/imagegen/paper-warfront/night-lantern-battle-backdrop.png",
+  "prompt_path": "output/imagegen/paper-warfront/night-lantern-battle-backdrop.prompt.txt",
+  "manifest_path": "output/imagegen/paper-warfront/night-lantern-battle-backdrop.manifest.json",
+  "usage": ["main-menu", "battle:stamp-plain"],
+  "constraints": {
+    "ui_baked_in": false,
+    "characters_baked_in": false,
+    "fog_baked_in": false,
+    "terrain_baked_in": "visual-only stage soil; procedural gameplay terrain remains authoritative",
+    "left_fortress_safe_area": true,
+    "right_fog_reserve": true
+  },
+  "review_status": "runtime-reviewed",
+  "version": "1.0.0"
+}

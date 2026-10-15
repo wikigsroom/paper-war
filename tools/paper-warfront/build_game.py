@@ -9,7 +9,7 @@ GAME=ROOT/'game'
 ENGINE=ROOT/'.tools/godot/Godot_v4.7.2-stable_win64_console.exe'
 SDK=Path(os.environ['LOCALAPPDATA'])/'Android/Sdk'
 JAVA=Path('C:/Program Files/Eclipse Adoptium/jdk-21.0.11.10-hotspot')
-VERSION=os.environ.get('PAPER_RELEASE_VERSION','3.0.0-rc5')
+VERSION=os.environ.get('PAPER_RELEASE_VERSION','3.0.0-rc41-night-lantern-components')
 RELEASE=ROOT/'release'/VERSION
 LOG=ROOT/os.environ.get('PAPER_QA_DIR','output/qa/godot/frame-rebuild')/'build'
 

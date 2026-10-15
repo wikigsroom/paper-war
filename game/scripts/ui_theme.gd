@@ -1,15 +1,23 @@
 extends RefCounted
-# Live text and hit targets. Generated paper provides only the skin.
-const PAPER=Color("f6edda")
-const CARD=Color("fff8e9")
-const INK=Color("24343c")
-const MUTED=Color("615b50")
-const EDGE=Color("c4b294")
-const CONTROL_EDGE=Color("978b73")
-const SEAL=Color("a83c35")
-const GOLD=Color("92682a")
-const JADE=Color("31747c")
-const DISABLED=Color("ddd4c2")
+# Live text and hit targets. The night-lantern direction uses the generated
+# pages as a visual reference; runtime text and hit targets remain native
+# Godot controls and use this token set.
+const NIGHT_LANTERN=true
+const MIDNIGHT=Color("0d1c2e")
+const PAPER=Color("14283b")
+const CARD=Color("fff6e2")
+const INK=Color("1b2c40")
+const LIGHT_INK=Color("f3e6cc")
+const MUTED=Color("756d63")
+const LIGHT_MUTED=Color("c8b99e")
+const EDGE=Color("b18a54")
+const CONTROL_EDGE=Color("806942")
+const SEAL=Color("a43b2d")
+const GOLD=Color("d2a24f")
+const JADE=Color("4d9299")
+const LANTERN=Color("f1a34b")
+const DISABLED=Color("b9b0a0")
+const NIGHT_SCENE_MODULATE=Color(0.34,0.47,0.68)
 static var textures: Dictionary={}
 static var surfaces: Dictionary={}
 
@@ -21,7 +29,7 @@ static func paper_box(color: Color,border: Color,radius: int=4) -> StyleBoxFlat:
 	var style=StyleBoxFlat.new();style.bg_color=color;style.border_color=border
 	style.set_border_width_all(1);style.set_corner_radius_all(radius)
 	style.content_margin_left=16;style.content_margin_right=16;style.content_margin_top=8;style.content_margin_bottom=8
-	style.shadow_color=Color(INK,.16);style.shadow_size=4;style.shadow_offset=Vector2(0,3)
+	style.shadow_color=Color(MIDNIGHT,.42);style.shadow_size=5;style.shadow_offset=Vector2(0,3)
 	return style
 
 static func surface(name: String,edge: float=12,margin: float=8) -> StyleBoxTexture:
@@ -33,8 +41,15 @@ static func surface(name: String,edge: float=12,margin: float=8) -> StyleBoxText
 			style.set_content_margin(side,margin if side in [SIDE_LEFT,SIDE_RIGHT] else minf(6,margin))
 		style.axis_stretch_horizontal=StyleBoxTexture.AXIS_STRETCH_MODE_STRETCH
 		style.axis_stretch_vertical=StyleBoxTexture.AXIS_STRETCH_MODE_STRETCH
+		if name=="panel-ink":style.modulate_color=Color("b9d0dc")
 		surfaces[key]=style
 	return surfaces[key]
+
+static func rail_box() -> StyleBoxTexture:
+	# The approved battle reference uses one continuous ivory command strip. A
+	# texture-backed rail keeps the paper grain and folded corners visible behind
+	# the individual cards while retaining native Control hit targets.
+	return surface("panel-ledger",8,10)
 
 static func focus_box(color: Color=JADE) -> StyleBoxFlat:
 	var focus=paper_box(Color(0,0,0,0),color,0);focus.set_border_width_all(2);focus.shadow_size=0

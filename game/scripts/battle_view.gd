@@ -2,6 +2,7 @@ extends Node2D
 
 const TheatreGround = preload("res://scripts/theatre_ground.gd")
 const GroundCache = preload("res://scripts/theatre_ground_cache.gd")
+const UITheme = preload("res://scripts/ui_theme.gd")
 var ground_mesh_cache=GroundCache.new()
 var profile_draw_layers: bool=OS.get_cmdline_user_args().has("--qa-profile-layers")
 var layer_cpu_us: Dictionary={}
@@ -216,6 +217,22 @@ func shards(x: float, count: int, color: Color, life: float, force: float, visua
 func tint(color: Color, alpha: float) -> Color:
 	return Color(color.r,color.g,color.b,alpha)
 
+func draw_night_lanterns():
+	# Small warm pools give the dark paper stage the approved lantern language
+	# without revealing actors or changing simulation visibility.
+	var anchors: Array=[]
+	if menu:
+		anchors=[Vector2(width*.12,floor_y()-22),Vector2(width*.42,floor_y()-18)]
+	elif sim!=null:
+		for base in sim.bases:
+			var p: Vector2=point_to_screen(float(base.x),float(base.y))-Vector2(0,74)
+			if p.x>-90 and p.x<width+90:anchors.append(p)
+	for p in anchors:
+		draw_circle(p,46,Color(UITheme.LANTERN,.035))
+		draw_circle(p,24,Color(UITheme.LANTERN,.075))
+		draw_rect(Rect2(p-Vector2(5,11),Vector2(10,22)),Color(UITheme.LANTERN,.78))
+		draw_line(p+Vector2(-8,-12),p+Vector2(8,-12),Color(UITheme.GOLD,.8),2,true)
+
 func _draw():
 	if db==null: return
 	render_point_cache.clear();render_point_refs.clear()
@@ -225,21 +242,35 @@ func _draw():
 	var profile_mark: int=Time.get_ticks_usec() if profile_draw_layers else 0
 	canvas_shift=Vector2.ZERO
 	draw_rect(Rect2(0,0,width,height),PAPER)
-	var map_id="stamp-plain" if menu or sim==null else sim.map.definition.theme
-	var bg=db.art("background."+map_id)
+	var map_id="lantern-ridge" if menu or sim==null else sim.map.definition.theme
+	# The selected direction supplies one reviewed night plate for the title and
+	# default stamp-plain stage. Other regions retain their authored silhouettes
+	# so map identity remains legible across the campaign.
+	var use_night_backdrop: bool=UITheme.NIGHT_LANTERN and (menu or map_id=="stamp-plain")
+	var bg: Texture2D=db.art("background.night-lantern") if use_night_backdrop else db.art("background."+map_id)
 	if bg==null: bg=db.art("background.stamp-plain")
 	var offset=(camera_x-28)*5
-	draw_texture_rect(bg,Rect2(-100-offset,-40 if menu else 80,width+200,height*.85),false)
+	var backdrop_modulate: Color=Color.WHITE if use_night_backdrop else UITheme.NIGHT_SCENE_MODULATE
+	draw_texture_rect(bg,Rect2(-100-offset,-40 if menu else 80,width+200,height*.85),false,backdrop_modulate)
+	# The source backdrops are daytime paper paintings. A cool wash gives every
+	# scene the approved moonlit depth while warm UI rails and lanterns remain
+	# the readable focal accents.
+	draw_rect(Rect2(0,0,width,height),Color(UITheme.MIDNIGHT,.08 if use_night_backdrop else .24))
 	if menu and not menu_characters:draw_rect(Rect2(0,0,width,height),Color(PAPER,.66))
 	var camera_shift=Vector2.ZERO
 	if shake>0 and not reduced_motion and not direct_pan and not menu:camera_shift=Vector2(sin(visual_time*91),cos(visual_time*73))*shake
 	canvas_shift=camera_shift
 	draw_set_transform(camera_shift)
 	if menu:
-		draw_colored_polygon(PackedVector2Array([Vector2(0,floor_y()+6),Vector2(width,floor_y()+6),Vector2(width,height),Vector2(0,height)]),Color("c6b593"))
-		draw_line(Vector2(0,floor_y()+7),Vector2(width,floor_y()+7),Color("8e7859"),3)
+		draw_colored_polygon(PackedVector2Array([Vector2(0,floor_y()+6),Vector2(width,floor_y()+6),Vector2(width,height),Vector2(0,height)]),Color("5e4d42"))
+		draw_line(Vector2(0,floor_y()+7),Vector2(width,floor_y()+7),UITheme.GOLD,3)
+		draw_night_lanterns()
 	elif sim!=null:
 		ground_mesh_cache.draw_terrain(self,sim)
+		# A translucent blue-black wash turns the paper terrain into the approved
+		# moonlit stage while the unit layer below remains crisp and readable.
+		draw_rect(Rect2(0,64,width,height-64),Color(UITheme.MIDNIGHT,.34))
+		draw_night_lanterns()
 	if profile_draw_layers:profile_mark=mark_draw_layer("background_ground",profile_mark)
 	if menu:
 		draw_menu_units(); draw_set_transform(Vector2.ZERO); return
@@ -838,11 +869,12 @@ func minimap_point(x: float,y: float) -> Vector2:
 func draw_minimap(target):
 	var box=minimap_rect()
 	if not box.has_area():return
-	target.draw_rect(box,Color("eadcc2"))
+	target.draw_rect(box,Color(UITheme.CARD,.96))
+	target.draw_rect(box,Color(UITheme.EDGE,.9),false,1.0)
 	for edge_id in sim.map.edges:
 		var points=PackedVector2Array()
 		for p in sim.map.edges[edge_id].points:points.append(minimap_point(p.x,p.y))
-		target.draw_polyline(points,Color("8e7859"),2,true)
+		target.draw_polyline(points,Color(UITheme.EDGE,.85),2,true)
 		if sim.config.get("fog",true):
 			var length: float=sim.map.edges[edge_id].length
 			var distance: float=0
@@ -852,29 +884,29 @@ func draw_minimap(target):
 				if not sim.visibility.point_visible(player_side,anchor):
 					var start: Vector2=sim.map.point(edge_id,distance);var end: Vector2=sim.map.point(edge_id,finish)
 					var explored: bool=sim.visibility.point_explored(player_side,anchor)
-					target.draw_line(minimap_point(start.x,start.y),minimap_point(end.x,end.y),Color("99948a",.40 if explored else .85),7,true)
+					target.draw_line(minimap_point(start.x,start.y),minimap_point(end.x,end.y),Color(UITheme.MIDNIGHT,.38 if explored else .86),7,true)
 				distance=finish
 	for b in sim.bases+sim.buildings:
 		if not sim.visible_to(player_side,b):continue
 		var pos=minimap_point(b.x,b.y)
-		target.draw_rect(Rect2(pos-Vector2(4,5),Vector2(8,10)),Color("4c8a91") if b.side==player_side else Color("c45c43"))
+		target.draw_rect(Rect2(pos-Vector2(4,5),Vector2(8,10)),UITheme.JADE if b.side==player_side else UITheme.SEAL)
 	# Hollow signs are stale building intelligence, never hidden live state.
 	for remembered in sim.visibility.last_seen[player_side].values():
 		if sim.visibility.point_visible(player_side,remembered):continue
 		var pos=minimap_point(remembered.x,remembered.y)
-		target.draw_rect(Rect2(pos-Vector2(4,5),Vector2(8,10)),Color("9b8171"),false,1)
+		target.draw_rect(Rect2(pos-Vector2(4,5),Vector2(8,10)),UITheme.LIGHT_MUTED,false,1)
 	for mine in sim.map.definition.mines:
-		if int(mine.owner)==player_side or sim.visibility.point_visible(player_side,mine):target.draw_circle(minimap_point(mine.x,mine.y),3,Color("b9964f"))
-		elif sim.visibility.point_explored(player_side,mine):target.draw_circle(minimap_point(mine.x,mine.y),3,Color("9b8171"),false,1,true)
+		if int(mine.owner)==player_side or sim.visibility.point_visible(player_side,mine):target.draw_circle(minimap_point(mine.x,mine.y),3,UITheme.GOLD)
+		elif sim.visibility.point_explored(player_side,mine):target.draw_circle(minimap_point(mine.x,mine.y),3,UITheme.LIGHT_MUTED,false,1,true)
 	if sim.config.get("win","") in ["escort","intercept"]:
 		var goal: Dictionary = sim.config.get("objective_anchor",sim.map.definition.objective_anchor)
 		var pos=minimap_point(goal.x,goal.y)
-		target.draw_line(pos+Vector2(0,-9),pos+Vector2(0,9),Color("d85840"),3,true)
+		target.draw_line(pos+Vector2(0,-9),pos+Vector2(0,9),UITheme.SEAL,3,true)
 	for u in sim.units:
 		if not sim.visible_to(player_side,u):continue
 		var pos=minimap_point(u.x,u.y)
-		target.draw_circle(pos,2 if db.balance.units[u.id].get("economy",false) else 3,Color("4c8a91") if u.side==player_side else Color("c45c43"))
-		if u.get("objective_unit",false):target.draw_circle(pos,6,Color("343332"),false,2,true)
+		target.draw_circle(pos,2 if db.balance.units[u.id].get("economy",false) else 3,UITheme.JADE if u.side==player_side else UITheme.SEAL)
+		if u.get("objective_unit",false):target.draw_circle(pos,6,UITheme.INK,false,2,true)
 	var visible_width=width/PX
 	if not economy_warning.is_empty():
 		var warning_point: Vector2=minimap_point(float(economy_warning.x),float(economy_warning.y))
@@ -888,7 +920,7 @@ func draw_minimap(target):
 		target.draw_line(warning_point-Vector2(0,3)*warning_scale,warning_point+Vector2(0,1)*warning_scale,Color("b74532"),2*warning_scale,true)
 		target.draw_circle(warning_point+Vector2(0,4)*warning_scale,1.2*warning_scale,Color("b74532"))
 	var left=box.position.x+(camera_x-visible_width*.5)/sim.map.length*box.size.x
-	target.draw_rect(Rect2(left,box.position.y-2,visible_width/sim.map.length*box.size.x,box.size.y+4),Color("343332"),false,2)
+	target.draw_rect(Rect2(left,box.position.y-2,visible_width/sim.map.length*box.size.x,box.size.y+4),UITheme.GOLD,false,2)
 
 func draw_spell_zone(zone: Dictionary):
 	if not location_visible_cached(zone.x,zone.y):return

@@ -248,10 +248,10 @@ func main_menu():
 	clear_ui();screen="menu";paused=false;result_shown=false;sim=null
 	view.sim=null;view.menu=true;view.selected_spell="";view.selected_building="";view.direct_pan=false
 	view.camera_x=28;view.target_camera=28
-	label(ui,"纸上",Rect2(100,115,640,150),112,Color("343332"),true)
-	label(ui,"兵戈",Rect2(254,230,590,160),126,Color("b74532"),true)
-	label(ui,"P A P E R  W A R F R O N T",Rect2(112,395,670,38),22,UITheme.MUTED)
-	label(ui,"一纸山河 · 十院对弈",Rect2(114,435,660,40),28,UITheme.INK,true)
+	label(ui,"纸上",Rect2(100,115,640,150),112,UITheme.CARD,true)
+	label(ui,"兵戈",Rect2(254,230,590,160),126,UITheme.SEAL,true)
+	label(ui,"P A P E R  W A R F R O N T",Rect2(112,395,670,38),22,UITheme.LIGHT_MUTED)
+	label(ui,"一纸山河 · 十院对弈",Rect2(114,435,660,40),28,UITheme.CARD,true)
 	var p=panel(ui,Rect2(920,112,574,680))
 	label(p,"展开你的下一折",Rect2(32,24,510,55),34,UITheme.INK,true)
 	var actions=[
@@ -264,7 +264,7 @@ func main_menu():
 		if i==0:b.add_theme_font_override("font",title_font)
 	label(p,"当前军令 · 第 %03d 折"%(int(profile.unlocked)+1),Rect2(34,581,510,30),18,UITheme.MUTED)
 	label(p,db.campaign[int(profile.unlocked)].title,Rect2(34,616,510,39),25,UITheme.INK,true)
-	label(ui,"离线单人游戏 · "+ProjectSettings.get_setting("application/config/version"),Rect2(88,837,790,32),18,UITheme.MUTED)
+	label(ui,"离线单人游戏 · "+ProjectSettings.get_setting("application/config/version"),Rect2(88,837,790,32),18,UITheme.LIGHT_MUTED)
 
 func new_battle_menu():
 	if mobile_ui:mobile.new_battle_menu();return
@@ -360,22 +360,26 @@ func battle_objective_text() -> String:
 func show_brief(level: Dictionary, battle_mode: String):
 	if mobile_ui:mobile.show_brief(level,battle_mode);return
 	mode=battle_mode;options=level.duplicate(true)
-	create_overlay("brief",Rect2(246,18 if mobile_ui else 64,1108,866 if mobile_ui else 770))
+	# The reference page is a wide command parchment: the commander and quote
+	# occupy a stable left column while the route, brief and action row breathe on
+	# the right. Keep this geometry fixed at the 1600x900 logical canvas so the
+	# same hierarchy survives the mobile scroll implementation.
+	create_overlay("brief",Rect2(190,58,1220,785))
 	var f: String = level.faction
 	var m: Dictionary = db.map_definition(level.map)
-	label(overlay,("第 %03d 折"%(int(level.get("index",0))+1)) if battle_mode=="campaign" else "战术挑战",Rect2(30,20,1000,40),22,Color("746d61"))
-	label(overlay,level.title,Rect2(28,66,1045,58),38,db.FACTION_COLORS[f],true)
-	image_rect(overlay,db.art("portrait."+f+".commander",true),Rect2(24,140,285,307))
-	paragraph(overlay,"“"+db.factions[f].stake+"”",Rect2(30,472,274,135),22)
-	scroll_text(overlay,dialogue_text(level.get("story_before",level.tip)),Rect2(336,141,736,123),22)
-	if battle_mode=="campaign":label(overlay,campaign_progress.status(profile,level.id)+" · "+campaign_progress.requirement_hint(level.id),Rect2(336,23,736,24),16,UITheme.MUTED)
-	label(overlay,"地图 · "+m.name,Rect2(335,275,730,35),23,Color("343332"),true)
-	map_preview(overlay,m,Rect2(336,321,736,132))
-	paragraph(overlay,mission_brief(level,m),Rect2(336,471,736,132),19)
-	paragraph(overlay,"%s 对 %s   ·   起始金币 %d : %d\n%s"%[db.FACTION_NAMES[f],db.FACTION_NAMES[level.enemy],level.starting_gold,level.enemy_starting_gold,db.mana_hint(f)],Rect2(336,610,736,64),18)
-	button(overlay,"调整部署",Rect2(30,720 if mobile_ui else 689,257,128 if mobile_ui else 60),func():loadout_menu(f,func():show_brief(level,battle_mode),level.get("available_roster",db.all_unit_ids(f))))
-	button(overlay,"展开战场",Rect2(334,720 if mobile_ui else 689,473,128 if mobile_ui else 60),func():start_battle(options))
-	button(overlay,"返回",Rect2(827,720 if mobile_ui else 689,245,128 if mobile_ui else 60),func():
+	label(overlay,("第 %03d 折"%(int(level.get("index",0))+1)) if battle_mode=="campaign" else "战术挑战",Rect2(34,20,360,36),22,UITheme.MUTED)
+	label(overlay,level.title,Rect2(34,62,750,58),38,db.FACTION_COLORS[f],true)
+	if battle_mode=="campaign":label(overlay,campaign_progress.status(profile,level.id)+" · "+campaign_progress.requirement_hint(level.id),Rect2(420,23,760,28),16,UITheme.MUTED)
+	image_rect(overlay,db.art("portrait."+f+".commander",true),Rect2(34,145,330,270))
+	paragraph(overlay,"“"+db.factions[f].stake+"”",Rect2(40,434,320,110),22)
+	scroll_text(overlay,dialogue_text(level.get("story_before",level.tip)),Rect2(420,140,760,102),19)
+	label(overlay,"地图 · "+m.name,Rect2(420,252,760,34),23,UITheme.INK,true)
+	map_preview(overlay,m,Rect2(420,294,760,145))
+	paragraph(overlay,mission_brief(level,m),Rect2(420,456,760,130),19)
+	paragraph(overlay,"%s 对 %s   ·   起始金币 %d : %d\n%s"%[db.FACTION_NAMES[f],db.FACTION_NAMES[level.enemy],level.starting_gold,level.enemy_starting_gold,db.mana_hint(f)],Rect2(420,603,760,58),18)
+	button(overlay,"调整部署",Rect2(30,713,330,58),func():loadout_menu(f,func():show_brief(level,battle_mode),level.get("available_roster",db.all_unit_ids(f))))
+	button(overlay,"展开战场",Rect2(380,713,500,58),func():start_battle(options))
+	button(overlay,"返回",Rect2(900,713,290,58),func():
 		if screen=="battle":main_menu();campaign_menu()
 		else:close_overlay())
 
@@ -463,8 +467,8 @@ func create_overlay(name_value: String, rect: Rect2):
 	modal_focus.capture(ui)
 	if overlay and is_instance_valid(overlay):overlay.get_parent().hide();overlay.get_parent().queue_free()
 	var layer=Control.new(); layer.name="ModalLayer"; layer.add_to_group("modal_layers"); layer.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT); layer.mouse_filter=Control.MOUSE_FILTER_STOP; ui.add_child(layer)
-	var shade=ColorRect.new(); shade.color=Color(.13,.12,.1,.63); shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT); layer.add_child(shade)
-	overlay=panel(layer,rect); modal=name_value
+	var shade=ColorRect.new(); shade.color=Color(UITheme.MIDNIGHT,.70); shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT); layer.add_child(shade)
+	overlay=panel(layer,rect); overlay.name="Modal_"+name_value; modal=name_value
 	modal_focus.enter.call_deferred(overlay)
 
 func close_overlay():
@@ -524,36 +528,39 @@ func build_hud():
 	if mobile_ui:mobile.build_hud();return
 	queue_signature=""
 	var faction: String = sim.players[0].faction
-	view.desktop_playfield=Rect2(0,56,1600,754)
+	# The reference live-battle page reserves a shallow 64 px command rail and
+	# a 104 px recruitment rail. Keeping those bands explicit gives the stage a
+	# stable 732 px viewport while preserving the 70% battlefield contract.
+	view.desktop_playfield=Rect2(0,64,1600,732)
 	view.desktop_floor=view.desktop_playfield.end.y-sim.map.bounds.end.y*view.PY-maxf(120,view.desktop_playfield.size.y*.20)
-	var top=panel(ui,Rect2(0,0,1600,56));top.name="HudTopRail";top.mouse_filter=Control.MOUSE_FILTER_IGNORE
-	var bottom=panel(ui,Rect2(0,810,1600,90));bottom.name="HudBottomRail";bottom.mouse_filter=Control.MOUSE_FILTER_IGNORE
-	view.desktop_minimap=Rect2(1132,8,304,40)
+	var top=panel(ui,Rect2(0,0,1600,64));top.name="HudTopRail";top.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	var bottom=panel(ui,Rect2(0,796,1600,104));bottom.name="HudBottomRail";bottom.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	view.desktop_minimap=Rect2(1132,9,304,46)
 	var navigation=MiniMap.new();navigation.view=view;navigation.size=Vector2(1600,900);navigation.mouse_filter=Control.MOUSE_FILTER_IGNORE;ui.add_child(navigation)
-	image_rect(ui,UITheme.art("icon-gold"),Rect2(16,4,26,26));image_rect(ui,UITheme.art("icon-mana"),Rect2(180,4,26,26))
-	resource_label=label(ui,"",Rect2(48,0,128,32),24,UITheme.GOLD)
-	mana_label=label(ui,"",Rect2(212,0,250,32),20,UITheme.JADE)
-	clock_label=label(ui,"",Rect2(480,0,626,32),20,UITheme.INK)
+	image_rect(ui,UITheme.art("icon-gold"),Rect2(16,7,28,28));image_rect(ui,UITheme.art("icon-mana"),Rect2(180,7,28,28))
+	resource_label=label(ui,"",Rect2(50,2,126,36),24,UITheme.INK)
+	mana_label=label(ui,"",Rect2(214,2,250,36),20,UITheme.JADE)
+	clock_label=label(ui,"",Rect2(480,2,626,36),20,UITheme.INK)
 	base_label=label(ui,"",Rect2(0,0,0,0),18,UITheme.MUTED);base_label.hide()
-	hud_button("暂停",Rect2(1468,4,112,48),pause_menu)
+	hud_button("暂停",Rect2(1468,8,112,48),pause_menu)
 	queue_box=HBoxContainer.new();queue_box.visible=false;ui.add_child(queue_box)
 	army_label=label(ui,"",Rect2(0,0,0,0),17,UITheme.MUTED);army_label.hide()
 	var units_order: Array = sim.players[0].roster.duplicate();units_order.append("unit."+faction+".worker")
 	for i in range(units_order.size()):
 		var id: String = units_order[i]
-		var c=card(ui,id,Rect2(16+i*108,814,100,80),false,func():recruit_action(id))
+		var c=card(ui,id,Rect2(16+i*108,802,100,94),false,func():recruit_action(id))
 		c.slim_battle=true;c.detail=str(i+1);unit_cards[id]=c
 	var spells_order: Array = db.spell_ids(faction)
 	for i in range(spells_order.size()):
 		var id: String = spells_order[i]
-		var c=card(ui,id,Rect2(790+i*116,814,108,80),true,func():select_spell(id))
+		var c=card(ui,id,Rect2(790+i*116,802,108,94),true,func():select_spell(id))
 		c.slim_battle=true;c.detail=["Q","W","E","R","T"][i];spell_cards[id]=c
-	orders_button=hud_button("军令",Rect2(1404,814,176,80),func():cancel_selection() if view.selected_spell!="" or view.selected_building!="" else open_orders())
+	orders_button=hud_button("军令",Rect2(1404,802,176,94),func():cancel_selection() if view.selected_spell!="" or view.selected_building!="" else open_orders())
 	orders_button.name="HudOrders"
-	hint_back=panel(ui,Rect2(8,32,1098,24));hint_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
-	hint_label=label(ui,"",Rect2(16,32,1082,24),15,UITheme.INK)
-	status_back=panel(ui,Rect2(8,32,1098,24));status_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
-	status_label=label(ui,"",Rect2(16,32,1082,24),15,UITheme.INK)
+	hint_back=panel(ui,Rect2(8,39,1098,23));hint_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	hint_label=label(ui,"",Rect2(16,39,1082,23),15,UITheme.INK)
+	status_back=panel(ui,Rect2(8,39,1098,23));status_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	status_label=label(ui,"",Rect2(16,39,1082,23),15,UITheme.INK)
 	update_hud()
 
 func open_orders():
@@ -869,27 +876,32 @@ func show_result():
 			campaign_progress.record_victory(profile,str(options.id),stars)
 			save_profile()
 	if mobile_ui:mobile.show_result();return
-	create_overlay("result",Rect2(386,121,828,653))
-	image_rect(overlay,UITheme.art("icon-victory" if victory else "icon-defeat"),Rect2(33,30,141,139))
-	label(overlay,"纸上得胜" if victory else ("两城同落" if draw else "此局失印"),Rect2(206,41,567,74),48,Color("377b78") if victory else Color("b74532"),true)
-	label(overlay,options.title+"  ·  %02d:%02d"%[int(sim.time)/60,int(sim.time)%60],Rect2(207,127,568,40),24)
-	if victory: label(overlay,"★".repeat(stars)+"☆".repeat(3-stars),Rect2(47,195,734,66),44,Color("b9964f"))
-	else: paragraph(overlay,sim.result_reason+"。保护矿路与任务对象，调整部署再战。",Rect2(46,205,733,82),23)
+	create_overlay("result",Rect2(340,88,920,730))
+	image_rect(overlay,UITheme.art("icon-victory" if victory else "icon-defeat"),Rect2(40,28,132,132))
+	label(overlay,"纸上得胜" if victory else ("两城同落" if draw else "此局失印"),Rect2(205,34,665,62),48,UITheme.INK if victory else UITheme.SEAL,true)
+	label(overlay,options.title+"  ·  %02d:%02d"%[int(sim.time)/60,int(sim.time)%60],Rect2(207,100,665,36),23,UITheme.INK)
+	var top_rule=ColorRect.new();top_rule.position=Vector2(58,190);top_rule.size=Vector2(804,1);top_rule.color=Color(UITheme.EDGE,.62);overlay.add_child(top_rule)
+	if victory:
+		var stars_label=label(overlay,"★".repeat(stars)+"☆".repeat(3-stars),Rect2(58,200,804,62),44,UITheme.GOLD)
+		stars_label.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+	else: paragraph(overlay,sim.result_reason+"。保护矿路与任务对象，调整部署再战。",Rect2(58,202,804,62),23)
+	var bottom_rule=ColorRect.new();bottom_rule.position=Vector2(58,278);bottom_rule.size=Vector2(804,1);bottom_rule.color=Color(UITheme.EDGE,.62);overlay.add_child(bottom_rule)
 	var s=sim.stats[0]
-	paragraph(overlay,"招募 %d    击倒 %d    损失 %d\n归仓金币 %d    施法 %d    消耗法力 %d\n治疗 %d    召唤 %d    反弹 %d    打断 %d"%[s.recruited,s.killed,s.lost,s.gold_delivered,s.casts,s.mana_spent,s.healed,s.summons,s.reflections,s.interrupts],Rect2(47,310,733,142),24)
-	if victory and mode=="campaign": scroll_text(overlay,dialogue_text(options.get("story_after",db.story.ending)),Rect2(47,444,733,59),18)
+	paragraph(overlay,"招募 %d    击倒 %d    损失 %d\n归仓金币 %d    施法 %d    消耗法力 %d\n治疗 %d    召唤 %d    反弹 %d    打断 %d"%[s.recruited,s.killed,s.lost,s.gold_delivered,s.casts,s.mana_spent,s.healed,s.summons,s.reflections,s.interrupts],Rect2(74,310,772,116),23)
+	if victory and mode=="campaign": scroll_text(overlay,dialogue_text(options.get("story_after",db.story.ending)),Rect2(74,438,772,48),17)
 	var challenge_bonus=""
 	if mode=="challenge" and victory:
 		challenge_bonus="本局 %d 分 · 最佳 %d 分"%[sim.ChallengeRules.score(sim),int(profile.get("challenge_scores",{}).get(options.id,0))]
-	if challenge_bonus!="": label(overlay,challenge_bonus,Rect2(47,449,733,36),22,Color("377b78"))
+	if challenge_bonus!="": label(overlay,challenge_bonus,Rect2(74,438,772,36),22,UITheme.JADE)
+	var stamp=image_rect(overlay,UITheme.art("icon-seal"),Rect2(804,438,44,44));stamp.modulate=Color(1,1,1,.55)
 	if victory and mode=="campaign" and str(options.id)!=campaign_progress.finale:
-		button(overlay,"选择下一页",Rect2(47,511,734,64),campaign_menu)
-	elif victory and mode=="campaign": button(overlay,"十院留名 · 故事终章",Rect2(47,511,734,64),show_epilogue)
+		button(overlay,"选择下一页",Rect2(52,558,816,62),campaign_menu)
+	elif victory and mode=="campaign": button(overlay,"十院留名 · 故事终章",Rect2(52,558,816,62),show_epilogue)
 	else:
-		var retry=button(overlay,"重新开局",Rect2(47,511,734,64),func():start_battle(options));UITheme.primary(retry)
-	if victory:button(overlay,"再战本局",Rect2(47,589,354,46),func():start_battle(options))
-	else:button(overlay,"调整部署再战",Rect2(47,589,354,46),func():loadout_menu(options.faction,func():start_battle(options),options.get("available_roster",db.all_unit_ids(options.faction))))
-	button(overlay,"主菜单",Rect2(427,589,354,46),main_menu)
+		var retry=button(overlay,"重新开局",Rect2(52,558,816,62),func():start_battle(options));UITheme.primary(retry)
+	if victory:button(overlay,"再战本局",Rect2(52,638,392,54),func():start_battle(options))
+	else:button(overlay,"调整部署再战",Rect2(52,638,392,54),func():loadout_menu(options.faction,func():start_battle(options),options.get("available_roster",db.all_unit_ids(options.faction))))
+	button(overlay,"主菜单",Rect2(476,638,392,54),main_menu)
 
 func _process(delta):
 	if db==null: return

@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "asset_set": "paper-warfront-branding-v2",
+  "version": "1.1.0-candidate",
+  "selected_inputs": {
+    "character_logo_id": "brand.logo.character.yin_marshal.woodblock_ink",
+    "character_logo_label": "02 木刻墨印·印甲统帅",
+    "character_source": "assets/paper-warfront/branding/v2/selected/logo-character-yin-marshal-woodblock-v2.png",
+    "wordmark_id": "brand.logo.wordmark.battle_seal",
+    "wordmark_label": "朱印战印",
+    "wordmark_source": "assets/paper-warfront/branding/v2/selected/logo-wordmark-battle-seal-v1.png"
+  },
+  "generation": {
+    "provider": "Sub2API",
+    "model": "gpt-image-2.5",
+    "prompts_root": "output/imagegen/paper-warfront/branding-v2/prompts",
+    "background_root": "output/imagegen/paper-warfront/branding-v2/backgrounds",
+    "generated_backgrounds_have_text": false
+  },
+  "composition": {
+    "script": "tools/paper-warfront/compose_branding_v2.py",
+    "font_display": "game/assets/fonts/NotoSerifSC.ttf",
+    "font_body": "game/assets/fonts/NotoSansSC.ttf",
+    "copy_source": "assets/paper-warfront/branding/v2/branding.json",
+    "exact_copy_rendered_locally": true
+  },
+  "outputs": [
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/brand-lockup-primary.png",
+      "role": "brand-lockup",
+      "usage": "selected character logo + selected wordmark on one paper plate",
+      "width": 1440,
+      "height": 520,
+      "mode": "RGBA",
+      "sha256": "b3e02d0933bef979a421c8b8f1d932febc1e2dbc8c914bbee6911322affd9506"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-main-1920x800.png",
+      "role": "banner",
+      "usage": "desktop / landing hero",
+      "width": 1920,
+      "height": 800,
+      "mode": "RGB",
+      "sha256": "7661b50a52d56c53f249d153513a7d73a247ce701b6f4b6fa7b7ad12b82730d7"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-mobile-1080x1440.png",
+      "role": "banner",
+      "usage": "portrait mobile launch / store feature",
+      "width": 1080,
+      "height": 1440,
+      "mode": "RGB",
+      "sha256": "05c55a09e128d3b7f26e312e21d5b0a0ce355a8064be5f38132a18783755c19d"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-chapter-map-1600x900.png",
+      "role": "banner",
+      "usage": "chapter map / campaign selection",
+      "width": 1600,
+      "height": 900,
+      "mode": "RGB",
+      "sha256": "3bd032902b1922acad22d2679d29d144c3b5c46f920cfd4e1be9b2471da6633e"
+    },
+    {
+      "path": "assets/paper-warfront/branding/v2/banners/banner-social-1200x630.png",
+      "role": "banner",
+      "usage": "social / release card",
+      "width": 1200,
+      "height": 630,
+      "mode": "RGB",
+      "sha256": "94ab59a7c16720654d798badcb5c90b5e3ddc5c57ef190e76469b41ae4b46282"
+    }
+  ],
+  "review": {
+    "dimensions_checked": true,
+    "font_box_glyphs_checked": true,
+    "visual_review": "output/imagegen/paper-warfront/branding-v2/branding-v2-banner-contact-sheet.png",
+    "runtime_wired": false,
+    "status": "candidate-cohesive-banner-set"
+  },
+  "copy": {
+    "main": {
+      "headline": "一纸成阵，横行破局",
+      "feature_line": "自动行军 · 金币与法力 · 雾中决策",
+      "support_line": "把每一次推进，都变成可读的战局。",
+      "cta": "展开战局",
+      "signature_line": "PAPER WARFRONT  ·  纸上兵戈"
+    },
+    "mobile": {
+      "headline": "纸上起兵，所见即战局",
+      "feature_line": "自动行军 · 金币与法力 · 雾中决策",
+      "cta": "展开战局"
+    },
+    "chapter": {
+      "headline": "每一次分岔，都是一场战役",
+      "support_line": "路线未定，战局先行。",
+      "cta": "进入章节"
+    },
+    "social": {
+      "headline": "布阵 · 推进 · 破城",
+      "support_line": "一纸成阵，横行破局",
+      "feature_line": "自动行军 · 雾中决策",
+      "cta": "纸上兵戈"
+    }
+  }
+}

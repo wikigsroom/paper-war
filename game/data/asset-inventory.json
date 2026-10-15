@@ -6362,6 +6362,11 @@
       "sha256": "224d62bf62a35bb159d1a5294ad7d099381a4ee617f1129d6ce7be48920162be"
     },
     {
+      "path": "res://assets/backgrounds/background-night-lantern.png",
+      "bytes": 2070025,
+      "sha256": "d5f060191535a5c55e87d39eb901a6b6e9cfdeb70a0690dbc3d4ccd5d0628ba3"
+    },
+    {
       "path": "res://assets/backgrounds/background-qi.png",
       "bytes": 2456481,
       "sha256": "b6f711b9f4a9ea5fc776d44ce736dc1ca0f979fb842c111f84677f63e7a50332"

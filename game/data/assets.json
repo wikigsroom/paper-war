@@ -1045,6 +1045,12 @@
       "usage": "visual-reference; final geometry or effect is procedural",
       "status": "visual-reviewed"
     },
+    "background.night-lantern": {
+      "path": "res://assets/backgrounds/background-night-lantern.png",
+      "category": "background",
+      "status": "runtime-reviewed-sub2",
+      "style": "03-night-lantern"
+    },
     "background.stamp-plain": {
       "path": "res://assets/backgrounds/theatre-yin.png",
       "category": "background",

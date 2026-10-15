@@ -1,4 +1,5 @@
 extends Control
+const UI=preload("res://scripts/ui_theme.gd")
 
 # The chapter page is a story map, not a replacement progression system.  It
 # only visualizes the same campaign-flow graph used by CampaignProgress; the
@@ -12,11 +13,11 @@ const GAP_X: float = 273.0
 const GAP_Y: float = 108.0
 const CARD_W: float = 257.0
 const CARD_H: float = 96.0
-const INK = Color("343332")
-const MUTED = Color("a79a89")
-const JADE = Color("397e9e")
-const GOLD = Color("b9964f")
-const PAPER = Color("f3ebdd")
+const INK = UI.INK
+const MUTED = UI.LIGHT_MUTED
+const JADE = UI.JADE
+const GOLD = UI.GOLD
+const PAPER = UI.CARD
 
 func _ready():
 	mouse_filter = Control.MOUSE_FILTER_IGNORE

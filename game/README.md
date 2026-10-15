@@ -1,6 +1,6 @@
 # Godot 工程 · 纸上兵戈
 
-当前工程与双平台预览为 3.0.0-rc38-preview；迷雾失效缓存、单机剧情地图路线、阵营差异、动作帧合同和输出资源排除均已进入对应导出包。项目内容、实机 GIF、构建方式和仓库约束见根目录 [README](../README.md)；当前验收范围见[RC38 导出资源排除与包体复核](../docs/paper-warfront/151-RC38导出资源排除与包体复核.md)，历史阶段仍保留在 `docs/paper-warfront/`。
+当前工程与双平台预览为 3.0.0-rc41-night-lantern-components；本版将“夜战灯笼”方向细化到任务简报、实时战斗、结算页的组件几何与纸材状态，并接入 `background.night-lantern` 夜战底图；品牌 Logo 仍只用于游戏图标与 Android 自适应前景。迷雾失效缓存、单机剧情地图路线、阵营差异、动作帧合同和输出资源排除继续沿用。项目内容、实机 GIF、构建方式和仓库约束见根目录 [README](../README.md)；当前验收范围见[夜战灯笼组件级对标与 rc41 验收](../docs/paper-warfront/162-夜战灯笼组件级对标与rc41验收.md)。
 
 使用 Windows 原生 Godot 4.7.2 打开 project.godot 后运行 main.tscn。项目使用 GDScript 与原生 Control，60Hz 战斗模拟独立于完整姿态图集绘制。现成 PNG 已包含，启动和导出不需要调用图片服务。
 
