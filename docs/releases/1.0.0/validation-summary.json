@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-rc41-night-lantern-components",
+  "release_status": "public preview",
+  "android_hardware_validated": false,
+  "windows_scene_observer": {
+    "passed": true,
+    "pages": 10,
+    "evidence": "evidence/scene-observer.json"
+  },
+  "ui_interaction": {
+    "desktop_checks": 49,
+    "phone_checks": 49,
+    "passed": true,
+    "evidence": "evidence/ui-interaction.json",
+    "scope": "Native Windows GPU; injected mobile metrics, not Android hardware"
+  },
+  "mobile_matrix": {
+    "passed": true,
+    "scenarios": 8,
+    "checks": 26723,
+    "minimum_battlefield_share": 0.706166666666667,
+    "evidence": "evidence/mobile-matrix.json"
+  },
+  "current_roster_regression": {
+    "checks": 370,
+    "passed": true,
+    "scope": "60 current combat units, exact paid cost, production timing, controlled hostile damage, finite state; not campaign or full balance"
+  },
+  "combined_legacy_simulation": {
+    "passes": 50,
+    "failures": 7,
+    "all_tests_passing": false,
+    "unresolved": [
+      "conversion keeps native abilities",
+      "stamp radius/damage",
+      "fire pulses",
+      "area spell ground point",
+      "strongest poison source",
+      "root movement blocking",
+      "guardian position"
+    ]
+  },
+  "limitations": [
+    "No physical Android device",
+    "No claim of stable 60 FPS at full capacity",
+    "200 authored maps do not imply 200 complete human playthroughs",
+    "Human faction balance and cross-device LAN remain unverified"
+  ],
+  "audit": "docs/paper-warfront/162-夜战灯笼组件级对标与rc41验收.md"
+}

@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "desktop",
+      "passed": true,
+      "checks": 49,
+      "screenshots": 21,
+      "image_files": [
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/00-main-menu.png",
+          "sha256": "22d6dba4c73e0d03854efcb96690aaa00ebfcc9750f8250a8e67bc2db2e49021"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/01-keyboard-focus.png",
+          "sha256": "c26451efd135ee867ad2044cf8f82f1fcaab7e1ac73de6d861c1a2ae704391bb"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/01a-primary-pressed.png",
+          "sha256": "e957a522ed1297bdbd9c6c5009cad4ee912eddc586a60bb2eae17b0f72daf692"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/02-new-battle.png",
+          "sha256": "bb0c7d532bd0f0d7cd8533b26637d8b5f27dd0a5e106197cf24bd6e9428740d8"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/02a-disabled.png",
+          "sha256": "37f86718760897be97f738be167fa42866a7db041b8c73f0cda5f45292582aca"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/03-campaign.png",
+          "sha256": "bae88b6d95012ffdcc02c8ea655715da56d6c00587c1847f8dbe13b7c3c7209c"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/04-skirmish.png",
+          "sha256": "99136612a83ff3715b78ae6b2de0e65f868630ed72ec16ff93843fe8f6228ad4"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/05-dropdown.png",
+          "sha256": "283d7c4c6a888d2d6473f315f816d2acc9b71a9ce5c188b8bfbc460d848c26e3"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/06-archive.png",
+          "sha256": "e50e77b00414aade150b06d1de0209a2cfc6c3867ecdf2ed2c8118e8fc0201a4"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/07-settings.png",
+          "sha256": "51e09a76829e82d232ab852fc367358874219d97adb3b01af06f9b3b8ac496fb"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/08-settings-active.png",
+          "sha256": "587273df5707e0f872959842cc300848c2f9670fce318b627991ed416fc6002f"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/09-mission-brief.png",
+          "sha256": "352f8bec5e1ed780196fbba1f9848a6e384b3e36ba838f414e4245584c3a77a8"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/10-battle-hud.png",
+          "sha256": "24843d701f06d5d44b021ac9e830788bbd8abe42859ab373c0a05c12f0bf7104"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/10a-selected-spell.png",
+          "sha256": "b27d6072e2bce8af95bacf1aca7fe3c9b7655488068b437808dbfc46f3e39026"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/11-orders.png",
+          "sha256": "39e2ed77f5f344195f867cf05e0a4a8efe29c4be3cd3572b774d79c462934332"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/12-technology.png",
+          "sha256": "dcfc329c632bcd775336355570849b65204a7e4ad82938dde8cf62d97f20ec72"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/13-production.png",
+          "sha256": "5494227a853abf417d4ca49126df4a9f69110c1f8bbb112be9f0f1244d2889e0"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/14-build.png",
+          "sha256": "828ba1aae020f0abd38378326e695b326485c8a6a21f71670143ede250ab7d79"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/15-pause.png",
+          "sha256": "a9e05af47e376853943b03a3a52a004fe1feeef15197b0c7cb2d6d5f92cc09c7"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/16-victory.png",
+          "sha256": "1806b34d054f08ab35c14f236deeec7de3332c4e680352cfa9f75cce8a3e1a73"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/desktop/17-defeat.png",
+          "sha256": "28bbc49c8bee79a1ad484f738629837e6bfb7b1fc440412f6169cc6cddf0c0fe"
+        }
+      ],
+      "inputs": {
+        "res://data/paper-ui.json": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2",
+        "res://scripts/action_card.gdc": "9ce59cc81411ace6f349c68349cbffb0873209fcb113d2670692cd174729ed90",
+        "res://scripts/local_duel.gdc": "baa86ac69dcd2d67bc1e5033cd2660f7a66a86bb9616dc49c7783fb9fa681c28",
+        "res://scripts/main.gdc": "742a87936ab9818666f595316f42cc412b16ff550e0751da415df72d39ac5b48",
+        "res://scripts/mobile_slider.gdc": "5cfc3d559961723af3d541828024649ed0e36a57d636a8034154d7aa13ac749f",
+        "res://scripts/mobile_ui.gdc": "154ca4a56e7e31eb361ea0a98958ff10e042e981cb6b448ed0f6caf3c095b624",
+        "res://scripts/paper_panel.gdc": "f98b13164fc3c187a27c51fb0ef557790c2dd8a44f83f9c54427ad081445c984",
+        "res://scripts/ui_theme.gdc": "ba3cc9f8171e94f7036eb4f6ccc75e32cb981449d1606ce29b4c14b21c5f1188"
+      },
+      "failures": []
+    },
+    {
+      "case": "phone",
+      "passed": true,
+      "checks": 49,
+      "screenshots": 21,
+      "image_files": [
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/00-main-menu.png",
+          "sha256": "e971390511804dcd953beef8aa672b55443b83fc0417df5f705ff7db4ef5412c"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/01-keyboard-focus.png",
+          "sha256": "67bc32ee108ce57f93e52741504176b5d2524dc135dd8687cdd3e0a2c529fc6e"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/01a-primary-pressed.png",
+          "sha256": "722455834cfea4c97c52c4ffc0f6d1337941e6fb9b1488a41455531f16021092"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/02-new-battle.png",
+          "sha256": "be006ff2e223f8c00ac4f44d073212c896653264df80ef6844af808153849ad2"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/02a-disabled.png",
+          "sha256": "33fa19bb42029ca606d4e2fb301313f08a74d6daaf23726dee59dd655c95ca6a"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/03-campaign.png",
+          "sha256": "fa29a52cabc9d77d2d21787088a5289350e9042d01fde186d83aa290331c8f27"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/04-skirmish.png",
+          "sha256": "4cddaf92f717f2ff56db062d29165b933649b9e2b9e35c182d65b7b89840aa2e"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/05-dropdown.png",
+          "sha256": "6ca6dfa662f4891674aa2473ddb22aae7ab23fc699f8db3a72631ad8a599b414"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/06-archive.png",
+          "sha256": "f5fe0f461bcc5485efca958ccbc4168744079fe8949ffc44ecb70c60bbe25e35"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/07-settings.png",
+          "sha256": "ef9c66a74937339c5015ec0d7fca2a7dadf31e3c78e0ca957f40b5e7d52c1d39"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/08-settings-active.png",
+          "sha256": "ddb0c2913f278b8e235932b8d67e47d618ef11deb49cd7b2f929690bdb4a12fd"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/09-mission-brief.png",
+          "sha256": "948a6ac30d02ea8cb2ead8938ca655d1ad4d8324c67f7561f00dd87b5d008ead"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/10-battle-hud.png",
+          "sha256": "918d2b09c269091ef42b3b6fe53663890d6f47504fa68ca11fd1ac2f67fcda76"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/10a-selected-spell.png",
+          "sha256": "f2cbc9ea422e4f86e9e7e2421d2377d95928c1f4679e33b42aa1afbbe9add3ed"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/11-orders.png",
+          "sha256": "92c1661d7f431447f213b7da6d5bc6a30bd5202ba30d046cc2a8ddf0ba2b1c7c"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/12-technology.png",
+          "sha256": "d69db47f42b054a34b1f0ce3074fabffd7ef3576ec1dcf654e14f80ab15ff2b5"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/13-production.png",
+          "sha256": "f39a60a6be6cf699af3cce81e6810a6840c5fde887454c1d464124177ceef9fe"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/14-build.png",
+          "sha256": "12272dbee2642c99b500d3c8b200e5336285ad7c50310acf1d8ad03e2fb2d846"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/15-pause.png",
+          "sha256": "99318a067629174ce8dfaf508907381dfa5929fe96d7e0a67fab94891d3fb1c6"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/16-victory.png",
+          "sha256": "eaef28750d2d66e8c79cf2b9ae19cc01eb1aa9f398e55c1dc7daa878e19e788c"
+        },
+        {
+          "file": "output/qa/godot/night-lantern-rc41-ui-final/phone/17-defeat.png",
+          "sha256": "e6a7955781c88373b675abbeca872fafa791dca38dfc36d097fec235cbbf7386"
+        }
+      ],
+      "inputs": {
+        "res://data/paper-ui.json": "a3e54b4354e54d602f6ddaa6199af827bdbb812e1feed9dae5b78e53da7352d2",
+        "res://scripts/action_card.gdc": "9ce59cc81411ace6f349c68349cbffb0873209fcb113d2670692cd174729ed90",
+        "res://scripts/local_duel.gdc": "baa86ac69dcd2d67bc1e5033cd2660f7a66a86bb9616dc49c7783fb9fa681c28",
+        "res://scripts/main.gdc": "742a87936ab9818666f595316f42cc412b16ff550e0751da415df72d39ac5b48",
+        "res://scripts/mobile_slider.gdc": "5cfc3d559961723af3d541828024649ed0e36a57d636a8034154d7aa13ac749f",
+        "res://scripts/mobile_ui.gdc": "154ca4a56e7e31eb361ea0a98958ff10e042e981cb6b448ed0f6caf3c095b624",
+        "res://scripts/paper_panel.gdc": "f98b13164fc3c187a27c51fb0ef557790c2dd8a44f83f9c54427ad081445c984",
+        "res://scripts/ui_theme.gdc": "ba3cc9f8171e94f7036eb4f6ccc75e32cb981449d1606ce29b4c14b21c5f1188"
+      },
+      "failures": []
+    }
+  ],
+  "compiled_pack": true,
+  "pack_sha256": "772b038e8164c30acf00b9bea5a9fcacfa689054ab7abdfa4cb6e43d71ffe678",
+  "scope": "Native Windows GPU UI. Injected mobile metrics, not Android hardware."
+}

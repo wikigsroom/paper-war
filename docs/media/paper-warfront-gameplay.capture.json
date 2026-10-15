@@ -1,0 +1,18 @@
+{
+  "version": "3.0.0-rc41-night-lantern-components",
+  "source": "native Windows exported pack; normal paid rules, AI autoplayer",
+  "pack_sha256": "772b038e8164c30acf00b9bea5a9fcacfa689054ab7abdfa4cb6e43d71ffe678",
+  "gif_sha256": "f7bcc58b6846f30274bb1bafb17f4b3d05d6d3fef32fd132689ace0c9bab5ee7",
+  "frames": 69,
+  "capture_interval_seconds": 1.0,
+  "playback_fps": 8,
+  "requested_duration_seconds": 70.0,
+  "simulation_seconds": 57.9666666666647,
+  "capacity_fixture": false,
+  "map": "map.01.04",
+  "renderer": "mobile",
+  "adapter": "NVIDIA GeForce RTX 3060",
+  "observer_sha256": "4090cb530ae930b105a146ad48e8da27a0215a5a6474709c64ce1ad1421a3b03",
+  "passed": true,
+  "scope": "Selected PNG viewport captures encoded at 8 FPS; elapsed gameplay is condensed. Not human-input, performance, or Android hardware evidence."
+}

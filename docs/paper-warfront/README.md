@@ -1,5 +1,9 @@
 # 纸上兵戈 · rc41-night-lantern-components
 
+当前源码与 Windows / Android 编译基线为 `3.0.0-rc41-night-lantern-components`。首个公开预览见 [v1.0.0 双语发行说明](../releases/v1.0.0.md)、[GitHub Release](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront) 与根目录 [中英双语 README](../../README.md)。公开页面截图、实机 GIF 和当前验证摘要已经进入 Git；下方历史记录中的“当前 / 最新”只描述记录当时的版本，`output/` 路径属于被忽略的本地历史证据。
+
+验收边界：Windows 原生页面 10/10、桌面/手机形状交互各 49/49、移动布局 8 场景/26723 项通过；综合模拟仍有 7 个历史 fixture 失败，Android 无实体设备验证。完整范围见 [首发验证摘要](../releases/1.0.0/validation-summary.json)。
+
 [152-产品命名收敛](152-产品命名收敛.md)：正式展示名统一为“纸上兵戈”；`PaperWarfront` 仅保留为仓库、包体和历史技术标识。
 
 [153-Logo方向提案](153-Logo方向提案.md)：基于当前纸片舞台与朱印/玉青风格生成五款透明 Logo 候选，等待方向选择后再冻结正式资产。

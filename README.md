@@ -4,7 +4,7 @@
 
 **Paper Warfront** is a single-player real-time tactics game staged as a layered paper theatre. It keeps the readable pillars associated with *Sword & Soldiers*: automatic marching, gold and mana economies, in-match research, manual spells, asymmetric factions, and lateral battlefield navigation. It adds ten original factions, a branching solo campaign, physical mining-and-return logistics, three-state fog of war, and a lantern-lit paper UI language.
 
-[中文说明](#中文) · [English](#english) · [最新 GitHub Release](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront)
+[中文说明](#中文) · [English](#english) · [首发预览下载](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront) · [双语发行说明](docs/releases/v1.0.0.md)
 
 ![Windows 原生实机战斗 GIF](docs/media/paper-warfront-gameplay.gif)
 
@@ -19,12 +19,37 @@
 - **产品名**：纸上兵戈。
 - **仓库名、包体技术名**：<code>PaperWarfront</code>。
 - **当前内部编译版本**：<code>3.0.0-rc41-night-lantern-components</code>。
-- **首个公开发行标签**：<code>v1.0.0-paper-warfront</code>，使用上述 rc41 编译结果制作，不改变包内的内部版本追踪。
+- **首个公开发行标签**：<code>v1.0.0-paper-warfront</code>，属于首发预览，使用上述 rc41 编译结果制作，不改变包内的内部版本追踪。
 - **引擎**：Godot 4.7.2；GDScript；原生 <code>Control</code> UI；Windows 原生导出与 Android APK 导出。
-- **平台策略**：Windows EXE 可直接运行；Android APK 已完成导出、签名、对齐、包体逻辑和 arm64 16 KB ELF 检查。当前没有实体 Android 设备，因此没有宣称真机帧率、触控手感或兼容性结论。
+- **平台策略**：Windows EXE 可直接运行；当前 Android APK 已完成导出、签名、对齐、包体结构和 arm64 16 KB ELF 检查。当前没有实体 Android 设备，因此没有宣称真机帧率、触控手感或兼容性结论。
+- **语言**：当前游戏内界面与剧情以简体中文为主；本文档提供完整中英双语说明，英文游戏内本地化尚未实现。
 - **公开发布页**：[GitHub Releases](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront)。
 
 首发包的设计目标是提供一个可从源码复建、可从发行页直接下载、同时保留完整设计证据的基线版本。发行页包含 Windows ZIP、Android APK、源码 ZIP、SHA256 校验和双语发行说明；源码仓库不提交 Godot 导入缓存、签名密钥、临时 QA 帧序列或大体积二进制。
+
+### 安装与快速开始
+
+| 下载文件 | 用途 | 使用方法 |
+| --- | --- | --- |
+| <code>PaperWarfront-Windows-1.0.0.zip</code> | Windows x86_64 程序与第三方许可 | 解压整个 ZIP，运行 <code>PaperWarfront/PaperWarfront.exe</code>；无需安装 Godot |
+| <code>PaperWarfront-1.0.0.apk</code> | Android ARMv7 / ARM64 安装包 | 在设备上允许此来源安装后安装 APK，横屏操作；实体设备兼容性待验证 |
+| <code>PaperWarfront-Source-1.0.0.zip</code> | 完整源码、运行素材、设计文档和构建工具 | 解压后以 Godot 4.7.2 打开 <code>game/project.godot</code>，首次运行等待素材导入 |
+| <code>SHA256SUMS.txt</code>、<code>build-manifest.json</code> | 下载校验和编译追溯 | 使用 <code>Get-FileHash 文件名 -Algorithm SHA256</code> 比对清单；manifest 同时记录内部 rc41 版本 |
+
+如果 Windows 的默认渲染路径无法启动，运行包内 <code>Play-OpenGLCompatibility.cmd</code>。Windows 使用默认 Mobile 渲染器，Android 配置使用 OpenGL Compatibility；不承诺未经测量的最低硬件规格。第一次游玩建议选择“继续战役”或“新战役 → 故事战役”，完成首图后根据战役路线选择下一折。想先熟悉经济与施法，可从设置里的六张“地图试演”开始。
+
+### 可用模式与菜单
+
+| 入口 / 模式 | 当前内容 | 进度与验证边界 |
+| --- | --- | --- |
+| 继续战役 / 新战役 | 十院十章、每章 20 折、分支剧情和任务简报 | 记录真实完成地图、最高星级、证据与解锁条件；200 张数据已构建，不能等同 200 关均通过真人完整通关 |
+| 遭遇战 | 选择双方阵营、地图与科技开局，对战 AI | 独立于剧情解锁；适合测试兵种、资源和路线组合 |
+| 六张地图试演 | 不同道路、坡路、桥路和矿线的空间基准 | 可直接尝试，不伪造剧情完成记录 |
+| 六个战术挑战 | 守城、有效治疗、打断、召唤、反弹、设施法力 | 按实际效果判定，独立保存最佳分数与星级 |
+| 兵书 / 战前部署 | 查看每院六兵、反制、费用、研究和到达时间估算 | 选择 2–4 种开局偏好；局内研究按关卡限制解锁其他兵种 |
+| 本机双人分屏 | 同一设备上的双侧操作与独立视野 | 适合足够大的桌面窗口，小屏有尺寸限制 |
+| 局域网对弈（实验性） | ENet 房主权威模拟、客户端命令、分侧迷雾投影 | 已有 Windows 双进程回环/脚本胜负闭环；跨设备、Android 联机、断线重连与完整真人对局仍待验收 |
+| 设置 | 音乐、音效、减少动态、追踪前线、省电选项 | 切入后台会暂停或关闭联机；回到单机后需手动继续 |
 
 ### 你会玩到什么
 
@@ -73,17 +98,27 @@
 | 灯符朝 | 灯照，校符使 | 纸灯设施、法力、区域支援 |
 | 纸械工坊 | 榫七，总装匠 | 建造、机械、施工节奏 |
 | 鸢纸行会 | 飞笺，领信人 | 路口机动、分路、运输效率 |
-| 金契商盟 | 契衡，押契官 | 真实归仓、交付、赏金收益 |
-| 植纤古庭 | 纤枝，养纸官 | 生长、修复、持续作战 |
-| 霜裁守序 | 霜律，裁纸使 | 控制、冻结、交战窗口 |
-| 烬纸流亡 | 烬禾，灰烬领主 | 受伤增益、伤害回法、残血反击 |
-| 空白档案 | 白匣，留白官 | 研究、复制、信息优势 |
+| 金契商盟 | 契衡，行账人 | 真实归仓、交付、赏金收益 |
+| 植纤古庭 | 纤枝，守根人 | 生长、修复、持续作战 |
+| 霜裁守序 | 霜律，解封裁官 | 控制、冻结、交战窗口 |
+| 烬纸流亡 | 烬禾，渡纸人 | 受伤增益、伤害回法、残血反击 |
+| 空白档案 | 白匣，末任校档官 | 研究、复制、信息优势 |
 
 数据入口是 <code>game/data/factions.json</code>、<code>game/data/balance-prototype.json</code>、<code>game/data/unit-actions.json</code>、<code>game/data/unit-frames.json</code> 和 <code>game/data/assets.json</code>。动作处理采用参考图类似的完整 6×6 动作帧思路：每个角色有可核对的待机、行进、起手、攻击/施法、受击和倒地状态，动画锚点、帧序列、命中窗口和纸边阴影分开记录。
 
+当前平衡数据另有 **50 个法术定义、30 个建筑定义和 42 项升级定义**；它们按阵营、前置科技和关卡限制开放，不是每局全部可用。模拟以 60 Hz 更新，配置上限为每侧 60 个作战单位、10 个纸工和 6 个队列订单。上限是规则容量，不是稳定帧率保证。
+
+### 对战 AI、战斗反馈与存档
+
+AI 使用与玩家相同的指令接口支付招募、研究、施工和施法费用，并等待生产与行军完成。它会补充采矿队，为已经研究的首名重兵留钱，根据可见前排、远程、矿线和道路威胁选择增援；阵营导演还会按关卡阶段调整压力。AI 路线风险可使用曾经看见的建筑记忆，不应读取隐藏敌方的实时生命和经济。当前仍在持续调平衡，脚本组合胜利不能证明所有兵种组合已平衡。
+
+当前效果层包含完整姿态帧、弹道、命中火花/纸屑、受击反馈、状态显示和音效；程序化音频与音乐由运行状态驱动。工人有独立的采矿、携货和交付状态，动画帧不负责决定扣血，命中规则由模拟单独执行。部分旧机制测试仍失败，见下方验证表。
+
+单机进度与设置保存在 Godot <code>user://profile.json</code>，Windows 对应 <code>%APPDATA%/PaperWarfront/profile.json</code>；包含章节完成、星级、证据旗、编组、挑战分数和音量设置。试演、挑战与遭遇战不会替代剧情通关。存档不是云同步，卸载 Android 或清除应用数据可能删除本地进度。
+
 ### UI 与夜战灯笼视觉系统
 
-当前选择 **03「夜战灯笼」**作为正式运行 UI 方向。视觉规则是深靛夜幕、象牙纸面、朱砂印章、玉青状态色、灯笼暖光和可见的纸张边缘。Logo 的 **02 木刻墨印·印甲统帅**与文字标 **朱印战印**只接入游戏图标和 Android 自适应前景；菜单内容没有被品牌资产擅自重写。
+当前选择 **03「夜战灯笼」**作为正式运行 UI 方向。视觉规则是深靛夜幕、象牙纸面、朱砂印章、玉青状态色、灯笼暖光和可见的纸张边缘。品牌方向冻结为角色标 **02 木刻墨印·印甲统帅**和文字标 **朱印战印**；运行时仅使用角色标派生的游戏图标与 Android 自适应前景。字标、Banner 与组合方案保留在品牌资产库，菜单内容沿用原有文案。
 
 - 战斗画面优先，桌面 HUD 顶栏约 64 px、底部快速栏约 104 px；主要屏幕区域保留给地图和单位。
 - 任务简报、实时战斗、军令、研究、建造、暂停和结算都共享同一套纸材、边框、按钮、印章、灯光和信息层级。
@@ -93,7 +128,7 @@
 
 ### 菜单与实机示意图
 
-下列图片全部来自 rc41 Windows 原生运行观察，尺寸为 1600×900；它们已经复制到仓库的 <code>docs/media/paper-warfront-ui/</code>，可在 GitHub 页面直接查看。
+下列图片全部来自 rc41 Windows 原生运行观察：10 个页面为 1600×900，交锋与采矿特写为 1280×720。它们已复制到仓库的 <code>docs/media/paper-warfront-ui/</code>，可在 GitHub 页面直接查看。菜单和结算由受控观察器打开对应运行时页面；结算截图用于展示 UI，不能作为真人完成关卡的证明。GIF 使用真实付费规则和 AI 操作器推进对局，没有使用满员压力夹具；采样帧以 8 FPS 播放，压缩了对局经过，不是运行帧率。
 
 #### 主菜单、地图与战役
 
@@ -108,6 +143,10 @@
 ![任务简报](docs/media/paper-warfront-ui/mission-brief.png)
 
 ![实时战斗](docs/media/paper-warfront-ui/battle-live.png)
+
+![普通付费对局：印甲与植纤前排交锋](docs/media/paper-warfront-ui/battle-engagement.png)
+
+![真实采矿、运金与前哨防线](docs/media/paper-warfront-ui/battle-mining.png)
 
 #### 军令、研究、建造、暂停与结算
 
@@ -129,10 +168,11 @@
 | --- | --- | --- |
 | 导航 | 鼠标点击、滚轮、键盘焦点、左右/上下方向键 | 横向滑动、触控热区、页签按钮 |
 | 战场镜头 | 鼠标拖拽或滚轮平移，镜头移动不揭示迷雾 | 单指拖拽平移，按钮保持安全区内 |
-| 出兵 | 点击底部快速栏的单位卡或键盘焦点确认 | 点击快速栏卡片，卡片随屏幕宽度收缩 |
-| 法术/军令 | 选择纸页后点击合法目标 | 选择纸页后点按目标或道路区域 |
-| 研究/建造 | 打开对应纸页，确认金币/法力和队列 | 打开横向纸页，滚动卡片并确认 |
-| 暂停 | <code>Esc</code> 或暂停按钮 | 屏幕角落暂停按钮 |
+| 出兵 | 点击单位卡，或用 <code>1–7</code> 招募当前排序的单位 | 点击快速栏卡片；横滑浏览其余兵种，长按查看完整机制 |
+| 法术/军令 | <code>Q/W/E/R/T</code> 选择五张法术卡后点合法目标；右键取消 | 选择纸页后点按目标或道路区域；“军令”切换为“取消” |
+| 研究/建造 | <code>F</code> 研究、<code>B</code> 建造；在合法位置确认才收费 | 在军令里打开科技、施工与生产队列纸页 |
+| 镜头快捷键 | <code>A/D</code>、左右键平移；<code>Home</code> 回城；<code>Space</code> 追踪己方前线 | 拖动或点小地图会退出自动跟随；军令中恢复追踪 |
+| 暂停/返回 | <code>P</code> 暂停；<code>Esc</code> 依次取消选择、关闭纸页、暂停 | 暂停按钮或 Android 返回键，依当前页面处理 |
 
 ### 技术架构
 
@@ -157,11 +197,11 @@ docs/paper-warfront/             设计章程、玩家手册、研究和验收�
 tools/paper-warfront/            构建、导出、检查、截图和 GIF 工具
 ~~~
 
-模拟与渲染分离：<code>BattleSim</code> 决定单位、资源、生产、碰撞、命中、路径和视野；<code>BattleView</code> 读取状态绘制分层纸偶。位图、厚片几何、动画帧、命中规则和 QA 证据分开管理。
-
 ### Windows 原生构建
 
-要求：Windows 原生 PowerShell、Godot 4.7.2 导出模板、Python 3、Android SDK 36、JDK 21。Godot 和本地工具放在 <code>.tools/</code>，签名文件放在项目外部的 <code>.keys/</code>；不要提交密钥、导出凭据、<code>.godot/</code> 或 <code>output/</code>。
+直接从源码运行只需要 Windows 原生 Godot 4.7.2；导出还需要官方导出模板和 Python 3，Android 额外需要 SDK 36、build-tools 35.0.0 与 JDK 21。FFmpeg 仅用于生成 GIF，素材生成服务不参与游戏启动。
+
+Godot 和本地工具放在 <code>.tools/</code>。构建工具当前按本机路径配置 Godot、Android SDK 和 JDK，其他机器先调整 <code>build_game.py</code> 顶部路径。签名文件位于仓库根目录的私有 <code>.keys/</code>（在 <code>game/</code> 可导出工程之外，已忽略）；不要提交密钥、导出凭据、<code>.godot/</code> 或 <code>output/</code>。
 
 ~~~powershell
 # 在仓库根目录执行
@@ -177,7 +217,7 @@ python tools/paper-warfront/capture_gameplay_gif.py --pack release/3.0.0-rc41-ni
 
 # 生成 Windows ZIP、源码 ZIP 与 SHA256 清单
 $env:PAPER_RELEASE_VERSION = '1.0.0'
-python tools/paper-warfront/package_release.py
+python tools/paper-warfront/package_release.py --from-build 3.0.0-rc41-night-lantern-components
 ~~~
 
 导出预设会排除 <code>output/*</code> QA 生成物，因此本地截图、报告和历史帧不会进入 Windows PCK 或 Android APK。<code>package_release.py</code> 会检查 ZIP 完整性并拒绝 <code>.keys</code>、<code>.godot</code>、<code>.tools</code>、<code>.keystore</code>、<code>.jks</code> 和导出凭据进入发行包。
@@ -190,12 +230,13 @@ python tools/paper-warfront/package_release.py
 | 桌面 UI 交互 QA | 49/49 通过 | 包含焦点、禁用态、任务、战斗、法术、军令、研究、生产、建造、暂停、胜负 |
 | 手机形状 UI 交互 QA | 49/49 通过 | 触控安全区与窄屏布局使用注入尺寸检查，未冒充实体设备 |
 | 移动端适配矩阵 | 8/8 场景通过 | 最低战场可视比例约 70.6%，包含缺口、反向缺口、平板与竖屏恢复 |
-| 世界战斗机制 | 370 项通过 | 伤害、碰撞、采矿、视野、路径、目标、AI 和资源闭环 |
+| 当前六兵采购与攻击回归 | 370 项通过 | 60 个作战兵的实际费用、生产完成时间、对敌伤害与有限状态；不代表全关平衡或采矿/AI 全覆盖 |
+| 历史综合模拟测试 | 50 通过，7 失败 | 能力转换、印记范围/伤害、火焰脉冲、范围法术落点、毒素来源、根须阻断、守护召唤位置等 fixture 尚未修复 |
 | Godot 解析 | 通过 | GDScript headless parse 与项目导入检查 |
 | Windows 包 | 已导出 | <code>PaperWarfront.exe</code>，SHA256 见发行清单 |
 | Android APK | 已导出并静态检查 | 已签名、zipalign、包名/版本、arm64 与 16 KB ELF 检查；无实体设备 |
 
-当前版本仍有明确边界：124 单位压力窗口的采样数据不能表述为稳定 60 FPS；Android 触控和性能需要实体设备复测；全阵营真人平衡、长时间运行耗电和不同厂商 GPU 兼容性不纳入本次首发承诺。
+本次以**预览版**发布，不能称为全部测试通过。上述 7 项综合模拟失败尚未确定全部属于旧断言失配还是现存机制问题，本次文档/打包任务保留事实，不改动战斗规则来隐藏失败。124 单位历史压力窗口不能表述为当前稳定 60 FPS；Android 触控和性能需要实体设备复测；全阵营真人平衡、200 关真人完整通关、长时间运行耗电和不同厂商 GPU 兼容性仍待验证。
 
 ### 文档、素材与约束入口
 
@@ -212,6 +253,8 @@ python tools/paper-warfront/package_release.py
 
 素材生成遵守项目指定的 <code>sub2-image-gen</code> / <code>gpt-image-2.5</code> 工作流；生成图不能替代运行证据。稳定资产 ID 不随意改名，正式资源变更需要同步版本、生成记录、加工记录和引用。项目尚未声明开源许可证；在添加许可证前，请不要把仓库内容作为可再分发的第三方素材包。
 
+开发和本地验证仅使用 Windows 原生工具，禁止 Docker、WSL、虚拟机、容器和 Android 模拟器。完整运行素材已包含在仓库与源码 ZIP；生成源图和临时 QA 结果按项目约束保留在被忽略的 <code>output/</code>，公开验证摘要见 [首发证据](docs/releases/1.0.0/validation-summary.json)。
+
 ## English
 
 ### Version and first release
@@ -219,12 +262,37 @@ python tools/paper-warfront/package_release.py
 - **Product name**: 纸上兵戈 (Paper Warfront).
 - **Repository and package identifier**: <code>PaperWarfront</code>.
 - **Current internal build**: <code>3.0.0-rc41-night-lantern-components</code>.
-- **First public release tag**: <code>v1.0.0-paper-warfront</code>, packaged from the rc41 build while retaining the internal build identifier for traceability.
+- **First public release tag**: <code>v1.0.0-paper-warfront</code>, a public preview packaged from rc41 while retaining the internal build identifier for traceability.
 - **Engine and stack**: Godot 4.7.2, GDScript, native <code>Control</code> UI, native Windows export, and Android APK export.
-- **Platform status**: the Windows EXE is directly runnable. The Android APK has passed export, signing, alignment, package, arm64, 16 KB ELF, and packaged-logic checks. No physical Android device is currently available, so the project makes no hardware FPS, touch-feel, or device-compatibility claim.
+- **Platform status**: the Windows EXE is directly runnable. The current Android APK has passed export, signing, alignment, package-structure, arm64, and 16 KB ELF checks. No physical Android device is currently available, so the project makes no hardware FPS, touch-feel, or device-compatibility claim.
+- **Language**: the in-game UI and story are primarily Simplified Chinese. This README is bilingual; an English in-game localization has not been implemented.
 - **Release page**: [GitHub Releases](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront).
 
 The first release is intended to be reproducible from source and downloadable from GitHub while keeping its design and QA evidence reviewable. The release assets include a Windows ZIP, Android APK, source ZIP, SHA256 checksums, and bilingual release notes. Godot import caches, signing keys, temporary QA frame sequences, and large local build caches stay out of the source repository.
+
+### Install and start
+
+| Download | Contents | How to use |
+| --- | --- | --- |
+| <code>PaperWarfront-Windows-1.0.0.zip</code> | Windows x86_64 executable and third-party notices | Extract the entire archive and run <code>PaperWarfront/PaperWarfront.exe</code>; Godot installation is not required |
+| <code>PaperWarfront-1.0.0.apk</code> | Android ARMv7 / ARM64 package | Allow installation from the chosen source, install, and play in landscape; physical-device compatibility remains unverified |
+| <code>PaperWarfront-Source-1.0.0.zip</code> | Complete source, runtime art, design documents, and build tools | Open <code>game/project.godot</code> in Godot 4.7.2 and wait for first-time asset import |
+| <code>SHA256SUMS.txt</code> and <code>build-manifest.json</code> | Checksums and build provenance | Compare <code>Get-FileHash filename -Algorithm SHA256</code> with the manifest, which also records the internal rc41 version |
+
+If the default Windows renderer cannot start, use <code>Play-OpenGLCompatibility.cmd</code>. Windows defaults to Godot's Mobile renderer; Android uses OpenGL Compatibility. No unmeasured minimum hardware specification is promised. Begin with Continue Campaign or New Campaign → Story Campaign, then choose the next page on the route graph. The six map rehearsals in Settings offer a quicker way to learn the economy and spell controls.
+
+### Modes and menus
+
+| Entry / mode | Implemented content | Progress and verification limits |
+| --- | --- | --- |
+| Continue / new campaign | Ten chapters of 20 pages, branching story, and mission briefs | Stores actual clears, best stars, evidence, and unlock conditions; 200 authored data entries do not mean 200 complete human playthroughs |
+| Skirmish | Choose factions, map, and technology opening against AI | Separate from campaign progress; useful for economy, roster, and route experiments |
+| Six map rehearsals | Road, slope, bridge, and mine-line spatial benchmarks | Direct access without forging story completion |
+| Six tactical challenges | Defense, effective healing, interruption, summoning, reflection, and facility mana | Effective outcomes count; best scores and stars are saved separately |
+| Army archive / deployment | Six-unit faction kits, counters, costs, research, arrival-time estimates | Select 2–4 opening preferences; further units follow in-match research and mission rules |
+| Same-device split screen | Two-sided controls and separate vision on one device | Intended for sufficiently large desktop windows; small layouts are restricted |
+| LAN duel (experimental) | ENet host-authoritative simulation, client commands, per-side fog projection | Windows loopback and a scripted win/loss loop exist; cross-device play, Android networking, reconnect, and complete human matches remain unverified |
+| Settings | Music, effects, reduced motion, front tracking, battery saver | Backgrounding pauses solo play or closes a network session; solo resumes manually |
 
 ### Core game loop
 
@@ -271,17 +339,27 @@ The data set contains **10 factions × 6 unique combat units + 1 faction worker 
 | Lantern Court | Dengzhao, seal inspector | lantern facilities, mana, area support |
 | Paper Mechanists | Sunqi, assembler | construction, machines, build tempo |
 | Kite Guild | Feijian, courier captain | junction mobility, splits, transport efficiency |
-| Gold Covenant | Qiheng, contract warden | real deposits, deliveries, bounty income |
-| Fiber Grove | Xianzhi, paper gardener | growth, repair, sustained fighting |
-| Frost Order | Shuanglv, cutter magistrate | control, freeze, contact windows |
-| Ember Exiles | Jinhui, ash lord | wounded bonuses, damage-to-mana, comeback pressure |
-| Blank Archive | Baixiang, keeper of blanks | research, copying, information advantage |
+| Gold Covenant | Qiheng, ledger keeper | real deposits, deliveries, bounty income |
+| Fiber Grove | Xianzhi, root keeper | growth, repair, sustained fighting |
+| Frost Order | Shuanglv, unsealing adjudicator | control, freeze, contact windows |
+| Ember Exiles | Jinhe, paper ferryman | wounded bonuses, damage-to-mana, comeback pressure |
+| Blank Archive | Baixia, final archivist | research, copying, information advantage |
 
 The data entry points are <code>game/data/factions.json</code>, <code>balance-prototype.json</code>, <code>unit-actions.json</code>, <code>unit-frames.json</code>, and <code>assets.json</code>. Motion follows a verifiable full 6×6 frame approach inspired by the supplied reference: idle, walk, wind-up, attack/cast, hit, and fall states have explicit anchors, frame order, hit windows, and paper-edge shadows.
 
+The balance catalog also defines **50 spells, 30 buildings, and 42 upgrades**, gated by faction, prerequisites, and mission rules rather than all appearing in every match. The simulation runs at 60 Hz with configured limits of 60 combat units, 10 workers, and six production orders per side. These are rules capacity, not a stable-framerate guarantee.
+
+### AI, feedback, and saves
+
+The AI pays for recruitment, research, construction, and spells through the same command interface as the player, then waits for production and travel. It expands mining, reserves money for the first unit after research, and reacts to visible frontliners, ranged threats, mine lanes, and road pressure. Mission phases adjust enemy pressure. Remembered buildings can inform route risk; hidden live health and enemy economy should not be used as current intelligence. Scripted match outcomes do not establish overall faction balance.
+
+The presentation layer includes full pose frames, projectiles, paper fragments, impact feedback, status displays, procedural sound effects, and music. Workers have separate mining, carrying, and deposit states. Animation frames do not decide damage; hit rules remain in the simulation. Several legacy mechanic fixtures still fail, as listed below.
+
+Progress and settings use Godot's <code>user://profile.json</code>, corresponding to <code>%APPDATA%/PaperWarfront/profile.json</code> on Windows. Saves contain chapter clears, stars, evidence flags, loadouts, challenge scores, and audio options. Rehearsals, challenges, and skirmishes do not count as campaign clears. Saves are local, with no cloud synchronization; removing Android app data may remove progress.
+
 ### Night Lantern UI and art direction
 
-The production UI direction is **03 Night Lantern**: deep indigo night, ivory paper, vermilion seals, jade status accents, warm lantern light, and visible paper edges. The selected **02 Woodblock Ink Seal · Seal Armor Commander** logo and the **朱印战印 / Vermilion War Seal** wordmark are wired into the game icon and Android adaptive foreground only; the existing menu content remains intact.
+The production UI direction is **03 Night Lantern**: deep indigo night, ivory paper, vermilion seals, jade status accents, warm lantern light, and visible paper edges. The brand selection is **02 Woodblock Ink Seal · Seal Armor Commander** plus the **朱印战印 / Vermilion War Seal** wordmark. Only the character-mark derivatives are wired into the runtime game icon and Android adaptive foreground; wordmarks, banners, and lockups remain in the brand library, with existing menu copy preserved.
 
 - Battlefield first: the desktop top HUD is about 64 px and the bottom quick bar about 104 px, leaving most of the screen for the map and units.
 - Mission brief, live battle, orders, research, build, pause, and result views share the same paper material, border, button, seal, light, and information hierarchy.
@@ -291,7 +369,7 @@ The production UI direction is **03 Night Lantern**: deep indigo night, ivory pa
 
 ### Menu and gameplay gallery
 
-The following images are native rc41 Windows runtime observations at 1600×900. They are checked into <code>docs/media/paper-warfront-ui/</code> so GitHub renders them without access to ignored QA output.
+The following images are native rc41 Windows observations: ten UI pages at 1600×900, plus engagement and mining captures at 1280×720. They are checked into <code>docs/media/paper-warfront-ui/</code> for GitHub rendering. A controlled observer opens menu/result pages; the result screenshot is UI evidence, not a human mission-clear record. The GIF uses normal paid rules and an AI autoplayer, without the full-capacity stress fixture. Sampled frames play at 8 FPS, condensing elapsed gameplay; playback FPS is not runtime performance.
 
 ![Main menu](docs/media/paper-warfront-ui/main-menu.png)
 
@@ -302,6 +380,10 @@ The following images are native rc41 Windows runtime observations at 1600×900. 
 ![Mission brief](docs/media/paper-warfront-ui/mission-brief.png)
 
 ![Live battle](docs/media/paper-warfront-ui/battle-live.png)
+
+![Normal paid skirmish: Seal Armor versus Fiber Grove](docs/media/paper-warfront-ui/battle-engagement.png)
+
+![Mining workers, gold delivery, and watchpost defense](docs/media/paper-warfront-ui/battle-mining.png)
 
 ![Orders](docs/media/paper-warfront-ui/orders-overlay.png)
 
@@ -321,10 +403,11 @@ The following images are native rc41 Windows runtime observations at 1600×900. 
 | --- | --- | --- |
 | Navigation | mouse clicks, wheel, keyboard focus, arrow keys | horizontal swipes, touch zones, tab buttons |
 | Battlefield camera | drag or wheel to pan; camera movement never reveals fog | one-finger pan; controls stay inside the safe area |
-| Deployment | click a quick-card or confirm through keyboard focus | tap a quick-card; cards shrink with the viewport |
-| Spell/order | choose a paper sheet, then click a legal target | choose a sheet, then tap a target or road region |
-| Research/build | open a sheet, confirm gold/mana and queue state | open the horizontal sheet, scroll cards, confirm |
-| Pause | <code>Esc</code> or the pause button | pause button in the corner |
+| Deployment | click a unit card or press <code>1–7</code> for the current roster order | tap cards; swipe to browse, long-press for full details |
+| Spells/orders | <code>Q/W/E/R/T</code> selects one of five spells; click a legal target; right-click cancels | select a spell, then tap a target or road; Orders becomes Cancel while targeting |
+| Research/build | <code>F</code> for research, <code>B</code> for building; legal placement confirms payment | open technology, construction, and production through Orders |
+| Camera shortcuts | <code>A/D</code> or arrows pan; <code>Home</code> returns home; <code>Space</code> tracks the friendly front | dragging or minimap navigation exits follow mode; restore tracking in Orders |
+| Pause/back | <code>P</code> pauses; <code>Esc</code> cancels targeting, closes a sheet, then pauses | pause button or Android Back follows the current page state |
 
 ### Technical architecture
 
@@ -351,7 +434,9 @@ tools/paper-warfront/            build, export, check, capture, and GIF tools
 
 ### Run and build from source
 
-Requirements: native Windows PowerShell, Godot 4.7.2 export templates, Python 3, Android SDK 36, and JDK 21. Keep Godot and local tools in <code>.tools/</code> and signing files outside the repository in <code>.keys/</code>. Never commit credentials, export files, <code>.godot/</code>, or <code>output/</code>.
+Running from source requires native Windows Godot 4.7.2. Exporting additionally needs the export templates and Python 3; Android export needs SDK 36, build-tools 35.0.0, and JDK 21. FFmpeg is only needed for GIF capture; image-generation services are not required to launch the game.
+
+Keep local tools in <code>.tools/</code>. The build tool currently uses machine-specific Godot, SDK, and JDK paths near the top of <code>build_game.py</code>; configure them on another computer. Signing files live in the ignored private <code>.keys/</code> directory at the repository root, outside the exportable <code>game/</code> project. Never commit credentials, export secrets, <code>.godot/</code>, or <code>output/</code>.
 
 ~~~powershell
 # From the repository root
@@ -367,7 +452,7 @@ python tools/paper-warfront/capture_gameplay_gif.py --pack release/3.0.0-rc41-ni
 
 # Create the Windows ZIP, source ZIP, and SHA256 manifest
 $env:PAPER_RELEASE_VERSION = '1.0.0'
-python tools/paper-warfront/package_release.py
+python tools/paper-warfront/package_release.py --from-build 3.0.0-rc41-night-lantern-components
 ~~~
 
 The export presets exclude <code>output/*</code>, so local screenshots, reports, and historical frames never enter the Windows PCK or Android APK. <code>package_release.py</code> tests ZIP integrity and refuses <code>.keys</code>, <code>.godot</code>, <code>.tools</code>, <code>.keystore</code>, <code>.jks</code>, and export credentials in a release archive.
@@ -380,12 +465,13 @@ The export presets exclude <code>output/*</code>, so local screenshots, reports,
 | Desktop UI interaction QA | 49/49 passed | focus, disabled states, mission, battle, spells, orders, research, production, build, pause, victory/defeat |
 | Phone-shaped UI interaction QA | 49/49 passed | injected mobile sizes and safe-area checks; no physical-device claim |
 | Mobile adaptation matrix | 8/8 scenarios passed | minimum battlefield share about 70.6%, including notches, reverse notches, tablets, and portrait recovery |
-| World combat mechanics | 370 checks passed | damage, collision, mining, visibility, paths, objectives, AI, economy |
+| Current roster purchase/attack regression | 370 checks passed | all 60 combat units: exact cost, production timing, hostile damage, finite state; not a complete balance, mining, or AI audit |
+| Legacy combined simulation suite | 50 passed, 7 failed | conversion, stamp radius/damage, fire pulses, area-spell aim, poison source, root blocking, and guardian position fixtures remain unresolved |
 | Godot parse/import | passed | headless GDScript parse and project import |
 | Windows build | exported | <code>PaperWarfront.exe</code>; hash is in the release manifest |
 | Android APK | exported and statically checked | signing, zipalign, package/version, arm64 and 16 KB ELF checks; no physical device |
 
-Known boundaries remain explicit: the 124-unit stress window is not advertised as stable 60 FPS; Android touch and performance still need a physical device; full-faction human balance, long-session power use, and vendor-specific GPU compatibility are outside the first-release promise.
+This is a **preview**, not an all-tests-passing release. The seven combined-simulation failures have not all been classified as stale expectations versus active mechanic bugs. This documentation/packaging task preserves them instead of changing combat rules to hide failures. Historical 124-unit stress samples are not current stable-60-FPS evidence. Android touch/performance, complete human runs of all 200 maps, faction balance, long-session power use, and vendor-specific GPU behavior remain unverified.
 
 ### Documentation, assets, and constraints
 
@@ -401,3 +487,5 @@ Known boundaries remain explicit: the 124-unit stress window is not advertised a
 - [Original map research](docs/research/swords-and-soldiers-map/recheck-20261008/README.md)
 
 Image generation follows the project-approved <code>sub2-image-gen</code> / <code>gpt-image-2.5</code> workflow; generated art is never used as runtime or performance evidence. Stable asset IDs are preserved, and formal resource changes update the version, generation record, processing record, and references. The project currently has no open-source license; do not treat the repository as a redistributable third-party asset pack until a license is added.
+
+Development and local verification use native Windows tools only: no Docker, WSL, virtual machines, containers, or Android emulators. Complete runtime assets are included in Git and the source ZIP. Generated source art and temporary QA output remain in the ignored <code>output/</code> directory; the public [release validation summary](docs/releases/1.0.0/validation-summary.json) records the supported claims.

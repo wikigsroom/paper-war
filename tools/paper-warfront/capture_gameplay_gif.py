@@ -6,13 +6,16 @@ the GIF is presentation evidence, not a performance or Android-hardware claim.
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
 import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PACK = ROOT / "release/3.0.0-rc38-preview/windows/PaperWarfront.exe"
+DEFAULT_PACK = ROOT / "release/3.0.0-rc41-night-lantern-components/windows/PaperWarfront.exe"
 DEFAULT_OUTPUT = ROOT / "docs/media/paper-warfront-gameplay.gif"
 
 
@@ -36,6 +39,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--duration", type=float, default=10.0)
     parser.add_argument("--interval", type=float, default=0.75)
+    parser.add_argument("--capture-dir", type=Path, help="Optional fresh capture directory; otherwise use a new ignored QA folder")
     args = parser.parse_args()
     pack = args.pack.resolve()
     if not pack.is_file():
@@ -48,10 +52,13 @@ def main() -> None:
 
     output = args.output.resolve()
     output.parent.mkdir(parents=True, exist_ok=True)
-    capture_dir = output.parent / (output.stem + "-frames")
-    if capture_dir.exists():
-        raise SystemExit(f"capture directory already exists; choose a new output or remove it: {capture_dir}")
-    capture_dir.mkdir(parents=True)
+    if args.capture_dir:
+        capture_dir = args.capture_dir.resolve()
+        capture_dir.mkdir(parents=True, exist_ok=False)
+    else:
+        qa_root=ROOT/'output/qa/godot/readme-captures'
+        qa_root.mkdir(parents=True,exist_ok=True)
+        capture_dir=Path(tempfile.mkdtemp(prefix='gameplay-',dir=qa_root))
     observer = capture_dir / "observer.gd"
     shutil.copyfile(ROOT / "tools/paper-warfront/probe_realtime_battle.gd", observer)
     godot_cmd = [
@@ -103,6 +110,22 @@ def main() -> None:
         str(output),
     ]
     subprocess.run(encode_cmd, cwd=ROOT, check=True)
+    report=json.loads((capture_dir/'report.json').read_text(encoding='utf-8'))
+    def digest(path):
+        h=hashlib.sha256()
+        with path.open('rb') as f:
+            for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
+        return h.hexdigest()
+    metadata={
+        'version':report['version'],'source':'native Windows exported pack; normal paid rules, AI autoplayer',
+        'pack_sha256':digest(pack),'gif_sha256':digest(output),'frames':len(frames),
+        'capture_interval_seconds':args.interval,'playback_fps':8,'requested_duration_seconds':args.duration,
+        'simulation_seconds':report['simulation_seconds'],'capacity_fixture':report['capacity_fixture'],
+        'map':report['config']['map'],'renderer':report['renderer'],'adapter':report['video_adapter'],
+        'observer_sha256':digest(observer),'passed':report['passed'],
+        'scope':'Selected PNG viewport captures encoded at 8 FPS; elapsed gameplay is condensed. Not human-input, performance, or Android hardware evidence.'
+    }
+    output.with_suffix('.capture.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"created {output} from {len(frames)} native battle frames")
 
 

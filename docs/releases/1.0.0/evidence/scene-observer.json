@@ -1,0 +1,68 @@
+{
+  "captured": [
+    {
+      "error": 0,
+      "name": "01-main-menu",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/01-main-menu.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "02-six-map-selection",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/02-six-map-selection.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "03-campaign-route",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/03-campaign-route.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "04-mission-brief",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/04-mission-brief.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "05-battle-live",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/05-battle-live.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "06-orders-overlay",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/06-orders-overlay.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "07-research-overlay",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/07-research-overlay.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "08-build-overlay",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/08-build-overlay.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "09-pause-menu",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/09-pause-menu.png",
+      "size": "(1600, 900)"
+    },
+    {
+      "error": 0,
+      "name": "10-battle-result",
+      "path": "output\\qa\\godot\\current-runtime-screenshots\\night-lantern-ui-rc41/10-battle-result.png",
+      "size": "(1600, 900)"
+    }
+  ],
+  "passed": true,
+  "source": "current Windows exported PCK",
+  "version": "3.0.0-rc41-night-lantern-components",
+  "window_size": "(1600, 900)"
+}

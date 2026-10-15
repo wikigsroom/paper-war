@@ -1,0 +1,160 @@
+{
+  "version": "3.0.0-rc41-night-lantern-components",
+  "passed": true,
+  "checks": 26723,
+  "cases": [
+    {
+      "name": "compact-16x9",
+      "physical_resolution": "1136x640",
+      "density": "2",
+      "safe_insets_px": "0,0,0,0",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3279,
+      "seconds": 47.15,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (8.0, 8.0), S: (552.0, 304.0)]",
+        "density": "2.0",
+        "pixels": "(1136.0, 640.0)",
+        "safe": "[P: (0.0, 0.0), S: (568.0, 320.0)]",
+        "viewport": "(568.0, 320.0)"
+      },
+      "minimum_battlefield_ratio": 0.722007042253521
+    },
+    {
+      "name": "phone-16x9",
+      "physical_resolution": "1280x720",
+      "density": "2",
+      "safe_insets_px": "0,0,0,0",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3326,
+      "seconds": 46.4,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (8.0, 8.0), S: (624.0, 344.0)]",
+        "density": "2.0",
+        "pixels": "(1280.0, 720.0)",
+        "safe": "[P: (0.0, 0.0), S: (640.0, 360.0)]",
+        "viewport": "(640.0, 360.0)"
+      },
+      "minimum_battlefield_ratio": 0.754166666666667
+    },
+    {
+      "name": "phone-high-density",
+      "physical_resolution": "1920x1080",
+      "density": "3",
+      "safe_insets_px": "0,0,0,0",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3326,
+      "seconds": 48.8,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (8.0, 8.0), S: (624.0, 344.0)]",
+        "density": "3.0",
+        "pixels": "(1920.0, 1080.0)",
+        "safe": "[P: (0.0, 0.0), S: (640.0, 360.0)]",
+        "viewport": "(640.0, 360.0)"
+      },
+      "minimum_battlefield_ratio": 0.754166666666667
+    },
+    {
+      "name": "phone-notch",
+      "physical_resolution": "2340x1080",
+      "density": "3",
+      "safe_insets_px": "72,0,24,18",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3334,
+      "seconds": 49.6,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (32.0, 8.0), S: (732.0, 338.0)]",
+        "density": "3.0",
+        "pixels": "(2340.0, 1080.0)",
+        "safe": "[P: (24.0, 0.0), S: (748.0, 354.0)]",
+        "viewport": "(780.0, 360.0)"
+      },
+      "minimum_battlefield_ratio": 0.712393162393162
+    },
+    {
+      "name": "phone-reverse-notch",
+      "physical_resolution": "2400x1080",
+      "density": "3",
+      "safe_insets_px": "24,0,96,18",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3334,
+      "seconds": 49.54,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (16.0, 8.0), S: (744.0, 338.0)]",
+        "density": "3.0",
+        "pixels": "(2400.0, 1080.0)",
+        "safe": "[P: (8.0, 0.0), S: (760.0, 354.0)]",
+        "viewport": "(800.0, 360.0)"
+      },
+      "minimum_battlefield_ratio": 0.706166666666667
+    },
+    {
+      "name": "tablet-4x3",
+      "physical_resolution": "1600x1200",
+      "density": "2",
+      "safe_insets_px": "0,24,0,24",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3389,
+      "seconds": 48.9,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (8.0, 20.0), S: (784.0, 560.0)]",
+        "density": "2.0",
+        "pixels": "(1600.0, 1200.0)",
+        "safe": "[P: (0.0, 12.0), S: (800.0, 576.0)]",
+        "viewport": "(800.0, 600.0)"
+      },
+      "minimum_battlefield_ratio": 0.809466666666667
+    },
+    {
+      "name": "tablet-16x10",
+      "physical_resolution": "1920x1200",
+      "density": "2",
+      "safe_insets_px": "0,32,0,32",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3389,
+      "seconds": 48.25,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (16.0, 32.0), S: (928.0, 536.0)]",
+        "density": "2.0",
+        "pixels": "(1920.0, 1200.0)",
+        "safe": "[P: (0.0, 16.0), S: (960.0, 568.0)]",
+        "viewport": "(960.0, 600.0)"
+      },
+      "minimum_battlefield_ratio": 0.786666666666667
+    },
+    {
+      "name": "portrait-recovery",
+      "physical_resolution": "960x1280",
+      "density": "2",
+      "safe_insets_px": "0,0,0,0",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3346,
+      "seconds": 45.86,
+      "failures": [],
+      "metrics": {
+        "content": "[P: (8.0, 8.0), S: (624.0, 464.0)]",
+        "density": "2.0",
+        "pixels": "(1280.0, 960.0)",
+        "safe": "[P: (0.0, 0.0), S: (640.0, 480.0)]",
+        "viewport": "(640.0, 480.0)"
+      },
+      "minimum_battlefield_ratio": 0.809375
+    }
+  ],
+  "scope": "Actual native Windows Godot GPU and touch events, injected display metrics. Android hardware is unverified."
+}

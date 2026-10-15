@@ -13,3 +13,11 @@
 构建：配置 Godot 4.7.2 原生控制台和官方导出模板、Android SDK 36 与 JDK 21。`build_game.py` 生成 EXE / APK，`smoke_mobile_exports.py` 检查实际程序，`package_release.py` 打包，`capture_gameplay_gif.py` 从 Windows 原生包生成 README GIF；当前预览使用 `audit_preview_build.py` 核验源数据、编译包、UI 和 ZIP 内验证记录。导出预设明确排除 `output/*` QA 生成物。工具使用本地 `.tools/godot` 路径；机器变更时先配置路径，不更改游戏数据。
 
 本地签名凭据位于项目外部的 .keys，禁止提交、复制到公共目录或交付包。素材新增仅通过用户指定 sub2-image-gen / gpt-image-2.5，技能配置和密钥不随工程交付。
+
+## English
+
+Open `project.godot` with native Windows Godot 4.7.2 and run `main.tscn`. Complete runtime PNGs, audio, and fonts are included; image-generation services are not needed to launch the game. Current in-game UI and story are primarily Simplified Chinese; the [root README](../README.md) provides the full bilingual introduction, controls, screenshots, GIF, and build instructions.
+
+The first public preview is [v1.0.0-paper-warfront](https://github.com/wikigsroom/paper-war/releases/tag/v1.0.0-paper-warfront), packaged from internal rc41 binaries. It includes ten factions, 72 unit entries, 200 story-bound maps, branching routes, physical mining/return logistics, three-state fog, and the Night Lantern UI. Simulation is separate from rendering and uses the current full-pose frame atlases.
+
+Native Windows UI checks and the mobile layout matrix pass; seven legacy combined-simulation fixtures remain unresolved. Android APK signing and structure have been checked, but no physical Android device has been tested. Source and release validation are documented in [the release notes](../docs/releases/v1.0.0.md). No Docker, WSL, virtual machines, containers, or Android emulator is used.

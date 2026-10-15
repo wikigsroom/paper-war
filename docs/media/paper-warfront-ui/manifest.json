@@ -1,0 +1,84 @@
+{
+  "version": "3.0.0-rc41-night-lantern-components",
+  "source": "native Windows exported rc41 PCK",
+  "pack_sha256": "772b038e8164c30acf00b9bea5a9fcacfa689054ab7abdfa4cb6e43d71ffe678",
+  "pages": 10,
+  "resolution": [
+    1600,
+    900
+  ],
+  "contact_sheet": "contact-sheet.png",
+  "scope": "Controlled runtime observer opens menu/overlay/result pages; not human mission-clear evidence.",
+  "images": [
+    {
+      "path": "battle-engagement.png",
+      "bytes": 944583,
+      "sha256": "3f00914e07c120cc957b5a10dc64078f35e84a4d057d94b2250dda08118ca215"
+    },
+    {
+      "path": "battle-live.png",
+      "bytes": 1571520,
+      "sha256": "8f0ebd93a0021c48287a113de4c76e1da69045362b2c262afcaa14455fe0af23"
+    },
+    {
+      "path": "battle-mining.png",
+      "bytes": 1145382,
+      "sha256": "0ccde1e8042bd6636f8c14d30a003f6675e1227eb5600b923f9bc6e0fd123639"
+    },
+    {
+      "path": "battle-result.png",
+      "bytes": 1001432,
+      "sha256": "440870a03988854364a57e7258c10a3d77808cdeb776e15dbb85a709402f62c2"
+    },
+    {
+      "path": "build-overlay.png",
+      "bytes": 1093027,
+      "sha256": "acf3bc69fe2ebbce7cedd36ed03c20c89310a191fbae07c7dc26e42a59b31772"
+    },
+    {
+      "path": "campaign-route.png",
+      "bytes": 1042490,
+      "sha256": "1dbae4bb11ff35f5ac4fd0067f6f0742bcf103e0f4190d8a5bcf55f488ab37cb"
+    },
+    {
+      "path": "contact-sheet.png",
+      "bytes": 1012191,
+      "sha256": "52a029ab4f05fc54c0fa65060195cf7371d285c96fc98751f36a4eb7098a8985"
+    },
+    {
+      "path": "main-menu.png",
+      "bytes": 1572595,
+      "sha256": "39bf75094c9906b0725dce789913a18eb8d7e9d0efadfb9eceaa694dddb0b67e"
+    },
+    {
+      "path": "map-selection.png",
+      "bytes": 747577,
+      "sha256": "01616cfc70db6383fa31fab82b09b34c660e46fd2153059b986e89520a9f51a8"
+    },
+    {
+      "path": "mission-brief.png",
+      "bytes": 952243,
+      "sha256": "de519c2e9b3c1d7c6bf70dfc7fb0397d0beaf427e2d9dea8470bf0103f22a7b4"
+    },
+    {
+      "path": "orders-overlay.png",
+      "bytes": 1011004,
+      "sha256": "dc8881e905862f9fe4dd4dbdb494bf19c68c6c5e053696fa9819ef92e22081bd"
+    },
+    {
+      "path": "pause-menu.png",
+      "bytes": 1065521,
+      "sha256": "d687f02544c57d9fe5914526b369ae94de43036cbb368418033f6f91cc243dac"
+    },
+    {
+      "path": "research-overlay.png",
+      "bytes": 1310154,
+      "sha256": "32a359aa87f0b96068c84bbe8a963d406ddbae96014685969f9ae8afeadf87df"
+    }
+  ],
+  "gameplay_source": "70-second native Windows AI-driven skirmish; normal paid rules; no capacity fixture",
+  "gameplay_resolution": [
+    1280,
+    720
+  ]
+}
